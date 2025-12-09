@@ -1,4 +1,4 @@
-Leveraging Object-Oriented Automation in PowerShell
+# Leveraging Object-Oriented Automation in PowerShell
 
 PowerShell is a command-line shell and scripting environment designed by Microsoft for system administration, 
 configuration management, and automation. Unlike traditional shells like Command Prompt (CMD) or Bash, which 
@@ -6,7 +6,7 @@ process data as plain **text streams**, PowerShell is built on the **.NET framew
 structured **objects**. This object-oriented approach is the single most important distinction and forms the 
 basis for its superior capabilities.
 
-Core Concepts Learned
+# Core Concepts Learned
 The structure of PowerShell is centered around **Cmdlets** (pronounced "command-lets"). These are small, 
 single-function commands that follow a predictable **Verb-Noun** naming convention (e.g., `Get-Process`, 
 `Set-ExecutionPolicy`). This standardization improves script readability and makes the language 
@@ -15,7 +15,7 @@ to pass the structured output of one command as input to the next. For instance,
 `Get-Process` to `Where-Object` allows for advanced filtering and manipulation that is vastly more efficient 
 than text parsing in CMD.
 
-Relevance to Cybersecurity
+# Relevance to Cybersecurity
 PowerShell has dual utility in security operations. For **Blue Teams** (defenders), its deep integration with 
 Windows systems allows for comprehensive **log analysis** of Windows Event Logs, automated **incident response** 
 actions (like isolating a compromised endpoint via firewall rules), and auditing security configurations at scale. 
@@ -26,7 +26,7 @@ security features like **AMSI** (Antimalware Scan Interface) integration and det
 help mitigate this threat.
 
 
-Type command: PowerShell
+# Type command: PowerShell
 
 Get-Content = retrieves and displays the content of a file in the console. (Verb: Get, Noun: Content).
 
