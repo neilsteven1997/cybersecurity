@@ -1,4 +1,4 @@
-## Log Analysis for Incident Response: Splunk Workflow
+# Log Analysis for Incident Response: Splunk Workflow
 
 This outlines the essential steps I take in Splunk to investigate a web server breach, focusing on command execution 
 and log analysis to trace the attacker's path. I'm keeping the queries exactly as they are.
