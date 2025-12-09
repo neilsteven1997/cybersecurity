@@ -10,9 +10,9 @@ identifying external threats.
 
 -Loading Logs: I run index=main sourcetype=web_traffic and set the time range to "All time" to pull everything in. I 
 already know I have two main data sources: web_traffic (connections) and firewall_logs (network access).
--Log Structure Check: I confirm fields like user_agent, path, and client_ip are properly extracted. This verifies the 
+- Log Structure Check: I confirm fields like user_agent, path, and client_ip are properly extracted. This verifies the 
 logs are usable.
--Timeline Visualization: To spot the attack window, I chart event volume. The query index=main sourcetype=web_traffic | 
+- Timeline Visualization: To spot the attack window, I chart event volume. The query index=main sourcetype=web_traffic | 
 timechart span=1d count groups logs by day, making any sudden spike (the attack) obvious. I can then sort this by volume 
 using | timechart span=1d count | sort by count | reverse.
 
@@ -20,10 +20,10 @@ using | timechart span=1d count | sort by count | reverse.
 ## Identifying the Attacker (Anomaly Detection)
 I pivot to looking for non-human activity by examining fields for unusual values.
 
--User Agent Filter: Standard browsers need to be removed to see automated tools. I use index=main 
+- User Agent Filter: Standard browsers need to be removed to see automated tools. I use index=main 
 `sourcetype=web_traffic user_agent!=*Mozilla* user_agent!=*Chrome* user_agent!=*Safari* user_agent!=*Firefox*` 
 to filter out legitimate traffic.
--IP Aggregation: To confirm the most active suspicious IP, I aggregate the data: sourcetype=web_traffic 
+- IP Aggregation: To confirm the most active suspicious IP, I aggregate the data: sourcetype=web_traffic 
 `user_agent!=*Mozilla* user_agent!=*Chrome* user_agent!=*Safari* user_agent!=*Firefox* | stats count by client_ip | 
 sort -count | head 5`
 The sort -count places the highest traffic volume at the top, giving me the attacker's IP (<REDACTED>).
@@ -68,6 +68,7 @@ established a successful outbound C2 connection to the external IP.
 
 ---
 ## Splunk Layout
+
 1. Search query: This query retrieves all events from the main index that were tagged with the custom source type web_traffic.
 2. This marks the beginning of the investigation.
 3. Time range: The time range is currently set to "All time". In security analysis, this range would be tightened (e.g., to the
