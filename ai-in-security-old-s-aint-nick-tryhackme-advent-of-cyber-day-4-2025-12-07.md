@@ -37,6 +37,7 @@ accountability—is non-negotiable for responsible deployment.
 
 ### Stage 2: Red Team Generate Python Scripts for Vulnerabilities 
 
+---
 Generated Python script for vulnerabilities using AI:
 
 import requests
@@ -64,8 +65,7 @@ for header, value in response.headers.items():
 print("\nResponse Body:")
 print(response.text)
 
-
-
+---
 Usage at terminal:
 - `ls`
 - `vi python.script.py`
@@ -122,6 +122,7 @@ the application may have a flaw in handling user inputs, which can be exploited.
 - Regularly update systems to patch known vulnerabilities.
 - Monitor logs for unusual activity and report suspicious patterns. 
 
+---
 ### Stage 4: Software
 Review source code for vulnerabilities. 
 - send yes to AI
@@ -137,7 +138,7 @@ php
 $user = $_POST['username'] ?? '';
 $pass = $_POST['password'] ?? '';
 
-
+---
 
 1. Identification of the specific vulnerability
 The code is vulnerable to SQL injection because it uses ?? to initialize variables $user and $pass. If the POST data is
