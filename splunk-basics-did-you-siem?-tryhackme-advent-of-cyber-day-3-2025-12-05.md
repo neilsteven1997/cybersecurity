@@ -72,7 +72,7 @@ established a successful outbound C2 connection to the external IP.
 1. Search query: This query retrieves all events from the main index that were tagged with the custom source type web_traffic.
 2. This marks the beginning of the investigation.
 3. Time range: The time range is currently set to "All time". In security analysis, this range would be tightened (e.g., to the
-4. spike window) after initial data loading.<Summary>
+4. spike window) after initial data loading.
 5. Timeline: This visual histogram shows the distribution of the 17,172 events over time. The graph indicates the successful
 6. daily log volume followed by a distinctive traffic spike (a period of high activity, likely the attack window).
 7. Selected fields: These are the fields currently chosen to be displayed in the summary column of the event list (host, source,
