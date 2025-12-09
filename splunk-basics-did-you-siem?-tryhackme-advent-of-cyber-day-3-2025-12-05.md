@@ -7,7 +7,7 @@ and log analysis to trace the attacker's path. I'm keeping the queries exactly a
 ## Initial Data Scan and Triage
 First, I need to get eyes on the data. I start by focusing on the web traffic logs, which are our primary source for 
 identifying external threats.
----
+
 -Loading Logs: I run index=main sourcetype=web_traffic and set the time range to "All time" to pull everything in. I 
 already know I have two main data sources: web_traffic (connections) and firewall_logs (network access).
 -Log Structure Check: I confirm fields like user_agent, path, and client_ip are properly extracted. This verifies the 
@@ -16,6 +16,7 @@ logs are usable.
 timechart span=1d count groups logs by day, making any sudden spike (the attack) obvious. I can then sort this by volume 
 using | timechart span=1d count | sort by count | reverse.
 
+---
 ## Identifying the Attacker (Anomaly Detection)
 I pivot to looking for non-human activity by examining fields for unusual values.
 
@@ -27,6 +28,7 @@ to filter out legitimate traffic.
 sort -count | head 5`
 The sort -count places the highest traffic volume at the top, giving me the attacker's IP (<REDACTED>).
 
+---
 ## Tracing the Attack Chain
 I use the attacker's IP to follow their actions chronologically through the web_traffic logs.
 
@@ -42,6 +44,7 @@ path, user_agent, status`
 path, user_agent, status`
 -Finding: The presence of shell.php?cmd= and execution of a binary (bunnylock.bin) confirms Remote Code Execution (RCE).
 
+---
 ## Post-Exploitation and C2 Confirmation
 The final step is pivoting to the firewall logs to prove the compromised server communicated externally.
 
@@ -56,12 +59,14 @@ src_ip, dest_ip, dest_port, reason`
 `sourcetype=firewall_logs src_ip="10.10.1.5" AND dest_ip="<REDACTED>" AND action="ALLOWED" | stats sum(bytes_transferred)
 by src_ip`
 
+---
 ## Conclusion 
 The incident involved a clear progression: Reconnaissance via cURL/Wget probing for configuration files, 
 followed by Exploitation using SQLmap payloads. The attacker achieved Remote Code Execution (RCE) via a webshell 
 and executed a ransomware-like payload. The firewall logs conclusively confirmed the compromised internal server 
 established a successful outbound C2 connection to the external IP.
 
+---
 ## Splunk Layout
 1. Search query: This query retrieves all events from the main index that were tagged with the custom source type web_traffic.
 2. This marks the beginning of the investigation.
