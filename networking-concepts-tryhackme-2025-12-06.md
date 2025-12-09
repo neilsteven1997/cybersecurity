@@ -214,6 +214,61 @@ the packet. This hop-by-hop process repeats until the packet reaches the target 
 ---
 ## Using TELNET for TCP Service Interaction
 
+TELNET is a network protocol that facilitates a remote terminal connection, allowing you to connect to and issue text 
+commands to a remote system. While historically used for remote administration, the client (telnet) can be used to 
+communicate with any server listening on a TCP port.
+
+We can demonstrate this interaction by connecting to various services running on a target virtual machine:
+
+1. Echo Server (Port 7)
+The echo server is a simple service that returns everything you send it. To connect to this service, you specify the target host and the default port 7.
+- Behavior: The server immediately sends back any text input you type.
+- Closing Connection: The connection remains open until you manually close it (e.g., by pressing CTRL+] in many terminal clients).
+
+>[!Note]
+>Services like Echo are considered security risks and are typically disabled in production environments.
+
+2. Daytime Server (Port 13)
+The daytime server provides a lightweight way to retrieve a time and date stamp.
+- Behavior: Upon connection to port 13, the server immediately replies with the current day and time and then automatically closes the connection. This shows a complete, single-transaction communication.
+
+3. Web (HTTP) Server (Port 80)
+You can manually send HTTP requests to a web server using `telnet`. This illustrates how a browser fundamentally communicates with a server.
+1. Connect: Initiate the connection to the target host on TCP port 80.
+2. Request: You must manually type the required HTTP request lines, including the specific page you want (`GET / HTTP/1.1`)
+   and the required Host header (`Host: telnet.thm`).
+4. Execute: The request is finalized and sent by ensuring the last input line is a blank line (by pressing Enter twice).
+5. Response: The server processes the request and returns the requested web page content (redacted in your example), along
+   with the necessary HTTP status codes and headers.
+
+Service | TCP Port | Command Sequence | Purpose 
+
+- Echo Server
+7
+`telnet <target_VM_IP> 7`
+Establishes connection to the echo service.
+
+- Daytime Server
+13
+`telnet <target_VM_IP> 13`
+Connects and retrieves the time/date before automatically closing.
+
+- Web Server (HTTP)
+80
+1. `telnet <target_VM_IP> 80` 
+2. `GET / HTTP/1.1 `
+3. `Host: telnet.thm` 
+4. Press Enter (Blank Line)
+Manually sends an HTTP request to retrieve the main page.
+
+
+
+
+
+
+
+
+
 
 
 
