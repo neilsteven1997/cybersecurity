@@ -167,7 +167,7 @@ Flag: `THM{AI_MANIA}`
 
 
 >[!Tip]
->You did it! Wareville is one step safer.
+>### You did it! Wareville is one step safer.
 >The townsfolk are counting on you to keep Christmas secure.
 >Head back to Wareville to continue your mission!
 
