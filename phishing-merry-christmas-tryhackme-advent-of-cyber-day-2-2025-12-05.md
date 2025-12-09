@@ -1,30 +1,39 @@
-Training Efficacy Measurement - the outcomes of a phishing simulation are leveraged to establish a quantifiable measure 
+## Training Efficacy Measurement 
+- the outcomes of a phishing simulation are leveraged to establish a quantifiable measure 
 of the workforce's overall security behavior. This metric directly validates the actual return on investment (ROI) and 
 effectiveness of the existing cybersecurity awareness training programs.
 
-Success Indicator - training is deemed successful—or has yielded results—when the click-through rate (CTR) on the 
+---
+## Success Indicator 
+- training is deemed successful—or has yielded results—when the click-through rate (CTR) on the 
 simulated phishing emails is significantly low. A low CTR is the most reliable empirical evidence that employees are 
 successfully recognizing and avoiding social engineering threats.
 
-Strategic Value - this activity provides a critical, non-technical stress test for the organization's "human firewall." 
+---
+## Strategic Value 
+- this activity provides a critical, non-technical stress test for the organization's "human firewall." 
 Since employees often represent the most exploitable vulnerability in any defense strategy, testing their vigilance through 
 controlled threat emulation is a necessary and proactive defense mechanism.
 
-Social engineering - is essentially "human hacking," referring to the act of manipulating a person into making a mistake 
+---
+## Social engineering 
+- is essentially "human hacking," referring to the act of manipulating a person into making a mistake 
 that compromises security. This could involve an employee sharing a password, opening a malicious file, or approving an 
 unauthorized payment. The term "social" is used because the primary target of this attack is the human being, not the 
 computer system. Consequently, the attacker relies on psychological tricks to get the user to willingly cooperate. 
 Key psychological factors that play a major role in the success of these attacks are urgency, curiosity, and the 
 exploitation of perceived authority.
 
-Phishing - is a specific subset of social engineering where the communication medium is primarily messages.
+---
+## Phishing - is a specific subset of social engineering where the communication medium is primarily messages.
 While email was once the most common vector, the widespread use of smartphones and ubiquitous internet access has 
 expanded phishing into new areas, including short text messages (smishing), voice calls (vishing), QR codes (quishing),
 and social media direct messages. The attacker's central goal is to induce the target user to click, open, or reply 
 to a message to steal information, money, or system access. Unfortunately, phishing attacks are constantly evolving 
 and becoming significantly harder to detect. Even careful people can be compromised if they do not exercise adequate diligence.
 
-# Anti-Phishing Defense Checklists 
+---
+## Anti-Phishing Defense Checklists 
 A. S.T.O.P. (The Suspicion Checklist)
 Ask these questions about any message before acting:
 -Suspicious? (Is the sender/timing unusual?)
@@ -32,19 +41,22 @@ Ask these questions about any message before acting:
 -Offering me an amazing deal? (A psychological trigger.)
 -Pushing me to do something now? (A clear sign of pressure/urgency.)
 
-# B. S.T.O.P. (The Action Plan for Verification)
+---
+## B. S.T.O.P. (The Action Plan for Verification)
 Follow these steps for proactive defense:
 -Slow down. (Counter the attacker's use of urgency.)
 -Type the address yourself. (Never use the provided link; navigate independently.)
 -Open nothing unexpected. (Verify context/sender first.)
 -Prove the sender. (Check the full source address/number, not just the display name.)
 
-# Practical Relevance
+---
+## Practical Relevance
 -Penetration Testing: Authorized phishing simulations are used by Red Teams to quantify the success of security training.
 -Result Interpretation: A low click-through rate (CTR) validates that the training has succeeded in strengthening the
 "human firewall."
 
-# Phishing Configuration and Risk Assessment
+---
+## Phishing Configuration and Risk Assessment
 
 Initial setup requires selecting the attack scope: single target versus mass deployment. This choice dictates infrastructure 
 needs.
@@ -98,12 +110,15 @@ to include the URL http://10.49.75.250:8000 to check if the target will fall for
 restart the tool. Open the terminal where our server.py script is running to see if the user gets trapped and enters their 
 credentials.
 
-Note: You may have to wait for 1 - 2 minutes and observe the terminal for any credentials entered by the user.
+>[!Note] 
+>You may have to wait for 1 - 2 minutes and observe the terminal for any credentials entered by the user.
 
-Outcome: Successfully captured the credentials 'username=admin&password=unranked-wisdom-anthem' from the phishing page. 
+>[!Tip]
+>Outcome: Successfully captured the credentials 'username=admin&password=unranked-wisdom-anthem' from the phishing page. 
 This demonstrates the effectiveness of my phishing setup, as it indicates that the phishing email led to credential
 submission, which is a critical objective in this exercise. Opened the emailer and found “Urgent: Production & Shipping 
 Request - 1984000 Units (Next 2 Weeks)”
 
-# You did it! Wareville is one step safer.  The townsfolk are counting on you to keep Christmas secure.  Head back to 
+>[!Note]
+>You did it! Wareville is one step safer.  The townsfolk are counting on you to keep Christmas secure.  Head back to 
 Wareville to continue your mission!
