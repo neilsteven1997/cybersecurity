@@ -24,7 +24,7 @@ and social media direct messages. The attacker's central goal is to induce the t
 to a message to steal information, money, or system access. Unfortunately, phishing attacks are constantly evolving 
 and becoming significantly harder to detect. Even careful people can be compromised if they do not exercise adequate diligence.
 
-Anti-Phishing Defense Checklists 
+# Anti-Phishing Defense Checklists 
 A. S.T.O.P. (The Suspicion Checklist)
 Ask these questions about any message before acting:
 -Suspicious? (Is the sender/timing unusual?)
@@ -32,19 +32,19 @@ Ask these questions about any message before acting:
 -Offering me an amazing deal? (A psychological trigger.)
 -Pushing me to do something now? (A clear sign of pressure/urgency.)
 
-B. S.T.O.P. (The Action Plan for Verification)
+# B. S.T.O.P. (The Action Plan for Verification)
 Follow these steps for proactive defense:
 -Slow down. (Counter the attacker's use of urgency.)
 -Type the address yourself. (Never use the provided link; navigate independently.)
 -Open nothing unexpected. (Verify context/sender first.)
 -Prove the sender. (Check the full source address/number, not just the display name.)
 
-Practical Relevance
+# Practical Relevance
 -Penetration Testing: Authorized phishing simulations are used by Red Teams to quantify the success of security training.
 -Result Interpretation: A low click-through rate (CTR) validates that the training has succeeded in strengthening the
 "human firewall."
 
-Phishing Configuration and Risk Assessment
+# Phishing Configuration and Risk Assessment
 
 Initial setup requires selecting the attack scope: single target versus mass deployment. This choice dictates infrastructure 
 needs.
@@ -105,5 +105,5 @@ This demonstrates the effectiveness of my phishing setup, as it indicates that t
 submission, which is a critical objective in this exercise. Opened the emailer and found “Urgent: Production & Shipping 
 Request - 1984000 Units (Next 2 Weeks)”
 
-You did it! Wareville is one step safer.  The townsfolk are counting on you to keep Christmas secure.  Head back to 
+# You did it! Wareville is one step safer.  The townsfolk are counting on you to keep Christmas secure.  Head back to 
 Wareville to continue your mission!
