@@ -75,10 +75,10 @@ established a successful outbound C2 connection to the external IP.
 12. Event details & field extraction: This section shows the parsed details of a single event with extracted fields like
 13. user_agent, path, status, client_ip, and more.
 
-[!NOTE]
-## You did it! Wareville is one step safer.
-The townsfolk are counting on you to keep Christmas secure.
-Head back to Wareville to continue your mission!
+>[!NOTE]
+>## You did it! Wareville is one step safer.
+>The townsfolk are counting on you to keep Christmas secure.
+>Head back to Wareville to continue your mission!
 
 
 
