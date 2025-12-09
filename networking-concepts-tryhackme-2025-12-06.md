@@ -234,11 +234,11 @@ The daytime server provides a lightweight way to retrieve a time and date stamp.
 
 3. Web (HTTP) Server (Port 80)
 You can manually send HTTP requests to a web server using `telnet`. This illustrates how a browser fundamentally communicates with a server.
-1. Connect: Initiate the connection to the target host on TCP port 80.
-2. Request: You must manually type the required HTTP request lines, including the specific page you want (`GET / HTTP/1.1`)
+1.Connect: Initiate the connection to the target host on TCP port 80.
+2.Request: You must manually type the required HTTP request lines, including the specific page you want (`GET / HTTP/1.1`)
    and the required Host header (`Host: telnet.thm`).
-4. Execute: The request is finalized and sent by ensuring the last input line is a blank line (by pressing Enter twice).
-5. Response: The server processes the request and returns the requested web page content (redacted in your example), along
+3.Execute: The request is finalized and sent by ensuring the last input line is a blank line (by pressing Enter twice).
+4.Response: The server processes the request and returns the requested web page content (redacted in your example), along
    with the necessary HTTP status codes and headers.
 
 Service | TCP Port | Command Sequence | Purpose 
