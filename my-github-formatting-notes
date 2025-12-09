@@ -1,0 +1,44 @@
+#
+##
+###
+>[!NOTE]
+>contents here
+>[!TIP]
+>contents here
+>[!WARNING]
+>contents here
+>[!CAUTION]
+>contents here
+
+Use Case
+Shortcode
+Example
+Vulnerability Found
+:bug:
+:bug: SQL Injection Found
+Fix/Remediation
+:wrench:
+Remediation Steps :wrench:
+Technical Tool/Code
+:terminal:
+PowerShell Execution :terminal:
+Impact/Danger
+:rotating_light:
+CRITICAL RISK :rotating_light:
+
+
+Feature,Standard GFM Syntax,Purpose
+Obsolete/Deleted Text,~~text~~ (Strikethrough),Use this for all obsolete information.
+
+New/Added Text,**text** (Bold),"Use bold or italics to emphasize new, added text."
+
+Code/Files,`text` (Inline Code),Use this for commands or file names.
+
+
+Horizontal Rule
+You already know about using --- but you can also use three asterisks (***) or three underscores (___). Use these 
+strategically to create a strong visual separation between major sections (like separating the Technical Analysis 
+from the Opinion).
+---
+### 4. Strategic Cyber Opinion
+---
