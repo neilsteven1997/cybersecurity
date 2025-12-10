@@ -76,6 +76,10 @@ Connects to the local MySQL server, selects the tbfcqa01 database, and executes 
 - `mysql -D tbfcqa01 -e "select * from flags;"`
 Connects to the local MySQL server, selects the tbfcqa01 database, and executes the SQL command to retrieve all data from the flags table.
 
+>[!Note]
+>### You did it! Wareville is one step safer.
+>The townsfolk are counting on you to keep Christmas secure.
+>Head back to Wareville to continue your mission!
 
 
 
