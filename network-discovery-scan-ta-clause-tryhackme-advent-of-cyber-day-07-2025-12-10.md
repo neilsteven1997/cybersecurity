@@ -30,6 +30,54 @@ running on port `3306`, which is often configured to allow unauthenticated acces
 access, the mysql client can be executed directly on the host to enumerate databases and tables (e.g., `show tables;`), often 
 leading to the discovery of sensitive data or flags stored within application tables.
 
+---
+## Commands
+
+### Nmap Port Scanning
+
+- `nmap MACHINE_IP`
+Performs a basic scan of the top 1000 common TCP ports on the target.
+
+- `nmap -p- --script=banner MACHINE_IP`
+Scans all 65,535 TCP ports (-p-) and attempts to grab service banners for version identification.
+
+- `nmap -sU MACHINE_IP`
+Performs a scan of all 65,535 UDP ports (-sU).
+
+### Service Interaction
+
+- `ftp MACHINE_IP 21212`
+Connects the FTP client to the target IP address on the non-standard port 21212.
+
+- `ls`
+(Within the FTP client) Lists files in the current directory.
+
+- `get tbfc_qa_key1 -`
+(Within the FTP client) Downloads the specified file and outputs content to standard output (-).
+
+- `nc -v MACHINE_IP 25251`
+Uses Netcat to establish a raw TCP connection to the custom service running on port 25251.
+
+- `HELP`
+(Input to the custom service via Netcat) Requests a list of available commands.
+
+- `dig @MACHINE_IP TXT key3.tbfc.local +short`
+Queries the DNS server at MACHINE_IP for the TXT record associated with the domain key3.tbfc.local.
+
+### On-Host Enumeration (After Gaining Access)
+
+- `ss -tunlp`
+Lists all active sockets, showing TCP (t) and UDP (u) listening ports (l), processes 
+(p), and suppressing name resolution (n).
+
+- `mysql -D tbfcqa01 -e "show tables;"`
+Connects to the local MySQL server, selects the tbfcqa01 database, and executes the SQL command to list all tables.
+
+- `mysql -D tbfcqa01 -e "select * from flags;"`
+Connects to the local MySQL server, selects the tbfcqa01 database, and executes the SQL command to retrieve all data from the flags table.
+
+
+
 
 
 
