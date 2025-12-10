@@ -25,5 +25,13 @@ and then outputting hidden parameters, such as the required authorization token 
 intended to be protected internal credentials. Successful exploitation allows an adversary to bypass application-level policy 
 checks and execute restricted, high-privilege administrative functions.
 
+---
+Flag:
+### THM{XMAS_IS_COMING__BACK}
+
+>[!Note]
+>### You did it! Wareville is one step safer.
+>The townsfolk are counting on you to keep Christmas secure.
+>Head back to Wareville to continue your mission!
 
 
