@@ -61,6 +61,10 @@ PDF Hash Extraction,`python pdf2john.py 1file.pdf > 1file.hash`,Used to extract 
 
 ZIP Hash Extraction,`zip2john.pl archive.zip > zip.hash`,(Implied utility) Extracts the password hash from a protected ZIP archive.
 
+### What is the flag inside the encrypted zip file?
+`THM{Cr4ck1n6_z1p$_1s_34$yyyy}`
+
+
 Windows Hash Extraction,`samdump2` or similar tools,(Utility used for credential dumping) Extracts hashes from Windows files like 
 the Security Account Manager (SAM) database.
 
