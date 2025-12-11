@@ -30,14 +30,18 @@ installations of cracking utilities. Detection rules must also monitor unusual f
 large text files functioning as wordlists.
 
 ---
-Upon confirmed detection, the mandated response playbook requires immediate host isolation to prevent further activity, 
-even in lab environments. Security analysts must triage the situation by capturing critical artifacts, including a process list, 
-process memory dumps, `nvidia-smi` output, and the encrypted file itself. Preservation efforts must meticulously secure the attacker’s 
-working directory, all wordlists, hash files, and shell history for forensic review. The investigation subsequently focuses on 
-identifying the specific files decrypted and tracing any resulting post-exploitation actions, such as lateral movement or data 
-exfiltration. Following authorization review and escalation to the Incident Response team, final remediation involves rotating 
-all affected keys and passwords, enforcing Multi-Factor Authentication (MFA), and ensuring correct placement of security tools 
-into approved, monitored environments to conclude the incident lifecycle.
+## Response Playbook
+Upon confirmed detection, the mandated response playbook requires: 
+1. immediate host isolation to prevent further activity, even in lab environments.
+2. Security analysts must triage the situation by capturing critical artifacts, including a process list, 
+process memory dumps, `nvidia-smi` output, and the encrypted file itself.
+3. Preservation efforts must meticulously secure the attacker’s working directory, all wordlists, hash files, and shell history for
+   forensic review.
+4. The investigation subsequently focuses on identifying the specific files decrypted and tracing any resulting post-exploitation
+   actions, such as lateral movement or data exfiltration.
+5. Following authorization review and escalation to the Incident Response team,
+6. final remediation involves rotating all affected keys and passwords, enforcing Multi-Factor Authentication (MFA),
+7. and ensuring correct placement of security tools into approved, monitored environments to conclude the incident lifecycle.
 
 ---
 ## The exploitation process, typically referred to as an Offline Password Cracking attack 
@@ -99,10 +103,10 @@ approach quickly cracks any password based on common words or easily guessed pat
 4. Attack Phase 2: Hybrid and Rule-Based Attack
 If the dictionary attack fails, the process pivots to a more targeted approach. A Hybrid Attack or Rule-Based Attack takes dictionary
 words and applies common transformation rules to them. These rules mimic human behavior, such as capitalizing the first letter,
-appending common numbers or years (e.g., `'password'` becoming `'Password1'` or `'Password2024'`), or substituting characters (e.g., `'s'`
-with `'$'`).
+appending common numbers or years (e.g., `'password'` becoming `'Password1'` or `'Password2024'`), or substituting characters
+(e.g., `'s'` with `'$'`).
 
-5. Attack Phase 3: Mask and Brute-Force
+6. Attack Phase 3: Mask and Brute-Force
 As a final, exhaustive measure, the attacker resorts to Mask Attacks or Brute-Force Attacks.
 - Mask Attack: This systematically tests all combinations within a limited, defined character set and length (a "mask") based on
   known password patterns (e.g., two letters followed by three digits).
@@ -112,6 +116,12 @@ As a final, exhaustive measure, the attacker resorts to Mask Attacks or Brute-Fo
 6. Password Recovery
 When the guessed hash matches the target hash, the cracking software stops and displays the plaintext password, completing the
 exploitation process and granting the attacker access to the protected data.
+
+>[!Note]
+>## You did it! Wareville is one step safer.
+>The townsfolk are counting on you to keep Christmas secure.
+>Head back to Wareville to continue your mission!
+
 
 
 
