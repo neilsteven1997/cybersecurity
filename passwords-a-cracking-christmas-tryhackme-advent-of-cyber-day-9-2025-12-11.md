@@ -39,5 +39,44 @@ exfiltration. Following authorization review and escalation to the Incident Resp
 all affected keys and passwords, enforcing Multi-Factor Authentication (MFA), and ensuring correct placement of security tools 
 into approved, monitored environments to conclude the incident lifecycle.
 
+---
+## The exploitation process, typically referred to as an Offline Password Cracking attack 
+when targeting password-protected documents or stolen hash databases, follows a predictable, multi-stage workflow designed to recover 
+weak passwords without triggering defensive measures like account lockouts.
+
+1. Data Acquisition and Target Preparation
+The attack begins with a prerequisite step of data acquisition, where the attacker must first obtain the password-protected file or
+a copy of the hashed password database from a compromised system (e.g., a PDF, ZIP, or network credential hash).
+- File Analysis: The file's format is analyzed to determine the encryption method and select the correct hash-extraction utility.
+- Hash Extraction: Specialized tools (such as `zip2john` or `pdf2john`) are used to convert the protected file into a hash format that 
+password-cracking software can read. This hash represents the encrypted password and is saved as a new file (e.g., hash.txt).
+
+2. Tooling and Hardware Optimization
+Standard, high-performance cracking tools are selected, such as John the Ripper or Hashcat. The attacker utilizes hardware
+acceleration, specifically leveraging the parallel processing power of modern GPUs, which allows the cracking process to check
+billions of password guesses per second, drastically reducing the time required for the attack.
+
+3. Attack Phase 1: Dictionary Attack
+The most efficient technique is executed first. A Dictionary Attack uses massive, pre-compiled wordlists (often containing millions
+of common passwords, phrases, and previously leaked credentials) and tests each entry against the target hash. This high-probability
+approach quickly cracks any password based on common words or easily guessed patterns.
+
+4. Attack Phase 2: Hybrid and Rule-Based Attack
+If the dictionary attack fails, the process pivots to a more targeted approach. A Hybrid Attack or Rule-Based Attack takes dictionary
+words and applies common transformation rules to them. These rules mimic human behavior, such as capitalizing the first letter,
+appending common numbers or years (e.g., 'password' becoming 'Password1' or 'Password2024'), or substituting characters (e.g., 's'
+with '$').
+
+5. Attack Phase 3: Mask and Brute-Force
+As a final, exhaustive measure, the attacker resorts to Mask Attacks or Brute-Force Attacks.
+- Mask Attack: This systematically tests all combinations within a limited, defined character set and length (a "mask") based on
+  known password patterns (e.g., two letters followed by three digits).
+- Brute-Force Attack: This method attempts every possible character combination until the correct password is found. While
+  computationally infeasible for modern, complex passwords, it guarantees success given sufficient time and resources.
+
+6. Password Recovery
+When the guessed hash matches the target hash, the cracking software stops and displays the plaintext password, completing the
+exploitation process and granting the attacker access to the protected data.
+
 
 
