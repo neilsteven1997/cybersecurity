@@ -49,7 +49,7 @@ The attack begins with a prerequisite step of data acquisition, where the attack
 a copy of the hashed password database from a compromised system (e.g., a PDF, ZIP, or network credential hash).
 - File Analysis: The file's format is analyzed to determine the encryption method and select the correct hash-extraction utility.
 - Hash Extraction: Specialized tools (such as `zip2john` or `pdf2john`) are used to convert the protected file into a hash format that 
-password-cracking software can read. This hash represents the encrypted password and is saved as a new file (e.g., hash.txt).
+password-cracking software can read. This hash represents the encrypted password and is saved as a new file (e.g., `hash.txt`).
 
 2. Tooling and Hardware Optimization
 Standard, high-performance cracking tools are selected, such as John the Ripper or Hashcat. The attacker utilizes hardware
@@ -64,8 +64,8 @@ approach quickly cracks any password based on common words or easily guessed pat
 4. Attack Phase 2: Hybrid and Rule-Based Attack
 If the dictionary attack fails, the process pivots to a more targeted approach. A Hybrid Attack or Rule-Based Attack takes dictionary
 words and applies common transformation rules to them. These rules mimic human behavior, such as capitalizing the first letter,
-appending common numbers or years (e.g., 'password' becoming 'Password1' or 'Password2024'), or substituting characters (e.g., 's'
-with '$').
+appending common numbers or years (e.g., `'password'` becoming `'Password1'` or `'Password2024'`), or substituting characters (e.g., `'s'`
+with `'$'`).
 
 5. Attack Phase 3: Mask and Brute-Force
 As a final, exhaustive measure, the attacker resorts to Mask Attacks or Brute-Force Attacks.
