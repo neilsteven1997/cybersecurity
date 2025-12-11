@@ -80,7 +80,8 @@ and stored.
 Use Hashcat,`hashcat -m <hash_mode> -a <attack_mode> hash.txt wordlist.txt`,"(Implied structure) The primary command structure 
 for Hashcat, where you specify the hash type (-m), attack type (-a, e.g., dictionary, brute-force), the hash file, and the wordlist."
 
->[!Note]The actual commands used vary widely depending on the target system (Windows, Linux, specific application file), the type of 
+>[!Note]
+>The actual commands used vary widely depending on the target system (Windows, Linux, specific application file), the type of 
 >hash, and the cracking tool chosen.
 
 3. Attack Phase 1: Dictionary Attack
