@@ -51,10 +51,37 @@ a copy of the hashed password database from a compromised system (e.g., a PDF, Z
 - Hash Extraction: Specialized tools (such as `zip2john` or `pdf2john`) are used to convert the protected file into a hash format that 
 password-cracking software can read. This hash represents the encrypted password and is saved as a new file (e.g., `hash.txt`).
 
+Tool,Command,Purpose
+
+PDF Hash Extraction,`python pdf2john.py 1file.pdf > 1file.hash`,Used to extract the password hash from a protected PDF document 
+(1file.pdf) and save it to a hash file (1file.hash).
+
+ZIP Hash Extraction,`zip2john.pl archive.zip > zip.hash`,(Implied utility) Extracts the password hash from a protected ZIP archive.
+
+Windows Hash Extraction,`samdump2` or similar tools,(Utility used for credential dumping) Extracts hashes from Windows files like 
+the Security Account Manager (SAM) database.
+
+>[!Note]
+>The output is typically redirected (>) to a new file (e.g., 1file.hash).
+
 2. Tooling and Hardware Optimization
 Standard, high-performance cracking tools are selected, such as John the Ripper or Hashcat. The attacker utilizes hardware
 acceleration, specifically leveraging the parallel processing power of modern GPUs, which allows the cracking process to check
 billions of password guesses per second, drastically reducing the time required for the attack.
+
+Tool,Command,Purpose
+
+Start Cracking,`john /root/Desktop/file.hash`,Runs the password cracking process (usually Brute-Force or Dictionary Attack) against 
+the specified hash file.
+
+Show Cracked Password,`john --show /root/Desktop/file.hash`,Displays any passwords that the cracking tool has successfully recovered 
+and stored.
+
+Use Hashcat,`hashcat -m <hash_mode> -a <attack_mode> hash.txt wordlist.txt`,"(Implied structure) The primary command structure 
+for Hashcat, where you specify the hash type (-m), attack type (-a, e.g., dictionary, brute-force), the hash file, and the wordlist."
+
+>[!Note]The actual commands used vary widely depending on the target system (Windows, Linux, specific application file), the type of 
+>hash, and the cracking tool chosen.
 
 3. Attack Phase 1: Dictionary Attack
 The most efficient technique is executed first. A Dictionary Attack uses massive, pre-compiled wordlists (often containing millions
