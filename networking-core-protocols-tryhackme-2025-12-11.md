@@ -167,6 +167,52 @@ concluding the message with a single period (`.`) on a line by itself, which ser
 protocol interaction, which can be manually replicated using a `telnet` client, reveals the fundamental command exchange hidden 
 beneath modern email client interfaces, providing insight into the structure of text-based protocols like POP3 and IMAP.
 
+---
+## The Post Office Protocol version 3 (POP3) 
+is the fundamental application layer protocol utilized by mail clients to communicate with a mail server for the primary purpose 
+of retrieving email messages. Conceptually, while the Simple Mail Transfer Protocol (SMTP) facilitates the sending of email, 
+POP3 manages the client-side retrieval, comparable to a user checking their physical mailbox. The POP3 server listens on 
+TCP port 110 by default for client connections.
+
+A POP3 session commences with client authentication, using the **USER** command to identify the account followed immediately by 
+the **PASS** command to provide the corresponding password. After successful login, the client can issue informational requests, 
+such as **STAT**, which returns the number of messages and their cumulative size. The **LIST** command provides a detailed 
+enumeration of all messages along with their individual sizes. 
+
+Retrieving a specific message is accomplished using the **RETR** command, specifying the message number. After retrieval, the 
+client can use the **DELE** command to mark a message for deletion on the server. The session is concluded with the **QUIT** 
+command, which executes any pending changes, such as deletions, before closing the connection. As the interaction, including the 
+transmission of the username and password, is conducted in cleartext, network packet interception makes the exchanged data, 
+including authentication credentials, entirely readable to an attacker. This inherent lack of encryption necessitates the use 
+of secure alternatives like POP3S or the Internet Message Access Protocol (IMAP) for modern security standards.
+
+Common POP3 commands are:
+- `USER <username>` identifies the user
+- `PASS <password>` provides the user’s password
+- `STAT` requests the number of messages and total size
+- `LIST` lists all messages and their sizes
+- `RETR <message_number>` retrieves the specified message
+- `DELE <message_number>` marks a message for deletion
+- `QUIT` ends the POP3 session applying changes, such as deletions
+
+Here are the steps to connect to the POP3 server and retrieve emails using telnet:
+1. Open your terminal and type the command: `telnet 10.49.144.88 110`
+2. Once connected, you should see a welcome message.
+3. Type `AUTH` and `press Enter`, then type `PLAIN` and `press Enter` to select the authentication method.
+4. Next, type `USER strategos` and `press Enter`.
+5. Then, type `PASS followed by your password` and `press Enter` to log in.
+6. Type `STAT` to check the number of messages and their size.
+7. Use `LIST` to see all messages.
+8. To retrieve a specific message, use `RETR 3` (or replace '3' with the desired message number).
+9. Finally, type `QUIT` to log out.
+
+---
+
+
+
+
+
+
 
 
 
