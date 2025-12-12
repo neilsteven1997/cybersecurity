@@ -91,7 +91,8 @@ Use telnet to access the file flag.html on 10.49.146.142. What is the hidden fla
 is a specialized application layer protocol designed specifically for efficient file transfer, 
 often achieving higher data throughput speeds than general-purpose protocols like HTTP under comparable conditions. FTP is 
 fundamentally command-based, utilizing specific instructions to manage client-server interaction. Essential commands include 
-- **USER** and **PASS** for authentication, 
+- **USER**
+- and **PASS** for authentication, 
 - **RETR** (retrieve) for downloading a file from the server, 
 - and **STOR** (store) for uploading a file to the server.
 
