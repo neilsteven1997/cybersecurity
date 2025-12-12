@@ -24,6 +24,9 @@ suchers as `tshark`, allow for command-line observation of this exchange, reveal
 of DNS query packets for both IPv4 and IPv6 records and the subsequent non-authoritative responses containing the resolved addresses.
 
 ---
+# WHOIS
+
+---
 ## Domain Name System (DNS) resolution, 
 which maps a domain name to its corresponding IP address via records such as A, AAAA, and MX, 
 is predicated upon the authority granted to the domain registrant. The individual or entity that registers a domain name acquires 
