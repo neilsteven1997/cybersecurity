@@ -142,8 +142,8 @@ The terminal output provided demonstrates the sequence:
 5. Download: ftp> `get coffee.txt` (sends RETR coffee.txt)
 6. Disconnection: ftp> `quit`
 
-
-
+Using the FTP client ftp on the AttackBox, access the FTP server at 10.49.144.88 and retrieve flag.txt. What is the flag found?
+`THM{FAST-FTP}`
 
 
 
