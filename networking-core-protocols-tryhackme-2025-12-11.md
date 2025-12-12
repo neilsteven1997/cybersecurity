@@ -47,3 +47,34 @@ WHOIS lookups. This record information can be queried directly via command-line 
 >[!Tip]
 >`whois x.com`
 >`whois twitter.com`
+
+---
+# HTTP(S): Accessing the Web
+
+The fundamental protocols governing web browser communication with web servers are the Hypertext Transfer Protocol (HTTP) and its 
+secure counterpart, HTTPS, which adds a layer of encryption. Both protocols rely on the Transmission Control Protocol (TCP) for 
+reliable data transmission. HTTP typically operates on TCP port 80, while HTTPS uses TCP port 443; alternative ports such as 8080 
+and 8443 are also sometimes utilized. HTTP defines several methods, or commands, used by the client to interact with the server. 
+
+### Key methods include 
+- **GET**, which is used to request and retrieve a specified resource like an HTML file or an image, 
+- and **POST**, which facilitates submitting data from the client to the server, such as form contents or file uploads. Less commonly,
+- **PUT** is employed to create a new resource or update an existing one on the server, 
+- while **DELETE** is used to remove a designated resource.
+
+Behind the surface-level rendering of a webpage, the HTTP exchange involves significant metadata transmission not displayed to the 
+user. Packet analysis tools like Wireshark reveal the full exchange, demonstrating the explicit request headers sent by the client 
+and the detailed response headers from the server, which may contain information such as the server software version and the last 
+modification date of the requested page.
+
+Direct interaction with a web server for diagnostic purposes can be achieved using command-line tools such as `telnet`. This allows 
+an operator to manually "speak HTTP" by issuing standard protocol commands, which is highly efficient for troubleshooting. 
+For example, retrieving the default page requires transmitting a minimum of `GET / HTTP/1.1` followed by a `Host: [hostname]` header, 
+though the required components can vary based on the specific server configuration. This method can be adapted to request any specific 
+file by modifying the GET line, such as `GET /file.html HTTP/1.1`. 
+
+
+
+
+
+
