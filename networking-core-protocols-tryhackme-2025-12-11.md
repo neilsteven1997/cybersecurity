@@ -73,6 +73,8 @@ For example, retrieving the default page requires transmitting a minimum of `GET
 though the required components can vary based on the specific server configuration. This method can be adapted to request any specific 
 file by modifying the GET line, such as `GET /file.html HTTP/1.1`. 
 
+Use telnet to access the file flag.html on 10.49.146.142. What is the hidden flag?
+
 ### Make sure you are using the correct syntax:
 
 1. Open your terminal and type `telnet 10.49.146.142 80`.
