@@ -44,4 +44,6 @@ services mask the individual's or organization's details, substituting them with
 "Registration Private" and the service's organizational details, effectively shielding the true registrant's identity from public 
 WHOIS lookups. This record information can be queried directly via command-line tools like `whois` or through various online services.
 
-
+>[!Tip]
+>`whois x.com`
+>`whois twitter.com`
