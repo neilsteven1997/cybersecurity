@@ -145,6 +145,33 @@ The terminal output provided demonstrates the sequence:
 Using the FTP client ftp on the AttackBox, access the FTP server at 10.49.144.88 and retrieve flag.txt. What is the flag found?
 `THM{FAST-FTP}`
 
+---
+## Simple Mail Transfer Protocol (SMTP) 
+defines the mechanism for email transmission between a mail client and a mail server, and critically, between two mail servers. 
+This process is analogous to physical mail dispatch and utilizes a series of defined, text-based commands over a reliable connection, 
+typically TCP port 25, the default listening port for SMTP servers.
+
+1. The SMTP session initiation begins with the client issuing either the **HELO** or **EHLO** (Extended HELO) command to identify 
+itself to the server. 
+
+2. Following successful initiation, the client must specify the mail origin using the **MAIL FROM** command, which provides the 
+sender's email address. 
+
+3. The next step is defining the destination via the **RCPT TO** command, specifying the recipient's email address.
+
+4. Once the source and destination are defined, the client uses the **DATA** command to signal that the full body and headers of the 
+email message will follow. The server responds, preparing to receive the content. 
+
+5. The client then transmits the complete email, 
+concluding the message with a single period (`.`) on a line by itself, which serves as the end-of-message delimiter.  This direct 
+protocol interaction, which can be manually replicated using a `telnet` client, reveals the fundamental command exchange hidden 
+beneath modern email client interfaces, providing insight into the structure of text-based protocols like POP3 and IMAP.
+
+
+
+
+
+
 
 
 
