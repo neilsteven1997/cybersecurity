@@ -84,6 +84,32 @@ Use telnet to access the file flag.html on 10.49.146.142. What is the hidden fla
 
 `THM{TELNET-HTTP}`
 
+---
+## FTP: Transferring Files 
+
+## The File Transfer Protocol (FTP) 
+is a specialized application layer protocol designed specifically for efficient file transfer, 
+often achieving higher data throughput speeds than general-purpose protocols like HTTP under comparable conditions. FTP is 
+fundamentally command-based, utilizing specific instructions to manage client-server interaction. Essential commands include 
+- **USER** and **PASS** for authentication, 
+- **RETR** (retrieve) for downloading a file from the server, 
+- and **STOR** (store) for uploading a file to the server.
+
+The server operates by listening on TCP port `21`, which is designated for the **control connection**. This control channel manages 
+commands, authentication, and responses. Critically, the actual file transfer and directory listings occur over **separate data 
+connections** established from the client back to the server. This dual-channel architecture is a defining characteristic of FTP.
+
+An FTP client session illustrates this process. After initiating a connection, the client issues the **USER** command 
+(e.g., `anonymous`) and the **PASS** command (often an empty or placeholder email address for anonymous access). Upon successful 
+authentication, a command like `ls` is translated by the client into the protocol command **LIST** sent over the control channel. 
+The response to **LIST** and file retrieval initiated by **RETR** both trigger the establishment of a new, ephemeral data connection 
+to transfer the listing or the file contents (e.g., `coffee.txt`). Observing the transaction via packet analysis reveals the 
+distinction between the command traffic on the control port and the data traffic occurring on these separate, dynamically 
+established ports .
+
+
+
+
 
 
 
