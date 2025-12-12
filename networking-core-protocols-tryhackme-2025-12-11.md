@@ -108,6 +108,41 @@ to transfer the listing or the file contents (e.g., `coffee.txt`). Observing the
 distinction between the command traffic on the control port and the data traffic occurring on these separate, dynamically 
 established ports .
 
+---
+1. Client Terminal Commands
+These are the commands you type into the local FTP client session:
+Command,Action,Example Usage
+- `ftp [IP_Address]`,Initiates the connection to the remote FTP server.,ftp 10.49.146.142
+- `anonymous`,The username typically used for anonymous login when prompted.,Name (server IP): anonymous
+- `ls` (or dir),Lists the files and directories available on the server.,ftp> ls
+- `type ascii`,Switches the transfer mode to ASCII for text files.,ftp> type ascii
+- `type binary`,"Switches the transfer mode to Binary for non-text files (executables, images, etc.).",ftp> type binary
+- `get [filename]`,Downloads the specified file from the server to your local machine.,ftp> get coffee.txt
+- `put [filename]`,Uploads the specified local file to the remote server.,ftp> put my_file.txt
+- `quit` (or bye),Disconnects the client from the FTP server.,ftp> quit
+
+2. Underlying FTP Protocol Commands
+These are the actual commands defined by the FTP protocol, sent over the control connection (TCP Port 21) from the client to 
+the server:
+Protocol Command,Description,Client Command Equivalent
+- `USER`,Sends the username for authentication.,(Implicitly sent after entering username)
+- `PASS`,Sends the password for authentication.,(Implicitly sent after entering password)
+- `LIST`,Requests a listing of files and directories.,ls or dir
+- `RETR`,Requests to download (retrieve) a specified file.,get
+- `STOR`,Requests to upload (store) a file to the server.,put
+- `TYPE A`,Sets the data transfer type to ASCII.,type ascii
+- `TYPE I`,Sets the data transfer type to Image (Binary).,type binary
+
+Example Session Flow
+The terminal output provided demonstrates the sequence:
+1. Connection: user@TryHackMe$ `ftp 10.49.146.142`
+2. Login: Enter `anonymous` (sends USER) followed by the password (sends PASS).
+3. Directory Listing: ftp> `ls` (sends LIST)
+4. Mode Change: ftp> `type ascii` (sends TYPE A)
+5. Download: ftp> `get coffee.txt` (sends RETR coffee.txt)
+6. Disconnection: ftp> `quit`
+
+
 
 
 
