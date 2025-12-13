@@ -140,7 +140,44 @@ If you capture network traffic, in which of the following protocols can you extr
 ---
 ## SSH
 
+The historical use of the TELNET protocol for remote system administration posed a critical security risk, transmitting all 
+command and login data in cleartext. Any network monitor could trivially capture and compromise user credentials. This vulnerability 
+mandated the development of a secure alternative, leading Tatu Ylönen to create the **Secure Shell (SSH)** protocol, with the 
+first version, SSH-1, released as freeware in 1995. A more robust and secure revision, SSH-2, was defined shortly thereafter in 
+1996. The open-source community's adoption was solidified in 1999 when the OpenBSD developers released **OpenSSH**, which now 
+forms the basis for most contemporary SSH client implementations.
 
+OpenSSH provides several core security and utility benefits that fundamentally address the deficiencies of TELNET. 
+
+Key capabilities include robust **security authentication** methods, supporting public key and two-factor authentication 
+alongside traditional password access. **Confidentiality** is enforced via end-to-end encryption, effectively neutralizing 
+eavesdropping attempts, and the protocol incorporates mechanisms to detect changes in server keys, which helps protect 
+against man-in-the-middle attacks. Furthermore, cryptography ensures the **integrity** of exchanged data, protecting against 
+undetected modification. Beyond core remote access, SSH supports **tunneling**, allowing other protocols to be routed securely 
+through an SSH session, effectively creating a VPN-like connection. The protocol also facilitates **X11 Forwarding**, enabling 
+the remote use of graphical applications on a Unix-like system. While the insecure TELNET server listens on TCP port 23, the 
+secure SSH server defaults to listening on **TCP port 22**. The command structure for initiating a connection is straightforward, 
+typically requiring the syntax `ssh username@hostname`, or simply `ssh hostname` if the local and remote usernames are 
+identical. Authentication can be password-based or instantaneous if public-key pairs are configured. Using the `-X` argument 
+during connection initiation, such as `ssh 192.168.124.148 -X`, is required to enable remote graphical interface forwarding, 
+provided the local system supports the necessary graphical environment.
+
+| Description | Code/Command |
+| :--- | :--- |
+| Basic SSH connection syntax | `ssh username@hostname` |
+| Connection syntax using default local username | `ssh hostname` |
+| SSH connection with X11 forwarding enabled | `ssh 192.168.124.148 -X` |
+| Argument required for graphical interface support | `-X` |
+
+---
+
+### Key Takeaways
+
+* TELNET's cleartext transmission is a critical risk, allowing trivial capture of login credentials.
+* SSH, and specifically OpenSSH, resolves this by implementing end-to-end encryption, ensuring confidentiality and integrity.
+* SSH supports multiple secure authentication methods, including public key and two-factor authentication.
+* SSH provides advanced features such as secure tunneling for other protocols and X11 Forwarding for remote graphical application use.
+* SSH servers default to TCP port 22, whereas the deprecated TELNET uses port 23.
 
 
 
