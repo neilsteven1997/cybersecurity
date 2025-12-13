@@ -104,7 +104,7 @@ project _timestamp_t, host_s, Message`"
 - Name of the malicious kernel module,`malicious_mod.ko`
 
 ---
-[!Note]
+>[!Note]
 >Raw log analysis is essential for validating alerts and moving beyond high-level triage to uncover specific attacker actions.
 >Sentinel's KQL mode allows analysts to create custom queries for focused investigation into single entities (e.g., `app-02`).
 >Suspicious event sequences, particularly those manipulating user accounts and privilege groups, suggest privilege escalation 
