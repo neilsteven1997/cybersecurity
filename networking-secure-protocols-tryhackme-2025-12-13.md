@@ -185,6 +185,38 @@ What is the name of the open-source implementation of the SSH protocol?
 ---
 ## SFTP and FTPS
 
+The **SSH File Transfer Protocol (SFTP)**, a component of the overarching SSH protocol suite, provides secure file transfer 
+capabilities and operates on the same default TCP port, 22. When enabled within the OpenSSH server configuration, clients can 
+initiate a connection using the `sftp username@hostname` command.  Once authenticated, the protocol uses a command structure 
+similar to Unix shell commands for operations, such as `get filename` for downloading and `put filename` for uploading.
 
+SFTP must be differentiated from **FTPS (File Transfer Protocol Secure)**. FTPS secures standard FTP by incorporating the TLS 
+protocol, mirroring the methodology used for HTTPS. While FTP utilizes default port 21, FTPS typically operates on port 990. 
+A key functional difference is that FTPS establishment is more complex: it mandates a proper TLS certificate setup and often 
+poses difficulties for network administrators as it requires separate control and data connections, making it challenging to 
+allow through strict firewall rules.
 
+In contrast, setting up an SFTP server is straightforward, requiring only the activation of the relevant option within the 
+existing OpenSSH server configuration. Both FTPS and other secure protocols like HTTPS, SMTPS, POP3S, and IMAPS rely on the 
+robust security mechanisms provided by TLS, necessitating a valid, configured TLS certificate for secure operation.
 
+| Description | Code/Command |
+| :--- | :--- |
+| SFTP connection command syntax | `sftp username@hostname` |
+| Command to download a file via SFTP | `get filename` |
+| Command to upload a file via SFTP | `put filename` |
+| Default cleartext FTP port | `21` |
+| Default secure FTPS port | `990` |
+
+---
+
+### Key Takeaways
+
+* SFTP is part of the SSH suite, uses port 22, and is simpler to configure by enabling an OpenSSH server option.
+* FTPS is secured using TLS, uses port 990, and requires a dedicated TLS certificate setup.
+* FTPS is structurally more complex than SFTP due to its use of separate control and data connections, which complicates firewall
+* policy configuration.
+* Both SFTP and FTPS provide cryptographic protection over the network, achieving confidentiality and integrity during file transfers.
+  
+Click on the View Site button to access the related site. Please follow the instructions on the site to obtain the flag.
+- `THM{Protocols_secur3d}`
