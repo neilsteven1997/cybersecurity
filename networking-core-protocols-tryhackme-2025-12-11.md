@@ -206,6 +206,12 @@ Here are the steps to connect to the POP3 server and retrieve emails using telne
 8. To retrieve a specific message, use `RETR 3` (or replace '3' with the desired message number).
 9. Finally, type `QUIT` to log out.
 
+Looking at the traffic exchange, what is the name of the POP3 server running on the remote server?
+`Dovecot`
+
+Use telnet to connect to 10.49.178.253’s POP3 server. What is the flag contained in the fourth message?
+`THM{TELNET_RETR_EMAIL}`
+
 ---
 
 
