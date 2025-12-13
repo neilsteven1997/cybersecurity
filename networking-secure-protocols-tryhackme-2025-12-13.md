@@ -104,3 +104,40 @@ How many packets did the TLS negotiation and establishment take in the Wireshark
 What is the number of the packet that contain the GET /login when accessing the website over HTTPS?
 - 10
 
+---
+## SMTPS, POP3S, and IMAPS
+
+The methodology for securing standard cleartext communication protocols such as SMTP, POP3, and IMAP directly mirrors the 
+transition from HTTP to HTTPS. Each protocol is appended with an "S" to denote its secure variant: SMTP becomes SMTPS, POP3 
+becomes POP3S, and IMAP becomes IMAPS. Functionally, deploying these email protocols over TLS (Transport Layer Security) 
+follows the exact process established for HTTPS, where the TLS handshake is negotiated directly after the TCP connection to 
+encrypt the application data layer. 
+
+Unsecured email protocols historically utilized distinct default TCP ports: SMTP operated on port 25, POP3 on port 110, and 
+IMAP on port 143. The secure, TLS-enabled counterparts utilize different port assignments to signify the encryption requirement: 
+HTTPS uses 443; SMTPS uses ports 465 and 587; POP3S uses 995; and IMAPS uses 993. The rationale for applying TLS to these and 
+many other protocols is consistent: to enforce confidentiality and integrity across the network session, effectively mitigating 
+the threat of passive packet interception and cleartext data exposure.
+
+| Description | Insecure Port | Secure Port |
+| :--- | :--- | :--- |
+| HTTP | 80 | 443 (HTTPS) |
+| SMTP | 25 | 465 and 587 (SMTPS) |
+| POP3 | 110 | 995 (POP3S) |
+| IMAP | 143 | 993 (IMAPS) |
+
+---
+
+### Key Takeaways
+
+* Securing email protocols (SMTP, POP3, IMAP) involves overlaying them with TLS, resulting in SMTPS, POP3S, and IMAPS, respectively.
+* The security mechanism is identical to HTTPS, requiring a TLS handshake post-TCP connection to initiate encryption.
+* Secure protocols are generally assigned separate default TCP port numbers from their cleartext counterparts to enforce encryption.
+
+---
+
+
+
+
+
+
