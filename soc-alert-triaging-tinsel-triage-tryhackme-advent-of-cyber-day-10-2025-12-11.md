@@ -77,4 +77,45 @@ What is the severity of the Linux PrivEsc - Sudo Shadow Access alert?
 How many accounts were added to the sudoers group in the Linux PrivEsc - User Added to Sudo Group alert?
 - 4
 
+---
+## Diving Deeper Into Logs 
+
+The initial triage of security alerts must transition immediately into a granular analysis of the raw log data within the Security 
+Information and Event Management (SIEM) system, such as Microsoft Sentinel, to definitively validate the detections and reconstruct 
+the attacker's actions. To achieve this, an analyst reviews the Events section within the full alert details view, which provides 
+explicit evidence, such as the specific name of the installed kernel module and its installation timestamp on each compromised machine.
+
+A more focused examination requires pivoting from the summarized alert data to raw events via custom queries. By switching the 
+Sentinel view to KQL (Kusto Query Language) mode, the analyst can construct a precise query targeting all relevant events from a 
+single host. Executing this custom query reveals a cluster of highly suspicious activities correlating with the kernel module 
+insertion. The sequence of surrounding events, including actions that manipulate system files and privilege assignments, strongly 
+confirms malicious intent and signifies a successful compromise.
+
+The combined evidence—the insertion of a kernel module, coupled with the system-level changes—is indicative of post-exploitation 
+activity focused on privilege escalation and persistence. Specifically, the execution of the `cp` command to back up the shadow file, 
+the addition of a new user (`Alice`) to the `sudoers` group, the modification of an existing administrative user (`backupuser`) by the 
+root account, and successful root SSH authentication collectively represent a severe deviation from normal operational baselines. This 
+chain of events warrants immediate and intensive incident response efforts.
+
+### Description,Code/Command
+- KQL query for filtering logs by host,"`set query_now = datetime(2025-10-30T05:09:25.9886229Z); Syslog_CL | where host_s == 'app-02' | 
+project _timestamp_t, host_s, Message`"
+- Command used for shadow file backup,`cp` (copy)
+- Name of the malicious kernel module,`malicious_mod.ko`
+
+---
+[!Note]
+>Raw log analysis is essential for validating alerts and moving beyond high-level triage to uncover specific attacker actions.
+>Sentinel's KQL mode allows analysts to create custom queries for focused investigation into single entities (e.g., `app-02`).
+>Suspicious event sequences, particularly those manipulating user accounts and privilege groups, suggest privilege escalation 
+and persistence.
+>Actions like creating shadow file backups, modifying administrative users, and inserting kernel modules are strong indicators 
+of a successful, post-exploitation compromise.
+>Correlating events like successful root SSH authentication with privilege changes confirms highly unusual, likely malicious, 
+system activity.
+
+
+
+
+
 
