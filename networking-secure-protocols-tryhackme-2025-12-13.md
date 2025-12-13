@@ -98,6 +98,9 @@ to the lower-layer (TCP/IP) or higher-layer (HTTP) protocols. TLS successfully i
 * Decrypting HTTPS traffic requires access to the session's private encryption key, confirming that the underlying communication
   remains standard HTTP.
 
+How many packets did the TLS negotiation and establishment take in the Wireshark HTTPS screenshots above?
+- 8
 
-
+What is the number of the packet that contain the GET /login when accessing the website over HTTPS?
+- 10
 
