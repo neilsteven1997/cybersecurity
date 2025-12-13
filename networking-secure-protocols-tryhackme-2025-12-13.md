@@ -220,3 +220,51 @@ robust security mechanisms provided by TLS, necessitating a valid, configured TL
   
 Click on the View Site button to access the related site. Please follow the instructions on the site to obtain the flag.
 - `THM{Protocols_secur3d}`
+
+
+---
+## VPN
+
+A fundamental requirement for geographically disparate organizations is the ability to securely connect remote offices and users 
+to central corporate resources, making all devices function as if they were physically present at the main branch. The most 
+economical and effective solution is the implementation of a **Virtual Private Network (VPN)**, which leverages existing public 
+internet infrastructure. The "Virtual" component refers to establishing a logical network overlay across an untrusted network.
+
+The original TCP/IP protocol suite was engineered primarily for packet delivery efficiency and route adaptability, lacking 
+inherent mechanisms to ensure the **confidentiality** or **integrity** of data traversing the network.  A VPN addresses this 
+by creating a "Private" connection. This process establishes an encrypted tunnel between the VPN client (in a remote branch 
+or on a remote user's device) and the VPN server (typically located at the main branch). All traffic traversing this tunnel 
+is encrypted, protecting data from disclosure and alteration by external threats on the public network.
+
+Once established, a typical VPN configuration routes **all** of the user's internet traffic through the secure tunnel. 
+Consequently, any accessed internet service or web application registers the public IP address of the VPN server, not the 
+user's actual IP address. This functionality is the basis for using VPNs to circumvent geographic content restrictions and 
+enhances privacy by obfuscating the user's true location. Additionally, the user's local Internet Service Provider (ISP) can 
+only observe encrypted traffic flowing into and out of the VPN server, limiting the ISP's ability to censor or monitor specific 
+activity. For instance, connecting to a VPN server located in Japan causes destination servers to treat the user as physically 
+present in Japan, customizing the content accordingly .
+
+While the most common setup dictates routing all traffic over the VPN tunnel, specific server configurations may limit the 
+VPN connection solely to accessing a designated private network without routing general internet traffic. A critical security 
+consideration is that some poorly configured VPN services may inadvertently leak the user's actual IP address, even when they 
+are expected to route all traffic securely. Users relying on a VPN for anonymity must perform additional verification, such as 
+a DNS leak test, to ensure integrity. Furthermore, it is essential to note that the use of VPNs is restricted or outright 
+illegal in certain jurisdictions; users must comply with local laws and regulations, particularly when traveling.
+
+---
+
+### Key Takeaways
+
+* VPNs are an economical solution for securely connecting remote users and offices over the public internet infrastructure.
+* The "Virtual" component establishes a logical, encrypted tunnel, while the "Private" component enforces confidentiality and integrity.
+* A primary benefit is the obfuscation of the user's public IP address, which is replaced by the VPN server's IP for all external
+  access.
+* VPNs are frequently used to bypass geographical content restrictions and limit ISP monitoring and censorship.
+* Users must verify that their VPN configuration does not leak their actual IP address (e.g., via DNS leak tests) and must adhere
+  to local regulations regarding VPN usage.
+
+What would you use to connect the various company sites so that users at a remote office can access resources located within 
+the main branch?
+- VPN
+
+
