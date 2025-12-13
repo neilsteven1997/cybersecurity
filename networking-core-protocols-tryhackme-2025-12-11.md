@@ -213,6 +213,29 @@ Use telnet to connect to 10.49.178.253’s POP3 server. What is the flag contain
 `THM{TELNET_RETR_EMAIL}`
 
 ---
+## The Internet Message Access Protocol (IMAP) 
+is a sophisticated email retrieval standard designed to facilitate mailbox access and synchronization across multiple client devices, 
+contrasting sharply with the single-device, download-and-delete model of POP3. IMAP is essential for users accessing email via a 
+desktop, laptop, and smartphone concurrently, as it ensures consistency across all clients regarding message status (read, moved, 
+deleted). This synchronization functionality is achieved by keeping email messages persistently stored on the mail server, which 
+inherently increases server storage utilization compared to POP3. The default TCP port for IMAP server listening is 143.
+
+IMAP commands are inherently more complex than POP3 commands, often requiring transaction tags (A, B, C, D in the example) for 
+management. Session initiation and authentication are handled by the 
+
+- **LOGIN** command, requiring a username and password. After authentication, 
+- the client must use the **SELECT** command to specify the mailbox folder (e.g., *inbox*) to interact with. 
+- Message retrieval is achieved using the **FETCH** command, which specifies the message sequence number and the desired data item name 
+(e.g., `body[]` to fetch the message content).  
+- Folder management functions are supported via commands such as **MOVE** 
+- and **COPY**, which operate on a specified message sequence set and destination mailbox. 
+- The session is terminated with the **LOGOUT** command. While manual interaction via a `telnet` client demonstrates the command structure, packet captures confirm 
+that the client sends concise commands while the server often returns verbose responses detailing capabilities, folder status, 
+and the message contents itself.
+
+
+
+
 
 
 
