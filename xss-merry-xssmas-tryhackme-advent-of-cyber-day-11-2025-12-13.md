@@ -52,5 +52,18 @@ within input fields, such as search bars or message forms, to observe if the bro
   like `textContent`.
 * Cookies should be secured with `HttpOnly`, `Secure`, and `SameSite` attributes to limit post-exploitation impact.
 
+Which type of XSS attack requires payloads to be persisted on the backend?
+- stored
+  
+What's the reflected XSS flag?
+- `THM{Evil_Bunny}`
+
+What's the stored XSS flag?
+- `THM{Evil_Stored_Egg}`
+
+>[!Note]
+>## You did it! Wareville is one step safer.
+>The townsfolk are counting on you to keep Christmas secure.
+>Head back to Wareville to continue your mission!
 
 
