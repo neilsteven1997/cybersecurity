@@ -67,9 +67,14 @@ The **Kernel Module Insertion** specifically is a severe finding, suggesting an 
 privileged code directly into the kernel ring-0 space, demanding immediate and focused incident response. This structured 
 triage allows the security team to move efficiently from initial notification to deep log analysis and containment.
 
+---
+How many entities are affected by the Linux PrivEsc - Polkit Exploit Attempt alert?
+- 10
 
+What is the severity of the Linux PrivEsc - Sudo Shadow Access alert?
+- High
 
-
-
+How many accounts were added to the sudoers group in the Linux PrivEsc - User Added to Sudo Group alert?
+- 4
 
 
