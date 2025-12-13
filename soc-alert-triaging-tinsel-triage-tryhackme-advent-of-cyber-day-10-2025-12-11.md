@@ -132,7 +132,7 @@ Aside from the backup user, what is the name of the user added to the sudoers gr
 
 ---
 >[!Note]
->##You did it! Wareville is one step safer.
+>## You did it! Wareville is one step safer.
 >The townsfolk are counting on you to keep Christmas secure.
 >Head back to Wareville to continue your mission!
 
