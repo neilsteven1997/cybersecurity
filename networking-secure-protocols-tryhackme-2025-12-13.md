@@ -38,8 +38,66 @@ use of a self-signed certificate cannot establish authenticity, as no trusted th
 
 ### Key Takeaways
 
-* Early network communication methods were highly vulnerable to simple packet-capturing using network cards set to promiscuous mode, allowing cleartext credential interception.
-* TLS (Transport Layer Security) is the modern cryptographic protocol standard, superseding all versions of the deprecated SSL (Secure Sockets Layer).
-* TLS provides secure communication by guaranteeing both data confidentiality (preventing unauthorized reading) and data integrity (preventing undetected modification).
-* Server authentication requires the server to obtain a signed TLS certificate from a trusted Certificate Authority (CA) after submitting a Certificate Signing Request (CSR).
-* A self-signed certificate, lacking CA validation, cannot provide external proof of a server's authenticity and should be viewed with skepticism in public deployments.
+* Early network communication methods were highly vulnerable to simple packet-capturing using network cards set to promiscuous mode,
+  allowing cleartext credential interception.
+* TLS (Transport Layer Security) is the modern cryptographic protocol standard, superseding all versions of the deprecated SSL
+  (Secure Sockets Layer).
+* TLS provides secure communication by guaranteeing both data confidentiality (preventing unauthorized reading) and data integrity
+  (preventing undetected modification).
+* Server authentication requires the server to obtain a signed TLS certificate from a trusted Certificate Authority (CA) after
+  submitting a Certificate Signing Request (CSR).
+* A self-signed certificate, lacking CA validation, cannot provide external proof of a server's authenticity and should be viewed
+  with skepticism in public deployments.
+
+---
+## HTTPS
+
+---
+## The Hypertext Transfer Protocol (HTTP) 
+traditionally relies on TCP, defaulting to port 80, and transmits all data in cleartext. This fundamental lack of confidentiality makes
+traffic interception trivial; an adversary can easily monitor and read all client-server communications, including sensitive data. 
+Establishing an HTTP session requires a client to first resolve the domain name to an IP address, then execute a standard TCP 
+three-way handshake with the server, and finally, issue HTTP requests, such as `GET / HTTP/1.1`. The initial handshake precedes the 
+application-layer HTTP communication, which is subsequently followed by the TCP connection termination packets.
+
+---
+## HTTPS, or Hypertext Transfer Protocol Secure, 
+fundamentally operates as HTTP over TLS (Transport Layer Security). This overlay 
+introduces a mandatory security layer between the TCP and HTTP layers. To establish a secure HTTPS connection (after DNS resolution), 
+three distinct steps are necessary: first, the standard TCP three-way handshake must be completed; second, the TLS session negotiation 
+and establishment must occur; and third, the client and server communicate using the application-layer HTTP protocol, issuing requests 
+like `GET / HTTP/1.1`. . During packet capture analysis, the TLS negotiation phase involves the exchange of several packets used to 
+agree upon cryptographic parameters. Once established, the HTTP application data is exchanged, but it is classified merely as 
+"Application Data" by the packet capture tool because the encryption prevents the protocol analyzer from confirming it is specifically 
+HTTP traffic running over the standard port 443.
+
+All data packets exchanged over HTTPS are encrypted, rendering the captured data as indecipherable gibberish without the requisite 
+decryption key. Attempting to follow the packet stream yields only unintelligible content. The only method to view the plaintext 
+HTTP traffic is by gaining access to the session's encryption key. While this is highly improbable in a real-world scenario, packet 
+analyzers like Wireshark can decrypt the stream if the private key used for encryption is supplied. When decrypted, the traffic is 
+revealed to be regular HTTP communication, demonstrating that TLS provides confidentiality without necessitating any modifications 
+to the lower-layer (TCP/IP) or higher-layer (HTTP) protocols. TLS successfully integrated security by acting as an intermediary layer.
+
+---
+
+| Description | Code/Command |
+| :--- | :--- |
+| Example HTTP request | `GET / HTTP/1.1` |
+| Default cleartext HTTP port | `80` |
+| Default secure HTTPS port | `443` |
+
+---
+
+### Key Takeaways
+
+* HTTP transmission is inherently insecure, relying on cleartext, making all traffic easily readable by passive network interception.
+* HTTPS operates as HTTP layered over TLS, securing communications without changing the core TCP/IP or HTTP protocols.
+* HTTPS establishment requires an intermediate step—the TLS negotiation and session establishment—between the TCP handshake and
+  application-layer data exchange.
+* TLS encrypts all traffic, resulting in packet capture tools identifying data only as "Application Data."
+* Decrypting HTTPS traffic requires access to the session's private encryption key, confirming that the underlying communication
+  remains standard HTTP.
+
+
+
+
