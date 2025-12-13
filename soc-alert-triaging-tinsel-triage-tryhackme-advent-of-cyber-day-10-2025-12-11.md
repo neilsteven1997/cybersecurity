@@ -130,6 +130,12 @@ What is the external source IP that successfully logged in as root to app-01?
 Aside from the backup user, what is the name of the user added to the sudoers group inside app-01?
 - deploy
 
+---
+>[!Note]
+>##You did it! Wareville is one step safer.
+>The townsfolk are counting on you to keep Christmas secure.
+>Head back to Wareville to continue your mission!
+
 
 
 
