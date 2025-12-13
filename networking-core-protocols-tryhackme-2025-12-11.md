@@ -229,11 +229,31 @@ management. Session initiation and authentication are handled by the
 (e.g., `body[]` to fetch the message content).  
 - Folder management functions are supported via commands such as **MOVE** 
 - and **COPY**, which operate on a specified message sequence set and destination mailbox. 
-- The session is terminated with the **LOGOUT** command. While manual interaction via a `telnet` client demonstrates the command structure, packet captures confirm 
-that the client sends concise commands while the server often returns verbose responses detailing capabilities, folder status, 
-and the message contents itself.
+- The session is terminated with the **LOGOUT** command. While manual interaction via a `telnet` client demonstrates the command
+  structure, packet captures confirm that the client sends concise commands while the server often returns verbose responses
+  detailing capabilities, folder status, 
+  and the message contents itself.
 
+### Here are the steps to use IMAP with telnet:
+1. Open your terminal and connect to the IMAP server:
+`telnet 10.10.41.192 143`
 
+2. Once connected, type the following command to log in:
+`LOGIN strategos <your_password>`
+Replace `<your_password>` with the actual password.
+
+3. Select the inbox to access your emails:
+`SELECT inbox`
+
+4. You can check the status of messages using:
+`STAT`
+
+5. To fetch the messages, use:
+`FETCH 4 BODY[]`
+Replace `4` with the message number you want to retrieve.
+
+6. Finally, log out:
+`LOGOUT`
 
 
 
