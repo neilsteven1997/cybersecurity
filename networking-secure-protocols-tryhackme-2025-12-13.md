@@ -134,8 +134,11 @@ the threat of passive packet interception and cleartext data exposure.
 * The security mechanism is identical to HTTPS, requiring a TLS handshake post-TCP connection to initiate encryption.
 * Secure protocols are generally assigned separate default TCP port numbers from their cleartext counterparts to enforce encryption.
 
+If you capture network traffic, in which of the following protocols can you extract login credentials: SMTPS, POP3S, or IMAP?
+- IMAP
+  
 ---
-
+## SSH
 
 
 
