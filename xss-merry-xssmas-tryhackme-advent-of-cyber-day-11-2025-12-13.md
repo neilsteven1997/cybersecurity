@@ -49,7 +49,7 @@ within input fields, such as search bars or message forms, to observe if the bro
 * **Stored XSS** is persistent, saved on the server, and executed every time an affected page is loaded by any user.
 * Mitigation requires a multi-layered approach focusing on input sanitation and output encoding.
 * Secure development practice includes disabling dangerous rendering methods like `innerHTML` in favor of safer options
-* like `textContent`.
+  like `textContent`.
 * Cookies should be secured with `HttpOnly`, `Secure`, and `SameSite` attributes to limit post-exploitation impact.
 
 
