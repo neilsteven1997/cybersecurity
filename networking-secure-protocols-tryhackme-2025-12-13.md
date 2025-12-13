@@ -267,4 +267,12 @@ What would you use to connect the various company sites so that users at a remot
 the main branch?
 - VPN
 
+---
+## Conclusion
+
+One of the packets contains login credentials. What password did the user submit?
+- `THM{B8WM6P}`
+
+
+
 
