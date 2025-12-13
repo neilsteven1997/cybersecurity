@@ -10,7 +10,7 @@ center (SOC) team’s resources are directed toward the highest-risk incidents.
 ### Effective triage relies on consistently assessing four fundamental dimensions to swiftly identify and evaluate alerts. 
 - The **Severity Level** indicates the urgency and potential business impact, ranging from informational to critical. 
 
-**Timestamp and Frequency** analysis places the alert in a historical context, helping to determine if the activity is ongoing or 
+- **Timestamp and Frequency** analysis places the alert in a historical context, helping to determine if the activity is ongoing or 
 part of a coordinated pattern. 
 
 - The **Attack Stage** factor requires placing the alert within the broader cyber kill chain (e.g., reconnaissance, persistence, or data 
