@@ -105,13 +105,13 @@ project _timestamp_t, host_s, Message`"
 
 ---
 >[!Note]
->Raw log analysis is essential for validating alerts and moving beyond high-level triage to uncover specific attacker actions.
->Sentinel's KQL mode allows analysts to create custom queries for focused investigation into single entities (e.g., `app-02`).
->Suspicious event sequences, particularly those manipulating user accounts and privilege groups, suggest privilege escalation 
+>- Raw log analysis is essential for validating alerts and moving beyond high-level triage to uncover specific attacker actions.
+>- Sentinel's KQL mode allows analysts to create custom queries for focused investigation into single entities (e.g., `app-02`).
+>- Suspicious event sequences, particularly those manipulating user accounts and privilege groups, suggest privilege escalation 
 and persistence.
->Actions like creating shadow file backups, modifying administrative users, and inserting kernel modules are strong indicators 
+>- Actions like creating shadow file backups, modifying administrative users, and inserting kernel modules are strong indicators 
 of a successful, post-exploitation compromise.
->Correlating events like successful root SSH authentication with privilege changes confirms highly unusual, likely malicious, 
+>- Correlating events like successful root SSH authentication with privilege changes confirms highly unusual, likely malicious, 
 system activity.
 
 
