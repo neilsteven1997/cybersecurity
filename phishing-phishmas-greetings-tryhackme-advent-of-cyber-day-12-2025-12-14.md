@@ -67,5 +67,24 @@ trusted services like Microsoft Office 365.
 * The current trend shifts from direct malware delivery to using legitimate cloud services (e.g., OneDrive) to host lures
   that redirect victims to convincing **fake login pages** for credential harvesting.
 
+---
+Classify the 1st email, what's the flag?
+- `THM{yougotnumber1-keep-it-going}`
+Classify the 2nd email. What's the flag?
+- `THM{nmumber2-was-not-tha-thard!}`
+Classify the 3rd email. What's the flag?
+- `THM{Impersonation-is-areal-thing-keepIt}`
+Classify the 4th email. What's the flag?
+- `THM{Get-back-SOC-mas!!}`
+Classify the 5th email. What's the flag?
+- `THM{It-was-just-a-sp4m!!}`
+Classify the 6th email. What's the flag?
+- `THM{number6-is-the-last-one!-DX!}`
+
+>[!Note]
+>## You did it! Wareville is one step safer.
+>The townsfolk are counting on you to keep Christmas secure.
+>Head back to Wareville to continue your mission!
+
 
 
