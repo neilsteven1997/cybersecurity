@@ -64,3 +64,21 @@ by navigating to "Statistics → Capture File Properties."
 * Packet data is presented in three panes: **Packet List**, **Packet Details**, and **Packet Bytes**, facilitating granular investigation.
 * Packet coloring rules, both temporary and permanent, are used to quickly highlight protocols and events of interest.
 * Wireshark supports traffic sniffing, merging of PCAP files, and detailed viewing of capture file properties.
+
+---
+
+>[!Tip]
+>Knowing the file details is helpful. Especially when working with multiple pcap files, sometimes you will need to know and recall the file details (File hash, capture time, capture file comments, interface and statistics) to identify the file, classify and prioritise it. You can view the details by following "Statistics --> Capture File Properties" or by clicking the "pcap icon located on the left bottom" of the window.
+
+Use the "Exercise.pcapng" file to answer the questions.
+Read the "capture file comments". What is the flag?
+- `TryHackMe_Wireshark_Demo`
+
+What is the total number of packets?
+- `58620`
+  
+What is the SHA256 hash value of the capture file?
+- `446de335565fb0b0ee5e5a3266703c778b2f3dfad7efeaeccb2da5641a6d6eb`
+
+
+
