@@ -130,20 +130,20 @@ corresponding raw bytes in the packet bytes pane, demonstrating exactly where th
 
 ---
 Use the "Exercise.pcapng" file to answer the questions. View packet number 38. Which markup language is used under the HTTP protocol?
-- eXtensible Markup Language
+- `eXtensible Markup Language`
 
 What is the arrival date of the packet? (Answer format: Month/Day/Year)
-- 05/13/2004
+- `05/13/2004`
 
 What is the TTL value?
-- 47
+- `47`
 
 What is the TCP payload size?
-- 424
+- `424`
 
 What is the e-tag value?
 (For example: 82ecb-6321-9e904585)
-- 9a01a-4696-7e354b00
+- `9a01a-4696-7e354b00`
 
 ---
 ## Packet Navigation
@@ -202,6 +202,27 @@ the **Analyze** menu, provides a consolidated view of all detected entries by pa
 * Switching the **Time Display Format** to UTC is a best practice for forensic correlation.
 * **Expert Info** (categorized as Chat, Note, Warn, Error) provides automated protocol state detection and suggests potential
   anomalies.
+
+---
+Use the "Exercise.pcapng" file to answer the questions. Search the "r4w" string in packet details. What is the name of artist 1?
+- `r4w8173`
+
+Go to packet 12 and read the packet comments. What is the answer?
+Note: use md5sum <filename> terminal command to get MD5 hash
+- `911cd574a42865a956ccde2d04495ebf`
+
+There is a ".txt" file inside the capture file. Find the file and read it; what is the alien's name?
+- `PACKETMASTER`
+
+Look at the expert info section. What is the number of warnings?
+- `1636`
+
+---
+
+
+
+
+
 
 
 
