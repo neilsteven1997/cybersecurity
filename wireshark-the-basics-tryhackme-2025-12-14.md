@@ -128,6 +128,30 @@ corresponding raw bytes in the packet bytes pane, demonstrating exactly where th
   **Application** (L5/L7).
 * The **Protocol Errors** section within Layer 4 highlights reassembled TCP segments, which is relevant for forensic analysis.
 
+---
+Use the "Exercise.pcapng" file to answer the questions. View packet number 38. Which markup language is used under the HTTP protocol?
+- eXtensible Markup Language
+
+What is the arrival date of the packet? (Answer format: Month/Day/Year)
+- 05/13/2004
+
+What is the TTL value?
+- 47
+
+What is the TCP payload size?
+- 424
+
+What is the e-tag value?
+(For example: 82ecb-6321-9e904585)
+- 9a01a-4696-7e354b00
+
+---
+## Packet Navigation
+
+
+
+
+
 
 
 
