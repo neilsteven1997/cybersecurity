@@ -80,5 +80,56 @@ What is the total number of packets?
 What is the SHA256 hash value of the capture file?
 - `446de335565fb0b0ee5e5a3266703c778b2f3dfad7efeaeccb2da5641a6d6eb`
 
+---
+## Packet Dissection and OSI Layer Analysis
+
+Packet dissection, or protocol dissection, is the process by which a tool like Wireshark investigates the detailed contents of 
+captured network traffic by decoding available protocols and their corresponding fields. Wireshark provides native support for an 
+extensive list of protocols and allows for custom dissection scripts to be written for proprietary or unique protocols. 
+
+The dissection process organizes the packet's information according to the **OSI model**, breaking down the data into hierarchical 
+layers. When a packet is selected in the list pane, its details are presented, typically spanning five to seven logical sections 
+that correspond to the OSI layers. Clicking on a specific detail within the protocol dissection pane automatically highlights the 
+corresponding raw bytes in the packet bytes pane, demonstrating exactly where that data exists in the frame.
+
+### A packet dissection typically includes the following layers:
+
+* **The Frame (Layer 1 - Physical):** Contains information specific to the captured frame, representing details associated with
+  the Physical layer of the OSI model.
+* **Source [MAC] (Layer 2 - Data Link):** Displays the source and destination MAC addresses, information originating from the
+  Data Link layer.
+* **Source [IP] (Layer 3 - Network):** Provides the source and destination IPv4 addresses, corresponding to the Network layer.
+* **Protocol (Layer 4 - Transport):** Details the protocol used (TCP or UDP) along with the source and destination port numbers,
+  originating from the Transport layer.
+* **Protocol Errors (Continuation of Layer 4):** This section specifically highlights segments related to TCP that required
+  reassembly, indicating potential fragmentation or out-of-order delivery issues.
+* **Application Protocol (Layer 5/7 - Application):** Shows details specific to the high-level protocol in use, such as HTTP,
+  FTP, or SMB, which aligns with the Application layer of the OSI model.
+* **Application Data (Extension of Layer 5/7):** An extension that reveals the application-specific data payload carried within
+  the packet.
+
+| Description | OSI Layer |
+| :--- | :--- |
+| The Frame/Packet details | Layer 1 (Physical) |
+| Source and Destination MAC Addresses | Layer 2 (Data Link) |
+| Source and Destination IP Addresses | Layer 3 (Network) |
+| TCP/UDP, Source and Destination Ports | Layer 4 (Transport) |
+| Protocol Errors (TCP reassembly) | Layer 4 (Transport) |
+| High-level protocol (HTTP, FTP, SMB) | Layer 5/7 (Application) |
+| Application-specific payload | Layer 5/7 (Application) |
+
+---
+
+### Key Takeaways
+
+* Packet dissection decodes captured network traffic fields based on the structured **OSI model**.
+* Wireshark visually links the hierarchical protocol details to the raw packet bytes.
+* Packet dissection typically shows layers for **Frame** (L1), **MAC** (L2), **IP** (L3), **Protocol** (L4), and
+  **Application** (L5/L7).
+* The **Protocol Errors** section within Layer 4 highlights reassembled TCP segments, which is relevant for forensic analysis.
+
+
+
+
 
 
