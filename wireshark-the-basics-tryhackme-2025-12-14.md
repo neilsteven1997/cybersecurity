@@ -218,7 +218,49 @@ Look at the expert info section. What is the number of warnings?
 - `1636`
 
 ---
+## Wireshark Filtering and Advanced Analysis
 
+Wireshark employs a powerful filter engine categorized into two approaches: **Capture Filters**, which constrain the packets 
+recorded during the sniffing process, and **Display Filters**, which selectively show already captured packets. While specific 
+queries using Wireshark’s protocol reference are the primary method, the graphical interface provides convenient, query-free 
+filtering methods. A key principle is that if a field can be selected in the details pane, it can be filtered or copied.
+
+The most basic method is **Apply as Filter**, accessible via the right-click menu or the `Analyse` menu. This instantly generates 
+and applies a display filter for the single, specific value selected, hiding all other packets and updating the packet count in 
+the status bar. When an analyst needs to focus on a complete communication session, the **Conversation Filter** is utilized. 
+This option filters all related packets based on source and destination addresses (IP and port numbers) linked to the selected 
+packet, easily isolating a specific conversation stream. 
+
+An alternative to filtering is **Colourise Conversation**. This highlights all linked packets in a specific color—overriding 
+default coloring rules—without applying a display filter or reducing the number of visible packets. This provides a quick visual 
+reference that can be reset via the `View` menu. The **Prepare as Filter** option differs from **Apply as Filter** in that it 
+populates the display filter bar with the generated query but does not execute it immediately, allowing the analyst to combine 
+it with other logic (using the `.. and/or ..` context menu options) before application.
+
+Beyond filtering, Wireshark allows customization of the visual output. **Apply as Column** lets the analyst add any selected 
+field from the packet details pane as a new column in the packet list pane. This is useful for horizontally tracking the 
+appearance and value of a specific field across multiple packets.
+
+For high-level application data reconstruction, **Follow Stream** is essential. Wireshark, by default, displays traffic in 
+packet segments, but the Follow Stream function reconstructs the application-layer payload, presenting the data as it was 
+sent. This is vital for viewing unencrypted data, such as credentials, and understanding the complete application flow. The 
+server-originated data is highlighted in blue, and client-originated data is in red. Executing a Follow Stream command 
+automatically generates and applies a corresponding display filter to isolate that stream; this filter must be manually cleared 
+using the 'X' button in the display filter bar to return to the full packet list.
+
+---
+
+### Key Takeaways
+
+* **Capture Filters** restrict traffic recorded; **Display Filters** restrict traffic viewed.
+* **Apply as Filter** immediately filters for a selected field value.
+* **Conversation Filter** isolates all packets belonging to a specific conversation (IP and port pairs).
+* **Colourise Conversation** visually highlights a conversation without applying a display filter.
+* **Prepare as Filter** stages a query in the filter bar for manual combination with other logic before execution.
+* **Apply as Column** adds a selected field's value to the packet list pane for cross-packet tracking.
+* **Follow Stream** reconstructs segmented protocol data (TCP/UDP/HTTP) into an application-level stream, crucial for viewing
+  unencrypted payloads.
+* Stream reconstruction results are color-coded (blue for server, red for client) and automatically apply a temporary display filter.
 
 
 
