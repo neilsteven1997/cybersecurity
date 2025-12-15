@@ -148,6 +148,60 @@ What is the e-tag value?
 ---
 ## Packet Navigation
 
+### Advanced Packet Analysis and Workflow Features
+
+Wireshark assigns a unique sequential number to every packet within a capture, simplifying the tracking of large datasets and 
+enabling quick navigation to specific events. The **Go to Packet** function, accessible via the toolbar or the **Go** menu, 
+allows for precise navigation, not just by packet number, but also by tracking conversational context, moving between related 
+frames within a session. 
+
+Beyond simple numerical access, the **Find Packet** feature permits content-based searching across the capture. This functionality 
+is crucial for identifying specific intrusion patterns or network failure traces. The search accepts four input types: Display 
+Filter, Hex, String, and Regular Expression (Regex), with String and Regex being the most common. Searches are case-insensitive 
+by default but can be made case-sensitive. Critically, the user must specify the correct search field, choosing between the 
+Packet List, Packet Details, or Packet Bytes panes, as searching in the wrong pane will prevent a successful match even if the 
+content exists.
+
+Workflow efficiency is enhanced by **Marking Packets** and **Packet Comments**. Marking packets flags specific frames in black 
+for immediate visual reference, facilitating later investigation or scoped exportation. However, marked packet information is 
+ephemeral and is reset upon closing the capture file. In contrast, **Packet Comments** allow analysts to add persistent notes 
+to individual packets, which are saved within the capture file and are visible to subsequent investigators.
+
+For data management, Wireshark supports the **Export Packets** function, necessary when isolating a limited scope of suspicious 
+traffic from a large file for deeper incident analysis. This ensures only relevant data is shared, eliminating extraneous 
+information. Additionally, the **Export Objects (Files)** feature allows analysts to extract files transferred over specific 
+application protocol streams—such as DICOM, HTTP, IMF, SMB, and TFTP—for malware analysis or digital forensics.
+
+The **Time Display Format** is a critical setting, as Wireshark defaults to displaying time as "Seconds Since Beginning of 
+Capture." For proper forensic correlation and a more conventional view, changing this to **UTC Time Display Format** is 
+commonly recommended via the **View** menu.
+
+Finally, Wireshark provides **Expert Info**, a built-in feature that actively detects protocol states and suggests possible 
+anomalies or problems to the analyst.  While these are only suggestions and require manual validation to mitigate false 
+positives/negatives, they are categorized by severity and function: **Chat** (Blue - informational workflow), **Note** 
+(Cyan - notable events like application errors), **Warn** (Yellow - unusual errors or problem statements), and **Error** 
+(Red - definitive problems like malformed packets). Common groups include `Checksum` errors, `Deprecated` protocol usage, 
+`Comment` detection, and `Malformed` packet detection. The Expert Information dialog box, accessible via the Status Bar or 
+the **Analyze** menu, provides a consolidated view of all detected entries by packet number, summary, and protocol group.
+
+| Description | Input Types for Find Packet |
+| :--- | :--- |
+| Search by content inside packets | Display filter, Hex, String, Regex |
+| Command to access Packet Find menu | `Edit --> Find Packet` |
+
+---
+
+### Key Takeaways
+
+* **Packet Numbers** facilitate tracking, while the **Go to Packet** function enables conversation-aware navigation.
+* The **Find Packet** feature supports four input types (Filter, Hex, String, Regex) but requires selection of the correct search
+  pane (List, Details, Bytes).
+* **Marked Packets** (ephemeral) visually flag events, while **Packet Comments** (persistent) save notes within the capture file.
+* **Export Packets** and **Export Objects** are used to scope data for further analysis, isolating suspicious traffic or
+  extracted files from supported protocols (DICOM, HTTP, IMF, SMB, TFTP).
+* Switching the **Time Display Format** to UTC is a best practice for forensic correlation.
+* **Expert Info** (categorized as Chat, Note, Warn, Error) provides automated protocol state detection and suggests potential
+  anomalies.
 
 
 
