@@ -262,7 +262,23 @@ using the 'X' button in the display filter bar to return to the full packet list
   unencrypted payloads.
 * Stream reconstruction results are color-coded (blue for server, red for client) and automatically apply a temporary display filter.
 
+---
+Use the "Exercise.pcapng" file to answer the questions.
+Go to packet number 4. Right-click on the "Hypertext Transfer Protocol" and apply it as a filter.
+Now, look at the filter pane. What is the filter query?
+- `http`
 
+What is the number of displayed packets?
+- `1089`
+
+Go to packet number 33790, follow the HTTP stream, and look carefully at the responses.
+Looking at the web server's response, what is the total number of artists?
+- `3`
+
+What is the name of the second artist?
+- `Blad3`
+
+---
 
 
 
