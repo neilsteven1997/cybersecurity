@@ -1,0 +1,129 @@
+cybersecurity-writeups/ (root)
+├── README.md                  ← Your portfolio intro (title, about you, progress, links to phases)
+├── /writeups/                 ← All your .md files go here
+│   ├── /aoc-2025/             ← Folder for Advent of Cyber 2025
+│   │   ├── day-14-containers-doordashers-demise.md
+│   │   ├── day-13-xxx.md
+│   │   └── ... 
+│   ├── /wireshark/
+│   │   ├── wireshark-basics.md
+│   │   └── wireshark-advanced.md
+│   └── /other-platforms/      ← Future HackTheBox, etc.
+├── /images/                   ← All screenshots
+│   ├── /aoc-2025/
+│   │   ├── day-14-container-output.png
+│   │   └── ...
+│   └── /wireshark/
+│       └── http-filter.png
+├── /videos/                   ← Loom/YouTube unlisted links or small MP4s (<100MB)
+│   └── aoc-day-14-walkthrough.mp4
+└── /evidence/                 ← Sheet screenshots, hour totals, cert badges
+
+---
+# TryHackMe - Advent of Cyber 2025 - Day 14: Containers Doordashers Demise
+
+**Date Completed**: 16 December 2025  
+**Platform**: TryHackMe - Advent of Cyber 2025  
+**Difficulty**: Medium  
+**Time Spent**: 2.5 hours  
+**Key Topics**: Docker Containers, Privilege Escalation, Container Breakout  
+
+## Objective
+The goal of this room was to identify misconfigured Docker containers, enumerate running services, and achieve privilege escalation to root via container escape techniques.
+
+## Tools Used
+- nmap
+- docker CLI
+- curl
+- linpeas / pspy (for enumeration)
+
+## Step-by-Step Walkthrough
+
+1. **Initial Enumeration**  
+   Performed a full port scan on the target machine:  
+
+
+![Nmap scan results showing open ports](images/aoc-2025/day-14-nmap-scan.png)
+
+2. **Identifying Docker Socket Exposure**  
+Discovered the Docker socket was accessible via a web service.  
+Used curl to list running containers:  
+
+
+![Docker containers list output](images/aoc-2025/day-14-docker-list.png)
+
+3. **Container Escape**  
+Entered the vulnerable container and mounted the host filesystem to gain root access.
+
+![Successful root shell after container breakout](images/aoc-2025/day-14-root-flag.png)
+
+## Key Takeaways
+- Always restrict Docker socket exposure in production.
+- Misconfigured privileges can lead to full host compromise.
+- Regular auditing of running containers is essential.
+
+## Video Walkthrough
+Full explanation with screen + face recording:  
+[Watch the 4-minute walkthrough here](https://www.loom.com/share/your-loom-link-or-unlisted-youtube)
+
+## References
+- TryHackMe Room Link: https://tryhackme.com/room/adventofcyber2025
+
+---
+
+*This write-up follows my standard portfolio format: formal structure, embedded screenshots, and optional video link for maximum clarity.*
+
+
+
+
+
+---
+#
+##
+###
+>[!NOTE]
+>contents here
+>[!TIP]
+>contents here
+>[!WARNING]
+>contents here
+>[!CAUTION]
+>contents here
+
+Use Case
+Shortcode
+Example
+Vulnerability Found
+:bug:
+:bug: SQL Injection Found
+Fix/Remediation
+:wrench:
+Remediation Steps :wrench:
+Technical Tool/Code
+:terminal:
+PowerShell Execution :terminal:
+Impact/Danger
+:rotating_light:
+CRITICAL RISK :rotating_light:
+
+
+Feature,Standard GFM Syntax,Purpose
+Obsolete/Deleted Text,~~text~~ (Strikethrough),Use this for all obsolete information.
+
+New/Added Text,**text** (Bold),"Use bold or italics to emphasize new, added text."
+
+Code/Files,`text` (Inline Code),Use this for commands or file names.
+
+
+Horizontal Rule
+You already know about using --- but you can also use three asterisks (***) or three underscores (___). Use these 
+strategically to create a strong visual separation between major sections (like separating the Technical Analysis 
+from the Opinion).
+---
+### 4. Strategic Cyber Opinion
+---
+
+
+
+
+
