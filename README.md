@@ -1,4 +1,4 @@
-# neilsteven1997 / cybersecurity-writeups
+# neilsteven1997 Cybersecurity Writeups
 
 ---
 My focus is on the actionable side of security: transforming theory into deployable code. This portfolio contains CTF write-ups, custom reconnaissance scripts, and Purple Team playbooks developed to harden systems against real-world TTPs. Active contributor to open-source defense projects. Let's connect on threat intelligence.
