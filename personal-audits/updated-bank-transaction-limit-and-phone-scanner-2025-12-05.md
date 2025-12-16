@@ -1,0 +1,3 @@
+- updated my PalawanPay payment account daily and monthly transaction limit to 2,000 pesos.
+- updated cellphone applications 
+- updated virus definition and ran smart scan on my phone 

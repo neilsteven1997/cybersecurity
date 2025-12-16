@@ -1,0 +1,1 @@
+- installed and used Google authenticator for my gametester.gg account

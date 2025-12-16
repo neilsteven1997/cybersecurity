@@ -1,0 +1,6 @@
+- Updated my bank accounts: UNO, BPI, MariBank 
+- Set-up transaction limits; maximum transaction amount, maximum daily limit, qr code payment maximum amount, other bank
+- transfer maximum amount, similar bank transfer maximum amount
+- Changed pin for UNO bank 
+- Updated Esset Security virus definitions on my phone, and ran smart scan
+- Checked my Gmail, found a common phishing PayPal invoice email and reported it 

@@ -1,0 +1,1 @@
+- installed TrueCaller app on my phone, and blocked the unknown numbers harassing me to pay money  

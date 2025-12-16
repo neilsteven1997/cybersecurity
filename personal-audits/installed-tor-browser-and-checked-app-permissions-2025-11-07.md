@@ -1,0 +1,2 @@
+- installed TOR browser as default browser 
+- checked app permissions on my phone for anything unusual 

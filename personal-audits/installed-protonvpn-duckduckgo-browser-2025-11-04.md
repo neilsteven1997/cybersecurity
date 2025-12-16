@@ -1,0 +1,2 @@
+- installed ProtonVPN and verified my internet browsing privacy 
+- installed DuckDuckGo browser for internet browsing privacy 

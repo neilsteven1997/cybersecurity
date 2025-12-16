@@ -1,0 +1,6 @@
+- did a reverse search on my digital footprints, images, videos, and texts 
+- updated my X account searchability to private 
+- updated my Facebook account privacy 
+- enabled Google phone book syncing
+- enabled Google apps Google Drive backup on my phone 
+- ran my Infinix phone’s cloud storage backup  
