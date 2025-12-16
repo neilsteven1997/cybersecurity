@@ -19,6 +19,18 @@ cybersecurity-writeups/ (root)
 │   └── aoc-day-14-walkthrough.mp4
 └── /evidence/                 ← Sheet screenshots, hour totals, cert badges
 
+
+--
+# Moving files, creating directories 
+Quick Execution StepsOn main branch.
+1. Create the folders:Add file → writeups/images/.gitkeep
+2. blog/images/.gitkeep
+3. personal-audits/images/.gitkeep
+
+Upload your screenshots into the matching category images folder.
+In your .md files, embed with relative path:
+![Scam screenshot](images/scam-call-blurred.png) (from inside /blog/)
+
 ---
 # TryHackMe - Advent of Cyber 2025 - Day 14: Containers Doordashers Demise
 
