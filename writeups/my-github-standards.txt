@@ -1,24 +1,19 @@
-cybersecurity-writeups/ (root)
-├── README.md                  ← Your portfolio intro (title, about you, progress, links to phases)
-├── /writeups/                 ← All your .md files go here
-│   ├── /aoc-2025/             ← Folder for Advent of Cyber 2025
-│   │   ├── day-14-containers-doordashers-demise.md
-│   │   ├── day-13-xxx.md
-│   │   └── ... 
-│   ├── /wireshark/
-│   │   ├── wireshark-basics.md
-│   │   └── wireshark-advanced.md
-│   └── /other-platforms/      ← Future HackTheBox, etc.
-├── /images/                   ← All screenshots
+cybersecurity-writeups/ (main)
+├── README.md
+├── /writeups/
 │   ├── /aoc-2025/
-│   │   ├── day-14-container-output.png
-│   │   └── ...
-│   └── /wireshark/
-│       └── http-filter.png
-├── /videos/                   ← Loom/YouTube unlisted links or small MP4s (<100MB)
-│   └── aoc-day-14-walkthrough.mp4
-└── /evidence/                 ← Sheet screenshots, hour totals, cert badges
-
+│   ├── /wireshark/
+│   └── images/ (nested)
+├── /blog/
+│   └── images/ (nested)
+├── /personal-audits/
+│   └── images/ (nested)
+├── /evidence/                  ← ADD THIS TODAY
+│   ├── hours-dec2025.png
+│   ├── thm-profile-dec2025.png
+│   ├── milestones.md
+│   └── certificates/ (empty for now)
+└── my-github-standards.txt    ← Keep this, it's good
 
 --
 # Moving files, creating directories 
