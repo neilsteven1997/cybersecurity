@@ -34,7 +34,7 @@ isolated service units.
 
 ---
 
-###Key Takeaways* Containers isolate applications and dependencies while sharing the host OS kernel, making them more 
+## Key Takeaways* Containers isolate applications and dependencies while sharing the host OS kernel, making them more 
 resource-efficient than Virtual Machines.
 * Microservices allow for granular scaling of specific application functions rather than scaling a full monolith.
 * Docker leverages namespaces and cgroups to maintain process isolation and resource management.
