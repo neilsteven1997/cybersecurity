@@ -1,6 +1,11 @@
 # Containers - DoorDasher's Demise
 
 ---
+<p align="center">
+  <img src="day-14-aoc-tryhackme-images-content-container" alt="Tryhackme Container Image" 
+  width="450"/>
+</p>
+
 Containerization functions as a technical solution for modern application complexity by encapsulating software and its dependencies 
 within isolated environments. Unlike virtual machines, which require a hypervisor and a complete guest operating system to function, 
 containers share the host system’s kernel. This architectural difference allows containers to remain lightweight and achieve faster 
