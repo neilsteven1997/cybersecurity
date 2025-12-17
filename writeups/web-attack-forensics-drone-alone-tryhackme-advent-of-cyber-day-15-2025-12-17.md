@@ -5,13 +5,13 @@
 <p align="center">
   <table>
     <tr>
-      <td><img src="images/writeups/images/day-15-aoc-splunk-1.png" alt="The first thing you see in Splunk" 
+      <td><img src="writeups/images/day-15-aoc-splunk-1.png" alt="The first thing you see in Splunk" 
   width="450"/>
-      <td><img src="images/writeups/images/day-15-aoc-splunk-2.png" alt="Splunk Search" width="400"/></td>
+      <td><img src="writeups/images/day-15-aoc-splunk-2.png" alt="Splunk Search" width="400"/></td>
     </tr>
     <tr>
       <td align="center"><strong>Figure 1a:</strong> Logged-in to Splunk</td>
-      <td align="center"><strong>Figure 1b:</strong> Splunk Search</td>
+      <td align="center"><strong>Figure 1b:</strong> Splunk search</td>
     </tr>
   </table>
 </p>
