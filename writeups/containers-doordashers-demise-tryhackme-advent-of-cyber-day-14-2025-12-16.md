@@ -56,7 +56,7 @@ After mounting the host filesystem from the compromised container, the target Do
     <tr>
       <td><img src="images/day-14-aoc-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
   width="450"/>
-      <td><img src="images/day-14-aoc-restored-website.png" alt="Restored website" width="400"/></td>
+      <td><img src="images/day-14-aoc-restored-website.png" alt="Restored website" width="450"/></td>
     </tr>
     <tr>
       <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
