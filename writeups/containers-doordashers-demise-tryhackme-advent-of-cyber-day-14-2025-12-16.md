@@ -44,8 +44,15 @@ resource-efficient than Virtual Machines.
 * Security audits should prioritize identifying privileged containers or containers with direct API access to the host.
 
 ---
-![DoorDash website defaced with "Hopperoo" message after successful container escape](images/day14-2025-defaced-website.png)
+### Successful Exploitation
 
+After mounting the host filesystem from the compromised container, the target DoorDash website was defaced:
+
+<img src="images/day-14-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" width="800"/>
+
+**Figure 1:** Defaced DoorDash website displaying the "Hopperoo" message, proof of full system compromise.
+
+---
 What exact command lists running Docker containers?
 - `docker ps`
 
