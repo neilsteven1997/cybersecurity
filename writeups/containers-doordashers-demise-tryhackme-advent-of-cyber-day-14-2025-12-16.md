@@ -2,7 +2,7 @@
 
 ---
 <p align="center">
-  <img src="images/day-14-aoc-tryhackme-images-content-container" alt="Tryhackme Container Image" 
+  <img src="images/day-14-aoc-tryhackme-container.png" alt="Tryhackme Container Image" 
   width="450"/>
 </p>
 
