@@ -1,6 +1,21 @@
 # Web Attack Forensics - Drone Alone
 
 ---
+### Today, we are using Splunk
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/writeups/images/day-15-aoc-splunk-1.png" alt="The first thing you see in Splunk" 
+  width="450"/>
+      <td><img src="images/writeups/images/day-15-aoc-splunk-2.png" alt="Splunk Search" width="400"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Logged-in to Splunk</td>
+      <td align="center"><strong>Figure 1b:</strong> Splunk Search</td>
+    </tr>
+  </table>
+</p>
+
 
 Forensic investigation of web-based attacks requires a multi-layered approach to log analysis, specifically targeting the 
 intersection of web server access, error logs, and endpoint process telemetry. When auditing environments for potential compromise, 
