@@ -57,5 +57,12 @@ Bonus Question: There is a secret code contained within the news site running on
 password for the deployer user! They should definitely change their password. Can you find it?  
 - `DeployMaster2025!`
 
+---
+>[!Note]
+>### You did it! Wareville is one step safer.
+>The townsfolk are counting on you to keep Christmas secure.
+>Head back to Wareville to continue your mission!
+
+
 
 
