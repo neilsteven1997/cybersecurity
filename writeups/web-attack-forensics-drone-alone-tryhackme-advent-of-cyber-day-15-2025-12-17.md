@@ -61,6 +61,59 @@ potential injection vectors.
   intent.
 
 ---
+### More on Splunk Forensics
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/day-15-aoc-extracting-hacker-command.png" alt="Extracting hacker's command" 
+  width="450"/>
+      <td><img src="images/day-15-aoc-decoded-hacker-command.png" alt="Decoded hacker's command" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 2a:</strong> Extracting the hacker's command</td>
+      <td align="center"><strong>Figure 2b:</strong> Decoded hacker's command</td>
+    </tr>
+    <tr>
+      <td><img src="images/day-15-aoc-unrecognized-server-commands.png" alt="Unrecognized server commands" 
+  width="450"/>
+      <td><img src="images/day-15-aoc-default-view-system-ran-unusual-processes-like-cmd.exe-powershell.png" alt="The system ran unusual processes" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 3a:</strong> Unrecognized server commands</td>
+      <td align="center"><strong>Figure 3b:</strong> The system ran unusual processes</td>
+    </tr>
+        <tr>
+      <td><img src="images/day-15-aoc-table-view-system-ran-unusual-processes-like-cmd.exe-powershell.png" alt="The system ran unusual processes - table view" 
+  width="450"/>
+      <td><img src="images/day-15-aoc-hackers-use-whoami-to-determine-the-user.png" alt="The hacker used whoami command to determine the user" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> The system ran unusual processes - table view</td>
+      <td align="center"><strong>Figure 4b:</strong> Hacker used whoami command to determine user</td>
+    </tr>
+        <tr>
+      <td><img src="images/day-15-aoc-the-command-muahahaha-was-never-ran.png" alt="The hacker command muahahaha was never ran" 
+  width="450"/>
+      <td><img src="images/day-15-aoc-default-view-system-ran-unusual-processes-like-cmd.exe-powershell.png" alt="The system ran unusual processes" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 5a:</strong> The hacker command muahahaha was never ran</td>
+      <td align="center"><strong>Figure 5b:</strong> ---</td>
+    </tr>
+    
+  </table>
+</p>
+
+
+
+
+
+
+
+
+
+
+---
 What is the reconnaissance executable file name?
 - `whoami.exe`
 
