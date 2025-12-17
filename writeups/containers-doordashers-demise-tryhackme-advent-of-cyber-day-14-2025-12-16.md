@@ -3,7 +3,7 @@
 ---
 <p align="center">
   <img src="images/day-14-aoc-tryhackme-container.png" alt="Tryhackme Container Image" 
-  width="450"/>
+  width="500"/>
 </p>
 
 Containerization functions as a technical solution for modern application complexity by encapsulating software and its dependencies 
