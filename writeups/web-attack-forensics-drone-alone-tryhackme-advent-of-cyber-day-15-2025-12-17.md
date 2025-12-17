@@ -47,4 +47,16 @@ potential injection vectors.
   intent.
 
 ---
+What is the reconnaissance executable file name?
+- `whoami.exe`
+
+What executable did the attacker attempt to run through the command injection?
+- `PowerShell.exe`
+
+---
+>[!Note]
+>### You did it! Wareville is one step safer.
+>The townsfolk are counting on you to keep Christmas secure.
+>Head back to Wareville to continue your mission!
+
 
