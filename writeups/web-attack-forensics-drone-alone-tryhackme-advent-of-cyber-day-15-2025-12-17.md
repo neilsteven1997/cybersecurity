@@ -94,11 +94,9 @@ potential injection vectors.
         <tr>
       <td><img src="images/day-15-aoc-the-command-muahahaha-was-never-ran.png" alt="The hacker command muahahaha was never ran" 
   width="450"/>
-      <td><img src="images/day-15-aoc-default-view-system-ran-unusual-processes-like-cmd.exe-powershell.png" alt="The system ran unusual processes" width="450"/></td>
     </tr>
      <tr>
       <td align="center"><strong>Figure 5a:</strong> The hacker command muahahaha was never ran</td>
-      <td align="center"><strong>Figure 5b:</strong> ---</td>
     </tr>
     
   </table>
