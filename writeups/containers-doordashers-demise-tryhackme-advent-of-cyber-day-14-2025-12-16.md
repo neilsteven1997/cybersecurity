@@ -44,6 +44,8 @@ resource-efficient than Virtual Machines.
 * Security audits should prioritize identifying privileged containers or containers with direct API access to the host.
 
 ---
+![The evil bunnies defaced the DoorDash website into Hopperoo](images/day14-2025-defaced-website.png) (from inside /writeups/)
+
 What exact command lists running Docker containers?
 - `docker ps`
 
