@@ -65,7 +65,7 @@ After mounting the host filesystem from the compromised container, the target Do
     <tr>
       <td><img src="images/day-14-aoc-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
   width="450"/>
-      <td><img src="images/day-14-aoc-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="400"/></td>
+      <td><img src="images/day-14-aoc-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
     </tr>
      <tr>
       <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
