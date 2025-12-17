@@ -5,8 +5,8 @@
 <p align="center">
   <table>
     <tr>
-      <td><img src="writeups/images/day-15-aoc-splunk-1.png" alt="The first thing you see in Splunk" width="450"/></td>
-      <td><img src="writeups/images/day-15-aoc-splunk-2.png" alt="Splunk search" width="400"/></td>
+      <td><img src="images/day-15-aoc-splunk-1.png" alt="The first thing you see in Splunk" width="450"/></td>
+      <td><img src="images/day-15-aoc-splunk-2.png" alt="Splunk search" width="400"/></td>
     </tr>
     <tr>
       <td align="center"><strong>Figure 1a:</strong> Logged-in to Splunk</td>
@@ -14,8 +14,6 @@
     </tr>
   </table>
 </p>
-
-
 
 
 Forensic investigation of web-based attacks requires a multi-layered approach to log analysis, specifically targeting the 
