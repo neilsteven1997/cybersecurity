@@ -35,7 +35,7 @@ malware delivery and script execution while attempting to evade signature-based 
 
 ---
 
-### Key Takeaways* Monitor web access logs for system-level keywords and Base64-encoded strings within URI queries to identify 
+### Key Takeaways Monitor web access logs for system-level keywords and Base64-encoded strings within URI queries to identify 
 potential injection vectors.
 * Audit HTTP 500 error logs for shell references, as they often mark the boundary between a blocked attempt and a backend
   execution failure.
