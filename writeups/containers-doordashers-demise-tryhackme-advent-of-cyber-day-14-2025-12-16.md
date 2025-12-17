@@ -57,10 +57,25 @@ After mounting the host filesystem from the compromised container, the target Do
       <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
       <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
     </tr>
+    <tr>
+      <td><img src="images/day-14-aoc-docker-bash.png" alt="Using docker bash to find the flag" 
+  width="450"/>
+      <td><img src="images/day-14-aoc-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="400"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Using docker bash to find the flag</td>
+      <td align="center"><strong>Figure 2b:</strong> Incrementing the number on link to find secret code</td>
+    </tr>
   </table>
 </p>
 
-**Figure 1:** Defaced DoorDash website displaying the "Hopperoo" message, proof of full system compromise.
+
+
+
+
+
+
+
 
 ---
 What exact command lists running Docker containers?
