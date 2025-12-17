@@ -58,7 +58,7 @@ After mounting the host filesystem from the compromised container, the target Do
       <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
     </tr>
     <tr>
-      <td><img src="images/day-14-aoc-deployer-bash.png" alt="Using deployer bash to find the flag" 
+      <td><img src="images/day-14-aoc-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
   width="450"/>
       <td><img src="images/day-14-aoc-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="400"/></td>
     </tr>
