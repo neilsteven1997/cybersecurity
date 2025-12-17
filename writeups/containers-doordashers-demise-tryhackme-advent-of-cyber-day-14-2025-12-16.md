@@ -45,10 +45,20 @@ resource-efficient than Virtual Machines.
 
 ---
 ### Successful Exploitation
-
 After mounting the host filesystem from the compromised container, the target DoorDash website was defaced:
-
-<img src="images/day-14-aoc-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" width="450"/>
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/day-14-aoc-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+  width="450"/>
+      <td><img src="images/day-14-aoc-restored-website.png" alt="Restored website" width="400"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
+      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+    </tr>
+  </table>
+</p>
 
 **Figure 1:** Defaced DoorDash website displaying the "Hopperoo" message, proof of full system compromise.
 
