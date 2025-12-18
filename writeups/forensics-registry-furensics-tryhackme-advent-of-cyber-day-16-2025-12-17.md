@@ -6,7 +6,7 @@
 <p align="center">
   <table>
     <tr>
-      <td><img src="images/day-16-aoc-registry-explorer-01.png" alt="The Registry Explorer" 
+      <td><img src="images/day-16-aoc-registry-explorer.png" alt="The Registry Explorer" 
   width="450"/>
       <td><img src="images/day-16-aoc-software-hive.png" alt="Opened up the Software Hive" width="450"/></td>
     </tr>
