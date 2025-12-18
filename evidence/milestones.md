@@ -1,13 +1,14 @@
 # Cybersecurity Self-PhD Milestones
 
 ---
-**Future Targets**
+## Future Targets
 - Q1 2026: Complete Google Cybersecurity Professional Certificate
 - Q1 2026: Earn CompTIA Security+ 
 - Reach 1,000 documented learning hours
 - Land first cybersecurity role
 
-**Latest updates first — documenting consistent progress**
+---
+## Latest updates first — documenting consistent progress**
 - **December 19, 2025**: Completed TryHackMe Windows Hive forensics room
 - **December 18, 2025**: Added visual storytelling (side-by-side images, captions) to Advent of Cyber Day 14 write-up
 - **December 17, 2025**: Restructured repository with /evidence/ folder and began tracking hours dashboard
