@@ -41,7 +41,7 @@ vital for reconstructing an incident timeline.
 | List of installed applications | `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall` |
 | Replaying transaction logs in Registry Explorer | `Hold SHIFT while clicking Open` |
 
-###Key Takeaways* Windows Registry hives are binary files stored on the disk that require specialized parsers for viewing.
+### Key Takeaways* Windows Registry hives are binary files stored on the disk that require specialized parsers for viewing.
 * System-wide hives are located in `C:\Windows\System32\config\`, while user hives reside in the `C:\Users\username\` directory.
 * Forensics must be performed offline to avoid evidence tampering and to ensure all data is readable.
 * Dirty hives require the replay of transaction logs to provide a consistent and accurate view of the data.
