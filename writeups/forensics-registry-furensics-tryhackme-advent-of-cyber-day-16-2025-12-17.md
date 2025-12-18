@@ -17,8 +17,6 @@
   </table>
 </p>
 
-
-
 The Windows Registry serves as the central hierarchical database for the operating system, storing essential configuration data, 
 hardware profiles, and user preferences. Architecturally, the registry is not a single entity but is composed of several discrete 
 binary files known as hives. These hives are located at specific paths on the disk, with system-wide hives like SYSTEM, SOFTWARE, 
@@ -63,6 +61,38 @@ vital for reconstructing an incident timeline.
 * Dirty hives require the replay of transaction logs to provide a consistent and accurate view of the data.
 * Specific registry keys track USB history, file access, command execution, and system persistence.
 * Registry Explorer is the preferred tool for parsing hives and handling transaction log replays during an investigation.
+
+---
+### The Investigation
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/day-16-aoc-opening-software-hive.png" alt="Opening Software Hive" 
+  width="450"/>
+      <td><img src="images/day-16-aoc-dispatch-srv01.png" alt="Dispatch-srv01 machine" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 2a:</strong> Opening Software Hive</td>
+      <td align="center"><strong>Figure 2b:</strong> Dispatch-srv01 machine</td>
+    </tr>  
+    <tr>
+      <td><img src="images/day-16-aoc-uninstalled-app-dronemanager-updater.png" alt="Uninstalled App Dronemanager updater" 
+  width="450"/>
+      <td><img src="images/day-16-aoc-ntuserdat-hive-app-installation-path.png" alt="NTUSER.DAT Hive App Installation Path" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 3a:</strong> Uninstalled App Dronemanager updater</td>
+      <td align="center"><strong>Figure 3b:</strong> NTUSER.DAT Hive App Installation Path</td>
+    </tr>
+  <tr>
+      <td><img src="images/day-16-aoc-software-hive-run.png" alt="Software Hive Run" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Software Hive Run - Running Applications</td>
+    </tr>
+  </table>
+</p>
 
 ---
 What application was installed on the dispatch-srv01 before the abnormal activity started?
