@@ -37,8 +37,7 @@ to identify the specific sequence of operations and any embedded keys or salts r
 | Conversion from Hexadecimal string to plaintext | `From Hex` |
 
 ---
-### Key Takeaways - Encoding is utilized for system compatibility and speed, while encryption is designed for security and 
-data confidentiality.
+### Key Takeaways - Encoding is utilized for system compatibility and speed, while encryption is designed for security and data confidentiality.
 * CyberChef allows for the creation of chained "recipes," enabling complex multi-stage data processing and reversal.
 * The XOR operation is its own inverse; XORing the output with the original key yields the initial input.
 * MD5 is a one-way cryptographic hash; while it cannot be mathematically reversed, precomputed tables can be used for hash
