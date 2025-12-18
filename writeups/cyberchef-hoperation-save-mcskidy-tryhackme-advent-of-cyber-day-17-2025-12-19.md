@@ -40,10 +40,10 @@ to identify the specific sequence of operations and any embedded keys or salts r
 
 ---
 ### Key Takeaways - Encoding is utilized for system compatibility and speed, while encryption is designed for security and data confidentiality.
-* `CyberChef` allows for the creation of chained "recipes," enabling complex multi-stage data processing and reversal.
+* `[CyberChef](https://gchq.github.io/CyberChef/)` allows for the creation of chained "recipes," enabling complex multi-stage data processing and reversal.
 * The XOR operation is its own inverse; XORing the output with the original key yields the initial input.
 * MD5 is a one-way cryptographic hash; while it cannot be mathematically reversed, precomputed tables can be used for hash
-  identification. `CrackStation` utilizes precomputed rainbow tables to perform near-instantaneous lookups of cryptographic hashes.
+  identification. `[CrackStation](https://crackstation.net/)` utilizes precomputed rainbow tables to perform near-instantaneous lookups of cryptographic hashes.
 * Browser developer tools are essential for identifying hidden login logic, transformation sequences, and header-based metadata.
 * Substitution ciphers like ROT13 and ROT47 are common obfuscation techniques that require specific rotational shifts to decode.
 * Multi-layered decoding strategies often involve reversing the order of operations used during the initial encoding or obfuscation
