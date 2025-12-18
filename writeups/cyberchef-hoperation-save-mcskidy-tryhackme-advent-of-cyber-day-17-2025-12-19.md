@@ -2,21 +2,23 @@
 
 ---
 
-Data transformation within security operations frequently requires a clear distinction between encoding and encryption. Encoding 
-serves to ensure data compatibility across disparate systems and protocols, whereas encryption is intended strictly for 
+## Data transformation within security operations frequently requires a clear distinction between encoding and encryption. 
+Encoding serves to ensure data compatibility across disparate systems and protocols, whereas encryption is intended strictly for 
 confidentiality through the application of an algorithm and a secret key. In forensic and offensive analysis, CyberChef serves 
 as a modular framework for these transformations, allowing for the construction of recipes where individual operations are chained 
 to process input data sequentially. The ability to toggle specific operations within a recipe facilitates the debugging of complex 
 transformation strings, which is particularly useful when encountering nested obfuscation layers.
 
-Advanced analysis often involves reversing bitwise operations like XOR. The exclusive OR operation is fundamentally symmetrical; 
+---
+## Advanced analysis often involves reversing bitwise operations like XOR. The exclusive OR operation is fundamentally symmetrical; 
 applying the same key to the resulting data returns the original plaintext. This property is frequently leveraged in simple malware 
 obfuscation and basic authentication challenges. When dealing with one-way functions like the MD5 message-digest algorithm, 
 traditional reversal is not possible because the algorithm produces a fixed-size hash value from an input of any size. However, 
 for weak or common inputs, precomputed hash tables can be utilized to identify the original string, effectively bypassing the 
 one-way constraint through large-scale lookups.
 
-Complex authentication logic frequently incorporates multiple layers of obfuscation, requiring an analyst to work backward from 
+---
+## Complex authentication logic frequently incorporates multiple layers of obfuscation, requiring an analyst to work backward from 
 the final output. Techniques often include a combination of Base64, Hexadecimal representation, and substitution ciphers like 
 ROT13 or ROT47. ROT13 shifts alphabetical characters by thirteen positions, making it its own inverse within a standard 
 26-character alphabet. ROT47 expands this concept by shifting across a wider range of ASCII characters. Effective dissection 
