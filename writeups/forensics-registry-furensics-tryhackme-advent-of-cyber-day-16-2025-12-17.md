@@ -3,6 +3,22 @@
 ---
 ## Investigate the Gifts Delivery Malfunctioning
 
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/day-16-aoc-registry-explorer-01.png" alt="The Registry Explorer" 
+  width="450"/>
+      <td><img src="images/day-16-aoc-software-hive.png" alt="Opened up the Software Hive" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> The Registry Explorer</td>
+      <td align="center"><strong>Figure 1b:</strong> Opened up the Software Hive</td>
+    </tr>
+  </table>
+</p>
+
+
+
 The Windows Registry serves as the central hierarchical database for the operating system, storing essential configuration data, 
 hardware profiles, and user preferences. Architecturally, the registry is not a single entity but is composed of several discrete 
 binary files known as hives. These hives are located at specific paths on the disk, with system-wide hives like SYSTEM, SOFTWARE, 
@@ -58,7 +74,11 @@ What is the full path where the user launched the application (found in question
 Which value was added by the application to maintain persistence on startup?
 - `"C:\Program Files\DroneManager\dronehelper.exe" --background`
 
---
+---
+>[!Note]
+>### You did it! Wareville is one step safer.
+>The townsfolk are counting on you to keep Christmas secure.
+>Head back to Wareville to continue your mission!
 
 
 
