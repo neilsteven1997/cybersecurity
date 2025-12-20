@@ -8,6 +8,11 @@
 - Land first cybersecurity role
 
 ---
+- **December 2025**: Achieved Intermediate Level (64 points) in Cisco Networking Academy Cybersecurity path Assessment
+
+
+
+
 ## Latest updates first — documenting consistent progress**
 - **December 19, 2025**: Completed TryHackMe Windows Hive forensics room
 - **December 18, 2025**: Added visual storytelling (side-by-side images, captions) to Advent of Cyber Day 14 write-up
