@@ -15,6 +15,25 @@ cybersecurity-writeups/ (main)
 │   └── certificates/ (empty for now)
 └── my-github-standards.txt    ← Keep this, it's good
 
+
+/evidence/
+├── /cisco/
+│   ├── introduction-to-cybersecurity-materials.pdf
+│   ├── intermediate-level-badge-64-points-dec2025.png
+│   └── cisco-progress-screenshot.png
+├── /tryhackme/
+│   ├── thm-profile-dec2025.png
+│   ├── advent-of-cyber-2025-completion.png (when done)
+│   └── streak-30days-dec2025.png
+├── /coursera/
+│   ├── google-cybersecurity-certificate-progress.png
+│   └── course-1-4-screenshots/
+├── hours-log-dec2025.png
+├── milestones.md
+└── README.md (optional short description)
+
+
+
 --
 # Moving files, creating directories 
 Quick Execution StepsOn main branch.
