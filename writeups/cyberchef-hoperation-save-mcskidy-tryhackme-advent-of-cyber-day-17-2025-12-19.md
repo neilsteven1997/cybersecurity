@@ -38,7 +38,18 @@ to identify the specific sequence of operations and any embedded keys or salts r
 | Reversal of the input string order | `Reverse` |
 | Conversion from Hexadecimal string to plaintext | `From Hex` |
 
---
+---
+
+
+
+
+
+
+
+
+
+---
+
 What is the password for the first lock?
 - `Iamsofluffy`
 
