@@ -8,9 +8,7 @@
 - Land first cybersecurity role
 
 ---
-- **December 2025**: Achieved Intermediate Level (64 points) in Cisco Networking Academy Cybersecurity path Assessment
-
-
+- **December 19, 2025**: Assessment - Achieved Intermediate Level (64 points) in Cisco Networking Academy Cybersecurity path 
 
 
 ## Latest updates first — documenting consistent progress**
