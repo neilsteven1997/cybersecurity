@@ -1,6 +1,19 @@
 # CyberChef - Hoperation Save McSkidy
 
 ---
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/day-17-aoc-king-malhares-fortress.png" alt="King Malhare's Fortress" 
+  width="450"/>
+      <td><img src="images/day-17-aoc-cyberchef-tool.png" alt="Cyberchef tool" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> King Malhare's Fortress</td>
+      <td align="center"><strong>Figure 1b:</strong> Cyberchef tool</td>
+    </tr>
+  </table>
+</p>
 
 ## Data transformation within security operations frequently requires a clear distinction between encoding and encryption. 
 Encoding serves to ensure data compatibility across disparate systems and protocols, whereas encryption is intended strictly for 
