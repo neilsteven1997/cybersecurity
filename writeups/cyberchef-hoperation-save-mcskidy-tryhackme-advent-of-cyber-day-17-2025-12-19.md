@@ -53,7 +53,47 @@ to identify the specific sequence of operations and any embedded keys or salts r
 
 ---
 
-
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/day-17-aoc-first-lock.png" alt="First Lock Image 1" 
+  width="450"/>
+      <td><img src="images/day-17-aoc-first-lock-img2.png" alt="First Lock Image 2" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 2a:</strong> First Lock Image 1</td>
+      <td align="center"><strong>Figure 2b:</strong> First Lock Image 2</td>
+    </tr>
+    <tr>
+      <td><img src="images/day-17-aoc-second-lock.png" alt="Second Lock" 
+  width="450"/>
+      <td><img src="images/day-17-aoc-third-lock.png" alt="Third Lock" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 3a:</strong> Second Lock</td>
+      <td align="center"><strong>Figure 3b:</strong> Third Lock</td>
+    </tr>
+        <tr>
+      <td><img src="images/day-17-aoc-fourth-lock.png" alt="Fourth Lock" 
+  width="450"/>
+      <td><img src="images/day-17-aoc-fifth-lock.png" alt="Fifth Lock" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Fourth Lock</td>
+      <td align="center"><strong>Figure 4b:</strong> Fifth Lock</td>
+    </tr>
+          <tr>
+      <td><img src="images/day-17-aoc-well-done-siege-master.png" alt="Well Done Siege Master!" 
+  width="450"/>
+      <td><img src="images/day-17-aoc-mcskiddy-rescued.png" alt="McSkiddy Rescued" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 5a:</strong> Well Done Siege Master!</td>
+      <td align="center"><strong>Figure 5b:</strong> McSkiddy Rescued</td>
+    </tr>
+  
+  </table>
+</p>
 
 
 
