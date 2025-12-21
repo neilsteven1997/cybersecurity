@@ -2,22 +2,29 @@
 
 ---
 ## Future Targets
-- Q1 2026: Complete Google Cybersecurity Professional Certificate
-- Q1 2026: Earn CompTIA Security+ 
-- Reach 1,000 documented learning hours
-- Land first cybersecurity role
+- 2026: Complete Tryhackme Learning Paths
+- 2026: Complete Cisco Networking Academy Learning Paths 
+- 2026: Complete Google Cybersecurity Professional Certificate
+- 2026: LinkedIn Cybersecurity Certificates
+- 2026: Coursera Cyber Security 
+- 2026: Earn CompTIA Security+ 
+- 2026: Reach 1,000 documented learning hours
+- 2026: Land first cybersecurity role
 
 ---
-- **December 19, 2025**: Assessment - Achieved Intermediate Level (64 points) in Cisco Networking Academy - Introduction to Cybersecurity
+## Latest updates first — documenting consistent progress**
+
+### Highlights:
+- **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
+
+### Achievements:
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy 
 - **December 21, 2025**: Cisco Networking Academy - Resource Specialist Module
 - **December 21, 2025**: Cisco Networking Academy - Network Defense Module
 - **December 21, 2025**: Cisco Networking Academy - System Safeguards Module
 - **December 21, 2025**: Cisco Networking Academy - Threat Analysis Module
 - **December 21, 2025**: Cisco Networking Academy - Cybersecurity Administration Module
-
-
-## Latest updates first — documenting consistent progress**
+- **December 19, 2025**: Assessment - Achieved Intermediate Level (64 points) in Cisco Networking Academy - Introduction to Cybersecurity
 - **December 19, 2025**: Completed TryHackMe Windows Hive forensics room
 - **December 18, 2025**: Added visual storytelling (side-by-side images, captions) to Advent of Cyber Day 14 write-up
 - **December 17, 2025**: Restructured repository with /evidence/ folder and began tracking hours dashboard
@@ -25,4 +32,3 @@
 - **December 2025**: Maintained 30+ day learning streak on TryHackMe
 - **December 2025**: 50+ TryHackMe rooms completed with detailed, visual write-ups
 - **November 2025**: Launched self-directed cybersecurity mastery program
-
