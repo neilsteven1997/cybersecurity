@@ -22,6 +22,8 @@ like compression, bitwise operations, and encoding. Successful deobfuscation req
 order of their application. When faced with unknown patterns, analysts use automated heuristic tools or "Magic" operations to 
 guess the underlying cipher through intensive testing of common decoding algorithms.
 
+---
+
 | Description | Code/Command |
 | --- | --- |
 | ROT1 obfuscated string example | `dbsspu dpjot hp css` |
@@ -31,6 +33,7 @@ guess the underlying cipher through intensive testing of common decoding algorit
 | Navigate to the script directory | `cd .\Desktop\` |
 | Execute the PowerShell script | `.\SantaStealer.ps1` |
 
+---
 ### Key Takeaways - Use ROT1 and ROT13 for basic character shifting where word structure remains visible but content is masked.
 * Employ XOR for byte-level transformation, noting that the resulting string length matches the original but may contain
   unreadable characters.
@@ -40,6 +43,6 @@ guess the underlying cipher through intensive testing of common decoding algorit
   obfuscation patterns.
 * Look for visual clues like "one letter off" words for ROT1 and the transformation of "the" to "gur" for ROT13.
 
-
+---
 
 
