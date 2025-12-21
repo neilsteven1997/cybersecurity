@@ -34,6 +34,23 @@ guess the underlying cipher through intensive testing of common decoding algorit
 | Execute the PowerShell script | `.\SantaStealer.ps1` |
 
 ---
+### Using Cyberchef
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/day-18-aoc-2025-northpole.png" alt="Northpole link" 
+  width="450"/>
+      <td><img src="images/day-18-aoc-2025-xor.png" alt="Xor && Hex" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Northpole link</td>
+      <td align="center"><strong>Figure 1b:</strong> Xor && Hex</td>
+    </tr>
+  </table>
+</p>
+
+
+---
 What is the first flag you get after deobfuscating the C2 URL and running the script?
 - `THM{C2_De0bfuscation_29838}`
 
