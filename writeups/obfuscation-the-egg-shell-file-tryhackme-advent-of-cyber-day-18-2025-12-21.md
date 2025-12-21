@@ -3,7 +3,7 @@
 ---
 ## Obfuscation & Deobfuscation
 
-Obfuscation serves as a primary defensive and offensive tactic to hinder forensic analysis and bypass signature-based security 
+  Obfuscation serves as a primary defensive and offensive tactic to hinder forensic analysis and bypass signature-based security 
 controls. By transforming plain text into a non-human-readable format, threat actors can delay incident response and evade 
 automated detection systems that scan for known malicious strings. Simple substitution ciphers like ROT1 and ROT13 function 
 by shifting characters forward in the alphabet by a fixed number of positions, preserving the original string length and word 
