@@ -10,7 +10,11 @@
 ---
 - **December 19, 2025**: Assessment - Achieved Intermediate Level (64 points) in Cisco Networking Academy - Introduction to Cybersecurity
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy 
-
+- **December 21, 2025**: Cisco Networking Academy - Resource Specialist Module
+- **December 21, 2025**: Cisco Networking Academy - Network Defense Module
+- **December 21, 2025**: Cisco Networking Academy - System Safeguards Module
+- **December 21, 2025**: Cisco Networking Academy - Threat Analysis Module
+- **December 21, 2025**: Cisco Networking Academy - Cybersecurity Administration Module
 
 
 ## Latest updates first — documenting consistent progress**
