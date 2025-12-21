@@ -9,7 +9,8 @@
 
 ---
 - **December 19, 2025**: Assessment - Achieved Intermediate Level (64 points) in Cisco Networking Academy Cybersecurity path 
-
+- **December 21, 2025**: Completed - Introduction to Cybersecurity
+- 
 
 ## Latest updates first — documenting consistent progress**
 - **December 19, 2025**: Completed TryHackMe Windows Hive forensics room
