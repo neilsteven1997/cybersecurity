@@ -16,7 +16,7 @@
 
 ### Highlights:
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
-
+  
 ### Achievements:
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy 
 - **December 21, 2025**: Cisco Networking Academy - Resource Specialist Module
