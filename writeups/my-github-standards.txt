@@ -112,18 +112,18 @@ After mounting the host filesystem from the compromised container, the target Do
 <p align="center">
   <table>
     <tr>
-      <td><img src="images/day-14-aoc-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
   width="450"/>
-      <td><img src="images/day-14-aoc-restored-website.png" alt="Restored website" width="450"/></td>
+      <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
     </tr>
     <tr>
       <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
       <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
     </tr>
     <tr>
-      <td><img src="images/day-14-aoc-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
   width="450"/>
-      <td><img src="images/day-14-aoc-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+      <td><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
     </tr>
      <tr>
       <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
