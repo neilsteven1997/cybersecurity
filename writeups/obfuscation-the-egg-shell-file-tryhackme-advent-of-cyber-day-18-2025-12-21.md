@@ -51,5 +51,10 @@ What is the second flag you get after obfuscating the API key and running the sc
 * Look for visual clues like "one letter off" words for ROT1 and the transformation of "the" to "gur" for ROT13.
 
 ---
+>[!Note]
+>### You did it! Wareville is one step safer.
+>The townsfolk are counting on you to keep Christmas secure.
+>Head back to Wareville to continue your mission!
+
 
 
