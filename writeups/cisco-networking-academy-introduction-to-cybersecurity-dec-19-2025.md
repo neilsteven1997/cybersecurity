@@ -46,11 +46,6 @@ from technical penetration testing to high-level security governance and risk ma
   responsibility.
   
 ---
-<p align="center">
-  <img src="images/cisco-intermediate-level-64-points-dec-19-2025.png" alt="Cisco Assessment Level - 64 points" 
-  width="450"/>
-</p>
-	
 - [https://vimeo.com/25118844](https://vimeo.com/25118844): Stuxnet Malware - Used in Iran Nuclear Facilities
 - [https://youtu.be/Oh4WURZoR98](https://youtu.be/Oh4WURZoR98) & [https://www.krackattacks.com/](https://www.krackattacks.com/): The definitive research by
   Mathy Vanhoef on KRACK (Key Reinstallation Attacks), which demonstrated how to bypass WPA2 encryption by exploiting the 4-way handshake.
@@ -72,6 +67,12 @@ Ethics, outlining the professional and moral conduct required for cybersecurity 
 (Environmental, Social, and Governance) Hub, showing how cybersecurity and privacy are integrated into corporate social responsibility.
 - [https://investor.cisco.com/corporate-governance/code-of-business-conduct/default.aspx](https://investor.cisco.com/corporate-governance/code-of-business-conduct/default.aspx): Cisco’s Code of Business Conduct, detailing the internal ethical frameworks and policy standards for global corporate governance.
 					
+---
+<p align="center">
+  <img src="images/cisco-intermediate-level-64-points-dec-19-2025.png" alt="Cisco Assessment Level - 64 points" 
+  width="450"/>
+</p>
+
 ---
 <p align="center">
   <table>
