@@ -5,7 +5,7 @@ Assessment:
 
 <p align="center">
   <img src="images/cisco-intermediate-level-64-points-dec-19-2025.png" alt="Cisco Assessment Level - 64 points" 
-  width="650"/>
+  width="500"/>
 </p>
 
 </p>Skills Assessment Q&A	My Knowledge Check Result	64	Intermediate Learner		
@@ -50,6 +50,7 @@ frameworks and disaster recovery planning. As the industry scales, the professio
 evolving legal regulations and ethical dilemmas. Career progression in this field is predicated on mastering these diverse domains, 
 from technical penetration testing to high-level security governance and risk management.
 
+---
 ### Key Takeaways - Security frameworks must prioritize the protection of the CIA triad to ensure data reliability and privacy.
 * Recognizing the specific concepts and techniques behind cyberattacks is the first step in developing effective countermeasures.
 * Personal data protection requires proactive management of privacy settings and device security.
