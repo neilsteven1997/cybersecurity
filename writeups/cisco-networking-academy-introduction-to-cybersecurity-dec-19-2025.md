@@ -81,7 +81,7 @@ from technical penetration testing to high-level security governance and risk ma
 	      <tr>
       <td><img src="images/cisco-quiz-5-3-introduction-to-cybersecurity.png" alt="Cisco Quiz 5.3 Introduction to Cybersecurity" 
   width="450"/>
-      <td><img src="/images/cisco-final-exam-introduction-to-cybersecurity.png" alt="Cisco Final Exam - Introduction to Cybersecurity" width="450"/></td>
+      <td><img src="images/cisco-final-exam-introduction-to-cybersecurity.png" alt="Cisco Final Exam - Introduction to Cybersecurity" width="450"/></td>
     </tr>
      <tr>
       <td align="center"><strong>Figure 3a:</strong> Cisco Quiz 5.3 Introduction to Cybersecurity</td>
