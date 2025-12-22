@@ -34,8 +34,8 @@ https://www.shodan.io/dashboard		https://project-zero.issues.chromium.org/issues
     </tr>
   </table>
 </p>
----
-					
+
+---					
 ## Foundational cybersecurity principles 
 revolve around the core tenets of confidentiality, integrity, and availability, which dictate how data remains private, accurate, 
 and accessible to authorized parties. Understanding the landscape requires a granular analysis of modern threat vectors, including 
@@ -58,7 +58,6 @@ from technical penetration testing to high-level security governance and risk ma
   responsibility.
 
 ---
-
 <p align="center">
   <table>
     <tr>
@@ -82,7 +81,7 @@ from technical penetration testing to high-level security governance and risk ma
 	      <tr>
       <td><img src="images/cisco-quiz-5-3-introduction-to-cybersecurity.png" alt="Cisco Quiz 5.3 Introduction to Cybersecurity" 
   width="450"/>
-      <td><img src="cisco-final-exam-introduction-to-cybersecurity.png" alt="Cisco Final Exam - Introduction to Cybersecurity" width="450"/></td>
+      <td><img src="/images/cisco-final-exam-introduction-to-cybersecurity.png" alt="Cisco Final Exam - Introduction to Cybersecurity" width="450"/></td>
     </tr>
      <tr>
       <td align="center"><strong>Figure 3a:</strong> Cisco Quiz 5.3 Introduction to Cybersecurity</td>
