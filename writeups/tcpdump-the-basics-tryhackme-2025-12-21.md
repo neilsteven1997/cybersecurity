@@ -51,6 +51,26 @@ headers and the encapsulated data payload.
 | Display Hex and ASCII | `tcpdump -X` |
 
 ---
+What option can you add to your command to display addresses only in numeric format?
+- `-n`
+
+How many packets in traffic.pcap use the ICMP protocol?
+- `26`
+
+What is the IP address of the host that asked for the MAC address of 192.168.124.137?
+- `192.168.124.148`
+
+What hostname (subdomain) appears in the first DNS query?
+- `mirrors.rockylinux.org`
+
+How many packets have only the TCP Reset (RST) flag set?
+- `57` 
+
+What is the IP address of the host that sent packets larger than 15000 bytes?
+- `185.117.80.53`
+
+
+---
 ### Key Takeaways - Use `-i` to specify the interface; `any` listens across all active interfaces.
 * Writing to a file with `-w` is standard practice for forensic preservation and secondary analysis.
 * Disable name resolution with `-n` or `-nn` to improve performance and maintain a clean capture environment.
