@@ -3,9 +3,9 @@
 ---
 Assessment: 
 
-<p align="center">
-  <iframe src="evidence/cisco-intermediate-level-64-points-dec2025.pdf" width="100%" height="600px">
-  </iframe>
+evidence/cisco/cisco-intermediate-level-64-points-dec-19-2025.png
+
+
 
 </p>Skills Assessment Q&A	My Knowledge Check Result	64	Intermediate Learner		
 https://vimeo.com/25118844		https://youtu.be/Oh4WURZoR98		https://www.krackattacks.com/	
