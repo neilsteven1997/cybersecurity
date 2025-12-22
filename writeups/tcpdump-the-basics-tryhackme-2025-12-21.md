@@ -69,6 +69,8 @@ How many packets have only the TCP Reset (RST) flag set?
 What is the IP address of the host that sent packets larger than 15000 bytes?
 - `185.117.80.53`
 
+What is the MAC address of the host that sent an ARP request?
+- `52:54:00:7c:d3:5b`
 
 ---
 ### Key Takeaways - Use `-i` to specify the interface; `any` listens across all active interfaces.
