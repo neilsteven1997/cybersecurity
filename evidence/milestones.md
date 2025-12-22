@@ -18,6 +18,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **December 22, 2025**: Completed Tryhackme - Tcpdump: The Basics 
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy 
 - **December 21, 2025**: Cisco Networking Academy - Resource Specialist Module
 - **December 21, 2025**: Cisco Networking Academy - Network Defense Module
