@@ -1,21 +1,6 @@
 # Introduction To Cybersecurity 
 
 ---
-## Foundational cybersecurity principles 
-revolve around the core tenets of confidentiality, integrity, and availability, which dictate how data remains private, accurate, 
-and accessible to authorized parties. Understanding the landscape requires a granular analysis of modern threat vectors, including 
-the mechanics of malware, the psychology behind social engineering, and the technical execution of network-based exploits. 
-Defensive posture begins with the individual, where the focus lies on hardening personal hardware, encrypting sensitive communications, 
-and managing the digital footprint left across public and private networks.
-
-At the enterprise level, security shifts toward protecting the broader organization through the implementation of the defense-in-depth 
-strategy. This necessitates the deployment of firewalls, intrusion prevention systems, and rigorous access control lists to mitigate 
-risk across complex infrastructures. Beyond technical controls, organizational security is heavily dependent on incident response 
-frameworks and disaster recovery planning. As the industry scales, the professional landscape requires a workforce capable of navigating 
-evolving legal regulations and ethical dilemmas. Career progression in this field is predicated on mastering these diverse domains, 
-from technical penetration testing to high-level security governance and risk management.
-
----
 <p align="center">
   <table>
     <tr>
@@ -36,6 +21,21 @@ from technical penetration testing to high-level security governance and risk ma
     </tr>
   </table>
 </p>
+
+---
+## Foundational cybersecurity principles 
+revolve around the core tenets of confidentiality, integrity, and availability, which dictate how data remains private, accurate, 
+and accessible to authorized parties. Understanding the landscape requires a granular analysis of modern threat vectors, including 
+the mechanics of malware, the psychology behind social engineering, and the technical execution of network-based exploits. 
+Defensive posture begins with the individual, where the focus lies on hardening personal hardware, encrypting sensitive communications, 
+and managing the digital footprint left across public and private networks.
+
+At the enterprise level, security shifts toward protecting the broader organization through the implementation of the defense-in-depth 
+strategy. This necessitates the deployment of firewalls, intrusion prevention systems, and rigorous access control lists to mitigate 
+risk across complex infrastructures. Beyond technical controls, organizational security is heavily dependent on incident response 
+frameworks and disaster recovery planning. As the industry scales, the professional landscape requires a workforce capable of navigating 
+evolving legal regulations and ethical dilemmas. Career progression in this field is predicated on mastering these diverse domains, 
+from technical penetration testing to high-level security governance and risk management.
 
 ---
 ### Key Takeaways - Security frameworks must prioritize the protection of the CIA triad to ensure data reliability and privacy.
