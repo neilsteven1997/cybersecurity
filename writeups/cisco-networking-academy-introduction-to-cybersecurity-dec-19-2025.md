@@ -3,7 +3,7 @@
 ---
 Assessment: 
 
-evidence/cisco/cisco-intermediate-level-64-points-dec-19-2025.png
+cisco-intermediate-level-64-points-dec-19-2025.png
 
 
 
