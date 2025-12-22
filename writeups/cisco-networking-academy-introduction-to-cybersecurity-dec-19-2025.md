@@ -5,7 +5,7 @@ Assessment:
 
 <p align="center">
   <img src="images/cisco-intermediate-level-64-points-dec-19-2025.png" alt="Cisco Assessment Level - 64 points" 
-  width="500"/>
+  width="450"/>
 </p>
 
 </p>Skills Assessment Q&A	My Knowledge Check Result	64	Intermediate Learner		
