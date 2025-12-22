@@ -6,36 +6,25 @@
   width="450"/>
 </p>
 	
-- [https://vimeo.com/25118844](https://vimeo.com/25118844): Likely a technical demonstration or historical security talk.
-
-- [https://youtu.be/Oh4WURZoR98](https://youtu.be/Oh4WURZoR98) & [https://www.krackattacks.com/](https://www.krackattacks.com/): The definitive
-research by Mathy Vanhoef on KRACK (Key Reinstallation Attacks), which demonstrated how to bypass WPA2 encryption by exploiting the 4-way 
-handshake.
-
+- [https://vimeo.com/25118844](https://vimeo.com/25118844): Stuxnet Malware - Used in Iran Nuclear Facilities
+- [https://youtu.be/Oh4WURZoR98](https://youtu.be/Oh4WURZoR98) & [https://www.krackattacks.com/](https://www.krackattacks.com/): The definitive research by
+  Mathy Vanhoef on KRACK (Key Reinstallation Attacks), which demonstrated how to bypass WPA2 encryption by exploiting the 4-way handshake.
 - [https://pages.nist.gov/800-63-3/](https://pages.nist.gov/800-63-3/): NIST SP 800-63-3, the industry standard for Digital Identity 
 Guidelines, providing technical requirements for identity proofing and authentication (IAL, AAL, FAL).
-
 - [https://www.fcc.gov/consumers/guides/how-protect-yourself-online](https://www.fcc.gov/consumers/guides/how-protect-yourself-online): 
 Official FCC Consumer Guides providing federal recommendations for general online protection and personal data privacy.
-
 - [https://www.shodan.io/dashboard](https://www.shodan.io/dashboard): The "search engine for Internet-connected devices," used for OSINT, 
 vulnerability research, and identifying exposed network assets.
-
 - [https://project-zero.issues.chromium.org/issues?q=](https://project-zero.issues.chromium.org/issues?q=): Google Project Zero's 
 public issue tracker, documenting elite zero-day research and enforcing the industry-standard 90-day disclosure policy.
-
 - [https://brainstation.io/cybersecurity/two-factor-auth](https://brainstation.io/cybersecurity/two-factor-auth): An educational 
 guide on Two-Factor Authentication (2FA), explaining its role as a critical defense-in-depth layer for identity management.
-
 - [https://nmap.org/zenmap/](https://nmap.org/zenmap/): The official graphical user interface (GUI) for the Nmap Security Scanner, 
 used for visual network mapping and port auditing.
-
 - [https://issa.org/code-of-ethics/](https://issa.org/code-of-ethics/): The Information Systems Security Association (ISSA) Code of 
 Ethics, outlining the professional and moral conduct required for cybersecurity practitioners.
-
 - [https://www.cisco.com/c/m/en_us/about/csr/esg-hub.html](https://www.cisco.com/c/m/en_us/about/csr/esg-hub.html): Cisco’s ESG 
 (Environmental, Social, and Governance) Hub, showing how cybersecurity and privacy are integrated into corporate social responsibility.
-
 - [https://investor.cisco.com/corporate-governance/code-of-business-conduct/default.aspx](https://investor.cisco.com/corporate-governance/code-of-business-conduct/default.aspx): Cisco’s Code of Business Conduct, detailing the internal ethical frameworks and policy standards for global corporate governance.
 					
 ---
