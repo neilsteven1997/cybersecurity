@@ -41,7 +41,7 @@ To test REST APIs for race conditions using Burp Suite's "last-byte sync" (avail
 native Repeater tab groups), you focus on minimizing network jitter. The goal is to send the headers of multiple requests and 
 hold the final byte of each until they are all ready to be released simultaneously.
 
-###Configuration for REST API TestingWhen targeting REST endpoints, ensure your requests are identical, including the 
+### Configuration for REST API TestingWhen targeting REST endpoints, ensure your requests are identical, including the 
 `Content-Length` and authentication headers. In Burp Suite, you create a Tab Group for your captured API request (e.g., 
 `POST /api/v1/orders`). By selecting **Send group in parallel (last-byte sync)**, Burp opens multiple TCP connections, sends 
 the majority of each HTTP request, and waits. Once all connections are "primed," it dispatches the final byte of every request 
