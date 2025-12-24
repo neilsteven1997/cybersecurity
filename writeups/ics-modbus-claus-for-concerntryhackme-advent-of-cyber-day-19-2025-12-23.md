@@ -62,3 +62,14 @@ What's the flag?
   compromised PLC.
 * Visual monitoring feeds, such as warehouse CCTV, provide essential real-time feedback when verifying the success of
   industrial logic remediation.
+
+---
+>[!Note]
+>### You did it! Wareville is one step safer.
+>The townsfolk are counting on you to keep Christmas secure.
+>Head back to Wareville to continue your mission!
+
+
+
+
+
