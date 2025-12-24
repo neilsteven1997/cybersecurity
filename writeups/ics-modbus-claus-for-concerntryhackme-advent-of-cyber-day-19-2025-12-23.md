@@ -45,6 +45,13 @@ automatically set by the system logic.
 | Re-enable system audit logging | `client.write_coil(address=13, value=True, slave=1)` |
 
 ---
+What port is commonly used by Modbus TCP?
+- `502`
+
+What's the flag?
+- `THM{eGgMas0V3r}`
+
+---
 ### Key Takeaways - SCADA systems serve as the centralized command centers bridging human operators and industrial machinery.
 * PLCs are specialized industrial brains designed for real-time hardware interaction in harsh physical environments.
 * The Modbus protocol lacks native authentication, allowing any network-adjacent user to read or write to device registers.
