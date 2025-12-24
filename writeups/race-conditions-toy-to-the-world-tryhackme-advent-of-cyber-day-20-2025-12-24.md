@@ -48,7 +48,7 @@ the majority of each HTTP request, and waits. Once all connections are "primed,"
 in a single burst. This forces the server-side application threads to compete for the same database row at the exact same microsecond.
 
 ---
-### Technical Execution Steps| Description | Code/Command |
+###Technical Execution Steps| Description | Code/Command |
 | --- | --- |
 | Typical API JSON Payload | `{"item_id": "123", "quantity": 1}` |
 | HTTP Method for State Changes | `POST` or `PATCH` |
@@ -64,5 +64,3 @@ in a single burst. This forces the server-side application threads to compete fo
   inventory reservations.
 
 ---
-
-
