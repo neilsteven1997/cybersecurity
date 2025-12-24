@@ -18,6 +18,8 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+
+- **December 24, 2025**: Completed Tryhackme - AOC - ICS/Modbus - Claus for Concern
 - **December 22, 2025**: Completed Tryhackme - Tcpdump: The Basics 
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy 
 - **December 21, 2025**: Cisco Networking Academy - Resource Specialist Module
