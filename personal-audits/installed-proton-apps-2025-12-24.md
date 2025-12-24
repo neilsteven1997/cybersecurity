@@ -1,0 +1,5 @@
+- installed proton apps on my cellphone 
+- registered for my proton account
+- removed my personal images from apps; social media, ordering, and dating apps
+- replaced profile images with ai generated man
+- updated phone apps, virus definitions, recovery accounts, privacy settings/discoverability
