@@ -71,3 +71,9 @@ in a single burst. This forces the server-side application threads to compete fo
   inventory reservations.
 
 ---
+>[!Note]
+>### You did it! Wareville is one step safer.
+>The townsfolk are counting on you to keep Christmas secure.
+>Head back to Wareville to continue your mission!
+
+
