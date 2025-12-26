@@ -37,6 +37,8 @@ protocols.
 * Severity scoring is influenced by threat modifiers like rare certificates, low internal prevalence, and unusual MIME/URI mismatches.
 * DNS tunneling is detected by flagging unusually long FQDNs or an excessive volume of unique subdomains for a single root domain.
 * Small datasets are susceptible to false positives; a 24-hour traffic window is generally recommended for accurate beaconing analysis.
+* The pcaps directory contains example PCAPs of real-life incidents collected from Bradly Duncan's [blog](https://malware-traffic-analysis.net/). He has a wonderful
+  collection of malware-related PCAPs that cover real-world threats.
 
 You can learn more about the practical application of these tools in this [guide to finding network anomalies](https://www.youtube.com/watch?v=mpCBOQSjbOA). 
 This video provides a detailed walkthrough of using RITA to detect hidden threats on a network, which complements the concepts of behavioral analysis discussed here.
