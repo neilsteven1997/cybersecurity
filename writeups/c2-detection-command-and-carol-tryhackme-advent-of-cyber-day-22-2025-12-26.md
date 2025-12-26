@@ -51,7 +51,8 @@ The **Details pane** in RITA serves as the granular inspection point for any sus
 from the results list, this pane provides the necessary context to determine if a signal is a false positive or a legitimate threat. 
 The information is divided into two primary categories: **Threat Modifiers** and **Connection Info**.
 
-### Threat ModifiersThese modifiers are the core analytical components RITA uses to calculate severity. They look beyond simple 
+### Threat Modifiers
+These modifiers are the core analytical components RITA uses to calculate severity. They look beyond simple 
 packet counts to find behavioral anomalies that are difficult for attackers to mask.
 
 * **MIME type/URI mismatch:** This flags instances where the declared file type in an HTTP header does not match the actual file
