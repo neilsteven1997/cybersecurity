@@ -18,7 +18,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
-- **December 26, 2025**: Completed Tryhackme - 
+- **December 26, 2025**: Completed Tryhackme - AOC - AWS Security - S3cret Santa
 - **December 26, 2025**: Completed Tryhackme - AOC - C2 Detection - Command & Carol
 - **December 26, 2025**: Completed Tryhackme - AOC - Malware Analysis - Malhare.exe
 - **December 24, 2025**: Completed Tryhackme - AOC - ICS/Modbus - Claus for Concern
