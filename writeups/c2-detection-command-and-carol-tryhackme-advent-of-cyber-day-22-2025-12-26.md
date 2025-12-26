@@ -51,7 +51,7 @@ The **Details pane** in RITA serves as the granular inspection point for any sus
 from the results list, this pane provides the necessary context to determine if a signal is a false positive or a legitimate threat. 
 The information is divided into two primary categories: **Threat Modifiers** and **Connection Info**.
 
-###Threat ModifiersThese modifiers are the core analytical components RITA uses to calculate severity. They look beyond simple 
+### Threat ModifiersThese modifiers are the core analytical components RITA uses to calculate severity. They look beyond simple 
 packet counts to find behavioral anomalies that are difficult for attackers to mask.
 
 * **MIME type/URI mismatch:** This flags instances where the declared file type in an HTTP header does not match the actual file
@@ -72,7 +72,8 @@ packet counts to find behavioral anomalies that are difficult for attackers to m
 * **No direct connections:** This identifies complex communication chains where traffic does not follow a direct path, potentially
   indicating the use of proxies or more sophisticated, indirect C2 channels.
 
-### Connection InfoWhile Threat Modifiers focus on behavior, the **Connection Info** section provides the raw metadata of the traffic. This data helps analysts verify the technical details of the suspected breach.
+### Connection Info
+While Threat Modifiers focus on behavior, the **Connection Info** section provides the raw metadata of the traffic. This data helps analysts verify the technical details of the suspected breach.
 
 * **Connection count:** High frequency is a hallmark of "strobe" or "beaconing" behavior. A massive number of connections to a
   single IP over a short period suggests an automated heartbeat rather than human activity.
