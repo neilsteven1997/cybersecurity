@@ -74,28 +74,6 @@ After mounting the host filesystem from the compromised container, the target Do
   </table>
 </p>
 
-
-
-
-
-
-
-
-
----
-What exact command lists running Docker containers?
-- `docker ps`
-
-What file is used to define the instructions for building a Docker image?
-- `Dockerfile`
-
-What's the flag?
-- `THM{DOCKER_ESCAPE_SUCCESS}`
-
-Bonus Question: There is a secret code contained within the news site running on port 5002; this code also happens to be the 
-password for the deployer user! They should definitely change their password. Can you find it?  
-- `DeployMaster2025!`
-
 ---
 >[!Note]
 >### You did it! Wareville is one step safer.
