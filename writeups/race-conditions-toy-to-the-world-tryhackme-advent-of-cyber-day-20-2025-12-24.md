@@ -28,13 +28,6 @@ should allow, often resulting in negative inventory values or multiple successfu
 | Target Endpoint for Race Condition | `http://MACHINE_IP/process_checkout` |
 | Application Credentials | `attacker` : `attacker@123` |
 | Parallel Request Technique | `Send group in parallel (last-byte sync)` |
-
----
-What is the flag value once the stocks are negative for SleighToy Limited Edition?
-- `THM{WINNER_OF_R@CE007}`
-
-Repeat the same steps as were done for ordering the SleighToy Limited Edition. What is the flag value once the stocks are negative for Bunny Plush (Blue)?
-- `THM{WINNER_OF_Bunny_R@ce}`
   
 ---
 ### Key Takeaways* Use atomic database transactions to ensure that state changes, such as stock deduction and order creation, are executed as a single, indivisible operation.
