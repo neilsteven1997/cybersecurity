@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **December 29, 2025**: Completed Tryhackme - Nmap: The Basics
 - **December 26, 2025**: Completed Tryhackme - Advent of Cyber 2025
 - **December 26, 2025**: Completed Tryhackme - AOC - Exploitation with cURL - Hoperation Eggsploit
 - **December 26, 2025**: Completed Tryhackme - AOC - AWS Security - S3cret Santa
