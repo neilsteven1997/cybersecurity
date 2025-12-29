@@ -84,9 +84,6 @@ Usage at terminal:
 username = "`alice' OR 1=1 -- -`"
 password = "`test`"
 
-- go back to Firefox and login
-- FLAG: `THM{SQLI_EXPLOIT}`
-- Press Complete Stage and Continue
   
 ### Stage 3: Blue Team Analyse Logs
 - send to AI: analyse logs
@@ -162,9 +159,6 @@ attackers to inject malicious SQL code by using the input as a parameter.
 
 5. Complete Showcase!
 Click "Complete Showcase!" to continue your learning.
-
-Flag: `THM{AI_MANIA}`
-
 
 >[!Tip]
 >### You did it! Wareville is one step safer.
