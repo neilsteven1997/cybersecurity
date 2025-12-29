@@ -95,32 +95,6 @@ to identify the specific sequence of operations and any embedded keys or salts r
   </table>
 </p>
 
-
-
-
-
-
-
----
-
-What is the password for the first lock?
-- `Iamsofluffy`
-
-What is the password for the second lock?
-- `Itoldyoutochangeit!`
-
-What is the password for the third lock?
-- `BugsBunny`
-
-What is the password for the fourth lock?
-- `passw0rd1`
-
-What is the password for the fifth lock?
-- `51rBr34chBl0ck3r`
-   
-What is the retrieved flag?
-- `THM{M3D13V4L_D3C0D3R_4D3P7}`
-
 ---
 ### Key Takeaways - Encoding is utilized for system compatibility and speed, while encryption is designed for security and data confidentiality.
 * [CyberChef](https://gchq.github.io/CyberChef/) allows for the creation of chained "recipes," enabling complex multi-stage data
