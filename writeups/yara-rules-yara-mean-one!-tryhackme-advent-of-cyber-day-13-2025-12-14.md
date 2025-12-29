@@ -93,15 +93,6 @@ icedid_starter.yar C:\`.
   directory: `rule TBFC_Search { strings: $msg = /TBFC:\s*[A-Za-z0-9]+/ condition: $msg }` (or similar regex tailored to the
   exact alphanumeric set).
 
-How many images contain the string TBFC?
-- `5`
-
-What regex would you use to match a string that begins with TBFC: followed by one or more alphanumeric ASCII characters?
-- `/TBFC:[A-Za-z0-9]+/`
-
-What is the message sent by McSkidy?
-- `Find Me In Hopsec Island`
-
 ---
 >[!Note]
 > ## You did it! Wareville is one step safer.
