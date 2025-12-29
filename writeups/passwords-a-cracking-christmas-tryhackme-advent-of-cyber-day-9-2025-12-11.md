@@ -60,14 +60,7 @@ Tool,Command,Purpose
 PDF Hash Extraction,`python pdf2john.py 1file.pdf > 1file.hash`,Used to extract the password hash from a protected PDF document 
 (1file.pdf) and save it to a hash file (1file.hash).
 
-### What is the flag inside the encrypted PDF?
-`THM{Cr4ck1ng_PDFs_1s_34$y}`
-
 ZIP Hash Extraction,`zip2john.pl archive.zip > zip.hash`,(Implied utility) Extracts the password hash from a protected ZIP archive.
-
-### What is the flag inside the encrypted zip file?
-`THM{Cr4ck1n6_z1p$_1s_34$yyyy}`
-
 
 Windows Hash Extraction,`samdump2` or similar tools,(Utility used for credential dumping) Extracts hashes from Windows files like 
 the Security Account Manager (SAM) database.
