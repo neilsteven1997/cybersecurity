@@ -102,22 +102,6 @@ potential injection vectors.
   </table>
 </p>
 
-
-
-
-
-
-
-
-
-
----
-What is the reconnaissance executable file name?
-- `whoami.exe`
-
-What executable did the attacker attempt to run through the command injection?
-- `PowerShell.exe`
-
 ---
 >[!Note]
 >### You did it! Wareville is one step safer.
