@@ -98,12 +98,6 @@ to the lower-layer (TCP/IP) or higher-layer (HTTP) protocols. TLS successfully i
 * Decrypting HTTPS traffic requires access to the session's private encryption key, confirming that the underlying communication
   remains standard HTTP.
 
-How many packets did the TLS negotiation and establishment take in the Wireshark HTTPS screenshots above?
-- 8
-
-What is the number of the packet that contain the GET /login when accessing the website over HTTPS?
-- 10
-
 ---
 ## SMTPS, POP3S, and IMAPS
 
@@ -133,9 +127,6 @@ the threat of passive packet interception and cleartext data exposure.
 * Securing email protocols (SMTP, POP3, IMAP) involves overlaying them with TLS, resulting in SMTPS, POP3S, and IMAPS, respectively.
 * The security mechanism is identical to HTTPS, requiring a TLS handshake post-TCP connection to initiate encryption.
 * Secure protocols are generally assigned separate default TCP port numbers from their cleartext counterparts to enforce encryption.
-
-If you capture network traffic, in which of the following protocols can you extract login credentials: SMTPS, POP3S, or IMAP?
-- IMAP
   
 ---
 ## SSH
@@ -179,9 +170,6 @@ provided the local system supports the necessary graphical environment.
 * SSH provides advanced features such as secure tunneling for other protocols and X11 Forwarding for remote graphical application use.
 * SSH servers default to TCP port 22, whereas the deprecated TELNET uses port 23.
 
-What is the name of the open-source implementation of the SSH protocol?
-- OpenSSH
-
 ---
 ## SFTP and FTPS
 
@@ -217,10 +205,6 @@ robust security mechanisms provided by TLS, necessitating a valid, configured TL
 * FTPS is structurally more complex than SFTP due to its use of separate control and data connections, which complicates firewall
 * policy configuration.
 * Both SFTP and FTPS provide cryptographic protection over the network, achieving confidentiality and integrity during file transfers.
-  
-Click on the View Site button to access the related site. Please follow the instructions on the site to obtain the flag.
-- `THM{Protocols_secur3d}`
-
 
 ---
 ## VPN
@@ -262,16 +246,6 @@ illegal in certain jurisdictions; users must comply with local laws and regulati
 * VPNs are frequently used to bypass geographical content restrictions and limit ISP monitoring and censorship.
 * Users must verify that their VPN configuration does not leak their actual IP address (e.g., via DNS leak tests) and must adhere
   to local regulations regarding VPN usage.
-
-What would you use to connect the various company sites so that users at a remote office can access resources located within 
-the main branch?
-- VPN
-
----
-## Conclusion
-
-One of the packets contains login credentials. What password did the user submit?
-- `THM{B8WM6P}`
 
 
 
