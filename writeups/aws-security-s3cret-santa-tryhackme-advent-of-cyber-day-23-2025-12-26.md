@@ -48,22 +48,6 @@ permissions necessary for their functions, thereby limiting the impact of creden
 | Download a specific file from an S3 bucket | `aws s3api get-object --bucket [bucketname] --key [filename] [localname]` |
 
 ---
-Run `aws sts get-caller-identity`. What is the number shown for the "Account" parameter?
-- `123456789012`
-
-What IAM component is used to describe the permissions to be assigned to a user or a group?
-- `policy`
-
-What is the name of the policy assigned to sir.carrotbane?
-- `SirCarrotbanePolicy`
-
-Apart from GetObject and ListBucket, what other action can be taken by assuming the bucketmaster role?
-- `ListAllMyBuckets`
-
-What are the contents of the cloud_password.txt file?
-- `THM{more_like_sir_cloudbane}` 
-
----
 ### Key Takeaways - Use the Security Token Service (STS) to verify identity and obtain temporary session credentials.
 * Distinguish between inline policies (identity-specific) and managed policies (reusable across entities) during enumeration.
 * Leverage the `sts:AssumeRole` permission to transition from a low-privileged user to a more permissive role.
