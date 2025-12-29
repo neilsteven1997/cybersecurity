@@ -70,16 +70,6 @@ by navigating to "Statistics → Capture File Properties."
 >[!Tip]
 >Knowing the file details is helpful. Especially when working with multiple pcap files, sometimes you will need to know and recall the file details (File hash, capture time, capture file comments, interface and statistics) to identify the file, classify and prioritise it. You can view the details by following "Statistics --> Capture File Properties" or by clicking the "pcap icon located on the left bottom" of the window.
 
-Use the "Exercise.pcapng" file to answer the questions.
-Read the "capture file comments". What is the flag?
-- `TryHackMe_Wireshark_Demo`
-
-What is the total number of packets?
-- `58620`
-  
-What is the SHA256 hash value of the capture file?
-- `446de335565fb0b0ee5e5a3266703c778b2f3dfad7efeaeccb2da5641a6d6eb`
-
 ---
 ## Packet Dissection and OSI Layer Analysis
 
@@ -127,23 +117,6 @@ corresponding raw bytes in the packet bytes pane, demonstrating exactly where th
 * Packet dissection typically shows layers for **Frame** (L1), **MAC** (L2), **IP** (L3), **Protocol** (L4), and
   **Application** (L5/L7).
 * The **Protocol Errors** section within Layer 4 highlights reassembled TCP segments, which is relevant for forensic analysis.
-
----
-Use the "Exercise.pcapng" file to answer the questions. View packet number 38. Which markup language is used under the HTTP protocol?
-- `eXtensible Markup Language`
-
-What is the arrival date of the packet? (Answer format: Month/Day/Year)
-- `05/13/2004`
-
-What is the TTL value?
-- `47`
-
-What is the TCP payload size?
-- `424`
-
-What is the e-tag value?
-(For example: 82ecb-6321-9e904585)
-- `9a01a-4696-7e354b00`
 
 ---
 ## Packet Navigation
@@ -204,20 +177,6 @@ the **Analyze** menu, provides a consolidated view of all detected entries by pa
   anomalies.
 
 ---
-Use the "Exercise.pcapng" file to answer the questions. Search the "r4w" string in packet details. What is the name of artist 1?
-- `r4w8173`
-
-Go to packet 12 and read the packet comments. What is the answer?
-Note: use md5sum <filename> terminal command to get MD5 hash
-- `911cd574a42865a956ccde2d04495ebf`
-
-There is a ".txt" file inside the capture file. Find the file and read it; what is the alien's name?
-- `PACKETMASTER`
-
-Look at the expert info section. What is the number of warnings?
-- `1636`
-
----
 ## Wireshark Filtering and Advanced Analysis
 
 Wireshark employs a powerful filter engine categorized into two approaches: **Capture Filters**, which constrain the packets 
@@ -261,22 +220,6 @@ using the 'X' button in the display filter bar to return to the full packet list
 * **Follow Stream** reconstructs segmented protocol data (TCP/UDP/HTTP) into an application-level stream, crucial for viewing
   unencrypted payloads.
 * Stream reconstruction results are color-coded (blue for server, red for client) and automatically apply a temporary display filter.
-
----
-Use the "Exercise.pcapng" file to answer the questions.
-Go to packet number 4. Right-click on the "Hypertext Transfer Protocol" and apply it as a filter.
-Now, look at the filter pane. What is the filter query?
-- `http`
-
-What is the number of displayed packets?
-- `1089`
-
-Go to packet number 33790, follow the HTTP stream, and look carefully at the responses.
-Looking at the web server's response, what is the total number of artists?
-- `3`
-
-What is the name of the second artist?
-- `Blad3`
 
 ---
 
