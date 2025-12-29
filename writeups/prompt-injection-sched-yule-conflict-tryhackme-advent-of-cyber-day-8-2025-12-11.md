@@ -26,8 +26,6 @@ intended to be protected internal credentials. Successful exploitation allows an
 checks and execute restricted, high-privilege administrative functions.
 
 ---
-Flag:
-### THM{XMAS_IS_COMING__BACK}
 
 >[!Note]
 >### You did it! Wareville is one step safer.
