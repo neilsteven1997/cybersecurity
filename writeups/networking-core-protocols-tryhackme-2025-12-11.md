@@ -82,8 +82,6 @@ Use telnet to access the file flag.html on 10.49.146.142. What is the hidden fla
 3. Then type `Host: 10.49.146.142` and press Enter again.
 4. Finally, press Enter once more to send the request.
 
-`THM{TELNET-HTTP}`
-
 ---
 ## FTP: Transferring Files 
 
