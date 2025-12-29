@@ -94,23 +94,6 @@ While Threat Modifiers focus on behavior, the **Connection Info** section provid
 | Filter by internal source IP | `/src:192.168.1.50` |
 
 ---
-How many hosts are communicating with malhare.net?
-- `6`
-  
-Which Threat Modifier tells us the number of hosts communicating to a certain destination?
-- `prevalence`
-
-What is the highest number of connections to rabbithole.malhare.net?
-- `40`
-
-Which search filter would you use to search for all entries that communicate to rabbithole.malhare.net with a beacon 
-score greater than 70% and sorted by connection duration (descending)?
-- `dst:rabbithole.malhare.net beacon:>=70 sort:duration-desc`
-
-Which port did the host 10.0.0.13 use to connect to rabbithole.malhare.net?
-- `80`
-
----
 ### Key Takeaways - **Threat Modifiers** prioritize entries based on how "un-human" or anomalous the communication appears relative to the rest of the network.
 * **Prevalence** is one of the most effective ways to filter out noise, as common enterprise traffic will have high prevalence scores.
 * **Connection Info** provides the empirical evidence (bytes, ports, counts) needed to justify a deeper investigation into a
