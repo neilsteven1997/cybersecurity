@@ -37,7 +37,7 @@ dividend—provides the "one-way" functionality necessary for secure cryptograph
 | Caesar Cipher Shift (Example) | `(char_index + shift) % 26` |
 
 ---
-### Key Takeaways* Confidentiality ensures data is unreadable to unauthorized parties; Integrity ensures it has not been altered.
+### Key Takeaways - Confidentiality ensures data is unreadable to unauthorized parties; Integrity ensures it has not been altered.
 * Symmetric encryption is fast but faces challenges in secure key distribution.
 * Asymmetric encryption enables secure communication over public channels using public/private key pairs.
 * AES is the current industry standard for symmetric encryption, with key lengths of 128, 192, or 256 bits.
