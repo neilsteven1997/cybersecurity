@@ -10,7 +10,7 @@ US and GDPR in the EU require robust data protection to ensure the privacy of me
 The core process of cryptography involves transforming readable data, known as plaintext, into an unreadable format called ciphertext 
 through an encryption function. This transformation requires a cipher—the underlying mathematical algorithm—and a specific key. To revert 
 ciphertext to plaintext, a decryption function is applied using the corresponding key. While the security of modern systems relies on 
-keeping the key secret, the ciphers themselves are generally public knowledge. Historically, simpler methods like the (Caesar Cipher)[https://cryptii.com/pipes/caesar-cipher] relied
+keeping the key secret, the ciphers themselves are generally public knowledge. Historically, simpler methods like the [Caesar Cipher](https://cryptii.com/pipes/caesar-cipher) relied
 on basic character shifts, but these are now considered insecure due to the limited number of possible keys, which allows for trivial 
 brute-force recovery.
 
