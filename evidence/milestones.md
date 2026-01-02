@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **January 02, 2026**: Completed Tryhackme - Public Key Cryptography Basics
 - **January 01, 2026**: Completed Tryhackme - Cryptography Basics
 - **December 29, 2025**: Completed Tryhackme - Nmap: The Basics
 - **December 26, 2025**: Completed Tryhackme - Advent of Cyber 2025
