@@ -55,7 +55,7 @@ passphrases, underscoring the necessity of treating private keys with the same l
 * Private keys should be stored with restricted permissions (e.g., chmod 600) and protected by strong passphrases.
 * The official documentation for GPG usage can be found at the [GnuPG online manual](https://www.gnupg.org/documentation/manuals/gnupg/).
 * Guidance on trusted CAs is maintained by browser vendors such as [Mozilla](https://wiki.mozilla.org/CA) and [Google](https://pki.goog/repository/).
-
+* Get your own TLS certificates for domains you own using [Let's Encrypt](https://letsencrypt.org/) for free.
 ---
 
 
