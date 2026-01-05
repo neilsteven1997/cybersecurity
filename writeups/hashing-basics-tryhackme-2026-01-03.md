@@ -34,6 +34,27 @@ confidentiality. As I document these findings, the distinction remains clear: en
 confidentiality, and hashing is for integrity and secure non-reversible storage. Further research into specialized tools can be 
 found at John the Ripper's project page or through general cryptography deep dives.
 
+The construction of `Hash-based Message Authentication Codes (HMAC)` represents a critical fusion of hashing algorithms and secret 
+keys to validate both the source and the content of a transmission. In my experience, relying solely on standard digests is 
+insufficient for security; the HMAC structure introduces specific padding—namely ipad and opad—to mitigate vulnerabilities like 
+length extension attacks. The logic is fundamentally nested, requiring an initial pass where the key is modified by the inner 
+padding and combined with the message before a second hashing pass incorporates the outer padding to finalize the digest.
+
+This layered approach ensures that the integrity of the message is intrinsically linked to the possession of the secret key, making 
+it computationally impractical for an adversary to generate a valid authentication tag. I particularly value how this design 
+abstracts the underlying hash function, allowing for flexible implementation with various algorithms while maintaining the same 
+rigorous authentication logic.
+
+`HMAC(K,M) = H((K⊕opad)||H((K⊕ipad)||M))`
+
+- K: The secret key utilized for authentication.
+- M: The specific message payload requiring verification.
+- opad: The outer padding block used in the final hash computation.
+- ipad: The inner padding block used in the initial hash stage.
+- The authentication process follows a two-step nested hash: an inner keyed-message computation followed by an outer keyed-result 
+refinement.
+- This methodology ensures strong protection against forgery, as valid digests cannot be generated without access to the secret key.
+
 ---
 | Description | Code/Command |
 | --- | --- |
