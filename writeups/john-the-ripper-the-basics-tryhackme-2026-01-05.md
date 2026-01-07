@@ -76,4 +76,7 @@ systems facilitate these same operations outside of a Linux environment.
 * Redirect the output to a text file.
 * Run John against the resulting text file using a wordlist.
 
+* Rar: `unrar x -ppasswordhere secure.ra`
+* Zip: `unzip -P pass123 secure.zip`
+
 ---
