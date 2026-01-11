@@ -59,7 +59,7 @@ systems facilitate these same operations outside of a Linux environment.
     <tr>
       <td><img src="images/hash-identified-md5-tryhackme-jan-07-2026.png" alt="Hash Identified MD5" 
   width="450"/>
-      <td><img src="images/found-password-biscuit-tryhackme-jan-07-2026.png" alt="Found Password `biscuit`" width="450"/></td>
+      <td><img src="images/found-password-tryhackme-jan-07-2026.png" alt="Found Password" width="450"/></td>
     </tr>
     <tr>
       <td align="center"><strong>Figure 1a:</strong> Hash Identified MD5</td>
@@ -68,7 +68,7 @@ systems facilitate these same operations outside of a Linux environment.
     <tr>
       <td><img src="images/hash-identified-sha1-tryhackme-jan-07-2026.png" alt="Hash Identified SHA1" 
   width="450"/>
-      <td><img src="images/found-password-kangeroo-tryhackme-jan-07-2026.png" alt="Found Password `kangeroo`" width="450"/></td>
+      <td><img src="images/found-password-kangeroo-tryhackme-jan-07-2026.png" alt="Found Password" width="450"/></td>
     </tr>
      <tr>
       <td align="center"><strong>Figure 2a:</strong> Hash Identified SHA1/td>
