@@ -54,6 +54,31 @@ systems facilitate these same operations outside of a Linux environment.
 | Extract hash from SSH key | `python3 ssh2john.py [id_rsa_file] > [output_file]` |
 
 ---
+### Successful Exploitation
+After mounting the host filesystem from the compromised container, the target DoorDash website was defaced:
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+  width="450"/>
+      <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
+      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+    </tr>
+    <tr>
+      <td><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+  width="450"/>
+      <td><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
+      <td align="center"><strong>Figure 2b:</strong> Incrementing the number on link to find secret code</td>
+    </tr>
+  </table>
+</p>
+---
 ### Key Takeaways
 
 * Hashes are one-way transformations; while calculating them is mathematically "easy," reversing them is computationally "hard"
