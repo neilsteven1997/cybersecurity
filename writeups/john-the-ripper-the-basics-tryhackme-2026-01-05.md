@@ -92,11 +92,11 @@ systems facilitate these same operations outside of a Linux environment.
     <tr>
       <td><img src="images/hash-identified-whirlpool--tryhackme-jan-07-2026.png" alt="Hash Identified Whirlpool" 
   width="450"/>
-      <td><img src="images/found-password-colossal-tryhackme-jan-07-2026.png" alt="Found Password `colossal`" width="450"/></td>
+      <td><img src="images/found-password-4-tryhackme-jan-07-2026.png" alt="Found Password 4" width="450"/></td>
     </tr>
      <tr>
       <td align="center"><strong>Figure 4a:</strong> Hash Identified Whirlpool</td>
-      <td align="center"><strong>Figure 4b:</strong> Found Password `colossal`</td>
+      <td align="center"><strong>Figure 4b:</strong> Found Password 4</td>
     </tr>
   </table>
 </p>
