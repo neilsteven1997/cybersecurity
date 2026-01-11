@@ -83,11 +83,11 @@ systems facilitate these same operations outside of a Linux environment.
     <tr>
       <td><img src="images/hash-identified-sha256--tryhackme-jan-07-2026.png" alt="Hash Identified SHA256" 
   width="450"/>
-      <td><img src="images/found-password-microphone-tryhackme-jan-07-2026.png" alt="Found Password `microphone`" width="450"/></td>
+      <td><img src="images/found-password-3-tryhackme-jan-07-2026.png" alt="Found Password 3" width="450"/></td>
     </tr>
     <tr>
       <td align="center"><strong>Figure 3a:</strong> Hash Identified SHA256</td>
-      <td align="center"><strong>Figure 3b:</strong> Found Password `microphone`</td>
+      <td align="center"><strong>Figure 3b:</strong> Found Password 3</td>
     </tr>
     <tr>
       <td><img src="images/hash-identified-whirlpool--tryhackme-jan-07-2026.png" alt="Hash Identified Whirlpool" 
