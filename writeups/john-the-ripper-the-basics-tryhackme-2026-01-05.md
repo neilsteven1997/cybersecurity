@@ -101,6 +101,7 @@ systems facilitate these same operations outside of a Linux environment.
   </table>
 </p>
 ---
+
 ### Key Takeaways
 
 * Hashes are one-way transformations; while calculating them is mathematically "easy," reversing them is computationally "hard"
