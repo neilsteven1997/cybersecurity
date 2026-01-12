@@ -114,7 +114,7 @@ credentials.
 >You may have to wait for 1 - 2 minutes and observe the terminal for any credentials entered by the user.
 
 >[!Tip]
->Outcome: Successfully captured the credentials 'username=admin&password=unranked-wisdom-anthem' from the phishing page. 
+>Outcome: Successfully captured the credentials '---' from the phishing page. 
 This demonstrates the effectiveness of my phishing setup, as it indicates that the phishing email led to credential
 submission, which is a critical objective in this exercise. Opened the emailer and found “Urgent: Production & Shipping 
 Request - 1984000 Units (Next 2 Weeks)”
