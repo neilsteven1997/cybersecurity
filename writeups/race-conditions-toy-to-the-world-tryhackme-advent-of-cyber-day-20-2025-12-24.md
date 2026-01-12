@@ -55,7 +55,7 @@ in a single burst. This forces the server-side application threads to compete fo
 | Burp Suite Synchronization Feature | `Repeater` > `Send group (parallel)` |
 
 ---
-### Key Takeaways* Ensure the `Connection: keep-alive` header is present to maintain open channels during the synchronization phase.
+### Key Takeaways - Ensure the `Connection: keep-alive` header is present to maintain open channels during the synchronization phase.
 * Use at least 15–20 parallel requests to increase the probability of hitting the race window, as some threads may be delayed by
   backend latency.
 * Monitor response bodies for unique identifiers; if two different responses return the same "Order ID" or "Transaction ID," the
