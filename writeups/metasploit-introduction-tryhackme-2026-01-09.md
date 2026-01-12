@@ -57,6 +57,55 @@ shells.
 | Move an active Meterpreter session to the background | `background` |
 
 ---
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/metasploit-tryhackme-jan-09-2026.png" alt="Metasploit" 
+  width="450"/>
+      <td><img src="images/metasploit-cli-tryhackme-jan-09-2026.png" alt="Metasploit CLI" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Metasploit</td>
+      <td align="center"><strong>Figure 1b:</strong> Metasploit CLI</td>
+    </tr>
+    <tr>
+      <td><img src="images/msf6-ping-test-tryhackme-jan-09-2026.png" alt="msf6 Ping Test" 
+  width="450"/>
+      <td><img src="images/payload-run-tryhackme-jan-09-2026.png" alt="Payload Run" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> msf6 Ping Test</td>
+      <td align="center"><strong>Figure 2b:</strong> Payload Run</td>
+    </tr>
+  </table>
+</p>
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/smb-ms17-010-tryhackme-jan-09-2026.png" alt="SMB_ms17_010" 
+  width="450"/>
+      <td><img src="images/ssh-pub-key-tryhackme-jan-09-2026.png" alt="SSH Pub_Key" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> SMB_ms17_010</td>
+      <td align="center"><strong>Figure 3b:</strong> SSH Pub_Key</td>
+    </tr>
+    <tr>
+      <td><img src="images/ssh-login-module-tryhackme-jan-09-2026.png" alt="SSH Login Module" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> SSH Login Module</td>
+    </tr>
+  </table>
+</p>
+
+---
+
 ### Key Takeaways
 
 * Metasploit Framework is the open-source, CLI-based version of the tool, distinct from the Pro GUI.
