@@ -87,14 +87,14 @@ Now, we will have several questions to answer and various fields to fill out. Th
 the email addresses and how the email will be routed and delivered. After each input provided, we can press Enter to 
 get to the next question.
 
-- Send email to: Let’s begin by targeting factory@wareville.thm
+- Send email to: Let’s begin by targeting ---
 - How to deliver the email: We will choose Use your own server or open relay
 - From address: We know that the guys at the toy factory communicate regularly with Flying Deer, the shipping company, 
-so that we will use updates@flyingdeer.thm as the source email address
+so that we will use --- as the source email address
 - From name: Let’s use the name Flying Deer
 - Username for open-relay: We will leave it blank and just hit the Enter key
 - Password for open-relay: We will leave it blank and just hit the Enter key
-- SMTP email server address: We will deliver directly to the TBFC mail server by entering 10.49.134.176.
+- SMTP email server address: We will deliver directly to the TBFC mail server by entering ---
 - Port number for the SMTP server: We leave the default value of 25 and just hit the Enter key
 - The next set of questions will ask if you want to send it as a high priority or attach a file.
 - Flag this message as high priority: The choice is entirely up to you, depending on your knowledge of the circumstances, 
@@ -105,7 +105,7 @@ but we will answer with no
 - Email subject: We need to think of something convincing, for example, “Shipping Schedule Changes”
 - Send the message as HTML or plain: We will keep the default choice of plaintext and just hit the Enter key
 - Enter the body of the message, and type END (capitals) when finished: Create and type any convincing message. Make sure 
-to include the URL http://10.49.75.250:8000 to check if the target will fall for this trick.
+to include the URL --- to check if the target will fall for this trick.
 - Now, the phishing email has been sent to the target. The "Press <return> to continue" button is just the Enter button to 
 restart the tool. Open the terminal where our server.py script is running to see if the user gets trapped and enters their 
 credentials.
