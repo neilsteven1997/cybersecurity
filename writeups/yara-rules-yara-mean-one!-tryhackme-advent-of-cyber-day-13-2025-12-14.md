@@ -1,7 +1,7 @@
 # YARA Rules
 
 ---
-## YARA Overview and Applications**
+## YARA Overview and Applications
 
 YARA is a foundational tool in threat intelligence and incident response, designed to identify and categorize malware by 
 detecting unique, characteristic patterns within files, code, and memory. It functions as a digital fingerprinting mechanism, 
