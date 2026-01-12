@@ -124,6 +124,43 @@ systems facilitate these same operations outside of a Linux environment.
   </table>
 </p>
 
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/password-found-8-tryhackme-jan-07-2026.png" alt="Found Password 8" 
+  width="450"/>
+      <td><img src="images/found-thm-flag-1-tryhackme-jan-07-2026.png" alt="Found Flag 1" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 7a:</strong> Found Password 8</td>
+      <td align="center"><strong>Figure 7b:</strong> Found Flag 1</td>
+    </tr>
+    <tr>
+      <td><img src="images/found-password-9-tryhackme-jan-07-2026.png" alt="Found Password 9" 
+  width="450"/>
+      <td><img src="images/found-thm-flag-2-tryhackme-jan-07-2026.png" alt="Found Flag 2" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 8a:</strong> Found Password 9</td>
+      <td align="center"><strong>Figure 8b:</strong> Found Flag 2</td>
+    </tr>
+  </table>
+</p>
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/found-password-10-tryhackme-jan-07-2026.png" alt="Found Password 10" 
+  width="450"/>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 9a:</strong> Found Password 10</td>
+    </tr>
+  </table>
+</p>
+
+
 ---
 
 ### Key Takeaways
