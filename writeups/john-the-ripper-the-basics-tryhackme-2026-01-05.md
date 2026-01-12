@@ -101,6 +101,29 @@ systems facilitate these same operations outside of a Linux environment.
   </table>
 </p>
 
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/found-password-5-tryhackme-jan-07-2026.png" alt="Found Password 5" 
+  width="450"/>
+      <td><img src="images/found-password-6-root-tryhackme-jan-07-2026.png" alt="Found Password 6" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 5a:</strong> Found Password 5</td>
+      <td align="center"><strong>Figure 5b:</strong> Found Password 6</td>
+    </tr>
+    <tr>
+      <td><img src="images/found-password-7-tryhackme-jan-07-2026.png" alt="Found Password 7" 
+  width="450"/>
+      <td><img src="images/hash-identified-md5-tryhackme-jan-07-2026.png" alt="Hash Identified MD5" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 6a:</strong> Found Password 7</td>
+      <td align="center"><strong>Figure 6b:</strong> Hash Identified MD5</td>
+    </tr>
+  </table>
+</p>
+
 ---
 
 ### Key Takeaways
