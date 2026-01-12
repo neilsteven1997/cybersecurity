@@ -71,7 +71,7 @@ systems facilitate these same operations outside of a Linux environment.
       <td><img src="images/found-password-2-tryhackme-jan-07-2026.png" alt="Found Password 2" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> Hash Identified SHA1/td>
+      <td align="center"><strong>Figure 2a:</strong> Hash Identified SHA1</td>
       <td align="center"><strong>Figure 2b:</strong> Found Password 2</td>
     </tr>
   </table>
@@ -100,6 +100,7 @@ systems facilitate these same operations outside of a Linux environment.
     </tr>
   </table>
 </p>
+
 ---
 
 ### Key Takeaways
