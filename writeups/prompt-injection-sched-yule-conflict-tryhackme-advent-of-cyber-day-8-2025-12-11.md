@@ -1,4 +1,4 @@
-a# Agentic AI Hack 
+# Agentic AI Hack 
 
 ---
 ## The evolution from static language prediction to independent decision-making systems 
