@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **January 15, 2026**: Completed Tryhackme - Metasploit: Exploitation
 - **January 09, 2026**: Completed Tryhackme - Metasploit: Introduction 
 - **January 08, 2026**: Completed Tryhackme - Moniker Link (CVE-2024-21413)
 - **January 07, 2026**: Completed Tryhackme - John the Ripper: The Basics
