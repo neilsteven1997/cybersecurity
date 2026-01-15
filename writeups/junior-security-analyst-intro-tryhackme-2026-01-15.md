@@ -33,4 +33,3 @@ Key Takeaways
 - Gain insight into business operations beyond pure technical defense
 
 ---
----
