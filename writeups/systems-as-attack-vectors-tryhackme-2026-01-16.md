@@ -1,44 +1,45 @@
 # Systems as Attack Vectors
 
 ---
-Systems remain a primary attack surface in intrusions, often targeted independently of user interaction when defenses rely 
-solely on human vigilance. A compromised system—whether an endpoint, server, virtual machine, or cloud workload—grants attackers
-far greater reach than a single user account, enabling data exfiltration at scale, ransomware propagation across networks, or
-persistence for future operations. Value varies by asset: an admin laptop provides internal network access, a mail server 
-exposes thousands of mailboxes, an industrial control server risks physical disruption, and a public-facing management 
-interface invites defacement or backdoor insertion.
+Systems serve as high-value targets in intrusions, offering attackers scale and persistence far beyond single-user compromises. 
+A breached endpoint, server, virtual machine, or cloud workload like Microsoft 365 grants control over multiple accounts, 
+mailboxes, databases, or entire network segments. The payoff varies by asset: an administrator's laptop unlocks internal 
+infrastructure, a mail server exposes thousands of accounts for data theft or blackmail, an industrial control server enables 
+ransomware propagation or physical disruption, and a public-facing management interface invites defacement or persistent backdoors.
 
-Initial access frequently stems from human actions—inserting malicious USB devices, downloading cracked software, or reusing 
-weak credentials across services—though direct technical exploitation dominates sophisticated campaigns. Credential 
-compromise accounts for a substantial portion of breaches, with weak or reused passwords enabling lateral movement once 
-inside. Software vulnerabilities introduce another pathway; thousands of CVEs are published annually, many actively 
-exploited shortly after disclosure, while zero-days allow pre-patch compromise until vendor fixes arrive. Supply chain 
-compromises amplify impact by injecting malicious code into trusted updates or libraries, as seen in past incidents 
-affecting widespread software ecosystems.
+Access often originates from user actions—malicious USB insertion, pirated software downloads, or credential reuse—with 
+stolen or weak passwords implicated in a large majority of breaches. Direct exploitation targets software vulnerabilities; 
+tens of thousands of CVEs emerge annually, hundreds actively weaponized in the wild, while zero-days allow pre-disclosure 
+compromise until patches arrive. Supply chain attacks compromise trusted updates or libraries, affecting downstream users at 
+scale, as demonstrated in major incidents and even TryHackMe's own experience with a compromised animation library.
 
-Misconfigurations compound these risks, often introduced during setup for convenience—default credentials left unchanged, 
-overly permissive access controls, or exposed cloud storage buckets. Such errors frequently lead to unauthorized data 
-access or botnet recruitment of devices. Detection hinges on behavioral indicators rather than signatures alone; anomalous 
-processes, unusual network connections, or unexpected privilege escalation signal compromise even when patches lag.
+Misconfigurations introduce equally severe risks when convenience overrides security—default credentials left unchanged, 
+permissive cloud storage, or exposed IoT devices recruited into botnets. Unlike bugs, these require no exploit development; 
+attackers simply discover and abuse poor setup decisions.
 
-Mitigation centers on disciplined processes: rigorous patch management to close known vulnerabilities promptly, network 
-segmentation and access controls to limit blast radius, endpoint protection platforms for runtime blocking, and regular 
-configuration audits against established benchmarks. Training IT staff on secure baselines reduces preventable errors, 
-while vulnerability scanning and penetration testing surface issues before exploitation.
+Detection relies on behavioral anomalies—unexpected processes, lateral movement, or privilege escalation—since prevention 
+cannot cover every vector. Response differs by root cause: vulnerabilities demand vendor patches with interim mitigations 
+such as IP whitelisting, vendor-provided workarounds, or signature-based blocking on IPS/WAF during zero-day windows; 
+misconfigurations call for reconfiguration, audits against hardened baselines, periodic vulnerability scanning, and 
+penetration testing to surface issues proactively.
 
-In SOC operations, these insights shift focus from reactive alert chasing toward proactive hardening—sharing threat 
-intelligence with engineering teams, advocating for improved controls, and correlating system-level anomalies with 
-broader campaign patterns. The distinction between human-targeted and system-targeted attacks blurs in practice; 
-effective defense integrates both perspectives.
+Mitigation emphasizes disciplined processes over reactive firefighting. Patch management tracks disclosures and applies 
+fixes promptly. Network segmentation and access controls restrict reach. Endpoint protection detects and blocks execution 
+attempts. IT training on secure configuration reduces preventable errors.
+
+The SOC role here involves bridging analysis and engineering—identifying patterns in alerts, correlating system anomalies 
+with campaign indicators, and advocating controls that reduce noise and risk. Understanding these vectors sharpens 
+perspective and strengthens team-wide defenses.
 
 ---
 
 Key Takeaways
-- Implement structured patch management to address disclosed vulnerabilities swiftly
-- Enforce network segmentation and least-privilege access to contain lateral movement
-- Deploy endpoint detection and response tools for behavioral monitoring and blocking
-- Conduct regular configuration audits and vulnerability scanning to identify misconfigurations
-- Train IT personnel on secure system setup and baseline hardening practices
-- Correlate system anomalies with user activity indicators for comprehensive incident visibility
+- Prioritize patch management to close disclosed vulnerabilities quickly and apply interim controls during zero-day exposure
+- Enforce network segmentation and least-privilege access to limit lateral movement from compromised systems
+- Deploy endpoint detection and response for behavioral monitoring and malware blocking
+- Conduct regular configuration audits, vulnerability scanning, and penetration testing to identify misconfigurations
+- Train IT staff on secure baselines and risks of convenience-driven setup decisions
+- Correlate system-level anomalies with user and network indicators for comprehensive visibility
+- Monitor recommended resources for emerging threats: The DFIR Report at https://www.thedfirreport.com, CISA Known Exploited Vulnerabilities Catalog at https://www.cisa.gov/known-exploited-vulnerabilities-catalog, BleepingComputer at https://www.bleepingcomputer.com, Check Point Threat Map at https://threatmap.checkpoint.com
 
 ---
