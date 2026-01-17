@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **January 17, 2026**: Completed Tryhackme - Systems as Attack Vectors
 - **January 16, 2026**: Completed Tryhackme - Humans as Attack Vectors
 - **January 16, 2026**: Completed Tryhackme - SOC Role in Blue Team
 - **January 16, 2026**: Completed Tryhackme - Junior Security Analyst Intro
