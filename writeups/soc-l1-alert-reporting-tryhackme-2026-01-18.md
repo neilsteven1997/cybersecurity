@@ -40,3 +40,46 @@ Key Takeaways
 - Conduct configuration audits matching against benchmarks like CIS standards
 
 ---
+
+## Alert Reporting 
+
+Alert reporting serves as a critical bridge between initial triage and deeper investigation or remediation, particularly 
+when uncertainty lingers or escalation becomes necessary. Level 1 analysts often encounter alerts requiring senior input, 
+system owner clarification, or coordination across teams, making structured documentation essential before closure or handoff. 
+Effective reports preserve investigative context indefinitely—far beyond the typical 3-12 month retention of raw logs—while 
+sharpening analytical clarity through the discipline of summarization.
+
+The Five Ws framework structures concise yet comprehensive reporting, ensuring recipients such as Level 2 analysts, DFIR 
+specialists, or IT staff grasp the incident without reconstructing the work. Who identifies the affected entity—user account, 
+process owner, or endpoint. What details the precise action or sequence triggering the alert, from authentication attempts 
+to command execution. When captures the temporal scope, including start and end timestamps of suspicious activity. Where 
+specifies the source or location—hostname, IP address, device, or external domain. Why articulates the analyst’s verdict 
+reasoning, linking observed indicators to threat context and justifying true positive or false positive classification.
+
+This approach proves particularly valuable during escalation. True positives demanding further action—malware containment, 
+host isolation, credential reset, or external coordination—transfer seamlessly when supported by a thorough report. Level 2 
+then builds directly on the L1 foundation rather than starting from scratch. Communication extends beyond internal escalation; 
+contacting affected users via secure channels (never compromised platforms), consulting HR on personnel anomalies, or 
+notifying IT on configuration issues maintains operational integrity.
+
+In high-pressure scenarios—unresponsive seniors, alert floods, or post-closure realizations of potential 
+misclassification—procedures dictate immediate outreach to backups, alternative verification methods, queue prioritization 
+updates, or engineer notification for parsing issues. The SOC dashboard simulation reinforces these mechanics; accurate 
+reporting, verdict assignment, and status updates yield progress, while inconsistencies block flags.
+
+I find the Five Ws consistently useful in real environments—its simplicity forces precision and reduces miscommunication 
+when handing off time-sensitive incidents.
+
+---
+
+Key Takeaways
+- Document alerts with the Five Ws framework: Who (affected entity), What (action/sequence), When (timeframe), Where (location/source), Why (verdict reasoning)
+- Use detailed reports for true positives requiring escalation to preserve context and accelerate Level 2 analysis
+- Escalate alerts indicating major attacks, needing remediation, external coordination, or when clarification from seniors is required
+- Reassign to on-shift Level 2 with notification via chat or in-person, ensuring the report accompanies the handoff
+- Communicate securely—avoid compromised channels for user validation, prioritize critical alerts during floods, and report parsing or tool issues immediately
+- Maintain indefinite alert records through thorough comments, supplementing limited raw log retention
+
+---
+
+
