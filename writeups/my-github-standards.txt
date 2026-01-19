@@ -139,6 +139,18 @@ Adding a Link to a word
 
 ---
 
+My Recommended Best Naming Format (2026 Standard)Use this structure for every image:
+
+[topic]_[short-description]_[step/number]_[platform]_[YYYY-MM-DD].png
+
+nmap_aggressive-scan-open-ports_thm_2026-01-18.png  
+metasploit_reverse-shell-meterpreter_thm_2026-01-19.png  
+burpsuite_xss-payload-intercept_thm_2026-01-20.png  
+john_whirlpool-crack-progress_thm_2026-01-21.png
+
+
+---
+
 Adding visual proof for John the Ripper: The Basics 2026-01-05
 
 ---
