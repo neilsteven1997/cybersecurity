@@ -25,14 +25,6 @@ tracking them personally useful for spotting workflow bottlenecks early.
 
 ---
 
-| Description | Code/Command |
-|-------------|--------------|
-| None in source | N/A |
-
----
-
-Extracted Tables
-
 | Metric | Formula | Measures |
 |--------|---------|----------|
 | Alerts Count | AC = Total Count of Alerts Received | Overall load of SOC analysts |
