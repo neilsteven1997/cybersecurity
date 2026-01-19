@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **January 19, 2026**: Completed Tryhackme - SOC L1 Alert Reporting
 - **January 18, 2026**: Completed Tryhackme - SOC L1 Alert TriageSOC L1 Alert Triage
 - **January 17, 2026**: Completed Tryhackme - Systems as Attack Vectors
 - **January 16, 2026**: Completed Tryhackme - Humans as Attack Vectors
