@@ -30,7 +30,7 @@ Check Point's Threat Map at https://threatmap.checkpoint.com visualizes global a
 
 ---
 
-Key Takeaways
+### Key Takeaways: SOC 1 Alert 
 - Apply patch management to track and deploy updates reducing exploitation risk
 - Educate IT on configuration risks to prevent preventable exposures
 - Restrict network access to trusted IPs and users hardening external surfaces
@@ -72,14 +72,53 @@ when handing off time-sensitive incidents.
 
 ---
 
-Key Takeaways
-- Document alerts with the Five Ws framework: Who (affected entity), What (action/sequence), When (timeframe), Where (location/source), Why (verdict reasoning)
+### Key Takeaways: Alert Reporting 
+- Document alerts with the Five Ws framework: Who (affected entity), What (action/sequence), When (timeframe), Where
+  (location/source), Why (verdict reasoning)
 - Use detailed reports for true positives requiring escalation to preserve context and accelerate Level 2 analysis
-- Escalate alerts indicating major attacks, needing remediation, external coordination, or when clarification from seniors is required
+- Escalate alerts indicating major attacks, needing remediation, external coordination, or when clarification from seniors is
+  required
 - Reassign to on-shift Level 2 with notification via chat or in-person, ensuring the report accompanies the handoff
-- Communicate securely—avoid compromised channels for user validation, prioritize critical alerts during floods, and report parsing or tool issues immediately
+- Communicate securely—avoid compromised channels for user validation, prioritize critical alerts during floods, and report
+  parsing or tool issues immediately
 - Maintain indefinite alert records through thorough comments, supplementing limited raw log retention
 
 ---
 
+## Communication 
+
+Communication during alert handling often proves as critical as the technical analysis itself, particularly when urgency 
+demands rapid escalation or coordination beyond the immediate SOC team. In cases of critical alerts requiring senior review 
+but the on-shift Level 2 analyst remains unresponsive after thirty minutes, procedures call for escalating through emergency 
+contacts—first attempting to reach Level 2 directly by phone, then Level 3 if needed, and finally the SOC manager to avoid 
+delays in containment.
+
+When an alert indicates potential compromise of internal collaboration tools such as Slack or Teams, validation with the 
+affected user must occur through secure, out-of-band channels—never via the suspected platform itself. Phone calls or 
+alternative verified methods prevent adversary interception and ensure accurate confirmation of legitimate activity.
+
+During sudden alert surges where critical items appear alongside routine volume, maintain standard prioritization—severity 
+first, then age—while promptly notifying the on-shift Level 2 of the increased load to enable resource adjustment or workload 
+redistribution.
+
+Should a misclassification become apparent days later—perhaps through new context or pattern recognition—immediate outreach 
+to Level 2 remains mandatory. Silent persistence by adversaries means early false closures can allow dwell time of weeks 
+before impact, making prompt correction essential regardless of elapsed time.
+
+When SIEM parsing fails or logs prove unsearchable, preventing full triage, do not bypass the alert. Investigate available 
+elements and escalate the tooling issue to Level 2 or the SOC engineer without delay, preserving chain of custody and visibility.
+
+These scenarios underscore the necessity of predefined crisis communication protocols—emergency contact lists, out-of-band 
+verification standards, and clear escalation ladders—that keep response momentum intact under pressure.
+
+---
+
+### Key Takeaways: Communication
+- Escalate unresponsive Level 2 on critical alerts by calling L2, then L3, then manager using emergency contacts
+- Validate suspected collaboration tool compromises via phone or secure alternative channels only
+- Notify Level 2 immediately during alert floods while continuing severity-based prioritization
+- Report suspected misclassifications to Level 2 without delay to mitigate potential adversary persistence
+- Escalate unparseable SIEM logs or search failures to Level 2 or SOC engineer rather than skipping triage
+
+---
 
