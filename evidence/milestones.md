@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **January 21, 2026**: Completed Tryhackme - Splunk: The Basics
 - **January 21, 2026**: Completed Tryhackme - Introduction to SIEM
 - **January 21, 2026**: Completed Tryhackme - Introduction to EDR
 - **January 19, 2026**: Completed Tryhackme - SOC Metrics and Objectives
