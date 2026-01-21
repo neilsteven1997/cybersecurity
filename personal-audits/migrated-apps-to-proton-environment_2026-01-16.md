@@ -1,0 +1,4 @@
+- migrated apps to Proton
+- updated weak to strong passwords
+- added authentication app codes
+- updated recovery accounts
