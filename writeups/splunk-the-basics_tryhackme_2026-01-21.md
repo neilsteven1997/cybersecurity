@@ -13,9 +13,7 @@ displays installed applications, defaulting to Search & Reporting. Explore Splun
 documentation. Home dashboard permits selection from defaults or customs, with a Yours tab for user-created ones.
 
 Data ingestion categorizes sources per Splunk documentation. Upload process requires selecting source, type (e.g., JSON, syslog), 
-
 input settings for index and hostname, review, and completion. VPN logs demonstrate this, available for download and upload.
-
 The component separation keeps endpoint overhead low while concentrating processing power centrally.
 
 ---
