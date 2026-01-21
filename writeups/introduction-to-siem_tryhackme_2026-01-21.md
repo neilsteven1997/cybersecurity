@@ -65,12 +65,12 @@ Key Takeaways
 - Quarantine: Moves files to isolated location preventing execution for review
 - Remote Access: Enables shell for custom actions, scripts, deeper visibility
 - Artefacts Collection: Extracts memory dumps, event logs, folder contents, registry hives for forensics
-- To view events in a Windows environment, type Event Viewer in the search bar.
+- To view events in a Windows environment, type `Event Viewer` in the search bar.
 - Common locations where Linux stores logs are:
-- /var/log/httpd: Contains HTTP Request  / Response and error logs.
-- /var/log/cron: Events related to cron jobs are stored in this location.
-- /var/log/auth.log and /var/log/secure: Stores authentication-related logs.
-- /var/log/kern: This file stores kernel-related events.
+- `/var/log/httpd:` Contains HTTP Request  / Response and error logs.
+- `/var/log/cron:` Events related to cron jobs are stored in this location.
+- `/var/log/auth.log` and `/var/log/secure:` Stores authentication-related logs.
+- `/var/log/kern:` This file stores kernel-related events.
 
 ---
 
