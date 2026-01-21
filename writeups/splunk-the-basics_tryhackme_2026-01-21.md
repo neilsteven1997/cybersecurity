@@ -28,5 +28,5 @@ The component separation keeps endpoint overhead low while concentrating process
 - Configure home dashboard selecting defaults or customs, Yours tab for personal
 - Ingest via upload selecting source, type, input settings (index, hostname), review, complete
 - Categorize data sources following Splunk documentation organization
-
+- [Splunk Navigation]([https://gchq.github.io/CyberChef/](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/NavigatingSplunk))
 ---
