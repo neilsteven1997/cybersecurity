@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **January 21, 2026**: Completed Tryhackme - Introduction to EDR
 - **January 19, 2026**: Completed Tryhackme - SOC Metrics and Objectives
 - **January 19, 2026**: Completed Tryhackme - SOC Workbooks and Lookups
 - **January 19, 2026**: Completed Tryhackme - SOC L1 Alert Reporting
