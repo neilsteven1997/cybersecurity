@@ -52,6 +52,8 @@ Analysis tools encompass Wireshark for breakdowns, tcpdump for lines, and protec
 NetFlow amass flow details for noting controls, leaks, or shifts, while IPFIX, evolving from Cisco's proprietary to open standard, 
 adds field choices. These embed in gear, needing activation and targets like advanced barriers or sensors.
 
+---
+
 This structure aids in mapping responses, linking model specifics to actual assessments beyond partial records.
 
 | Description | Code/Command |
@@ -102,6 +104,8 @@ This structure aids in mapping responses, linking model specifics to actual asse
 | 5 | 1.100000 | <TARGET_IP> | <TARGET_IP> | TCP | 74 | 54433 → 80 [SYN] Seq=0 Win=64240 Len=0 |
 | 6 | 1.100120 | <TARGET_IP> | <TARGET_IP> | TCP | 74 | 54433 → 80 [SYN] Seq=0 Win=64240 Len=0  <-- Relayed via attacker |
 
+---
+
 ### Key Takeaways
 - Grasp network traffic analysis as seizing, reviewing, and linking data for oversight.
 - Spot application fronts and contents, transport wraps with indicators and orders, internet splits with positions, link addresses.
@@ -112,3 +116,4 @@ This structure aids in mapping responses, linking model specifics to actual asse
 - For SMB Kerberos: login gets granting ticket; station seeks service one; applies for link, then reaches share.
 - Practices for grabs: position aptly, time briefly for space, favor duplicators for speed.
 
+---
