@@ -68,6 +68,15 @@ organization's infrastructure.
 
 ---
 
+>[!Note]
+>Working through Elastic’s basics reminded me how it stacks up against Splunk. Elastic’s open-source heart (Elasticsearch for search, 
+Kibana for dashboards) makes it flexible and cheap for security monitoring and observability. Splunk’s proprietary SPL delivers 
+polished correlation and compliance reporting, but the licensing cost is steep. For hands-on learning without lock-in, Elastic feels 
+more approachable.
+
+
+---
+
 ### Key Takeaways
 
 * ELK serves as an alternative SIEM by utilizing Elasticsearch (analytics), Logstash (processing), Beats (shipping), and Kibana (visualization).
