@@ -64,7 +64,7 @@ This structure aids in mapping responses, linking model specifics to actual asse
 | DNS log entry example 4 | 2025-10-03 09:15:45    SRC=<TARGET_IP>      QUERY=<redacted>.malicious-tld.com       QTYPE=TXT    |
 | DNS response packet capture | Domain Name System (response)<br>    Transaction ID: 0x4a2b<br>    Flags: 0x8180 Standard query response, No error<br>        1... .... .... .... = Response: Message is a response<br>        .... .... .... 0000 = RCODE: No error (0)<br>    Questions: 1<br>    Answer RRs: 1<br>    Authority RRs: 0<br>    Additional RRs: 0<br>    Queries<br>        <redacted>.evilc2.com: type TXT, class IN<br>    Answers<br>        <redacted>.evilc2.com: type TXT, class IN, TTL 60, TXT length: 20<br>            TXT: "<redacted>" |
 | HTTP GET request header | GET /downloads/suspicious_package.zip HTTP/1.1<br>Host: <redacted>.thm<br>User-Agent: curl/7.85.0<br>Accept: */*<br>Connection: close |
-| HTTP response header | HTTP/1.1 200 OK<br>Date: Mon, 29 Sep 2025 10:15:30 GMT<br>Server: nginx/1.18.0<br>Content-Type: application/zip<br>Content-Length: 10485760<br>Content-Disposition: attachment; filename="suspicious_package.zip"<br>Last-Modified: Mon, 29 Sep 2025 09:54:00 GMT<br>ETag: "5d8c72-9f8a1c-3a2b4c"<br>Accept-Ranges: bytes<br>Connection: close<br>[`binary ZIP file bytes follow — 10,485,760 bytes`] |
+| HTTP response header | HTTP/1.1 200 OK<br>Date: Mon, 29 Sep 2025 10:15:30 GMT<br>Server: nginx/1.18.0<br>Content-Type: application/zip<br>Content-Length: 10485760<br>Content-Disposition: attachment; filename="suspicious_package.zip"<br>Last-Modified: Mon, 29 Sep 2025 09:54:00 GMT<br>ETag: "5d8c72-9f8a1c-3a2b4c"<br>Accept-Ranges: bytes<br>Connection: close<br>**SUSPICIOUS FILE SIZE:** [`binary ZIP file bytes follow — 10,485,760 bytes`] |
 | Firewall log entry example 1 | 2025-10-13 09:15:32 ACCEPT TCP src=<TARGET_IP> dst=<TARGET_IP> sport=51432 dport=443 flags=SYN len=60 |
 | Firewall log entry example 2 | 2025-10-13 09:15:32 ACCEPT TCP src=<TARGET_IP> dst=<TARGET_IP> sport=443 dport=51432 flags=SYN,ACK len=60 |
 | Authentication log example | Oct  8 11:20:15 <redacted> sshd[2145]: Accepted password for <redacted> from <TARGET_IP> port 52234 ssh2 |
@@ -82,7 +82,7 @@ This structure aids in mapping responses, linking model specifics to actual asse
 | 3 | 0.000220 | <TARGET_IP> | <TARGET_IP> | TCP | 66 | 51432 → 80 [ACK] Seq=1 Ack=1 Win=64240 Len=0 |
 | 4 | 0.010500 | <TARGET_IP> | <TARGET_IP> | TCP | 1514 | 51432 → 80 [PSH, ACK] Seq=1 Ack=1 Win=64240 Len=1460 |
 | 5 | 0.010620 | <TARGET_IP> | <TARGET_IP> | TCP | 66 | 80 → 51432 [ACK] Seq=1 Ack=1461 Win=65535 Len=0 |
-| 6 | 0.020100 | <TARGET_IP> | <TARGET_IP> | TCP | 74 | 51432 → 80 [PSH, ACK] `Seq=34567232` Ack=1 Win=64240 Len=20 |
+| 6 | 0.020100 | <TARGET_IP> | <TARGET_IP> | TCP | 74 | 51432 → 80 [PSH, ACK] **SUSPICIOUS SEQUENCE #:** `Seq=34567232` Ack=1 Win=64240 Len=20 |
 
 #### Fragmentation Overlap Capture
 
