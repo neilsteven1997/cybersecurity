@@ -1,21 +1,56 @@
 # Network Traffic Basics
 
 ---
-In my documentation of foundational network monitoring techniques, network traffic analysis stands out as a method for seizing, reviewing, and interpreting data moving across connections to gain thorough insight into exchanges both within and beyond the perimeter. It extends past mere reliance on software like Wireshark, incorporating the alignment of various records, detailed examination of packets, and metrics on flows to achieve targeted aims. This proficiency remains critical for positions ranging from beginner security operations center analysts to those in defensive and offensive operations, where sifting through vast data to spot routine versus irregular patterns forms the core. The emphasis here covers outlining this analysis, its necessity, observable elements, methods for observation, and notable origins and patterns of traffic.
+In my documentation of foundational network monitoring techniques, network traffic analysis stands out as a method for seizing, 
+reviewing, and interpreting data moving across connections to gain thorough insight into exchanges both within and beyond the perimeter.
+It extends past mere reliance on software like Wireshark, incorporating the alignment of various records, detailed examination of 
+packets, and metrics on flows to achieve targeted aims. This proficiency remains critical for positions ranging from beginner security 
+operations center analysts to those in defensive and offensive operations, where sifting through vast data to spot routine versus
+irregular patterns forms the core. The emphasis here covers outlining this analysis, its necessity, observable elements, methods for
+observation, and notable origins and patterns of traffic.
 
-An incident I noted involved a notification about abnormal DNS requests from a machine at <TARGET_IP>, directing repeated inquiries to identical top-level domains via distinct subdomains. Firewall entries logged types of queries, times, and origins, but omitted payloads. Deeper packet review exposed possible control directives in TXT replies, like encoded strings, illustrating how attackers leverage DNS for hidden channels or signaling. Such cases reveal the value in traffic scrutiny, as perimeter gear tracks queries without internals, enabling threats like embedded orders to infected hosts.
+An incident I noted involved a notification about abnormal DNS requests from a machine at <TARGET_IP>, directing repeated inquiries 
+to identical top-level domains via distinct subdomains. Firewall entries logged types of queries, times, and origins, but omitted 
+payloads. Deeper packet review exposed possible control directives in TXT replies, like encoded strings, illustrating how attackers 
+leverage DNS for hidden channels or signaling. Such cases reveal the value in traffic scrutiny, as perimeter gear tracks queries 
+without internals, enabling threats like embedded orders to infected hosts.
 
-Overall, this analysis serves to oversee connection efficiency, identify oddities such as abrupt surges or lags, and probe dubious interactions like outbound data through DNS or harmful archives fetched over HTTP. In operations centers, it facilitates spotting threats, piecing together breaches, and confirming warnings. One example showed a device shifting from standard actions around mid-afternoon coordinated time, with traffic yielding a questionable compressed file from HTTP. Another highlighted excess DNS compared to norms, uncovering tunneling for leakage.
+Overall, this analysis serves to oversee connection efficiency, identify oddities such as abrupt surges or lags, and probe dubious 
+interactions like outbound data through DNS or harmful archives fetched over HTTP. In operations centers, it facilitates spotting 
+threats, piecing together breaches, and confirming warnings. One example showed a device shifting from standard actions around 
+mid-afternoon coordinated time, with traffic yielding a questionable compressed file from HTTP. Another highlighted excess DNS 
+compared to norms, uncovering tunneling for leakage.
 
-Using the TCP/IP framework common to networked gear, monitorable aspects align with its tiers. Application components include protocol-specific fronts and actual content; in HTTP, a fetch might target suspicious_package.zip, with approvals signaling success yet concealing binaries. Transport divides and wraps these into segments, typically TCP or UDP, with logs often noting ports and indicators but skipping sequences vital for flagging takeovers, where erratic numbering prompts checks. Internet appends addressing, fragmenting oversized units, with common logs on origins, targets, and lifetimes, but offsets and sizes key to spotting reassembly manipulations like overlaps evading detectors. Link incorporates physical addressing, logs usually showing hardware identifiers, yet requiring full contexts for poisons like ARP where duplicates or conflicts indicate interference.
+Using the TCP/IP framework common to networked gear, monitorable aspects align with its tiers. Application components include 
+protocol-specific fronts and actual content; in HTTP, a fetch might target suspicious_package.zip, with approvals signaling success 
+yet concealing binaries. Transport divides and wraps these into segments, typically TCP or UDP, with logs often noting ports and 
+indicators but skipping sequences vital for flagging takeovers, where erratic numbering prompts checks. Internet appends addressing, 
+fragmenting oversized units, with common logs on origins, targets, and lifetimes, but offsets and sizes key to spotting reassembly 
+manipulations like overlaps evading detectors. Link incorporates physical addressing, logs usually showing hardware identifiers, 
+yet requiring full contexts for poisons like ARP where duplicates or conflicts indicate interference.
 
-In practice, origins split into transit points like barriers, exchangers, stand-ins, intrusion sensors, routers, and controllers, producing minor flows from routing like EIGRP or OSPF, oversight like SNMP or pings, recording like SYSLOG, and aids like ARP, STP, or DHCP, versus terminals like processors, workstations, connected objects, outputters, virtual instances, remote assets, and portables handling most capacity. Patterns group as perimeter-crossing, traversing defenses via client-server like HTTPS, DNS, SSH, VPN, SMTP, RDP with inbound and outbound directions, stressing rule and record setups for oversight, or internal, less watched but crucial for breach spreads exploiting authentications, shares, infrastructure, communications, copies, or supervision.
+In practice, origins split into transit points like barriers, exchangers, stand-ins, intrusion sensors, routers, and controllers,
+producing minor flows from routing like EIGRP or OSPF, oversight like SNMP or pings, recording like SYSLOG, and aids like ARP, STP, 
+or DHCP, versus terminals like processors, workstations, connected objects, outputters, virtual instances, remote assets, and 
+portables handling most capacity. Patterns group as perimeter-crossing, traversing defenses via client-server like HTTPS, DNS, SSH, 
+VPN, SMTP, RDP with inbound and outbound directions, stressing rule and record setups for oversight, or internal, less watched but 
+crucial for breach spreads exploiting authentications, shares, infrastructure, communications, copies, or supervision.
 
-In HTTPS with decryption, a station's appeal goes to an advanced barrier with intermediary, which mimics the endpoint while linking anew to the true one, relays, examines returns, and passes if benign, yielding dual links. External DNS begins at a station querying an inner resolver on 53, which caches or routes outward via paths and defenses to set externals, reversing for deliveries. SMB to shares like \\<redacted>\MARKETING initiates with Kerberos verification, where logins secure granting tickets for service ones, then employ them for linkages before access.
+In HTTPS with decryption, a station's appeal goes to an advanced barrier with intermediary, which mimics the endpoint while linking 
+anew to the true one, relays, examines returns, and passes if benign, yielding dual links. External DNS begins at a station querying 
+an inner resolver on 53, which caches or routes outward via paths and defenses to set externals, reversing for deliveries. SMB to 
+shares like \\<redacted>\MARKETING initiates with Kerberos verification, where logins secure granting tickets for service ones, 
+then employ them for linkages before access.
 
-Gathering data mixes records, complete grabs, and overviews. Records offer initial views, varying per maker like Microsoft events, capturing select fields without wholes, as in Linux authentications or web accesses via Syslog or common formats. Protocols like Syslog or SNMP standardize transmissions to gatherers. For more, link records with grabs and stats. Grabs use inline duplicators at physical levels, forwarding copies sans delay to analyzers, or port copies on intermediaries, like Cisco SPAN directing from one interface to another, applicable to virtuals like VMware or clouds like AWS VPC mirroring.
+Gathering data mixes records, complete grabs, and overviews. Records offer initial views, varying per maker like Microsoft events, 
+capturing select fields without wholes, as in Linux authentications or web accesses via Syslog or common formats. Protocols like 
+Syslog or SNMP standardize transmissions to gatherers. For more, link records with grabs and stats. Grabs use inline duplicators at 
+physical levels, forwarding copies sans delay to analyzers, or port copies on intermediaries, like Cisco SPAN directing from one 
+interface to another, applicable to virtuals like VMware or clouds like AWS VPC mirroring.
 
-Analysis tools encompass Wireshark for breakdowns, tcpdump for lines, and protectors like Snort, Suricata, and Zeek. Stats via NetFlow amass flow details for noting controls, leaks, or shifts, while IPFIX, evolving from Cisco's proprietary to open standard, adds field choices. These embed in gear, needing activation and targets like advanced barriers or sensors.
+Analysis tools encompass Wireshark for breakdowns, tcpdump for lines, and protectors like Snort, Suricata, and Zeek. Stats via 
+NetFlow amass flow details for noting controls, leaks, or shifts, while IPFIX, evolving from Cisco's proprietary to open standard, 
+adds field choices. These embed in gear, needing activation and targets like advanced barriers or sensors.
 
 This structure aids in mapping responses, linking model specifics to actual assessments beyond partial records.
 
