@@ -1,66 +1,85 @@
 # Elastic Stack: The Basics
 
 ---
+The Elastic Stack (ELK), comprising Elasticsearch, Logstash, Beats, and Kibana, has evolved from a general-purpose data search and 
+visualization engine into a vital utility for the Security Operations Center (SOC). While it is not a purpose-built Security Information
+and Event Management (SIEM) platform, its capacity to correlate and search through massive datasets in real time allows many security 
+teams to utilize it as such. In my observations, the synergy between these components facilitates a streamlined log analysis pipeline. 
+Beats act as single-purpose, host-based data shippers that transfer telemetry from endpoints—such as Windows event logs via Winlogbeat 
+or network traffic through Packetbeat—directly to either Logstash or Elasticsearch. Logstash serves as the processing engine, 
+utilizing a three-part configuration involving Input, Filter, and Output plugins to normalize and route data. Elasticsearch then 
+functions as the backend database, a full-text search and analytics engine that organizes JSON-formatted (JavaScript Object Notation) 
+documents and supports interactions through a RESTful Application Programming Interface (API).
 
-Elastic Stack (ELK), initially for storing, searching, and visualizing large datasets in performance monitoring, has become a key 
-tool in security operations center (SOC) for log investigations, functioning similarly to a Security Information and Event Management 
-(SIEM) with strong search and visualization capabilities. Components comprise Elasticsearch, a full-text search and analytics engine 
-handling JSON documents with RESTful API interaction; Logstash, a data processor with configurations split into input (specifying 
-ingestion sources), filter (normalizing data), output (routing to Kibana, listening ports, Elasticsearch databases, files), supporting 
-various plugins; Beats, lightweight host agents shipping specific data—Winlogbeat for Windows event logs, Packetbeat for network 
-traffic flows—to Elasticsearch; Kibana, a web interface for real-time data analysis, investigation, and dashboard creation.
+Kibana provides the frontend interface where analysts spend the majority of their investigative time, particularly within the 
+Discover tab. To access specific datasets, such as Virtual Private Network (VPN) logs, I must select the appropriate index pattern, 
+which in this environment is defined as vpn_connections. The interface allows for the isolation of specific event spikes, 
+like the unusual activity I noted on January 11, 2022, by interacting with the timeline and time interval charts. Navigating raw 
+logs is simplified by the Fields Pane, which displays normalized fields and allows for quick filtering. By selecting specific fields, 
+I can transform raw, noisy log entries into structured tables that highlight critical data points. Access to the local instance 
+is managed through the platform's Virtual Private Network at http://<MACHINE_IP>, requiring specific credentials to begin the 
+triaging process.
 
-Workflow sees Beats gathering from multiple agents, Logstash parsing/normalizing into field-value pairs for storage in Elasticsearch 
-as the searchable database, Kibana rendering visualizations like time charts or infographics.
+Efficiently querying these logs requires a firm grasp of the Kibana Query Language (KQL). This specialized search syntax allows 
+for both free text searches and structured, field-based queries. In my research, I have found that while a free text search for a 
+broad term is useful for general discovery, field-based searches using the Field: Value syntax provide the precision necessary 
+for forensic investigations. KQL supports wildcards for partial string matching and logical operators such as AND, OR, and NOT to 
+refine results. For instance, excluding specific geographic regions like Florida or correlating a specific Source IP with a username 
+is trivial when the syntax is applied correctly.
 
-Discover tab presents ingested logs, search bar, normalized fields, term/time-based filters. Elements include log rows with event info 
-and field-values, fields pane listing parsed fields with top five values and occurrence percentages for filter addition/removal, 
-index pattern selection (e.g., vpn_connections for VPN logs), search bar for queries, time filter for durations, timeline chart 
-displaying event counts over time with selectable bars highlighting spikes, top bar for saving/opening/sharing searches, add filter 
-for specific field restrictions.
+The transition from raw data to actionable intelligence is completed through visualizations and dashboards. By utilizing the 
+Visualization tab, I can create pie charts, bar charts, and data tables that summarize complex logs into presentable formats. 
+Advanced analysis often involves the correlation of multiple fields, such as mapping source countries to client IP addresses. 
+These individual components are eventually aggregated into centralized dashboards, providing a comprehensive "single pane of glass" 
+view. This structured approach allows for the rapid detection of malicious patterns and failed connection attempts across an 
+organization's infrastructure.
 
-Kibana Query Language (KQL) supports free text searches matching complete terms ("United States" but not "United"), wildcards 
-("United*" for suffixes like Nations), logical operators—AND combining terms ("United States" AND "Virginia"), OR for alternatives 
-("United States" OR "England"), NOT excluding ("United States" AND NOT "Florida"). Field-based searches use field:value syntax 
-(Source_ip:238.163.231.224 AND UserName:Suleman), with fields populated on click.
+---
 
-Visualization tab generates tables, pie charts, bar charts; dragging fields creates correlations (Source_Country with Source_IP), 
-saves with titles/descriptions.
+| Description | Code/Command |
+| --- | --- |
+| KQL Wildcard search for partial terms | `United*` |
+| KQL AND logical operator for dual terms | `"United States" AND "Virginia"` |
+| KQL OR logical operator for multiple choices | `"United States" OR "England"` |
+| KQL NOT logical operator to exclude terms | `"United States" AND NOT ("Florida")` |
+| Field-based search for specific IP and User | `Source_ip : <redacted_IP> AND UserName : <redacted>` |
 
-Dashboards aggregate saved searches and visualizations for oversight, created by adding from library, adjusting placement, saving.
+---
 
-Lab connects to ELK instance at http://MACHINE_IP with Analyst/analyst123 credentials.
+### Extracted Tables
 
-I find the timeline's spike detection useful for spotting anomalies in VPN logs, streamlining initial triage.
+**Available Beats Agents**
+
+| Beat Name | Purpose |
+| --- | --- |
+| Filebeat | Collects and ships log files |
+| Metricbeat | Collects metrics from systems and services |
+| Packetbeat | Collects network traffic flow data |
+| Winlogbeat | Collects Windows event logs |
+| Auditbeat | Collects audit data from Linux |
+| Heartbeat | Monitors service uptime |
+
+**ELK Instance Credentials**
+
+| Attribute | Value |
+| --- | --- |
+| Username | <redacted> |
+| Password | ******** |
 
 ---
 
 ### Key Takeaways
-- Navigate to Dashboard tab, click Create dashboard
-- Click Add from Library
-- Select visualizations and saved searches to add
-- Adjust layout
-- Save dashboard
-- Click field in Discover, select visualization
-- Choose type (table, pie, bar)
-- Drag fields for correlations
-- Save with title/description
-- Click Add filter under search bar
-- Select field, apply inclusion/exclusion via +/-
-- View timeline, select bars for time-specific logs
-- Search "United States" for exact matches
-- Use "United*" for partial wildcard matches
-- Combine with AND/OR/NOT ("United States" AND "Virginia", "United States" OR "England", "United States" AND NOT "Florida")
-- Use field:value (Source_ip:238.163.231.224 AND UserName:Suleman) for precise queries
-- Deploy Beats for data collection (Winlogbeat Windows events, Packetbeat network flows)
-- Configure Logstash input/filter/output
-- Store normalized data in Elasticsearch
-- Visualize in Kibana
-- Input defines sources
-- Filter normalizes
-- Output routes to Kibana, ports, Elasticsearch, files
-- Elasticsearch searches/analyzes JSON via RESTful API
-- Kibana analyzes/investigates/visualizes real-time streams with dashboards
 
+* ELK serves as an alternative SIEM by utilizing Elasticsearch (analytics), Logstash (processing), Beats (shipping), and Kibana (visualization).
+* Logstash configurations are categorized into Input (source), Filter (normalization), and Output (destination) segments.
+* The Discover tab in Kibana is the primary interface for log searching, utilizing Index Patterns to define which data to explore.
+* Kibana Query Language (KQL) utilizes two search modes: Free text (general) and Field-based (specific).
+* Procedural steps for dashboard creation:
+* Create and save individual visualizations via the Visualization tab.
+* Add descriptive titles and metadata before saving to the library.
+* Navigate to the Dashboard tab and select "Create dashboard."
+* Populate the dashboard using "Add from Library" to combine saved searches and visual elements.
+* Save the final dashboard for persistent monitoring and visibility.
+  
 ---
 
