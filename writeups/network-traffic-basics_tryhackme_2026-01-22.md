@@ -82,7 +82,7 @@ This structure aids in mapping responses, linking model specifics to actual asse
 | 3 | 0.000220 | <TARGET_IP> | <TARGET_IP> | TCP | 66 | 51432 → 80 [ACK] Seq=1 Ack=1 Win=64240 Len=0 |
 | 4 | 0.010500 | <TARGET_IP> | <TARGET_IP> | TCP | 1514 | 51432 → 80 [PSH, ACK] Seq=1 Ack=1 Win=64240 Len=1460 |
 | 5 | 0.010620 | <TARGET_IP> | <TARGET_IP> | TCP | 66 | 80 → 51432 [ACK] Seq=1 Ack=1461 Win=65535 Len=0 |
-| 6 | 0.020100 | <TARGET_IP> | <TARGET_IP> | TCP | 74 | 51432 → 80 [PSH, ACK] Seq=34567232 Ack=1 Win=64240 Len=20 |
+| 6 | 0.020100 | <TARGET_IP> | <TARGET_IP> | TCP | 74 | 51432 → 80 [PSH, ACK] `**Seq=34567232**` Ack=1 Win=64240 Len=20 |
 
 #### Fragmentation Overlap Capture
 
