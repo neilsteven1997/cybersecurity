@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **January 23, 2026**: Completed Tryhackme - Network Traffic Basics
 - **January 22, 2026**: Completed Tryhackme - Elastic Stack: The Basics
 - **January 21, 2026**: Completed Tryhackme - Splunk: The Basics
 - **January 21, 2026**: Completed Tryhackme - Introduction to SIEM
