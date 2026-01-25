@@ -116,6 +116,7 @@ repeatable investigative practice.
 * Network traffic inspection can conclusively reveal shell uploads and command execution by exposing payload contents and encoded
   attacker input.
 * Effective detection depends on correlating multiple data sources rather than relying on any single indicator.
+* System execution functions in PHP, such as shell_exec(), exec(), system(), and passthru(), can be abused to gain command execution.
 
 ---
 
