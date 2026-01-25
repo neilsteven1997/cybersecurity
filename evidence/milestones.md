@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **January 25, 2026**: Completed Tryhackme - Detecting Web Shells
 - **January 24, 2026**: Completed Tryhackme - Detecting Web Attacks
 - **January 23, 2026**: Completed Tryhackme - Web Security Essentials
 - **January 23, 2026**: Completed Tryhackme - Network Traffic Basics
