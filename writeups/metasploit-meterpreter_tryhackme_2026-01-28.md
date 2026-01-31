@@ -218,15 +218,15 @@ elevate to system privileges, hashdump to extract SAM hashes.
       <td><img src="images/meterpreter-enum-shares_tryhackme_2026-01-28.png" alt="Meterpreter enum_shares" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 1a:</strong> Meterpreter sessions</td>
-      <td align="center"><strong>Figure 1b:</strong> Meterpreter enum_shares</td>
+      <td align="center"><strong>Figure 3a:</strong> Meterpreter sessions</td>
+      <td align="center"><strong>Figure 3b:</strong> Meterpreter enum_shares</td>
     </tr>
     <tr>
       <td><img src="images/meterpreter-extracted-user-hash-decryption_tryhackme_2026-01-28.png" alt="Meterpreter extracted user hash decryption" 
   width="450"/>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> Meterpreter extracted user hash decryption</td>
+      <td align="center"><strong>Figure 4a:</strong> Meterpreter extracted user hash decryption</td>
     </tr>
   </table>
 </p>
