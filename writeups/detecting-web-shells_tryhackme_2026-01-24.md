@@ -2,6 +2,11 @@
 
 ---
 
+<p align="center">
+  <img src="images/web-shell-activity-shell-php_detecting-web-shells_tryhackme_2026-01-24.png" alt="Simple Web Shell" 
+  width="650"/>
+</p>
+
 This entry consolidates my notes on detecting web shells, focusing on practical indicators across logs, file systems, and network 
 traffic. Web shells remain a reliable attacker technique for both initial access and persistence, typically deployed through weak 
 file upload handling or misconfiguration. Once present, they enable remote command execution and support later stages of the kill 
@@ -117,6 +122,85 @@ repeatable investigative practice.
   attacker input.
 * Effective detection depends on correlating multiple data sources rather than relying on any single indicator.
 * System execution functions in PHP, such as shell_exec(), exec(), system(), and passthru(), can be abused to gain command execution.
+
+---
+
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/php-web-shell_detecting-web-shells_tryhackme_2026-01-24.png" alt="PHP Web Shell" 
+  width="450"/>
+      <td><img src="images/web-shell-anatomy_detecting-web-shells_tryhackme_2026-01-24.png" alt="Web Shell Anatomy" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> PHP Web Shell</td>
+      <td align="center"><strong>Figure 1b:</strong> Web Shell Anatomy</td>
+    </tr>
+    <tr>
+      <td><img src="images/web-server-log_detecting-web-shells_tryhackme_2026-01-24.png" alt="Web Server Log" 
+  width="450"/>
+      <td><img src="images/web-shell-attack-sequence-and-indicators_detecting-web-shells_tryhackme_2026-01-24.png" alt="Web SHell Attack Sequence" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Web Server Log</td>
+      <td align="center"><strong>Figure 2b:</strong> Web SHell Attack Sequence</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/sample-suspicious-web-request_detecting-web-shells_tryhackme_2026-01-24.png" alt="Suspicious Web Request Sample" 
+  width="450"/>
+      <td><img src="images/attack-chain-wireshark_detecting-web-shells_tryhackme_2026-01-24.png" alt="Attack Chain - Wireshark" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Suspicious Web Request Sample</td>
+      <td align="center"><strong>Figure 3b:</strong> Attack Chain - Wireshark</td>
+    </tr>
+    <tr>
+      <td><img src="images/wireshark-follow-http-stream_detecting-web-shells_tryhackme_2026-01-24.png" alt="Wireshark - Follow HTTP Stream" 
+  width="450"/>
+      <td><img src="images/web-shell-activity-shell-php_detecting-web-shells_tryhackme_2026-01-24.png" alt="Web Shell Activity" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Wireshark - Follow HTTP Stream</td>
+      <td align="center"><strong>Figure 4b:</strong> Web Shell Activity</td>
+    </tr>
+  </table>
+</p>
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/curl-shell-php_detecting-web-shells_tryhackme_2026-01-24.png" alt="Curl Shell" 
+  width="450"/>
+      <td><img src="images/log-analysis-activity-1_detecting-web-shells_tryhackme_2026-01-24.png" alt="Log Analysis Activity" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 5a:</strong> Curl Shell</td>
+      <td align="center"><strong>Figure 5b:</strong> Log Analysis Activity</td>
+    </tr>
+    <tr>
+      <td><img src="images/log-analysis-activity-2_detecting-web-shells_tryhackme_2026-01-24.png" alt="Log Analysis Activity Image 2" 
+  width="450"/>
+      <td><img src="images/log-analysis-activity-3_detecting-web-shells_tryhackme_2026-01-24.png" alt="Log Analysis Activity Image 3" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 6a:</strong> Log Analysis Activity Image 2</td>
+      <td align="center"><strong>Figure 6b:</strong> Log Analysis Activity Image 3</td>
+    </tr>
+  </table>
+</p>
+
 
 ---
 
