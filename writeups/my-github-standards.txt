@@ -1,3 +1,5 @@
+# Writeups Tree
+
 cybersecurity-writeups/ (main)
 ├── README.md
 ├── /writeups/
@@ -15,6 +17,7 @@ cybersecurity-writeups/ (main)
 │   └── certificates/ (empty for now)
 └── my-github-standards.txt    ← Keep this, it's good
 
+## Evidence Tree
 
 /evidence/
 ├── /cisco/
@@ -32,9 +35,10 @@ cybersecurity-writeups/ (main)
 ├── milestones.md
 └── README.md (optional short description)
 
+---
 
+## How to create a new writeup 
 
---
 # Moving files, creating directories 
 Quick Execution StepsOn main branch.
 1. Create the folders:Add file → writeups/images/.gitkeep
@@ -46,6 +50,9 @@ In your .md files, embed with relative path:
 ![Scam screenshot](images/scam-call-blurred.png) (from inside /blog/)
 
 ---
+
+## Writeup detailed formatting 
+
 # TryHackMe - Advent of Cyber 2025 - Day 14: Containers Doordashers Demise
 
 **Date Completed**: 16 December 2025  
@@ -95,11 +102,11 @@ Full explanation with screen + face recording:
 ## References
 - TryHackMe Room Link: https://tryhackme.com/room/adventofcyber2025
 
----
-
 *This write-up follows my standard portfolio format: formal structure, embedded screenshots, and optional video link for maximum clarity.*
 
+---
 
+# Github Image Formatting
 
 <p align="center">
   <img src="images/day-14-aoc-tryhackme-container.png" alt="Tryhackme Container Image" 
@@ -133,11 +140,14 @@ After mounting the host filesystem from the compromised container, the target Do
 </p>
 
 ---
-Adding a Link to a word 
+
+### Adding a Link to a word 
 
 [CyberChef](https://gchq.github.io/CyberChef/)
 
 ---
+
+## Github Link Formatting 
 
 My Recommended Best Naming Format (2026 Standard)Use this structure for every image:
 
@@ -151,9 +161,14 @@ john_whirlpool-crack-progress_thm_2026-01-21.png
 
 ---
 
+### Git Push Comments   
+
 Adding visual proof for John the Ripper: The Basics 2026-01-05
 
 ---
+
+## Github Text Display Modifications 
+
 #
 ##
 ###
@@ -195,8 +210,11 @@ Horizontal Rule
 You already know about using --- but you can also use three asterisks (***) or three underscores (___). Use these 
 strategically to create a strong visual separation between major sections (like separating the Technical Analysis 
 from the Opinion).
+
 ---
+
 ### 4. Strategic Cyber Opinion
+
 ---
 
 
