@@ -2,6 +2,11 @@
 
 ---
 
+<p align="center">
+  <img src="images/metasploit-meterpreter-0_tryhackme_2026-01-28.png" alt="Metasploit" 
+  width="650"/>
+</p>
+
 Meterpreter stands out as a versatile payload in Metasploit, offering robust support for penetration testing through its array of
 components. It operates as an agent on the compromised system within a command-and-control setup, enabling interaction with the
 target's OS, files, and specialized functions. Various iterations of Meterpreter deliver tailored capabilities depending on the
@@ -178,3 +183,55 @@ elevate to system privileges, hashdump to extract SAM hashes.
 
 
 ---
+
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/metasploit-meterpreter-1_tryhackme_2026-01-28.png" alt="Metasploit Meterpreter Image 1" 
+  width="450"/>
+      <td><img src="images/meterpreter-smb-psexec_tryhackme_2026-01-28.png" alt="Meterpreter smb psexec" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Metasploit Meterpreter Image 1</td>
+      <td align="center"><strong>Figure 1b:</strong> Meterpreter smb psexec</td>
+    </tr>
+    <tr>
+      <td><img src="images/meterpreter-sysinfo_tryhackme_2026-01-28.png" alt="Meterpreter sysinfo" 
+  width="450"/>
+      <td><img src="images/meterpreter-run-in-background_tryhackme_2026-01-28.png" alt="Meterpreter ran in background" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Meterpreter sysinfo</td>
+      <td align="center"><strong>Figure 2b:</strong> Meterpreter ran in background</td>
+    </tr>
+  </table>
+</p>
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/meterpreter-sessions_tryhackme_2026-01-28.png" alt="Meterpreter sessions" 
+  width="450"/>
+      <td><img src="images/meterpreter-enum-shares_tryhackme_2026-01-28.png" alt="Meterpreter enum_shares" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Meterpreter sessions</td>
+      <td align="center"><strong>Figure 1b:</strong> Meterpreter enum_shares</td>
+    </tr>
+    <tr>
+      <td><img src="images/meterpreter-extracted-user-hash-decryption_tryhackme_2026-01-28.png" alt="Meterpreter extracted user hash decryption" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Meterpreter extracted user hash decryption</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+
