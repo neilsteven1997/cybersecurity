@@ -19,3 +19,10 @@ In our time together, we'll learn about detecting and responding to security inc
 I'm a Program Manager at Google. I'm your instructor for the first portion of the final course of the program. There, we'll discuss how to escalate incidents and communicate with stakeholders. And my name is Emily. I'm a Program Manager at Google. I'll guide you through the final portion of the program and share ways that you can engage with the security community and prepare for your upcoming job search. And, as you already know, I'll guide you through the first course of this program. 
 This is such a great time to grow your career in the field of security. Sound exciting? Let's get started! 
 
+
+
+Enter a growing field
+
+Why are skills in cybersecurity in such high demand? The world is undergoing a digital transformation. Every day, global access to the internet is expanding, introducing more devices, more applications, and an even larger amount of data to the World Wide Web. As a result, threats, risks, and vulnerabilities are expanding and causing a significant amount of harm to organizations and people. Cybersecurity professionals are in high demand to help keep organizations, people, and data safe. 
+
+Throughout the program, you will have multiple opportunities to develop your cybersecurity knowledge and skills. You will explore concepts and scenarios to learn what an entry-level cybersecurity analyst must know and be able to do to thrive in the cybersecurity profession. 
