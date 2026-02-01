@@ -131,8 +131,18 @@ This video features Nikki, a Security Engineer at Google, who shares her journey
 - An entry-level cybersecurity analyst primarily focuses on operations and investigations, while an engineer also builds and improves detection systems.
 - Nikki's favorite task is the operational side, investigating suspicious activities and determining false positives, and she's proud of creating playbooks that guide analysts through incident investigations.
 
+In cybersecurity, a **playbook** is a guide that outlines the steps and procedures for responding to specific types of security incidents or detections. It helps analysts investigate and resolve incidents efficiently and consistently.
+
+Nikki, the security engineer in the video, mentions that she was proud of the playbooks she created because they helped her teammates investigate incidents effectively.
+
 
 ---
+
+
+
+
+
+
 
 
 
