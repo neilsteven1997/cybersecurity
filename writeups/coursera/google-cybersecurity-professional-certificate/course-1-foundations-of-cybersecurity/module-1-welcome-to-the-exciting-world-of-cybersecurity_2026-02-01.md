@@ -171,7 +171,7 @@ Programming is a process that can be used to create a specific set of instructio
 
 Key takeaways
 
-Understanding key technical terms and concepts used in the security field will help prepare you for your role as a security analyst. Knowing these terms can help you identify common threats, risks, and vulnerabilities. To explore a variety of cybersecurity terms, visit the National Institute of Standards and Technology glossary
+Understanding key technical terms and concepts used in the security field will help prepare you for your role as a security analyst. Knowing these terms can help you identify common threats, risks, and vulnerabilities. To explore a variety of cybersecurity terms, visit the National Institute of Standards and Technology glossary https://csrc.nist.gov/glossary
 . Or use your browser to search for high-quality, reliable cybersecurity glossaries from research institutes or governmental authorities. Glossaries are available in multiple languages. 
 
 
