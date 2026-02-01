@@ -60,3 +60,42 @@ Imagine your home as an organization, and all your valuable belongings—like yo
 So, in essence, cybersecurity is the practice of protecting all the valuable digital "belongings" of an organization from any "storms" that might come their way, ensuring they remain confidential, accurate, and always available.
 
 ---
+## Phishing 
+
+Understanding Phishing
+
+Before you begin this challenge, it is essential to distinguish between a phishing tactic (the psychological trick used) and a technical indicator (the verifiable, unforgeable flaw).
+
+    Phishing Tactics (Social Engineering): These are psychological tricks designed to manipulate you. They include creating a sense of urgency ("Act now!"), creating fear ("Your account is locked!"), or leveraging authority (impersonating a manager).
+
+    Phishing Indicators (Red Flags): These are the verifiable signs that the message is malicious.
+
+        Technical Indicators: The most definitive flags. These include incorrect sender email domains (e.g., bank-support.co instead of bank.com) or malicious link addresses that point to a different website than the one listed (e.g., the visible text says bank.com, but the link points to scam.net).
+
+        Content Indicators: Less definitive, but highly suspicious. These include poor grammar, misspellings, generic greetings, or unusual requests (like buying gift cards).
+
+Activity Directions:
+
+For the following four questions, you will examine a suspicious email scenario. Your goal is to find the most suspicious, definitive technical indicator of a phishing attempt, even if other, less severe red flags are present.
+
+Expected Process:
+
+    Read the Email Scenario.
+
+    Evaluate the options, focusing on the technical element (domain, link).
+
+    Submit your answer for an instant grade and feedback.
+
+Scenario:
+
+Phishing emails often contain multiple 'red flags'—unusual signs that make them seem suspicious. Some red flags are subtle (like a generic greeting), while others are definitive technical indicators that prove the email is malicious (like a bad domain name). For each question below, your goal is to find the most suspicious, definitive technical indicator of a phishing attempt.
+
+
+
+
+
+---
+
+
+
+
