@@ -96,6 +96,23 @@ Phishing emails often contain multiple 'red flags'—unusual signs that make the
 
 ---
 
+## Responsibilities of an entry level cybersecurity specialist
 
+This video explains the role of an entry-level security analyst, focusing on their key responsibilities in protecting information and systems.
+
+**Monitoring and Protecting Systems**
+- Security analysts monitor an organization's internal network and are often the first responders to detected threats.
+- They participate in exercises like penetration testing or ethical hacking to identify vulnerabilities within their own systems.
+
+**Proactive Threat Prevention**
+- Analysts collaborate with IT teams to install prevention software, aiming to identify risks and vulnerabilities before they become issues.
+- They also work with development teams to integrate security measures into software and hardware development processes.
+
+**Conducting Security Audits**
+- A key responsibility involves performing periodic security audits to review an organization's security records and activities.
+- This includes examining internal security issues, such as ensuring confidential information like passwords is not widely accessible.
+
+
+---
 
 
