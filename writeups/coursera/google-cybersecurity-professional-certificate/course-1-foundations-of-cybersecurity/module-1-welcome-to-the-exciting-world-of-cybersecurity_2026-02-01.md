@@ -26,3 +26,20 @@ Enter a growing field
 Why are skills in cybersecurity in such high demand? The world is undergoing a digital transformation. Every day, global access to the internet is expanding, introducing more devices, more applications, and an even larger amount of data to the World Wide Web. As a result, threats, risks, and vulnerabilities are expanding and causing a significant amount of harm to organizations and people. Cybersecurity professionals are in high demand to help keep organizations, people, and data safe. 
 
 Throughout the program, you will have multiple opportunities to develop your cybersecurity knowledge and skills. You will explore concepts and scenarios to learn what an entry-level cybersecurity analyst must know and be able to do to thrive in the cybersecurity profession. 
+
+
+This video provides an overview of the Google Cybersecurity Certificate program, highlighting its benefits, resources, and tips for success.
+
+### Program Benefits
+*   **Industry-Recognized Credential**: Earn a Google certificate to enhance your resume and professional profiles like LinkedIn.
+*   **CompTIA Security+ Discount**: Receive a discount for the CompTIA Security+ certification, further validating your cybersecurity skills.
+
+### Career Support
+*   **AI-Powered Job Search**: Utilize AI tools within the program to streamline your job search, including identifying transferable skills, updating resumes, and practicing interviews.
+*   **Exclusive Resources (U.S. Learners)**: Access one-on-one career coaching and thousands of job postings through CareerCircle at no cost.
+
+### Tips for Success
+*   **Stay on Top of Deadlines**: Learners who meet deadlines are nearly twice as likely to complete the certificate.
+*   **Engage with the Learner Community**: Connect with other learners for advice and support, which significantly increases your chances of success.
+
+*   
