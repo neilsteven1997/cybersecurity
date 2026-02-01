@@ -115,4 +115,26 @@ This video explains the role of an entry-level security analyst, focusing on the
 
 ---
 
+## Responsibilities of an entry level security engineer 
+
+This video features Nikki, a Security Engineer at Google, who shares her journey and insights into the cybersecurity field, highlighting the dynamic nature of the profession.
+
+**Journey into Cybersecurity**
+- Nikki's initial exposure to cybersecurity was during an aquarium internship, where she gained network security experience and dealt with phishing attempts.
+- Her manager's focus on network security sparked her interest, leading her to pursue a career in the field.
+
+**The Flexibility of Cybersecurity Careers**
+- Cybersecurity offers diverse career paths, allowing professionals to specialize in areas like blue team (protection) or red team (identifying vulnerabilities).
+- An entry-level security professional's daily tasks can vary, encompassing both operational responses to detections and project-based work to improve detection systems.
+
+**Roles and Impact in Cybersecurity**
+- An entry-level cybersecurity analyst primarily focuses on operations and investigations, while an engineer also builds and improves detection systems.
+- Nikki's favorite task is the operational side, investigating suspicious activities and determining false positives, and she's proud of creating playbooks that guide analysts through incident investigations.
+
+
+---
+
+
+
+
 
