@@ -189,6 +189,20 @@ Understanding key technical terms and concepts used in the security field will h
 
 ---
 
+**Veronica's Journey into Cybersecurity**
+- Veronica's initial understanding of cybersecurity was limited to secure passwords, and she never anticipated a career in the field.
+- Her path began as an IT resident at Google's Techstop, where she developed analytical thinking, troubleshooting, and debugging skills.
+
+**Transferable Skills and Mentorship**
+- She discovered her transferable skills were valuable in cybersecurity and actively sought guidance from security engineers.
+- Veronica emphasizes the importance of mentorship, stating that a "village of mentors" helped her achieve her current role.
+
+**Challenging Traditional Requirements**
+- She believes a college degree isn't a prerequisite for a cybersecurity career, noting that many bright minds in the industry don't have one.
+- Veronica advises against perfectionism and the need to "check all the boxes," encouraging individuals to pursue opportunities even without being an expert.
+
+---
+
 
 
 
