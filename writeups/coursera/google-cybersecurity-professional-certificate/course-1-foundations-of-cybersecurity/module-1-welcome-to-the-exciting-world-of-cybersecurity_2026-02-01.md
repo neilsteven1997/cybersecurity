@@ -177,6 +177,19 @@ Understanding key technical terms and concepts used in the security field will h
 
 ---
 
+### Transferable Skills for Security Analysts
+*   **Communication:** Security analysts need to clearly explain threats, risks, and vulnerabilities to both technical and non-technical audiences, and report findings to supervisors.
+*   **Collaboration:** Working effectively in teams with various professionals like engineers, digital forensic investigators, and project managers is crucial for security analysts.
+*   **Analysis and Problem-Solving:** Analysts must be able to analyze complex scenarios, make recommendations for tools, identify security problems, diagnose them, and provide solutions to keep business operations safe.
+
+### Technical Skills for Security Analysts
+*   **Programming Languages:** A basic understanding of programming languages like Python and SQL is important for automating tasks and identifying error messages.
+*   **SIEM Tools:** Knowledge of Security Information and Event Management (SIEM) tools is vital for identifying and analyzing security threats, risks, and vulnerabilities.
+*   **Computer Forensics:** This skill involves identifying, analyzing, and preserving digital evidence within networks, computers, and electronic devices, similar to forensic science in criminal justice.
+
+---
+
+
 
 
 
