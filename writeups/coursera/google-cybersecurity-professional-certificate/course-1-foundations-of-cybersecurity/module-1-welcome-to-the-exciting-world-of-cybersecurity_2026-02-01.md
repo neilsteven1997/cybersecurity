@@ -261,8 +261,15 @@ Understanding the benefits of core transferable and technical skills can help pr
 
 ---
 
+**Understanding Cybersecurity Fundamentals**
+- The course began by defining security and outlining the benefits of implementing robust security measures within an organization.
+- It also introduced various job responsibilities in cybersecurity, such as managing threats and deploying prevention software.
 
+**Essential Skills and the Value of Security**
+- Key core skills for cybersecurity professionals were highlighted, including collaboration and computer forensics.
+- The section concluded by emphasizing the significant value of security in supporting critical business functions.
 
+---
 
 
 
