@@ -38,7 +38,14 @@ configuring, and testing provides a robust framework for verifying network logic
 * Complete the initial installation and account setup via the Networking Academy to access the latest Packet Tracer binaries.
 * Utilize the logical workspace for topology design and the physical workspace to understand spatial equipment constraints.
 * Leverage Simulation Mode for deep packet inspection and analyzing Protocol Data Unit (PDU) behavior across the OSI model.
-* Differentiate between file types, specifically utilizing .pkt for topology saves and .pka for guided activities.
+* .pkt — Standard Packet Tracer file. Used to save a simulated network topology, device configurations, and optional embedded
+  backgrounds. Ideal for general network designs and topologies.
+* .pka — Packet Tracer Activity file. Contains a network topology (initial setup), built-in instructions window, step-by-step guidance,
+  and activity scoring. Designed for guided learning, assignments, or assessments.
+* .pkz — Compressed archive file. Bundles one or more Packet Tracer files (.pkt or .pka) along with additional resources (e.g., PDFs,
+  images, or media) for easy sharing or backup.
+* .pksz — Advanced activity package. Bundles an initial network, answer network, media assets, and scripting for hinting/completion
+  tracking. Used for more complex scored activities.
 * Practice building fundamental topologies, such as a home network, to master device selection and cabling logic.
 * Use the integrated CLI to emulate Cisco IOS and perform granular device hardening and routing configurations.
 
