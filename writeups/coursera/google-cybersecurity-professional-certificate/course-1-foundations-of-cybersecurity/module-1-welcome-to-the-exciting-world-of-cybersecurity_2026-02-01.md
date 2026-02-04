@@ -271,6 +271,229 @@ Understanding the benefits of core transferable and technical skills can help pr
 
 ---
 
+## Terms and definitions from Course 1, Module 1
+Cybersecurity (or security): The practice of ensuring confidentiality, integrity, and availability of information by protecting networks, devices, people, and data from unauthorized access or criminal exploitation
+Cloud security: The process of ensuring that assets stored in the cloud are properly configured and access to those assets is limited to authorized users
+Internal threat: A current or former employee, external vendor, or trusted partner who poses a security risk
+Network security: The practice of keeping an organization's network infrastructure secure from unauthorized access
+Personally identifiable information (PII): Any information used to infer an individual’s identity
+Security posture: An organization’s ability to manage its defense of critical assets and data and react to change
+Sensitive personally identifiable information (SPII): A specific type of PII that falls under stricter handling guidelines
+Technical skills: Skills that require knowledge of specific tools, procedures, and policies 
+Threat: Any circumstance or event that can negatively impact assets
+Threat actor: Any person or group who presents a security risk
+Transferable skills: Skills from other areas that can apply to different careers
+
+—--
+
+## Previously, you learned about past and present attacks that helped shape the cybersecurity industry. These included the LoveLetter attack, also called the ILOVEYOU virus, and the Morris worm. One outcome was the establishment of response teams, which are now commonly referred to as computer security incident response teams (CSIRTs). In this reading, you will learn more about common methods of attack. Becoming familiar with different attack methods, and the evolving tactics and techniques threat actors use, will help you better protect organizations and people.
+
+Phishing
+Phishing is the use of digital communications to trick people into revealing sensitive data or deploying malicious software. 
+
+Some of the most common types of phishing attacks today include: 
+
+Business Email Compromise (BEC): A threat actor sends an email message that seems to be from a known source to make a seemingly legitimate request for information, in order to obtain a financial advantage.
+
+Spear phishing: A malicious email attack that targets a specific user or group of users. The email seems to originate from a trusted source.
+
+Whaling: A form of spear phishing. Threat actors target company executives to gain access to sensitive data.
+
+Vishing: The exploitation of electronic voice communication to obtain sensitive information or to impersonate a known source.
+
+Smishing: The use of text messages to trick users, in order to obtain sensitive information or to impersonate a known source.
+
+Malware
+Malware is software designed to harm devices or networks. There are many types of malware. The primary purpose of malware is to obtain money, or in some cases, an intelligence advantage that can be used against a person, an organization, or a territory.  
+
+Some of the most common types of malware attacks today include: 
+
+Viruses: Malicious code written to interfere with computer operations and cause damage to data and software. A virus needs to be initiated by a user (i.e., a threat actor), who transmits the virus via a malicious attachment or file download. When someone opens the malicious attachment or download, the virus hides itself in other files in the now infected system. When the infected files are opened, it allows the virus to insert its own code to damage and/or destroy data in the system.
+
+Worms: Malware that can duplicate and spread itself across systems on its own. In contrast to a virus, a worm does not need to be downloaded by a user. Instead, it self-replicates and spreads from an already infected computer to other devices on the same network.
+
+Ransomware: A malicious attack where threat actors encrypt an organization's data and demand payment to restore access. 
+
+Spyware: Malware that’s used to gather and sell information without consent. Spyware can be used to access devices. This allows threat actors to collect personal data, such as private emails, texts, voice and image recordings, and locations.
+
+Social Engineering 
+Social engineering is a manipulation technique that exploits human error to gain private information, access, or valuables. Human error is usually a result of trusting someone without question. It’s the mission of a threat actor, acting as a social engineer, to create an environment of false trust and lies to exploit as many people as possible. 
+
+Some of the most common types of social engineering attacks today include:
+
+Social media phishing: A threat actor collects detailed information about their target from social media sites. Then, they initiate an attack.
+
+Watering hole attack: A threat actor attacks a website frequently visited by a specific group of users.
+
+USB baiting: A threat actor strategically leaves a malware USB stick for an employee to find and install, to unknowingly infect a network. 
+
+Physical social engineering: A threat actor impersonates an employee, customer, or vendor to obtain unauthorized access to a physical location.
+
+Social engineering principles 
+Social engineering is incredibly effective. This is because people are generally trusting and conditioned to respect authority. The number of social engineering attacks is increasing with every new social media application that allows public access to people's data. Although sharing personal data—such as your location or photos—can be convenient, it’s also a risk.
+
+Reasons why social engineering attacks are effective include:
+
+Authority: Threat actors impersonate individuals with power. This is because people, in general, have been conditioned to respect and follow authority figures. 
+
+Intimidation: Threat actors use bullying tactics. This includes persuading and intimidating victims into doing what they’re told. 
+
+Consensus/Social proof: Because people sometimes do things that they believe many others are doing, threat actors use others’ trust to pretend they are legitimate. For example, a threat actor might try to gain access to private data by telling an employee that other people at the company have given them access to that data in the past. 
+
+Scarcity: A tactic used to imply that goods or services are in limited supply. 
+
+Familiarity: Threat actors establish a fake emotional connection with users that can be exploited.  
+
+Trust: Threat actors establish an emotional relationship with users that can be exploited over time. They use this relationship to develop trust and gain personal information.
+
+Urgency: A threat actor persuades others to respond quickly and without questioning.
+
+Key takeaways
+In this reading, you learned about some common attacks and their impacts. You also learned about social engineering and why it’s so successful. While this is only a brief introduction to attack types, you will have many opportunities throughout the program to further develop your understanding of how to identify and defend against cybersecurity attacks. 
+
+
+
+---
+
+**The Evolution of Cybersecurity**
+- Early attacks in the 1980s and 1990s significantly shaped the cybersecurity landscape, leading to the current demand for security professionals.
+- Understanding the history of attacks, including viruses, malware, and social engineering, is essential for developing effective future protection strategies.
+
+**Key Areas of Focus**
+- The course will cover viruses, malware, and the concept of social engineering, which are fundamental threats in cybersecurity.
+- It will also explore how the digital age has introduced new types of threat actors, emphasizing the continuous adaptation required in the field.
+
+**Introduction to Security Domains**
+- The section will conclude with an overview of the eight security domains, providing a foundational understanding of the various aspects of cybersecurity.
+- This overview will prepare learners to delve deeper into specific areas of security throughout the course.
+
+---
+
+**Understanding Early Malware**
+- A computer virus is malicious code that interferes with computer operations, damaging data and software by attaching to programs and spreading across networks.
+- Malware is a more general term for software designed to harm devices or networks, encompassing viruses and other malicious programs.
+
+**The Brain Virus (1986)**
+- Created by the Alvi brothers, the Brain virus was intended to track illegal copies of medical software but unexpectedly infected any disk inserted into a compromised computer, spreading globally.
+- Although not designed to destroy data, it significantly slowed productivity and impacted business operations, highlighting the need for security and productivity plans.
+
+**The Morris Worm (1988)**
+- Robert Morris developed a program to assess internet size, but it failed to track compromised computers, repeatedly reinstalling itself until systems crashed.
+- This attack affected about 6,000 computers, costing millions in damages and leading to the establishment of Computer Emergency Response Teams (CERTs) to respond to security incidents.
+
+---
+
+Common attacks and their effectiveness
+
+Previously, you learned about past and present attacks that helped shape the cybersecurity industry. These included the LoveLetter attack, also called the ILOVEYOU virus, and the Morris worm. One outcome was the establishment of response teams, which are now commonly referred to as computer security incident response teams (CSIRTs). In this reading, you will learn more about common methods of attack. Becoming familiar with different attack methods, and the evolving tactics and techniques threat actors use, will help you better protect organizations and people.
+Phishing
+
+Phishing is the use of digital communications to trick people into revealing sensitive data or deploying malicious software. 
+
+Some of the most common types of phishing attacks today include: 
+
+    Business Email Compromise (BEC): A threat actor sends an email message that seems to be from a known source to make a seemingly legitimate request for information, in order to obtain a financial advantage.
+
+    Spear phishing: A malicious email attack that targets a specific user or group of users. The email seems to originate from a trusted source.
+
+    Whaling: A form of spear phishing. Threat actors target company executives to gain access to sensitive data.
+
+    Vishing: The exploitation of electronic voice communication to obtain sensitive information or to impersonate a known source.
+
+    Smishing: The use of text messages to trick users, in order to obtain sensitive information or to impersonate a known source.
+
+Malware
+
+Malware is software designed to harm devices or networks. There are many types of malware. The primary purpose of malware is to obtain money, or in some cases, an intelligence advantage that can be used against a person, an organization, or a territory.  
+
+Some of the most common types of malware attacks today include: 
+
+    Viruses: Malicious code written to interfere with computer operations and cause damage to data and software. A virus needs to be initiated by a user (i.e., a threat actor), who transmits the virus via a malicious attachment or file download. When someone opens the malicious attachment or download, the virus hides itself in other files in the now infected system. When the infected files are opened, it allows the virus to insert its own code to damage and/or destroy data in the system.
+
+    Worms: Malware that can duplicate and spread itself across systems on its own. In contrast to a virus, a worm does not need to be downloaded by a user. Instead, it self-replicates and spreads from an already infected computer to other devices on the same network.
+
+    Ransomware: A malicious attack where threat actors encrypt an organization's data and demand payment to restore access. 
+
+    Spyware: Malware that’s used to gather and sell information without consent. Spyware can be used to access devices. This allows threat actors to collect personal data, such as private emails, texts, voice and image recordings, and locations.
+
+Social Engineering 
+
+Social engineering is a manipulation technique that exploits human error to gain private information, access, or valuables. Human error is usually a result of trusting someone without question. It’s the mission of a threat actor, acting as a social engineer, to create an environment of false trust and lies to exploit as many people as possible. 
+
+Some of the most common types of social engineering attacks today include:
+
+    Social media phishing: A threat actor collects detailed information about their target from social media sites. Then, they initiate an attack.
+
+    Watering hole attack: A threat actor attacks a website frequently visited by a specific group of users.
+
+    USB baiting: A threat actor strategically leaves a malware USB stick for an employee to find and install, to unknowingly infect a network. 
+
+    Physical social engineering: A threat actor impersonates an employee, customer, or vendor to obtain unauthorized access to a physical location.
+
+Social engineering principles 
+
+Social engineering is incredibly effective. This is because people are generally trusting and conditioned to respect authority. The number of social engineering attacks is increasing with every new social media application that allows public access to people's data. Although sharing personal data—such as your location or photos—can be convenient, it’s also a risk.
+
+Reasons why social engineering attacks are effective include:
+
+    Authority: Threat actors impersonate individuals with power. This is because people, in general, have been conditioned to respect and follow authority figures. 
+
+    Intimidation: Threat actors use bullying tactics. This includes persuading and intimidating victims into doing what they’re told. 
+
+    Consensus/Social proof: Because people sometimes do things that they believe many others are doing, threat actors use others’ trust to pretend they are legitimate. For example, a threat actor might try to gain access to private data by telling an employee that other people at the company have given them access to that data in the past. 
+
+    Scarcity: A tactic used to imply that goods or services are in limited supply. 
+
+    Familiarity: Threat actors establish a fake emotional connection with users that can be exploited.  
+
+    Trust: Threat actors establish an emotional relationship with users that can be exploited over time. They use this relationship to develop trust and gain personal information.
+
+    Urgency: A threat actor persuades others to respond quickly and without questioning.
+
+Key takeaways
+
+In this reading, you learned about some common attacks and their impacts. You also learned about social engineering and why it’s so successful. While this is only a brief introduction to attack types, you will have many opportunities throughout the program to further develop your understanding of how to identify and defend against cybersecurity attacks. 
+
+
+---
+
+This video emphasizes the critical importance of maintaining composure and following a structured incident management plan during a data breach.
+
+**Staying Calm Under Pressure**
+- In a data breach situation, the incident manager must remain calm and collected, even when others are panicking.
+- This composure allows for clear thinking and effective decision-making during a crisis.
+
+**Prioritizing Containment**
+- The immediate priority during a breach is to stop the data loss, which may involve shutting down servers or communications.
+- This containment phase is crucial before any investigation can begin.
+
+**Executing the Incident Management Plan**
+- Having a well-defined incident management plan is essential for entry-level professionals.
+- The plan guides the team through the steps of stopping and then investigating the breach.
+
+---
+
+This video introduces the first four of the eight security domains defined by CISSP, which help organize the work of security professionals and provide a framework for understanding cybersecurity concepts.
+
+### Security and Risk Management
+- This domain focuses on establishing security goals, managing risks, ensuring compliance with regulations, and maintaining business continuity.
+- An example includes security analysts updating company policies to comply with federal regulations like HIPAA.
+
+### Asset Security
+- This domain is concerned with protecting both digital and physical assets, including their storage, maintenance, retention, and secure disposal.
+- Security analysts might be responsible for ensuring that old equipment and confidential information are properly destroyed.
+
+### Security Architecture and Engineering
+- This domain emphasizes optimizing data security through effective tools, systems, and processes.
+- A key task for security analysts in this domain is configuring firewalls to prevent attacks and maintain productivity.
+
+### Communication and Network Security
+- This domain focuses on managing and securing physical networks and wireless communications.
+- Security analysts may analyze user behavior and create network policies to mitigate risks, such as users connecting to unsecured wireless hotspots.
+
+---
+
+
 
 
 
