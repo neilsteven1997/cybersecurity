@@ -59,7 +59,7 @@ Nmap exploration; Nmap's own highly extensive docs at https://nmap.org/docs.html
 | Ping sweep with CIDR | nmap -sn 192.168.0.0/24 |
 | Script with arguments for file upload | nmap -p 80 --script http-put --script-args http-put.url='/dav/shell.php',http-put.file='./shell.php' |
 | Search scripts database for term | grep "ftp" /usr/share/nmap/scripts/script.db |
-| List scripts matching pattern | ls -l /usr/share/nmap/scripts/*ftp* |
+| List scripts matching pattern | ls -l /usr/share/nmap/scripts/`*ftp*` |
 | Search categories in database | grep "safe" /usr/share/nmap/scripts/script.db |
 | Download script manually | sudo wget -O /usr/share/nmap/scripts/<script-name>.nse https://svn.nmap.org/nmap/scripts/<script-name>.nse |
 | Update scripts database | nmap --script-updatedb |
