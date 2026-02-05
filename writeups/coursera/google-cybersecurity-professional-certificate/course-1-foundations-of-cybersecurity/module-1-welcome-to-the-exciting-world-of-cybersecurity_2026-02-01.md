@@ -493,6 +493,25 @@ This video introduces the first four of the eight security domains defined by CI
 
 ---
 
+**Identity and Access Management (IAM)**
+- IAM focuses on securing data by ensuring users adhere to established policies for controlling physical and logical assets.
+- This includes validating employee identities and documenting access roles to maintain both physical and digital security.
+
+**Security Assessment and Testing**
+- This domain involves conducting security control testing, collecting and analyzing data, and performing security audits to monitor for risks, threats, and vulnerabilities.
+- Security analysts regularly audit user permissions to ensure appropriate access levels, such as limiting payroll information access to specific employees.
+
+**Security Operations**
+- Security operations concentrate on conducting investigations and implementing preventative measures.
+- An example is a security analyst responding to an alert about an unknown device on the internal network, following organizational policies to mitigate potential threats.
+
+**Software Development Security**
+- This domain emphasizes using secure coding practices to create secure applications and services.
+- Security analysts may collaborate with development teams to integrate security practices throughout the software development lifecycle, such as advising on password policies for new mobile apps.
+
+---
+
+
 
 
 
