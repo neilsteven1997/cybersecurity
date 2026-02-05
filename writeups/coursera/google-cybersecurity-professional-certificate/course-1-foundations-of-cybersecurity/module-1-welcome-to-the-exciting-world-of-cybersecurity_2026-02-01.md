@@ -108,20 +108,20 @@ development, reminding me that curiosity and proactive questioning drive threat 
     <tr>
       <td><img src="../images/security-domains_module-1-welcome-to-the-exciting-world-of-cybersecurity_2026-02-01.png" 
      alt="Module 1 Security Domains" width="450"/>
-      <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td><img src="../images/spot-the-phish-assignment_module-1-welcome-to-the-exciting-world-of-cybersecurity_2026-02-01.png" alt="Spot The Phish Assignment" width="450"/></td>
     </tr>
     <tr>
       <td align="center"><strong>Figure 1a:</strong> Module 1 Security Domains</td>
-      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 1b:</strong> Spot The Phish Assignment</td>
     </tr>
     <tr>
-      <td><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td><img src="../images/test-your-knowledge-introduction-to-cybersecurity_module-1-welcome-to-the-exciting-world-of-cybersecurity_2026-02-01.png" alt="Test Your Knowledge: Intro to Cybersecurity" 
   width="450"/>
-      <td><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+      <td><img src="../images/test-your-knowledge-core-skills-for-cybersecurity-professionals_module-1-welcome-to-the-exciting-world-of-cybersecurity_2026-02-01.png" alt="Test Your Knowledge: Core Skills For Cybersecurity Professionals" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
-      <td align="center"><strong>Figure 2b:</strong> Incrementing the number on link to find secret code</td>
+      <td align="center"><strong>Figure 2a:</strong> Test Your Knowledge: Intro to Cybersec</td>
+      <td align="center"><strong>Figure 2b:</strong> Test Your Knowledge: Core Skills For Cybersecurity Professionals</td>
     </tr>
   </table>
 </p>
