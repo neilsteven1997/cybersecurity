@@ -101,3 +101,31 @@ development, reminding me that curiosity and proactive questioning drive threat 
 
 ---
 
+###Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/1security-domains_module-1-welcome-to-the-exciting-world-of-cybersecurity_2026-02-01.png" alt="Module 1 Security Domains" 
+  width="450"/>
+      <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Module 1 Security Domains</td>
+      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+    </tr>
+    <tr>
+      <td><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+  width="450"/>
+      <td><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
+      <td align="center"><strong>Figure 2b:</strong> Incrementing the number on link to find secret code</td>
+    </tr>
+  </table>
+</p>
+
+
+---
+
