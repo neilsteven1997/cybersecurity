@@ -106,8 +106,8 @@ development, reminding me that curiosity and proactive questioning drive threat 
 <p align="center">
   <table>
     <tr>
-      <td><img src="../images/google-cybersecurity-professional-certificate/security-domains_module-1-welcome-to-the-exciting-world-of-cybersecurity_2026-02-01.png" alt="Module 1 Security Domains" 
-  width="450"/>
+      <td><img src="../../../../images/google-cybersecurity-professional-certificate/security-domains_module-1-welcome-to-the-exciting-world-of-cybersecurity_2026-02-01.png" 
+     alt="Module 1 Security Domains" width="450"/>
       <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
     </tr>
     <tr>
