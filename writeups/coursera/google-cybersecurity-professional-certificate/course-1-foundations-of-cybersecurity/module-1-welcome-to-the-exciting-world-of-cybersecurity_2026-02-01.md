@@ -21,7 +21,7 @@ inclusion of AI-powered job search tools for resumes, interviews, and skill iden
 Delving into cybersecurity's core, it revolves around protecting organizational information much like fortifying a home against storms, ensuring confidentiality through measures 
 like strong passwords and encryption, integrity to prevent unauthorized alterations, and availability for constant access by authorized users. This triad underpins the practice of
 defending networks, devices, people, and data from exploitation. In entry-level roles, analysts monitor internal networks as first responders, conduct penetration testing to 
-ncover vulnerabilities, collaborate on prevention software installation, integrate security in development, and perform audits to review records and restrict access to sensitive
+uncover vulnerabilities, collaborate on prevention software installation, integrate security in development, and perform audits to review records and restrict access to sensitive
 data like passwords. Security engineers, as exemplified by Nikki's path from an aquarium internship spotting phishing to building detection systems, handle operational 
 investigations, playbook creation for incident response, and improvements in defenses, blending blue team protection with red team vulnerability identification. Playbooks, as 
 procedural guides for consistent incident handling, stand out to me as practical tools that streamline team efforts.
