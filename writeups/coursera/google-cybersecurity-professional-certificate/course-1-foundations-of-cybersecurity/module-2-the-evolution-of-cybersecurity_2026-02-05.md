@@ -384,6 +384,21 @@ To learn more about how security teams work to keep organizations and people saf
 
  ---
 
+## A concise review of influential security attacks throughout history and introduces CISSP's eight security domains.
+
+**Early Malware and its Impact**
+- The Brain virus and the Morris worm were foundational examples of early malware that significantly shaped the security industry.
+- Understanding these historical attacks is crucial for security professionals to anticipate and defend against modern variants.
+
+**Modern Attacks and their Consequences**
+- The LoveLetter attack and the Equifax data breach highlight the widespread impact and financial costs associated with recent security breaches in the digital age.
+- These incidents underscore the importance of robust security measures in protecting organizations and individuals.
+
+**CISSP's Eight Security Domains**
+- The Certified Information Systems Security Professional (CISSP) framework categorizes different areas of focus within the security profession into eight domains.
+- These domains provide a structured approach for organizing the work of security professionals and understanding the breadth of the cybersecurity field.
+
+---
 
 
 
