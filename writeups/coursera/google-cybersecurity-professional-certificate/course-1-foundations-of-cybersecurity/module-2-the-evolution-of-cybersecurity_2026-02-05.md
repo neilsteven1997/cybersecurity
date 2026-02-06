@@ -90,6 +90,30 @@ the Hacking Google video series insightful for team dynamics in threat mitigatio
 
 ### Gallery 
 
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="../images/test-1_module-2-the-evolution-of-cybersecurity_2026-02-05.png" alt="Module 2 - Test 1" 
+  width="450"/>
+      <td><img src="../images/test-2_module-2-the-evolution-of-cybersecurity_2026-02-05.png" alt="Module 2 - Test 2" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Module 2 - Test 1</td>
+      <td align="center"><strong>Figure 1b:</strong> Module 2 - Test 2</td>
+    </tr>
+    <tr>
+      <td><img src="../images/test-your-knowledge-the-eight-cissp-security-domains_module-2-the-evolution-of-cybersecurity_2026-02-05.png" alt="Test Your Knowledge: The Eight CISSP Security Domains" 
+  width="450"/>
+      <td><img src="../images/challenge-graded-assignment_module-2-the-evolution-of-cybersecurity_2026-02-05.png" alt="Challenge Graded Assignment - Module 2" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Test Your Knowledge: The Eight CISSP Security Domains</td>
+      <td align="center"><strong>Figure 2b:</strong> Challenge Graded Assignment - Module 2</td>
+    </tr>
+  </table>
+</p>
+
+---
 
 
 
