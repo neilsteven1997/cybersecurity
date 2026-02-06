@@ -33,7 +33,7 @@ configuring, and testing provides a robust framework for verifying network logic
 | Enable a network interface | `no shutdown` |
 
 ---
-## Key Takeaways
+### Key Takeaways
 
 * Complete the initial installation and account setup via the Networking Academy to access the latest Packet Tracer binaries.
 * Utilize the logical workspace for topology design and the physical workspace to understand spatial equipment constraints.
@@ -50,4 +50,76 @@ configuring, and testing provides a robust framework for verifying network logic
 * Use the integrated CLI to emulate Cisco IOS and perform granular device hardening and routing configurations.
 
 ---
+
+### Gallery 
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/welcome-to-cisco-packet-tracer_getting-started-with-cisco-packet-tracer-cisco-networking-academy-jan-04-2026.png" alt="Welcome to Cisco Packet Tracer" 
+  width="450"/>
+      <td><img src="images/physical-connecting-pc_01-to-asl-fast-ethernet_getting-started-with-cisco-packet-tracer-cisco-networking-academy-jan-04-2026.png" alt="Restored website" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Welcome to Cisco Packet Tracer</td>
+      <td align="center"><strong>Figure 1b:</strong> Physical - Connecting PC</td>
+    </tr>
+    <tr>
+      <td><img src="images/device-configuration-using-cli-1_getting-started-with-cisco-packet-tracer-cisco-networking-academy-jan-04-2026.png" alt="Device Configuration Using CLI 1" 
+  width="450"/>
+      <td><img src="images/device-configuration-using-cli-2_getting-started-with-cisco-packet-tracer-cisco-networking-academy-jan-04-2026.png" alt="Device Configuration Using CLI 2" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Device Configuration Using CLI 1</td>
+      <td align="center"><strong>Figure 2b:</strong> Device Configuration Using CLI 2</td>
+    </tr>
+  </table>
+</p>
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/connecting-devices-activity-1_getting-started-with-cisco-packet-tracer-cisco-networking-academy-jan-04-2026.png" alt="Connecting Devices - Activity 1" 
+  width="450"/>
+      <td><img src="images/device-internet-connection_getting-started-with-cisco-packet-tracer-cisco-networking-academy-jan-04-2026.png" alt="Device Internet Connection" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Connecting Devices - Activity 1</td>
+      <td align="center"><strong>Figure 3b:</strong> Device Internet Connection</td>
+    </tr>
+    <tr>
+      <td><img src="images/connecting-devices-activity-2_getting-started-with-cisco-packet-tracer-cisco-networking-academy-jan-04-2026.png" alt="Connecting Devices - Activity 2" 
+  width="450"/>
+      <td><img src="images/device-statistics-1_getting-started-with-cisco-packet-tracer-cisco-networking-academy-jan-04-2026.png" alt="Device Statistics 1" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Connecting Devices - Activity 2</td>
+      <td align="center"><strong>Figure 4b:</strong> Device Statistics 1</td>
+    </tr>
+  </table>
+</p>
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/device-statistics-cli-2.png" alt="Device Statistics CLI 2" 
+  width="450"/>
+      <td><img src="images/course-final-exam_getting-started-with-cisco-packet-tracer-cisco-networking-academy-jan-04-2026.png" alt="Course Final Exam" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 5a:</strong> Device Statistics CLI 2</td>
+      <td align="center"><strong>Figure 5b:</strong> Course Final Exam</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+
+
 
