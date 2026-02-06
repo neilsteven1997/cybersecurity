@@ -117,3 +117,96 @@ This structure aids in mapping responses, linking model specifics to actual asse
 - Practices for grabs: position aptly, time briefly for space, favor duplicators for speed.
 
 ---
+
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/different-layers-of-the-tcp-ip-model_network-traffic-basics_tryhackme_2026-01-22.png" alt="Different Layers of the TCP/IP Model" 
+  width="450"/>
+      <td><img src="images/https_network-traffic-basics_tryhackme_2026-01-22.png" alt="HTTPS" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Different Layers of the TCP/IP Model</td>
+      <td align="center"><strong>Figure 1b:</strong> HTTPS</td>
+    </tr>
+    <tr>
+      <td><img src="images/external-dns_network-traffic-basics_tryhackme_2026-01-22.png" alt="External DNS" 
+  width="450"/>
+      <td><img src="images/smb-with-kerberos_network-traffic-basics_tryhackme_2026-01-22.png" alt="SMB With Kerberos"  width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> External DNS</td>
+      <td align="center"><strong>Figure 2b:</strong> SMB With Kerberos</td>
+    </tr>
+  </table>
+</p>
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/network-tap_network-traffic-basics_tryhackme_2026-01-22.png" alt="Network Tap" 
+  width="450"/>
+      <td><img src="images/port-mirroring_network-traffic-basics_tryhackme_2026-01-22.png" alt="Port Mirroring" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Network Tap</td>
+      <td align="center"><strong>Figure 3b:</strong> Port Mirroring</td>
+    </tr>
+    <tr>
+      <td><img src="images/network-statistics_network-traffic-basics_tryhackme_2026-01-22.png" alt="Network Statistics" 
+  width="450"/>
+      <td><img src="images/traffic-analysis-basics-activity-1_network-traffic-basics_tryhackme_2026-01-22.png" alt="Traffic Analysis Basics - Activity 1" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Network Statistics</td>
+      <td align="center"><strong>Figure 4b:</strong> Traffic Analysis Basics - Activity 1</td>
+    </tr>
+  </table>
+</p>
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/traffic-analysis-basics-activity_correct-tap-1_network-traffic-basics_tryhackme_2026-01-22.png" alt="Traffic Analysis Basics Activity" 
+  width="450"/>
+      <td><img src="images/traffic-analysis-basics-activity_found-flag-1_network-traffic-basics_tryhackme_2026-01-22.png" alt="Traffic Analysis Basics Activity Found Flag" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 5a:</strong> Traffic Analysis Basics Activity</td>
+      <td align="center"><strong>Figure 5b:</strong> Traffic Analysis Basics Activity Found Flag</td>
+    </tr>
+    <tr>
+      <td><img src="images/traffic-analysis-basics-activity-2_network-traffic-basics_tryhackme_2026-01-22.png" alt="Traffic Analysis Basics Activity 2" 
+  width="450"/>
+      <td><img src="images/traffic-analysis-basics-activity_correct-tap-2_network-traffic-basics_tryhackme_2026-01-22.png" alt="Traffic Analysis Basics Activity" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 6a:</strong> Traffic Analysis Basics Activity 2</td>
+      <td align="center"><strong>Figure 6b:</strong> Traffic Analysis Basics Activity</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/traffic-analysis-basics-activity_found-flag-2_network-traffic-basics_tryhackme_2026-01-22.png" alt="Traffic Analysis Basics Activity - Found Flag 2" 
+  width="450"/>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Traffic Analysis Basics Activity - Found Flag 2</td>
+    </tr>
+  </table>
+</p>
+
+
+---
