@@ -161,6 +161,24 @@ This video discusses the critical importance of protecting Personally Identifiab
 - Consult relevant government websites in specific jurisdictions for laws, regulations, and compliance requirements.
 - Seek advice from legal counsel for questions about specific laws, as regulations vary significantly across jurisdictions.
 
+---
+
+This video discusses the importance of ethics in cybersecurity, focusing on how security professionals should navigate challenging situations.
+
+Ethical Decision-Making in Cybersecurity
+- Security professionals must remain unbiased and uphold security and confidentiality, even when personal relationships are involved.
+- It is crucial to adhere to established policies and protocols, as abusing access can lead to severe consequences.
+
+Key Ethical Principles
+- **Confidentiality:** Security professionals have an ethical duty to protect proprietary and private information, such as Personally Identifiable Information (PII).
+- **Privacy Protections:** Safeguarding personal information from unauthorized use is essential, and company policies regarding data access and sharing must always be followed.
+
+The Role of Law in Cybersecurity Ethics
+- Laws are rules enforced by governing entities, and security professionals must comply with them.
+- Negligence in handling confidential data can lead to legal repercussions and the loss of private information.
+
+---
+
 
 
 
