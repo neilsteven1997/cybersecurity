@@ -63,6 +63,32 @@ refresh—reminds me why staying current on tweaks, like Gramm-Leach-Bliley or S
 
 ---
 
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="../images/practice-assignment-1-frameworks-and-controls_module-3-protect-against-threats-risks-and-vulnerabilities_2026-02-05.png" alt="Practice Assignment 1 Frameworks And Controls" 
+  width="450"/>
+      <td><img src="../images/practice assignment-2-ethics-in-cybersecurity_module-3-protect-against-threats-risks-and-vulnerabilities_2026-02-05.png" alt="Practice Assignment 2 Ethics In Cybersecurity" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Practice Assignment 1 Frameworks And Controls</td>
+      <td align="center"><strong>Figure 1b:</strong> Practice Assignment 2 Ethics In Cybersecurity</td>
+    </tr>
+    <tr>
+      <td><img src="../images/module-3-challenge_module-3-protect-against-threats-risks-and-vulnerabilities_2026-02-05.png" alt="Module 3 Challenge" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Module 3 Challenge</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
 
 
 
