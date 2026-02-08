@@ -229,6 +229,22 @@ As a future security professional, ethics will play a large role in your daily w
 
 ---
 
+This video emphasizes the critical role of ethics in cybersecurity, drawing from personal experiences to illustrate its importance.
+
+**The Speaker's Career Journey**
+- The speaker, Holly, transitioned from diverse fields like hosiery sales, banking, and telecommunications into cybersecurity.
+- Certifications were crucial in establishing credibility for her in the cybersecurity field, especially when she lacked prior experience.
+
+**The Crux of Cybersecurity: Ethics**
+- Ethical conduct is fundamental to being a cybersecurity professional.
+- Unethical behavior often stems from laziness or taking shortcuts, such as sharing passwords or accessing private information for personal reasons.
+
+**Navigating Ethical Dilemmas**
+- A difficult ethical situation involved a request to query a database of text messages without proper authorization after 9/11.
+- When faced with such decisions, it's important to consider the potential consequences of your actions.
+
+---
+
 
 
 
