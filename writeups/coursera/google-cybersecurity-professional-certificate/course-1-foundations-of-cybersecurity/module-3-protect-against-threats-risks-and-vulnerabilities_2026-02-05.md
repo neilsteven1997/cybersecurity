@@ -2,310 +2,66 @@
 
 ---
 
-This section discusses how organizations protect themselves from threats, risks, and vulnerabilities by covering key principles such as frameworks, controls, and ethics.
+Diving into Module 3, I've been mapping out how organizations layer defenses against threats, risks, and vulnerabilities through 
+structured approaches like frameworks, controls, and ethical guardrails. It's striking how the garden analogy captures this—security 
+demands ongoing tending, from plotting out beds to pruning threats, much like drafting plans, rolling out protections, and tweaking 
+policies based on what the soil reveals. Frameworks stand out as the backbone here, offering blueprints to orchestrate risk mitigation 
+and privacy safeguards in a lifecycle that's always in flux. Their aims hit close to home: shielding personally identifiable information, 
+locking down financial records, spotting weak points, wrangling enterprise-wide risks, and syncing defenses with core business objectives.
 
-**The Garden Analogy for Security**
-- Security is like a garden that requires continuous care and improvement to protect against unexpected problems.
-- This involves establishing plans, implementing safeguards, and continuously monitoring and improving policies and procedures.
+At the heart of these frameworks sits the Confidentiality, Integrity, and Availability—CIA—triad, a timeless model that shapes how we 
+weigh risks in system design and policy. Confidentiality locks access to assets for cleared users only, often via tight controls. 
+Integrity keeps data true to form—accurate, genuine, dependable—bolstered by tools like encryption. Availability ensures legitimate 
+access on demand, no bottlenecks. Assets themselves? Anything with tangible worth to the org, valued by replacement costs or downtime 
+hits; think high-stakes stores of social security numbers versus benign public docs, where the former demand ironclad scrutiny in risk 
+assessments.
 
-**Security Frameworks and Controls**
-- Security frameworks and controls are essential for organizing security efforts and making informed decisions.
-- The Confidentiality, Integrity, and Availability (CIA) Triad is a core component of security frameworks.
+The NIST Cybersecurity Framework—CSF—looms large as a voluntary playbook from the National Institute of Standards and Technology, dishing 
+out standards and best practices for risk handling that any outfit can adopt globally. Paired with the NIST Risk Management 
+Framework—RMF—it underscores how alignment with these cuts exposure. Threat actors factor in too, from insiders like disgruntled staff
+with their insider edge to external players, all motives dissected for proactive plays. Controls flesh this out as targeted barriers—say,
+mandatory privacy drills to curb breach fallout—working in tandem with frameworks to enforce goals, processes, and regulatory adherence.
 
-**Ethics in Security**
-- The discussion will also cover the ethics of security, including notable ethical concerns in the field.
-- Evolving security practices, such as using security keys for two-factor authentication, are examples of how these principles are applied daily.
-- 
------
+Compliance weaves through it all, the discipline of sticking to house rules and outer mandates, dialing risk down as adherence climbs. 
+Beyond NIST's duo, the field's dotted with tailored standards: FERC-NERC mandates prep, mitigation, and incident reporting for power
+grid players, enforcing Critical Infrastructure Protection—CIP—reliability benchmarks. FedRAMP standardizes cloud vetting, auth, 
+monitoring for federal and vendor clouds, aiming for uniform safety. The Center for Internet Security—CIS—nonprofit rolls out control 
+sets for system hardening and incident playbooks, fortifying defenses. GDPR, the EU's data shield, guards resident privacy transnationally,
+slapping fines for opacity on data holds or skips in breach alerts—victims get 72 hours' notice. PCI DSS polices card data flows to slash 
+fraud in storage, acceptance, processing, transmission. HIPAA, minted in 1996, safeguards patient health intel—Protected Health 
+Information, or PHI—via privacy, security, and breach notification rules; no consent, no sharing, and breaches trigger victim alerts to 
+fend off ID theft or fraud scams. HITRUST aids HIPAA compliance as a framework-assurance hybrid. ISO sets cross-border tech and management
+benchmarks, streamlining ops from staff retention to waste cuts. SOC 1 and 2, from AICPA's auditing board, probe financial reporting and 
+trust services—covering access tiers from associates to vendors—flagging fraud risks in confidentiality, privacy, integrity, availability,
+and data integrity.
 
-This video explains how security professionals use frameworks and controls to identify, manage, and reduce risks within an organization.
+Ethics threads this needle, demanding we stay even-keeled, honoring confidentiality amid personal ties or pressures. It's the quiet 
+enforcer: proprietary data stays vaulted, PII shielded per policy. Laws bind it tighter—negligence invites suits, exposures. 
+Counterattacks? A non-starter in the US under the Computer Fraud and Abuse Act of 1986 or Cybersecurity Information Sharing Act of 2015; 
+defense only, lest it veer into vigilante territory, escalating harm or sparking diplomatic fires with state-backed hacktivists—those 
+politically driven hackers chasing social shifts. Only feds or military get the green light. Globally, the International Court of 
+Justice—ICJ—permits retaliation if it targets solely the aggressor, signals a cease, avoids escalation, and proves reversible—tough 
+metrics that keep most orgs sidelined. For deeper dives, the Tallinn Manual's updates online unpack these international wrinkles.
 
-**Security Frameworks**
-- Security frameworks are guidelines used to build plans for mitigating risks and threats to data and privacy, providing a structured approach to implementing a security lifecycle.
-- Their purpose includes protecting personally identifiable information (PII), securing financial information, identifying security weaknesses, managing organizational risks, and aligning security with business goals.
+PII demands vigilance in handling and stashing—track its every move to meet regs—or face fallout: regulator probes, client grilling, 
+litigation from breach victims. Jurisdiction-specific gov sites and legal consults keep you dialed in, as rules diverge wildly. Unethical
+slips, like post-9/11 database pokes sans warrant or password swaps from corner-cutting, erode trust fast. Holly's pivot from sales 
+gigs to cyber via certs rings true—ethics isn't optional; it's the pivot point, where laziness births breaches.
 
-**Core Components of Security Frameworks**
-- The first core component involves identifying and documenting security goals, such as aligning with regulations like GDPR.
-- The second core component focuses on setting guidelines to achieve these security goals, which might involve developing new policies for data handling.
-
-**Implementing and Monitoring Security**
-- The third core component is implementing strong security processes, like designing procedures for handling user data requests in compliance with regulations.
-- The final core component involves monitoring and communicating results, such as reporting potential security issues to management or compliance officers.
-
-**Security Controls**
-- Security controls are safeguards designed to reduce specific security risks, such as requiring employees to complete privacy training to minimize data breaches.
-- Understanding both security frameworks and controls is crucial for analysts to support an organization's security goals and protect its people.
-
-
----
-
-This video introduces key frameworks and controls organizations use to protect data and users, focusing on the CIA triad and the NIST Cybersecurity Framework.
-
-### The CIA Triad: Foundational Security Model
-- **Confidentiality**: Ensures only authorized users can access specific assets or data, enforced through strict access controls.
-- **Integrity**: Guarantees data is correct, authentic, and reliable, often maintained using data protection methods like encryption.
-- **Availability**: Means data is accessible to authorized users when needed.
-
-### Assets and Risk Management
-- **Defining Assets**: An asset is anything valuable to an organization, with its value determined by associated costs.
-- **Risk Assessment**: Assets storing sensitive data, like social security numbers, are high-risk and require tighter security than public information.
-
-### NIST Cybersecurity Framework (NIST CSF)
-- **Voluntary Framework**: The NIST CSF provides standards, guidelines, and best practices for managing cybersecurity risk.
-- **Threat Actors**: Understanding motives of threat actors, including disgruntled employees who pose a significant risk due to their access to sensitive information, is crucial for effective security.
+Wrapping this module, frameworks and controls blueprint protection for orgs and folks alike, CIA and NIST CSF anchoring risk triage. 
+Ethics spotlights confidentiality, privacy, legal fidelity. Next up: analyst tools and langs to operationalize it all. Solid 
+refresh—reminds me why staying current on tweaks, like Gramm-Leach-Bliley or Sarbanes-Oxley, pays dividends.
 
 ---
 
-Controls, frameworks, and compliance
-
-Previously, you were introduced to security frameworks and how they provide a structured approach to implementing a security lifecycle. As a reminder, a security lifecycle is a constantly evolving set of policies and standards. In this reading, you will learn more about how security frameworks, controls, and compliance regulations—or laws—are used together to manage security and make sure everyone does their part to minimize risk.
-How controls, frameworks, and compliance are related
-
-The confidentiality, integrity, and availability (CIA) triad is a model that helps inform how organizations consider risk when setting up systems and security policies. 
-A triangle representing the CIA (confidentiality, integrity, availability) triad
-
-CIA are the three foundational principles used by cybersecurity professionals to establish appropriate controls that mitigate threats, risks, and vulnerabilities.
-
-As you may recall, security controls are safeguards designed to reduce specific security risks. So they are used alongside frameworks to ensure that security goals and processes are implemented correctly and that organizations meet regulatory compliance requirements.
-
-Security frameworks are guidelines used for building plans to help mitigate risks and threats to data and privacy. They have four core components:
-
-    Identifying and documenting security goals 
-
-    Setting guidelines to achieve security goals 
-
-    Implementing strong security processes
-
-    Monitoring and communicating results
-
-Compliance is the process of adhering to internal standards and external regulations.
-Specific controls, frameworks, and compliance
-
-The National Institute of Standards and Technology (NIST) is a U.S.-based agency that develops multiple voluntary compliance frameworks that organizations worldwide can use to help manage risk. The more aligned an organization is with compliance, the lower the risk.
-
-Examples of frameworks include the NIST Cybersecurity Framework (CSF) and the NIST Risk Management Framework (RMF). 
-
-Note: Specifications and guidelines can change depending on the type of organization you work for.
-
-In addition to the NIST CSF
- and NIST RMF
-, there are several other controls, frameworks, and compliance standards that are important for security professionals to be familiar with to help keep organizations and the people they serve safe.
-The Federal Energy Regulatory Commission - North American Electric Reliability Corporation (FERC-NERC)
-
-FERC-NERC is a regulation that applies to organizations that work with electricity or that are involved with the U.S. and North American power grid. These types of organizations have an obligation to prepare for, mitigate, and report any potential security incident that can negatively affect the power grid. They are also legally required to adhere to the Critical Infrastructure Protection (CIP) Reliability Standards defined by the FERC. 
-The Federal Risk and Authorization Management Program (FedRAMP®)
-
-FedRAMP is a U.S. federal government program that standardizes security assessment, authorization, monitoring, and handling of cloud services and product offerings. Its purpose is to provide consistency across the government sector and third-party cloud providers. 
-Center for Internet Security (CIS®)
-
-CIS is a nonprofit with multiple areas of emphasis. It provides a set of controls that can be used to safeguard systems and networks against attacks. Its purpose is to help organizations establish a better plan of defense. CIS also provides actionable controls that security professionals may follow if a security incident occurs. 
-General Data Protection Regulation (GDPR)
-
-GDPR is a European Union (E.U.) general data regulation that protects the processing of E.U. residents’ data and their right to privacy in and out of E.U. territory. For example, if an organization is not being transparent about the data they are holding about an E.U. citizen and why they are holding that data, this is an infringement that can result in a fine to the organization. Additionally, if a breach occurs and an E.U. citizen’s data is compromised, they must be informed. The affected organization has 72 hours to notify the E.U. citizen about the breach.
-Payment Card Industry Data Security Standard (PCI DSS)
-
-PCI DSS is an international security standard meant to ensure that organizations storing, accepting, processing, and transmitting credit card information do so in a secure environment. The objective of this compliance standard is to reduce credit card fraud. 
-The Health Insurance Portability and Accountability Act (HIPAA)
-
-HIPAA is a U.S. federal law established in 1996 to protect patients' health information. This law prohibits patient information from being shared without their consent. It is governed by three rules: 
-
-    Privacy
-
-    Security 
-
-    Breach notification 
-
-Organizations that store patient data have a legal obligation to inform patients of a breach because if patients' Protected Health Information (PHI) is exposed, it can lead to identity theft and insurance fraud. PHI relates to the past, present, or future physical or mental health or condition of an individual, whether it’s a plan of care or payments for care. Along with understanding HIPAA as a law, security professionals also need to be familiar with the Health Information Trust Alliance (HITRUST®), which is a security framework and assurance program that helps institutions meet HIPAA compliance.
-International Organization for Standardization (ISO) 
-
-ISO was created to establish international standards related to technology, manufacturing, and management across borders. It helps organizations improve their processes and procedures for staff retention, planning, waste, and services. 
-System and Organizations Controls (SOC type 1, SOC type 2)
-
-The American Institute of Certified Public Accountants® (AICPA) auditing standards board developed this standard. The SOC1 and SOC2 are a series of reports that focus on an organization's user access policies at different organizational levels such as: 
-
-    Associate
-
-    Supervisor
-
-    Manager
-
-    Executive
-
-    Vendor 
-
-    Others 
-
-They are used to assess an organization’s financial compliance and levels of risk. They also cover confidentiality, privacy, integrity, availability, security, and overall data safety. Control failures in these areas can lead to fraud.
-
-Pro tip: There are a number of regulations that are frequently revised. You are encouraged to keep up-to-date with changes and explore more frameworks, controls, and compliance. Two suggestions to research: the Gramm-Leach-Bliley Act and the Sarbanes-Oxley Act.
-Key takeaways
-
-In this reading you learned more about controls, frameworks, and compliance. You also learned how they work together to help organizations maintain a low level of risk.
-
-As a security analyst, it’s important to stay up-to-date on common frameworks, controls, and compliance regulations and be aware of changes to the cybersecurity landscape to help ensure the safety of both organizations and people.
+### Key Takeaways
+- Core components of security frameworks: Identify and document security goals (e.g., GDPR alignment); set guidelines to meet those goals (e.g., data policy drafts); implement robust processes (e.g., user data request handling); monitor and report outcomes (e.g., issue escalations to leadership).
+- Ethical obligations for pros: Stay unbiased and honest; uphold confidentiality for PII/SPII; protect privacy via vulnerability hunts, risk management, business-aligned security; adhere to laws like HIPAA for PHI breach notifications.
+- Key frameworks and standards: NIST CSF/RMF for risk management; FERC-NERC CIP for grid reliability; FedRAMP for cloud standardization; CIS controls for defense and incident response; GDPR for EU data privacy (72-hour breach alerts); PCI DSS for card security; HIPAA (privacy/security/breach rules) with HITRUST support; ISO for global process improvements; SOC 1/2 for access and trust audits.
+- US counterattack limits: Illegal under CFAA (1986) and CISA (2015); defense-only to avoid vigilantism or escalation.
+- ICJ counterattack criteria: Targets attacker exclusively; acts as stop request; prevents escalation; fully reversible.
 
 ---
-
-This video discusses the critical importance of protecting Personally Identifiable Information (PII) and the consequences of failing to do so.
-
-**Handling and Storing PII**
-- It is crucial to be deliberate about how PII is handled and stored, ensuring its location is always known.
-- Protecting PII is often necessary to comply with various regulations and laws.
-
-**Consequences of Failing to Meet Obligations**
-- **Regulatory Scrutiny:** Government regulators may investigate a company's data handling practices.
-- **Customer Inquiry:** Consumers and businesses may directly question how a company manages their data, impacting customer relationships.
-- **Legal Action:** Victims of cybersecurity incidents may sue companies for mishandling their data.
-
-**Staying Informed on PII Regulations**
-- Consult relevant government websites in specific jurisdictions for laws, regulations, and compliance requirements.
-- Seek advice from legal counsel for questions about specific laws, as regulations vary significantly across jurisdictions.
-
----
-
-This video discusses the importance of ethics in cybersecurity, focusing on how security professionals should navigate challenging situations.
-
-Ethical Decision-Making in Cybersecurity
-- Security professionals must remain unbiased and uphold security and confidentiality, even when personal relationships are involved.
-- It is crucial to adhere to established policies and protocols, as abusing access can lead to severe consequences.
-
-Key Ethical Principles
-- **Confidentiality:** Security professionals have an ethical duty to protect proprietary and private information, such as Personally Identifiable Information (PII).
-- **Privacy Protections:** Safeguarding personal information from unauthorized use is essential, and company policies regarding data access and sharing must always be followed.
-
-The Role of Law in Cybersecurity Ethics
-- Laws are rules enforced by governing entities, and security professionals must comply with them.
-- Negligence in handling confidential data can lead to legal repercussions and the loss of private information.
-
----
-
-Ethical concepts that guide cybersecurity decisions
-
-Previously, you were introduced to the concept of security ethics. Security ethics are guidelines for making appropriate decisions as a security professional. Being ethical requires that security professionals remain unbiased and maintain the security and confidentiality of private data. Having a strong sense of ethics can help you navigate your decisions as a cybersecurity professional so you’re able to mitigate threats posed by threat actors’ constantly evolving tactics and techniques. In this reading, you’ll learn about more ethical concepts that are essential to know so you can make appropriate decisions about how to legally and ethically respond to attacks in a way that protects organizations and people alike. 
-Ethical concerns and laws related to counterattacks 
-United States standpoint on counterattacks 
-
-In the U.S., deploying a counterattack on a threat actor is illegal because of laws like the Computer Fraud and Abuse Act of 1986 and the Cybersecurity Information Sharing Act of 2015, among others. You can only defend. The act of counterattacking in the U.S. is perceived as an act of vigilantism. A vigilante is a person who is not a member of law enforcement who decides to stop a crime on their own. And because threat actors are criminals, counterattacks can lead to further escalation of the attack, which can cause even more damage and harm. Lastly, if the threat actor in question is a state-sponsored hacktivist, a counterattack can lead to serious international implications. A hacktivist is a person who uses hacking to achieve a political goal. The political goal may be to promote social change or civil disobedience. 
-
-For these reasons, the only individuals in the U.S. who are allowed to counterattack are approved employees of the federal government or military personnel. 
-International standpoint on counterattacks
-
-The International Court of Justice (ICJ), which updates its guidance regularly, states that a person or group can counterattack if: 
-
-    The counterattack will only affect the party that attacked first.
-
-    The counterattack is a direct communication asking the initial attacker to stop.
-
-    The counterattack does not escalate the situation.
-
-    The counterattack effects can be reversed.
-
-Organizations typically do not counterattack because the above scenarios and parameters are hard to measure. There is a lot of uncertainty dictating what is and is not lawful, and at times negative outcomes are very difficult to control. Counterattack actions generally lead to a worse outcome, especially when you are not an experienced professional in the field. 
-
-To learn more about specific scenarios and ethical concerns from an international perspective, review updates provided in the Tallinn Manual online
-.
-Ethical principles and methodologies
-
-Because counterattacks are generally disapproved of or illegal, the security realm has created frameworks and controls—such as the confidentiality, integrity, and availability (CIA) triad and others discussed earlier in the program—to address issues of confidentiality, privacy protections, and laws. To better understand the relationship between these issues and the ethical obligations of cybersecurity professionals, review the following key concepts as they relate to using ethics to protect organizations and the people they serve. 
-
-Confidentiality means that only authorized users can access specific assets or data. Confidentiality as it relates to professional ethics means that there needs to be a high level of respect for privacy to safeguard private assets and data.
-
-Privacy protection means safeguarding personal information from unauthorized use. Personally identifiable information (PII) and sensitive personally identifiable information (SPII) are types of personal data that can cause people harm if they are stolen. PII data is any information used to infer an individual's identity, like their name and phone number. SPII data is a specific type of PII that falls under stricter handling guidelines, including social security numbers and credit card numbers. To effectively safeguard PII and SPII data, security professionals hold an ethical obligation to secure private information, identify security vulnerabilities, manage organizational risks, and align security with business goals. 
-
-Laws are rules that are recognized by a community and enforced by a governing entity. As a security professional, you will have an ethical obligation to protect your organization, its internal infrastructure, and the people involved with the organization. To do this:
-
-    You must remain unbiased and conduct your work honestly, responsibly, and with the highest respect for the law. 
-
-    Be transparent and just, and rely on evidence.
-
-    Ensure that you are consistently invested in the work you are doing, so you can appropriately and ethically address issues that arise. 
-
-    Stay informed and strive to advance your skills, so you can contribute to the betterment of the cyber landscape. 
-
- As an example, consider the Health Insurance Portability and Accountability Act (HIPAA), which is a U.S. federal law established to protect patients' health information, also known as PHI, or protected health information. This law prohibits patient information from being shared without their consent. So, as a security professional, you might help ensure that the organization you work for adheres to both its legal and ethical obligation to inform patients of a breach if their health care data is exposed.
-Key takeaways
-
-As a future security professional, ethics will play a large role in your daily work. Understanding ethics and laws will help you make the correct choices if and when you encounter a security threat or an incident that results in a breach.
-
----
-
-This video emphasizes the critical role of ethics in cybersecurity, drawing from personal experiences to illustrate its importance.
-
-**The Speaker's Career Journey**
-- The speaker, Holly, transitioned from diverse fields like hosiery sales, banking, and telecommunications into cybersecurity.
-- Certifications were crucial in establishing credibility for her in the cybersecurity field, especially when she lacked prior experience.
-
-**The Crux of Cybersecurity: Ethics**
-- Ethical conduct is fundamental to being a cybersecurity professional.
-- Unethical behavior often stems from laziness or taking shortcuts, such as sharing passwords or accessing private information for personal reasons.
-
-**Navigating Ethical Dilemmas**
-- A difficult ethical situation involved a request to query a database of text messages without proper authorization after 9/11.
-- When faced with such decisions, it's important to consider the potential consequences of your actions.
-
----
-
-This lecture provides a review of key concepts covered in the course regarding assessing and managing risks in cybersecurity.
-
-**Security Frameworks and Controls**
-- Security frameworks and controls are essential for developing processes and procedures that protect organizations and their personnel.
-- Core components include identifying security goals and establishing guidelines to achieve them.
-
-**Specific Frameworks and Ethics**
-- The CIA triad (Confidentiality, Integrity, Availability) and the NIST CSF (National Institute of Standards and Technology Cybersecurity Framework) are examples of frameworks used for risk management.
-- Security ethics involve considering common ethical issues such as confidentiality, privacy protections, and relevant laws.
-
-**Upcoming Topics**
-- The next section of the course will introduce common tools and programming languages utilized by security analysts.
-- These tools and languages are crucial for protecting organizational operations.
-
----
-
-Glossary terms from module 3
-Terms and definitions from Course 1, Module 3
-
-Asset: An item perceived as having value to an organization 
-
-Availability: The idea that data is accessible to those who are authorized to access it
-
-Compliance: The process of adhering to internal standards and external regulations
-
-Confidentiality: The idea that only authorized users can access specific assets or data
-
-Confidentiality, integrity, availability (CIA) triad: A model that helps inform how organizations consider risk when setting up systems and security policies
-
-Hacktivist: A person who uses hacking to achieve a political goal
-
-Health Insurance Portability and Accountability Act (HIPAA): A U.S. federal law established to protect patients' health information
-
-Integrity: The idea that the data is correct, authentic, and reliable
-
-National Institute of Standards and Technology (NIST) Cyber Security Framework (CSF): A voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk
-
-Privacy protection: The act of safeguarding personal information from unauthorized use
-
-Protected health information (PHI): Information that relates to the past, present, or future physical or mental health or condition of an individual
-
-Security architecture: A type of security design composed of multiple components, such as tools and processes, that are used to protect an organization from risks and external threats
-
-Security controls: Safeguards designed to reduce specific security risks
-
-Security ethics: Guidelines for making appropriate decisions as a security professional
-
-Security frameworks: Guidelines used for building plans to help mitigate risk and threats to data and privacy
-
-Security governance: Practices that help support, define, and direct security efforts of an organization
-
-Sensitive personally identifiable information (SPII): A specific type of PII that falls under stricter handling guidelines
-
----
-
-
-
-
-
-
-
 
 
 
