@@ -245,6 +245,22 @@ This video emphasizes the critical role of ethics in cybersecurity, drawing from
 
 ---
 
+This lecture provides a review of key concepts covered in the course regarding assessing and managing risks in cybersecurity.
+
+**Security Frameworks and Controls**
+- Security frameworks and controls are essential for developing processes and procedures that protect organizations and their personnel.
+- Core components include identifying security goals and establishing guidelines to achieve them.
+
+**Specific Frameworks and Ethics**
+- The CIA triad (Confidentiality, Integrity, Availability) and the NIST CSF (National Institute of Standards and Technology Cybersecurity Framework) are examples of frameworks used for risk management.
+- Security ethics involve considering common ethical issues such as confidentiality, privacy protections, and relevant laws.
+
+**Upcoming Topics**
+- The next section of the course will introduce common tools and programming languages utilized by security analysts.
+- These tools and languages are crucial for protecting organizational operations.
+
+---
+
 
 
 
