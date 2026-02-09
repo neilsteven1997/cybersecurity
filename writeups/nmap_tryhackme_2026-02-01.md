@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="images/nmap_nmap_tryhackme_2026-02-01.png" alt="Nmap.org" 
-  width="650"/>
+  width="450"/>
 </p>
 
 In enumeration during security audits, gathering details on targets proves essential prior to exploits. Assigned IPs demand initial 
