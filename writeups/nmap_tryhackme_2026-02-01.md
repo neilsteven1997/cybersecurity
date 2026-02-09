@@ -2,6 +2,11 @@
 
 ---
 
+<p align="center">
+  <img src="images/nmap_nmap_tryhackme_2026-02-01.png" alt="Nmap.org" 
+  width="650"/>
+</p>
+
 In enumeration during security audits, gathering details on targets proves essential prior to exploits. Assigned IPs demand initial 
 mapping of active services, such as webservers or Active Directory controllers. Port scanning forms the core of this, where services 
 listen on ports for connections. Ports enable concurrent requests or multiple services; browsers assign random local ports for tabs, 
@@ -86,7 +91,7 @@ Nmap exploration; Nmap's own highly extensive docs at https://nmap.org/docs.html
 
 ---
 
-## Key Takeaways
+### Key Takeaways
 - Basic Nmap scan types include TCP Connect scans (-sT), SYN half-open scans (-sS), and UDP scans (-sU).
 - Less common port scan types encompass TCP Null scans (-sN), TCP FIN scans (-sF), and TCP Xmas scans (-sX).
 - TCP three-way handshake proceeds as: attacker sends SYN-flagged packet, target responds with SYN/ACK if port open, attacker
@@ -114,5 +119,54 @@ Nmap exploration; Nmap's own highly extensive docs at https://nmap.org/docs.html
   for inter-packet delays, --badsum for invalid checksums to probe presence.
 
 ---
+
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/finding-filename-of-smb-script_nmap_tryhackme_2026-02-01.png" alt="Finding Filename Of SMB Script" 
+  width="450"/>
+      <td><img src="images/finding-dependency_nmap_tryhackme_2026-02-01.png" alt="Finding Dependency" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Finding Filename Of SMB Script</td>
+      <td align="center"><strong>Figure 1b:</strong> Finding Dependency</td>
+    </tr>
+    <tr>
+      <td><img src="images/nmap-scan_nmap_tryhackme_2026-02-01.png" alt="Nmap Scan" 
+  width="450"/>
+      <td><img src="images/nmap-xmas-scan-all-999-ports-open-or-filtered_nmap_tryhackme_2026-02-01.png" alt="Nmap Xmas Scan All 999 Ports" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Nmap Scan</td>
+      <td align="center"><strong>Figure 2b:</strong> Nmap Xmas Scan All 999 Ports</td>
+    </tr>
+  </table>
+</p>
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/nmap-tcp-syn-scan_nmap_tryhackme_2026-02-01.png" alt="Nmap TCP SYN Scan" 
+  width="450"/>
+      <td><img src="images/nmap-ftp-anon_nmap_tryhackme_2026-02-01.png" alt="Nmap FTP-Anon" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Nmap TCP SYN Scan</td>
+      <td align="center"><strong>Figure 3b:</strong> Nmap FTP-Anon</td>
+    </tr>
+    <tr>
+      <td><img src="images/nmap-ftp-anon-2_nmap_tryhackme_2026-02-01.png" alt="Nmap FTP-Anon 2" 
+  width="450"/>
+      <td><img src="images/nmap-xmas-scan_nmap_tryhackme_2026-02-01.png" alt="Nmap Xmas Scan" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Nmap FTP-Anon 2</td>
+      <td align="center"><strong>Figure 4b:</strong> Nmap Xmas Scan</td>
+    </tr>
+  </table>
+</p>
+
 
 
