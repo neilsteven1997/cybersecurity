@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **February 09, 2026**: Completed Tryhackme - Introductory Networking
 - **February 04, 2026**: Completed Tryhackme - Nmap
 - **February 02, 2026**: Completed CISCO Networking Academy - Getting Started with Cisco Packet Tracer
 - **January 30, 2026**: Completed Tryhackme - Metasploit: Meterpreter
