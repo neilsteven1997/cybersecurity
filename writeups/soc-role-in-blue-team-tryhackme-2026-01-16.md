@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-  <img src="security-hierarchy_soc-role-in-blue-team-tryhackme-2026-01-16.png" alt="Security Hierarchy" 
+  <img src="images/security-hierarchy_soc-role-in-blue-team-tryhackme-2026-01-16.png" alt="Security Hierarchy" 
   width="650"/>
 </p>
 
