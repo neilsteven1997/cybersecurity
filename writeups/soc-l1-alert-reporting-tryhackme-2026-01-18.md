@@ -2,6 +2,14 @@
 # SOC L1 Alert Reporting
 
 ---
+
+<p align="center">
+  <img src="images/alert-funnel_soc-l1-alert-reporting-tryhackme-2026-01-18.png" alt="Alert Funnel" 
+  width="650"/>
+</p>
+
+
+
 Systems underpin the digital infrastructure, encompassing physical servers, virtual machines, and cloud services like 
 Microsoft 365, where sensitive data resides—bank details, emails, or operational controls. Breaching a system amplifies impact 
 compared to individual accounts; a mail server compromise exposes thousands of mailboxes for theft or extortion, an admin 
