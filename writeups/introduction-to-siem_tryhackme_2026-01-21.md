@@ -51,7 +51,7 @@ I find EDR's endpoint-centric telemetry invaluable for dissecting evasive tactic
 
 ---
 
-Key Takeaways
+### Key Takeaways
 - Behavioral Detection: Observes file behavior, flagging unusual parent-child relationships like winword.exe spawning
   PowerShell.exe
 - Anomaly Detection: Flags deviations from baseline, such as process modifying auto-start registry key
@@ -71,6 +71,58 @@ Key Takeaways
 - `/var/log/cron:` Events related to cron jobs are stored in this location.
 - `/var/log/auth.log` and `/var/log/secure:` Stores authentication-related logs.
 - `/var/log/kern:` This file stores kernel-related events.
+
+---
+
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/siem_introduction-to-siem_tryhackme_2026-01-21.png" alt="Siem Introduction" 
+  width="450"/>
+      <td><img src="images/splunk-siem_introduction-to-siem_tryhackme_2026-01-21.png" alt="Splunk Siem" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Siem Introduction</td>
+      <td align="center"><strong>Figure 1b:</strong> Splunk Siem</td>
+    </tr>
+    <tr>
+      <td><img src="images/siem-log-ingestion_introduction-to-siem_tryhackme_2026-01-21.png" alt="Siem Log Ingestion" 
+  width="450"/>
+      <td><img src="images/splunk-siem_ingestion-methods_introduction-to-siem_tryhackme_2026-01-21.png" alt="Splunk Siem Log Ingestion" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Siem Log Ingestion</td>
+      <td align="center"><strong>Figure 2b:</strong> Splunk Siem Log Ingestion</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/siem-dashboard-activity_introduction-to-siem_tryhackme_2026-01-21.png" alt="Siem Dashboard Activity" 
+  width="450"/>
+      <td><img src="images/siem-dashboard-activity_events_introduction-to-siem_tryhackme_2026-01-21.png" alt="Siem Dashboard Activity Events" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Siem Dashboard Activity</td>
+      <td align="center"><strong>Figure 3b:</strong> Siem Dashboard Activity Events</td>
+    </tr>
+    <tr>
+      <td><img src="images/siem-dashboard-activity_rule_introduction-to-siem_tryhackme_2026-01-21.png" alt="Siem Dashboard Activity Rule" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Siem Dashboard Activity Rule</td>
+    </tr>
+  </table>
+</p>
+
 
 ---
 
