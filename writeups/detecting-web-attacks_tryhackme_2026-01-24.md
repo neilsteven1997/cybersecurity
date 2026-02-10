@@ -175,7 +175,7 @@ comprehensive response.
       <td><img src="images/wireshark-activity-2_detecting-web-attacks_tryhackme_2026-01-24.png" alt="Wireshark Activity 2" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 5a:</strong> Wireshark Activity 1/td>
+      <td align="center"><strong>Figure 5a:</strong> Wireshark Activity 1</td>
       <td align="center"><strong>Figure 5b:</strong> Wireshark Activity 2</td>
     </tr>
   </table>
