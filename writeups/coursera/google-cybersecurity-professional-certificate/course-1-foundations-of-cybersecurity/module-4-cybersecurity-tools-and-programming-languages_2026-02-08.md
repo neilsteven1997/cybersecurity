@@ -49,15 +49,24 @@ response, Python automation, and job readiness.
 ---
 
 ### Key Takeaways
-- SIEM tools collect and analyze logs to monitor activities, issue targeted alerts, and present data through customizable dashboards, supporting both on-premise and cloud deployments.
-- Playbooks provide step-by-step guidance for incidents, including chain of custody to track evidence handling and protecting/preserving evidence via the order of volatility to prioritize transient data and work from copies.
+- SIEM tools collect and analyze logs to monitor activities, issue targeted alerts, and present data through customizable
+  dashboards, supporting both on-premise and cloud deployments.
+- Playbooks provide step-by-step guidance for incidents, including chain of custody to track evidence handling and
+  protecting/preserving evidence via the order of volatility to prioritize transient data and work from copies.
 - Network protocol analyzers such as tcpdump and Wireshark capture and examine traffic to detect risks.
-- Python automates repetitive tasks with precision to reduce errors, while SQL queries large databases to extract specific data points.
+- Python automates repetitive tasks with precision to reduce errors, while SQL queries large databases to extract specific data
+  points.
 - Linux functions as an open-source command-line operating system for log review and system investigation.
-- Antivirus software prevents, detects, and removes malware; intrusion detection systems alert on suspicious packet activity and access attempts; encryption secures data confidentiality; penetration testing evaluates vulnerabilities through simulated attacks.
+- Antivirus software prevents, detects, and removes malware; intrusion detection systems alert on suspicious packet activity
+  and access attempts; encryption secures data confidentiality; penetration testing evaluates vulnerabilities through simulated
+  attacks.
 - Web application risks should be tracked via the OWASP Top 10.
-- Portfolio hosting choices include a local documents folder with organized subfolders (Resume, Education, Portfolio documents, Cybersecurity tools, Programming), Google Drive or Dropbox for cloud sharing, Google Sites for responsive websites, and Git repositories (GitLab, Bitbucket, GitHub) using Markdown.
-- Portfolio projects to build: draft professional statement, security audit, network analysis, Linux file permissions management, SQL query filters, small business vulnerability identification, incident handler’s journal, security text file parsing, and resume creation/revision.
+- Portfolio hosting choices include a local documents folder with organized subfolders (Resume, Education, Portfolio documents,
+  Cybersecurity tools, Programming), Google Drive or Dropbox for cloud sharing, Google Sites for responsive websites, and Git
+  repositories (GitLab, Bitbucket, GitHub) using Markdown.
+- Portfolio projects to build: draft professional statement, security audit, network analysis, Linux file permissions
+  management, SQL query filters, small business vulnerability identification, incident handler’s journal, security text file
+  parsing, and resume creation/revision.
 - Additional resources: Google Cybersecurity Action Team's Threat Horizon Report and CISA free tools list.
 - Join the Google Cybersecurity Community for peer discussions, networking, and career support.
 
