@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-  <img src="images/day-14-aoc-tryhackme-container.png" alt="Client Side Attacks" 
+  <img src="images/client-side-attacks_detecting-web-attacks_tryhackme_2026-01-24.png" alt="Client Side Attacks" 
   width="650"/>
 </p>
 
@@ -122,22 +122,22 @@ comprehensive response.
 <p align="center">
   <table>
     <tr>
-      <td><img src="images/day-14-aoc-2025-defaced-website.png" alt="Client Side Attacks" 
+      <td><img src="images/client-side-attacks_detecting-web-attacks_tryhackme_2026-01-24.png" alt="Client Side Attacks" 
   width="450"/>
-      <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td><img src="images/access-log-format_detecting-web-attacks_tryhackme_2026-01-24.png" alt="Access Log Format" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 1a:</strong> Client Side Attacks</td>
+      <td align="center"><strong>Figure 1b:</strong> Access Log Format</td>
     </tr>
     <tr>
-      <td><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td><img src="images/wireshark-1_detecting-web-attacks_tryhackme_2026-01-24.png" alt="Wireshark 1" 
   width="450"/>
-      <td><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+      <td><img src="images/wireshark-2_detecting-web-attacks_tryhackme_2026-01-24.png" alt="Wireshark 2" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
-      <td align="center"><strong>Figure 2b:</strong> Incrementing the number on link to find secret code</td>
+      <td align="center"><strong>Figure 2a:</strong> Wireshark 1</td>
+      <td align="center"><strong>Figure 2b:</strong> Wireshark 2</td>
     </tr>
   </table>
 </p>
@@ -146,22 +146,22 @@ comprehensive response.
 <p align="center">
   <table>
     <tr>
-      <td><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td><img src="images/web-application-firewall_detecting-web-attacks_tryhackme_2026-01-24.png" alt="Web Application Firewall" 
   width="450"/>
-      <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td><img src="images/challenge-response-mechanism_detecting-web-attacks_tryhackme_2026-01-24.png" alt="Challenge Response Mechanism" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 3a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 3b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 3a:</strong> Web Application Firewall</td>
+      <td align="center"><strong>Figure 3b:</strong> Challenge Response Mechanism</td>
     </tr>
     <tr>
-      <td><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td><img src="images/analysis-activity_access-log_detecting-web-attacks_tryhackme_2026-01-24.png" alt="Analysis Activity - Access Log" 
   width="450"/>
-      <td><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+      <td><img src="images/analysis-activity_access-log_decoding-payload_detecting-web-attacks_tryhackme_2026-01-24.png" alt="Analysis Activity - Access Log Decoding" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 4a:</strong> Using deployer bash to find the flag</td>
-      <td align="center"><strong>Figure 4b:</strong> Incrementing the number on link to find secret code</td>
+      <td align="center"><strong>Figure 4a:</strong> Analysis Activity - Access Log</td>
+      <td align="center"><strong>Figure 4b:</strong> Analysis Activity - Access Log Decoding</td>
     </tr>
   </table>
 </p>
@@ -170,13 +170,13 @@ comprehensive response.
 <p align="center">
   <table>
     <tr>
-      <td><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td><img src="images/wireshark-activity-1_detecting-web-attacks_tryhackme_2026-01-24.png" alt="Wireshark Activity 1" 
   width="450"/>
-      <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td><img src="images/wireshark-activity-2_detecting-web-attacks_tryhackme_2026-01-24.png" alt="Wireshark Activity 2" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 5a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 5b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 5a:</strong> Wireshark Activity 1/td>
+      <td align="center"><strong>Figure 5b:</strong> Wireshark Activity 2</td>
     </tr>
   </table>
 </p>
