@@ -1,6 +1,12 @@
 # SOC Role in Blue Team
 
 ---
+
+<p align="center">
+  <img src="security-hierarchy_soc-role-in-blue-team-tryhackme-2026-01-16.png" alt="Security Hierarchy" 
+  width="650"/>
+</p>
+
 Reflecting on the broader organizational context for defensive security operations, the Blue Team stands as the core defensive 
 unit in mature enterprises, reporting typically through a Chief Information Security Officer who aligns security with executive 
 priorities. Companies vary widely in structure—smaller ones might fold everything into IT or a general infosec group—but larger 
@@ -28,7 +34,7 @@ exercise, and it clarifies which specialized direction resonates most.
 
 ---
 
-Key Takeaways
+### Key Takeaways
 - Separate core security functions into Red Team (offensive testing), GRC (compliance and policy), and Blue Team (defensive
   operations)
 - Structure SOC with Tier 1 (triage), Tier 2 (advanced investigation), engineers (tool configuration), and management
