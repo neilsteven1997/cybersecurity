@@ -171,7 +171,7 @@ comprehensive response.
   <table>
     <tr>
       <td><img src="images/wireshark-activity-1_detecting-web-attacks_tryhackme_2026-01-24.png" alt="Wireshark Activity 1" 
-  width="450"/>
+  width="450"/></td>
       <td><img src="images/wireshark-activity-2_detecting-web-attacks_tryhackme_2026-01-24.png" alt="Wireshark Activity 2" width="450"/></td>
     </tr>
     <tr>
