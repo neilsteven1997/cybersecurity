@@ -40,7 +40,7 @@ visibly on the main account page after confirming the transaction and returning 
 
 ---
 
-**Key Takeaways**
+### Key Takeaways
 - Offensive security requires emulating attacker thinking to expose vulnerabilities proactively.
 - Virtual lab environments like TryHackMe's allow safe, reversible experimentation on simulated targets.
 - Directory brute-forcing with tools such as dirb uncovers hidden endpoints by testing predictable path names against a wordlist.
@@ -48,5 +48,34 @@ visibly on the main account page after confirming the transaction and returning 
   when left unauthenticated or insufficiently protected.
 - Starting from a regular user account, discovering and exploiting such endpoints demonstrates a basic privilege escalation vector in
   web applications.
+
+---
+
+### Gallery
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/fakebank_offensive-security-intro_tryhackme_2026-01-28.png" alt="Fakebank" 
+  width="450"/>
+      <td><img src="images/fakebank-dirb_offensive-security-intro_tryhackme_2026-01-28.png" alt="Fakebank Dirb" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Fakebank</td>
+      <td align="center"><strong>Figure 1b:</strong> Fakebank Dirb</td>
+    </tr>
+    <tr>
+      <td><img src="images/fakebank-deposit-page_offensive-security-intro_tryhackme_2026-01-28.png" alt="Fakebank Deposit Page" 
+  width="450"/>
+      <td><img src="images/fakebank-deposit-successful_offensive-security-intro_tryhackme_2026-01-28.png" alt="Fakebank Deposit Successful" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Fakebank Deposit Page</td>
+      <td align="center"><strong>Figure 2b:</strong> Fakebank Deposit Successful</td>
+    </tr>
+  </table>
+</p>
+
+
 
 ---
