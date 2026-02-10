@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="images/splunk_the-basics_tryhackme_2026-01-21.png" alt="Splunk" 
-  width="650"/>
+  width="450"/>
 </p>
 
 
