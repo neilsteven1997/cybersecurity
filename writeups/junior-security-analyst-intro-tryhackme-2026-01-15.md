@@ -1,6 +1,12 @@
 # Junior Security Analyst Intro
 
 ---
+
+<p align="center">
+  <img src="images/soc-and-your-team_junior-security-analyst-intro-tryhackme-2026-01-15.png" alt="SOC And Your Team" 
+  width="650"/>
+</p>
+
 Diving into the basics of a junior security analyst role feels like stepping onto the front lines of organizational defense. 
 In a typical Security Operations Center setup, the entry-level position—often labeled SOC Tier 1—centers on triaging alerts in 
 a round-the-clock environment, sifting through events to separate noise from real threats. The work demands constant vigilance, 
@@ -24,7 +30,7 @@ fatigue worthwhile. Starting here lays the groundwork for branching into special
 
 ---
 
-Key Takeaways
+### Key Takeaways
 - Monitor and triage security alerts as primary responsibility
 - Participate in team brainstorms and cross-department coordination
 - Continuously study emerging threats and defensive techniques
