@@ -65,6 +65,31 @@ response, Python automation, and job readiness.
 
 ### Gallery 
 
+After mounting the host filesystem from the compromised container, the target DoorDash website was defaced:
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="../images/test-your-knowledge-important-cybersecurity-tools_module-4-cybersecurity-tools-and-programming-languages_2026-02-08.png" alt="Test Your Knowledge - Important Cybersecurity Tools" 
+  width="450"/>
+      <td><img src="../images/test-your-knowledge-core-cybersecurity-knowledge-and-skills_module-4-cybersecurity-tools-and-programming-languages_2026-02-08.png" alt="Test Your Knowledge - Core Cybersecurity Knowledge And Skills" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Test Your Knowledge - Important Cybersecurity Tools</td>
+      <td align="center"><strong>Figure 1b:</strong> Test Your Knowledge - Core Cybersecurity Knowledge And Skills</td>
+    </tr>
+    <tr>
+      <td><img src="../images/portfolio-activity-draft-a-professional-statement_module-4-cybersecurity-tools-and-programming-languages_2026-02-08.png" alt="Portfolio Activity - Draft A Professional Statement" 
+  width="450"/>
+      <td><img src="../images/module-4-challenge-graded-assignment_module-4-cybersecurity-tools-and-programming-languages_2026-02-08.png" alt="Module 4 Challenge - Graded Assignment" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Portfolio Activity - Draft A Professional Statement</td>
+      <td align="center"><strong>Figure 2b:</strong> Module 4 Challenge - Graded Assignment</td>
+    </tr>
+  </table>
+</p>
+
+
 ---
 
 
