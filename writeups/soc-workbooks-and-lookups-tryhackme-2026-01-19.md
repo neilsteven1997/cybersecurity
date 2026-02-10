@@ -67,13 +67,6 @@ verdicts.
       <td align="center"><strong>Figure 3a:</strong> Source Of Assets</td>
       <td align="center"><strong>Figure 3b:</strong> A Network Diagram</td>
     </tr>
-    <tr>
-      <td><img src="images/unusual-login-location-workbook-2_soc-workbooks-and-lookups-tryhackme-2026-01-19.png" alt="Unusual Login Location Workbook" 
-  width="450"/>
-    </tr>
-     <tr>
-      <td align="center"><strong>Figure 4a:</strong> Unusual Login Location Workbook 2</td>
-    </tr>
   </table>
 </p>
 
