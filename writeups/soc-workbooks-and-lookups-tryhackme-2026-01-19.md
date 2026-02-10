@@ -26,3 +26,67 @@ verdicts.
 - Escalation: Forward to Level 2 or contact user for verification if required
 
 ---
+
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/unusual-login-location-workbook_soc-workbooks-and-lookups-tryhackme-2026-01-19.png" alt="Unusual Login Location Workbook" 
+  width="450"/>
+      <td><img src="images/example-of-identities_soc-workbooks-and-lookups-tryhackme-2026-01-19.png" alt="Example Of Identities" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Unusual Login Location Workbook</td>
+      <td align="center"><strong>Figure 1b:</strong> Example Of Identities</td>
+    </tr>
+    <tr>
+      <td><img src="images/source-of-identities_soc-workbooks-and-lookups-tryhackme-2026-01-19.png" alt="Source Of Identities" 
+  width="450"/>
+      <td><img src="images/example-of-assets_soc-workbooks-and-lookups-tryhackme-2026-01-19.png" alt="Example Of Assets" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Source Of Identities</td>
+      <td align="center"><strong>Figure 2b:</strong> Example Of Assets</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/source-of-assets_soc-workbooks-and-lookups-tryhackme-2026-01-19.png" alt="Source Of Assets" 
+  width="450"/>
+      <td><img src="images/a-network-diagram_soc-workbooks-and-lookups-tryhackme-2026-01-19.png" alt="A Network Diagram" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Source Of Assets</td>
+      <td align="center"><strong>Figure 3b:</strong> A Network Diagram</td>
+    </tr>
+    <tr>
+      <td><img src="images/unusual-login-location-workbook_soc-workbooks-and-lookups-tryhackme-2026-01-19.png" alt="Unusual Login Location Workbook" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Unusual Login Location Workbook</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
