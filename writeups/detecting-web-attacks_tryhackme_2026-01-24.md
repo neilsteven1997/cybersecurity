@@ -1,6 +1,13 @@
 # Detecting Web Attacks
 
 ---
+
+<p align="center">
+  <img src="images/day-14-aoc-tryhackme-container.png" alt="Client Side Attacks" 
+  width="650"/>
+</p>
+
+
 In my ongoing exploration of web security threats, I've been dissecting methods for spotting attacks that target public-facing sites 
 and applications, which often guard sensitive backend resources like databases. These intrusions typically start with exploiting either 
 client-end weaknesses or server vulnerabilities, and I've noted practical ways to uncover them using logs, traffic analysis, and 
@@ -81,7 +88,7 @@ comprehensive response.
 
 ---
 
-## Key Takeaways
+### Key Takeaways
 - Learn common client-side and server-side attack types
 - Understand the benefits and limitations of log-based detection
 - Explore network traffic–based detection methods
@@ -109,3 +116,72 @@ comprehensive response.
 - You can also right-click on any packet → follow HTTP Stream to reconstruct the full request and response between the client and server
 
 ---
+
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/day-14-aoc-2025-defaced-website.png" alt="Client Side Attacks" 
+  width="450"/>
+      <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
+      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+    </tr>
+    <tr>
+      <td><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+  width="450"/>
+      <td><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
+      <td align="center"><strong>Figure 2b:</strong> Incrementing the number on link to find secret code</td>
+    </tr>
+  </table>
+</p>
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+  width="450"/>
+      <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Final defacement after container escape</td>
+      <td align="center"><strong>Figure 3b:</strong> Restored website after running restoration script</td>
+    </tr>
+    <tr>
+      <td><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+  width="450"/>
+      <td><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Using deployer bash to find the flag</td>
+      <td align="center"><strong>Figure 4b:</strong> Incrementing the number on link to find secret code</td>
+    </tr>
+  </table>
+</p>
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+  width="450"/>
+      <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 5a:</strong> Final defacement after container escape</td>
+      <td align="center"><strong>Figure 5b:</strong> Restored website after running restoration script</td>
+    </tr>
+  </table>
+</p>
+
+
+---
+
+
