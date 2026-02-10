@@ -1,6 +1,12 @@
 # Elastic Stack: The Basics
 
 ---
+
+<p align="center">
+  <img src="images/elastic-logstash-search-beats-kibana_elastic-stack-the-basics_tryhackme_2026-01-21.png" alt="Elastic Logstash Search Beats Kibana" 
+  width="650"/>
+</p>
+
 The Elastic Stack (ELK), comprising Elasticsearch, Logstash, Beats, and Kibana, has evolved from a general-purpose data search and 
 visualization engine into a vital utility for the Security Operations Center (SOC). While it is not a purpose-built Security Information
 and Event Management (SIEM) platform, its capacity to correlate and search through massive datasets in real time allows many security 
@@ -90,5 +96,48 @@ more approachable.
 * Populate the dashboard using "Add from Library" to combine saved searches and visual elements.
 * Save the final dashboard for persistent monitoring and visibility.
   
+---
+
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/elastic-logstash-search-beats-kibana_elastic-stack-the-basics_tryhackme_2026-01-21.png" alt="Elastic Logstash Search Beats Kibana" 
+  width="450"/>
+      <td><img src="images/logstash_elastic-stack-the-basics_tryhackme_2026-01-21.png" alt="Logstash Elastic Stack - The Basics" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Elastic Logstash Search Beats Kibana</td>
+      <td align="center"><strong>Figure 1b:</strong> Logstash Elastic Stack - The Basics</td>
+    </tr>
+    <tr>
+      <td><img src="images/the-beats-family_elastic-stack-the-basics_tryhackme_2026-01-21.png" alt="The Beats Family" 
+  width="450"/>
+      <td><img src="images/how-they-work-together-with-kibana_elastic-stack-the-basics_tryhackme_2026-01-21.png" alt="How They Work Together With Kibana" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> The Beats Family</td>
+      <td align="center"><strong>Figure 2b:</strong> How They Work Together With Kibana</td>
+    </tr>
+  </table>
+</p>
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/welcome-to-elastic_elastic-stack-the-basics_tryhackme_2026-01-21.png" alt="Welcome To Elastic" 
+  width="450"/>
+      <td><img src="images/elastic-welcome-home_elastic-stack-the-basics_tryhackme_2026-01-21.png" alt="Elastic - Welcome Home" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Welcome To Elastic</td>
+      <td align="center"><strong>Figure 3b:</strong> Elastic - Welcome Home</td>
+    </tr>
+  </table>
+</p>
+
+
 ---
 
