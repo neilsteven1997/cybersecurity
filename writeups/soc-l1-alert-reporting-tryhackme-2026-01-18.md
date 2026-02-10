@@ -127,22 +127,22 @@ verification standards, and clear escalation ladders—that keep response moment
 <p align="center">
   <table>
     <tr>
-      <td><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td><img src="images/alert-funnel_soc-l1-alert-reporting-tryhackme-2026-01-18.png" alt="Alert Funnel" 
   width="450"/>
-      <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td><img src="images/report-format_soc-l1-alert-reporting-tryhackme-2026-01-18.png" alt="Report Format" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 1a:</strong> Alert Funnel</td>
+      <td align="center"><strong>Figure 1b:</strong> Report Format</td>
     </tr>
     <tr>
-      <td><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td><img src="images/escalation-guide_soc-l1-alert-reporting-tryhackme-2026-01-18.png" alt="Escalation Guide" 
   width="450"/>
-      <td><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+      <td><img src="images/requesting-l2-support_soc-l1-alert-reporting-tryhackme-2026-01-18.png" alt="Requesting L2 Support" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
-      <td align="center"><strong>Figure 2b:</strong> Incrementing the number on link to find secret code</td>
+      <td align="center"><strong>Figure 2a:</strong> Escalation Guide</td>
+      <td align="center"><strong>Figure 2b:</strong> Requesting L2 Support</td>
     </tr>
   </table>
 </p>
@@ -152,22 +152,22 @@ verification standards, and clear escalation ladders—that keep response moment
 <p align="center">
   <table>
     <tr>
-      <td><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td><img src="images/communication-by-l2_soc-l1-alert-reporting-tryhackme-2026-01-18.png" alt="Communication By L2" 
   width="450"/>
-      <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td><img src="images/my-reporting-1_soc-l1-alert-reporting-tryhackme-2026-01-18.png" alt="My Reporting 1" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 3a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 3b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 3a:</strong> Communication By L2</td>
+      <td align="center"><strong>Figure 3b:</strong> My Reporting 1</td>
     </tr>
     <tr>
-      <td><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td><img src="images/my-report-1-escalation-to-l2_soc-l1-alert-reporting-tryhackme-2026-01-18.png" alt="My Report 1 Escalation To L2" 
   width="450"/>
-      <td><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+      <td><img src="images/my-report-2-escalation-to-l2_soc-l1-alert-reporting-tryhackme-2026-01-18.png" alt="My Report 2 Escalation To L2" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 4a:</strong> Using deployer bash to find the flag</td>
-      <td align="center"><strong>Figure 4b:</strong> Incrementing the number on link to find secret code</td>
+      <td align="center"><strong>Figure 4a:</strong> My Report 1 Escalation To L2</td>
+      <td align="center"><strong>Figure 4b:</strong> My Report 2 Escalation To L2</td>
     </tr>
   </table>
 </p>
