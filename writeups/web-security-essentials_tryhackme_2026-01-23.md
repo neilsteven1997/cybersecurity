@@ -90,4 +90,69 @@ apps as attack magnets due to their exposure and data ties, with protections spa
 
 ---
 
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/cloud-computing_web-security-essentials_tryhackme_2026-01-23.png" alt="Cloud Computing" 
+  width="450"/>
+      <td><img src="images/components-of-a-web-service_web-security-essentials_tryhackme_2026-01-23.png" alt="Components Of A Web Service" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Cloud Computing</td>
+      <td align="center"><strong>Figure 1b:</strong> Components Of A Web Service</td>
+    </tr>
+    <tr>
+      <td><img src="images/web-servers_web-security-essentials_tryhackme_2026-01-23.png" alt="Web Servers" 
+  width="450"/>
+      <td><img src="images/sample-logs_web-security-essentials_tryhackme_2026-01-23.png" alt="Sample Logs" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Web Servers</td>
+      <td align="center"><strong>Figure 2b:</strong> Sample Logs</td>
+    </tr>
+  </table>
+</p>
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/content-delivery-network_web-security-essentials_tryhackme_2026-01-23.png" alt="Content Delivery Network" 
+  width="450"/>
+      <td><img src="images/tryhackme-cloudflare-dashboard_web-security-essentials_tryhackme_2026-01-23.png" alt="Tryhackme Cloudflare Dashboard" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Content Delivery Network</td>
+      <td align="center"><strong>Figure 3b:</strong> Tryhackme Cloudflare Dashboard</td>
+    </tr>
+    <tr>
+      <td><img src="images/practice-scenario_web-security-essentials_tryhackme_2026-01-23.png" alt="Practice Scenario" 
+  width="450"/>
+      <td><img src="images/secure-a-site-activity_web-security-essentials_tryhackme_2026-01-23.png" alt="Secure A Site Activity" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Practice Scenario</td>
+      <td align="center"><strong>Figure 4b:</strong> Secure A Site Activity</td>
+    </tr>
+  </table>
+</p>
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/secure-a-site-activity-1_web-security-essentials_tryhackme_2026-01-23.png" alt="Secure A Site Activity 1" 
+  width="450"/>
+      <td><img src="images/completed-secure-a-site-activity_web-security-essentials_tryhackme_2026-01-23.png" alt="Completed Secure A Site Activity" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Secure A Site Activity 1</td>
+      <td align="center"><strong>Figure 1b:</strong> Completed Secure A Site Activity</td>
+    </tr>
+  </table>
+</p>
+
+
+---
+
 
