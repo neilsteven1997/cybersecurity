@@ -65,7 +65,6 @@ response, Python automation, and job readiness.
 
 ### Gallery 
 
-After mounting the host filesystem from the compromised container, the target DoorDash website was defaced:
 <p align="center">
   <table>
     <tr>
