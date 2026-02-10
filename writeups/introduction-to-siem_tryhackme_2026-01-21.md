@@ -79,22 +79,22 @@ I find EDR's endpoint-centric telemetry invaluable for dissecting evasive tactic
 <p align="center">
   <table>
     <tr>
-      <td><img src="images/siem_introduction-to-siem_tryhackme_2026-01-21.png" alt="Siem Introduction" 
+      <td><img src="images/siem_introduction-to-siem_tryhackme_2026-01-21.png" alt="SIEM Introduction" 
   width="450"/>
-      <td><img src="images/splunk-siem_introduction-to-siem_tryhackme_2026-01-21.png" alt="Splunk Siem" width="450"/></td>
+      <td><img src="images/splunk-siem_introduction-to-siem_tryhackme_2026-01-21.png" alt="Splunk SIEM" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 1a:</strong> Siem Introduction</td>
-      <td align="center"><strong>Figure 1b:</strong> Splunk Siem</td>
+      <td align="center"><strong>Figure 1a:</strong> SIEM Introduction</td>
+      <td align="center"><strong>Figure 1b:</strong> Splunk SIEM</td>
     </tr>
     <tr>
-      <td><img src="images/siem-log-ingestion_introduction-to-siem_tryhackme_2026-01-21.png" alt="Siem Log Ingestion" 
+      <td><img src="images/siem-log-ingestion_introduction-to-siem_tryhackme_2026-01-21.png" alt="SIEM Log Ingestion" 
   width="450"/>
-      <td><img src="images/splunk-siem_ingestion-methods_introduction-to-siem_tryhackme_2026-01-21.png" alt="Splunk Siem Log Ingestion" width="450"/></td>
+      <td><img src="images/splunk-siem_ingestion-methods_introduction-to-siem_tryhackme_2026-01-21.png" alt="Splunk SIEM Log Ingestion" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> Siem Log Ingestion</td>
-      <td align="center"><strong>Figure 2b:</strong> Splunk Siem Log Ingestion</td>
+      <td align="center"><strong>Figure 2a:</strong> SIEM Log Ingestion</td>
+      <td align="center"><strong>Figure 2b:</strong> Splunk SIEM Log Ingestion</td>
     </tr>
   </table>
 </p>
@@ -105,20 +105,20 @@ I find EDR's endpoint-centric telemetry invaluable for dissecting evasive tactic
 <p align="center">
   <table>
     <tr>
-      <td><img src="images/siem-dashboard-activity_introduction-to-siem_tryhackme_2026-01-21.png" alt="Siem Dashboard Activity" 
+      <td><img src="images/siem-dashboard-activity_introduction-to-siem_tryhackme_2026-01-21.png" alt="SIEM Dashboard Activity" 
   width="450"/>
-      <td><img src="images/siem-dashboard-activity_events_introduction-to-siem_tryhackme_2026-01-21.png" alt="Siem Dashboard Activity Events" width="450"/></td>
+      <td><img src="images/siem-dashboard-activity_events_introduction-to-siem_tryhackme_2026-01-21.png" alt="SIEM Dashboard Activity Events" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 3a:</strong> Siem Dashboard Activity</td>
-      <td align="center"><strong>Figure 3b:</strong> Siem Dashboard Activity Events</td>
+      <td align="center"><strong>Figure 3a:</strong> SIEM Dashboard Activity</td>
+      <td align="center"><strong>Figure 3b:</strong> SIEM Dashboard Activity Events</td>
     </tr>
     <tr>
-      <td><img src="images/siem-dashboard-activity_rule_introduction-to-siem_tryhackme_2026-01-21.png" alt="Siem Dashboard Activity Rule" 
+      <td><img src="images/siem-dashboard-activity_rule_introduction-to-siem_tryhackme_2026-01-21.png" alt="SIEM Dashboard Activity Rule" 
   width="450"/>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 4a:</strong> Siem Dashboard Activity Rule</td>
+      <td align="center"><strong>Figure 4a:</strong> SIEM Dashboard Activity Rule</td>
     </tr>
   </table>
 </p>
