@@ -103,20 +103,20 @@ ongoing visibility.
 <p align="center">
   <table>
     <tr>
-      <td><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td><img src="../images/test-your-knowledge-more-about-the-cissp-security-domains_course-2-play-it-safe-manage-security-risks_module-1-security-domains_2026-02-10.png" alt="Test Your Knowledge More About CISSP Security Domains" 
   width="450"/>
-      <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td><img src="../images/test-your-knowledge-navigate-threats-risks-and-vulnerabilities_course-2-play-it-safe-manage-security-risks_module-1-security-domains_2026-02-10.png" alt="Test Your Knowledge - Navigate Threats, Risks, And Vulnerabilities" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 1a:</strong> Test Your Knowledge More About CISSP Security Domains</td>
+      <td align="center"><strong>Figure 1b:</strong> Test Your Knowledge - Navigate Threats, Risks, And Vulnerabilities</td>
     </tr>
     <tr>
-      <td><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td><img src="../images/module-1-challenge-graded-assignment_course-2-play-it-safe-manage-security-risks_module-1-security-domains_2026-02-10.png" alt="Module 1 Challenge - Graded Assignment" 
   width="450"/>
  </tr>
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
+      <td align="center"><strong>Figure 2a:</strong> Module 1 Challenge - Graded Assignment</td>
     </tr>
   </table>
 </p>
