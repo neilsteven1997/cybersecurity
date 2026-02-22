@@ -4,7 +4,7 @@ Neil Steven | February 22, 2026 | Portfolio: [github.com/neilsteven1997/cybersec
 
 ## Executive Summary
 >[!Note]
->This scenario is based on a fictional company:
+>_This scenario is based on a fictional company:_
 
 Botium Toys is a small U.S. business that develops and sells toys. The business has a single physical location, which serves as their main office, a storefront, and warehouse for their products. However, Botium Toy’s online presence has grown, attracting customers in the U.S. and abroad. As a result, their information technology (IT) department is under increasing pressure to support their online market worldwide. 
 
@@ -12,7 +12,7 @@ The manager of the IT department has decided that an internal IT audit needs to 
 
 The IT manager starts by implementing the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF), establishing an audit scope and goals, listing assets currently managed by the IT department, and completing a risk assessment. The goal of the audit is to provide an overview of the risks and/or fines that the company might experience due to the current state of their security posture.
 
-Goal: Provide an overview of potential risks, fines, and mitigation recommendations.
+**Goal:** _Provide an overview of potential risks, fines, and mitigation recommendations._
 
 ## Audit Scope & Objectives
 - Scope: Internal IT systems, assets managed by IT department, online payment processing, EU customer data handling.  
