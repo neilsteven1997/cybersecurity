@@ -123,11 +123,11 @@ The IT manager starts by implementing the National Institute of Standards and Te
 
 ## Self-Assessment Score
 Completed controls & compliance checklist: 5/5  
-Self-assessment: Passed (≥80% / 4–5 points)
+Self-assessment: Passed (100% / 5–5 points)
 
 ## Artifacts
 - Full Coursera activity document: [Botium-Toys-Audit-Checklist.pdf](./Botium-Toys-Audit-Checklist.pdf)
 - GitHub writeups portfolio: https://github.com/neilstevenplayz/cyber-writeups
 
 ---
-Last updated: February 20, 2026
+Last updated: February 22, 2026
