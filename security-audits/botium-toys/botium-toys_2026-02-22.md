@@ -74,10 +74,10 @@ The IT manager starts by implementing the National Institute of Standards and Te
 
 ## Recommendations & Prioritized Action Plan
 
-**Recommendations**
-
 >[!Note]
 >_Prioritize implementation in this order. The IT manager will prepare a remediation plan with resource needs and provide quarterly progress updates to leadership._
+
+**Recommendations**
 
 1. **Generate a disaster recovery plan**
 - **Current state:** Employees are working on a system without a backup.
