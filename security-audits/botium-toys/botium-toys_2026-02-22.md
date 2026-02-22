@@ -127,7 +127,7 @@ Self-assessment: Passed (100% / 5–5 points)
 
 ## Artifacts
 - Full Coursera activity document: [Botium-Toys-Audit-Checklist.pdf](./Botium-Toys-Audit-Checklist.pdf)
-- GitHub writeups portfolio: https://github.com/neilstevenplayz/cyber-writeups
+- GitHub writeups portfolio: [github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/tree/main/writeups)
 
 ---
 Last updated: February 22, 2026
