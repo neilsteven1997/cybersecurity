@@ -114,20 +114,20 @@ and seeking guidance while forging individual routes is vital.
 <p align="center">
   <table>
     <tr>
-      <td><img src="../images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td><img src="../images/test-your-knowledge-security-information-and-event-management-siem-dashboards_module-3-introduction-to-cybersecurity-tools_2026-02-22.png" alt="Test Your Knowledge - Security Information And Event Management (SIEM) Dashboards" 
   width="450"/>
-      <td><img src="../images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td><img src="../images/test-your-knowledge-identify-threats-and-vulnerabilities-with-siem-tools_module-3-introduction-to-cybersecurity-tools_2026-02-22.png" alt="Test Your Knowledge - Identify Threats And Vulnerabilities With SIEM Tools" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 1a:</strong> Test Your Knowledge - Security Information And Event Management (SIEM) Dashboards</td>
+      <td align="center"><strong>Figure 1b:</strong> Test Your Knowledge - Identify Threats And Vulnerabilities With SIEM Tools</td>
     </tr>
     <tr>
-      <td><img src="../images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td><img src="../images/module-3-challenge-graded-assignment_module-3-introduction-to-cybersecurity-tools_2026-02-22.png" alt="Module 3 Challenge - Graded Assignment" 
   width="450"/>
      </tr>
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
+      <td align="center"><strong>Figure 2a:</strong> Module 3 Challenge - Graded Assignment</td>
     </tr>
   </table>
 </p>
