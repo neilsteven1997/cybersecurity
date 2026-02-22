@@ -1,6 +1,6 @@
 # Botium Toys Internal IT Audit  
 **Google Cybersecurity Professional Certificate – Course Project**  
-Neil Steven | February 22, 2026 | Portfolio: [github.com/neilstevenplayz](https://github.com/neilsteven1997/cybersecurity/tree/main/security-audits/botium-toys)
+Neil Steven | February 22, 2026 | Portfolio: [github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/tree/main/security-audits/botium-toys)
 
 ## Executive Summary
 This scenario is based on a fictional company:
