@@ -24,7 +24,7 @@ The IT manager starts by implementing the National Institute of Standards and Te
 
 ## Controls & Compliance Checklist
 
-**Question:** _Select “yes” or “no” to answer the question: Does Botium Toys currently have this control in place? _
+**Question:** _Select “yes” or “no” to answer the question: Does Botium Toys currently have this control in place?_
 
 - ❌ Least Privilege
 - ❌ Disaster recovery plans
