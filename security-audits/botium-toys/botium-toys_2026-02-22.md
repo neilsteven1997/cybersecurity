@@ -47,8 +47,7 @@ The IT manager starts by implementing the National Institute of Standards and Te
 
 **Compliance checklist**
 
-**Question:** _Then, select “yes” or “no” to answer the question: Does Botium Toys currently adhere to this compliance best practice?
-_
+**Question:** _Select “yes” or “no” to answer the question: Does Botium Toys currently adhere to this compliance best practice?_
 
 **Payment Card Industry Data Security Standard (PCI DSS)**
 
