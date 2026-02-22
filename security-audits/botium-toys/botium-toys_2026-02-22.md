@@ -20,7 +20,7 @@ The IT manager starts by implementing the National Institute of Standards and Te
 - Key focus areas: Asset inventory, risk assessment, controls & compliance checklist.
 
 ## Key Findings
-(2–4 sentence high-level summary of your biggest risks / gaps from the checklist – e.g., “Multiple ‘No’ responses in payment card security and access control increase risk of data breach and PCI DSS non-compliance.”)
+_Multiple ‘No’ responses in payment card security and access control increase risk of data breach and PCI DSS non-compliance._
 
 ## Controls & Compliance Checklist
 
