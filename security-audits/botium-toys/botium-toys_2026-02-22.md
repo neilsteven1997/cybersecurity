@@ -64,7 +64,7 @@ _
 - ✅ Ensure data is properly classified and inventoried.
 - ✅ Enforce privacy policies, procedures, and processes to properly document and maintain data.
 
-**System and Organizations Controls (SOC type 1, SOC type 2) **
+**System and Organizations Controls (SOC type 1, SOC type 2)**
 
 - ❌ User access policies are established.
 - ❌ Sensitive data (PII/SPII) is confidential/private.
