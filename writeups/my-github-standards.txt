@@ -481,6 +481,51 @@ Additional Tips for Your SectionStart with a short intro paragraph (as shown abo
 
 ---
 
+- **Audience & scrutiny**: In strict environments, reports may be read by boards, regulators, external auditors, legal teams, or become part of compliance evidence. Anything that sounds too informal could be questioned or weaken the document's defensibility.
+- **Best practices from sources**: Industry guidance (e.g., AuditBoard, RSI Security, IIA standards, TrustedSec) stresses:
+  
+  - Clarity and plain language → yes (short sentences, avoid heavy jargon).
+  - Business impact focus → yes (link tech issues to money/reputation/fines/downtime).
+  - But **professional tone** — objective, no colloquialisms, no emotional language.
+  - Executive summaries/exec-facing sections should be simplified for non-tech readers, but still polished.
+
+### Recommended Approach for Strict/Formal Environments
+Use a **balanced, executive-friendly style** that's concise and easy to grasp — but keeps a professional voice. This is what most mature orgs do:
+
+**Recommendations – Prioritized Actions to Strengthen Security**
+
+The audit identified three key gaps that increase the risk of data breaches, ransomware, regulatory penalties, or operational disruption. Addressing these will materially improve Botium Toys' security posture and compliance alignment.
+
+**1. Enforce Multi-Factor Authentication (MFA) on Privileged Accounts**  
+Current state: Administrative and remote-access accounts rely solely on passwords, making them vulnerable to credential theft.  
+Business impact: Unauthorized access could compromise customer data or critical systems.  
+Action: Implement phishing-resistant MFA (e.g., authenticator apps or hardware tokens) for all privileged, administrative, and remote/cloud accounts, starting with executive and IT users.  
+Timeline: Complete within 90 days.  
+Owner: IT Security Lead.  
+Benefit: Significantly reduces credential-based attack success rates.
+
+**2. Implement a Formal Patch Management Program**  
+Current state: Inconsistent patching leaves systems exposed to known vulnerabilities.  
+Business impact: Exploitation could cause extended downtime or data loss.  
+Action: Establish monthly vulnerability scanning, prioritized patching (critical within 7 days, high within 30 days), and testing/segmentation for legacy systems.  
+Timeline: Scanning operational within 30 days; full program within 120 days.  
+Owner: IT Operations Manager.  
+Benefit: Closes known exploit paths and supports compliance evidence.
+
+**3. Establish Ongoing Security Awareness Training**  
+Current state: Limited employee training increases phishing susceptibility.  
+Business impact: Social engineering remains a primary attack vector.  
+Action: Deliver mandatory annual training and quarterly phishing simulations, with tracking of completion and performance metrics.  
+Timeline: Initial cycle within 60 days; ongoing program.  
+Owner: IT Security (with HR support).  
+Benefit: Reduces human-error incidents and strengthens overall resilience.
+
+**Next Steps**  
+Prioritize implementation in this order. The IT manager will prepare a remediation plan with resource needs and provide quarterly progress updates to leadership.
+
+This version is still **short, scannable, business-focused**, and very easy for non-technical stakeholders to understand — but it uses professional phrasing suitable for formal reports, board decks, or compliance submissions. It's the sweet spot used in most real-world cybersecurity audit communications to executives.
+
+---
 
 
 
