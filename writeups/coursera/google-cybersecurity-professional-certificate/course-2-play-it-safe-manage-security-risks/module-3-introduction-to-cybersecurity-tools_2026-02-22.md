@@ -2,322 +2,137 @@
 
 ---
 
-This video introduces various security tools and their applications in maintaining organizational security.
+In my ongoing notes on foundational cybersecurity practices, I've been reflecting on the role of tools that help maintain organizational 
+defenses. Security professionals rely on a range of applications to handle tasks like gathering data, spotting threats, and automating 
+responses, all aimed at building a solid protective framework. Logs stand out as essential records capturing events across systems and 
+networks, with types such as firewall entries tracking internet traffic, network logs noting device connections, and server logs 
+documenting service activities. These provide the raw material for analysis. Security Information and Event Management (SIEM) systems 
+pull together this log data for real-time oversight, enabling monitoring, detailed examination, and automatic notifications that cut 
+down on manual work. Customizing these tools to fit an organization's unique requirements is key, as it allows for ongoing adjustments 
+to counter emerging dangers.
 
-**The Importance of Security Tools**
-- Security professionals use diverse tools to address specific challenges like data collection, threat detection, and task automation.
-- These tools contribute to a more comprehensive security posture for organizations.
+Dashboards in SIEM setups transform complex data into visual formats like charts and graphs, making it straightforward to spot patterns.
+When an alert triggers, these interfaces offer timelines, locations, and precise timestamps for suspicious events, supporting rapid 
+evaluations. They can be tailored to highlight metrics relevant to different teams, such as overall network flow for routine operations.
+Looking ahead, SIEM evolution ties into cloud environments, where vendors handle infrastructure for cloud-hosted versions, accessible 
+online and suitable for groups avoiding heavy internal setups. Cloud-native variants, fully vendor-managed, exploit cloud strengths 
+like reliability and expansion. With the rise of Internet of Things (IoT) devices expanding attack surfaces, and advancements in 
+artificial intelligence (AI) and machine learning (ML) improving detection and storage, automation via Security Orchestration, 
+Automation, and Response (SOAR) collections will streamline handling of routine incidents, leaving analysts to tackle unusual cases. 
+Interconnected platforms are progressing, though not yet seamless.
 
-**Key Topics Covered**
-- The discussion will begin by exploring different types of logs, their tracking capabilities, and their uses.
-- It will then delve into Security Information and Event Management (SIEM) dashboards.
+Accessibility remains a core consideration in designing these tools, ensuring broad usability including for those with disabilities, 
+which ultimately bolsters overall effectiveness. For instance, avoiding reliance on color alone for alerts prevents oversights, and 
+incorporating diverse user feedback refines mitigations. Innovations often stem from addressing such specifics, much like how features 
+for one group end up aiding many. Deployment options for SIEM include self-hosted setups where organizations manage everything 
+internally for direct control over sensitive information, cloud-hosted ones maintained by providers for ease, hybrid models blending 
+both for balanced benefits, and cloud-native designs optimized for cloud perks. Notable examples include Splunk Enterprise 
+(https://www.splunk.com/en_us/products/splunk-enterprise.html), a self-hosted platform for real-time log retention, analysis, and 
+searching; Splunk Cloud (https://www.splunk.com/en_us/products/splunk-cloud-platform.html), its cloud-based counterpart for similar 
+functions in hybrid or full-cloud scenarios; and Google's Chronicle (now part of Google Security Operations, 
+https://cloud.google.com/security/products/security-operations), a cloud-native tool focused on data retention, analysis, and log 
+monitoring.
 
-**Upcoming Discussions**
-- The video will conclude by examining common SIEM tools utilized within the security industry.
+Open-source tools, often cost-free and collaborative, foster security through community contributions and allow extensive modifications. 
+Proprietary alternatives, owned by entities and typically fee-based, limit changes to source code, requiring users to await vendor 
+updates. A persistent myth suggests open-source is inferior or riskier, but broad access actually enables quick fixes by experts, 
+making it resilient. Linux, an open-source operating system (core resources at https://www.kernel.org/), serves as an interface between
+hardware and users, customizable via command-line for specific needs, with variants for targeted tasks. Suricata (https://suricata.io/),
+developed by the Open Information Security Foundation (OISF, https://oisf.net/), functions as open-source software for network analysis
+and threat detection, inspecting traffic for anomalies and generating logs, widely adopted in public and private sectors and integrable 
+with SIEMs.
 
----
-
-This video explains how security analysts use log data to identify and manage threats, risks, and vulnerabilities.
-
-**Understanding Log Data**
-- Logs are records of events within an organization's systems and networks.
-- Security analysts use various log sources, including firewall logs (records of internet traffic), network logs (records of device connections), and server logs (records of service-related events).
-
-**The Role of SIEM Tools**
-- Security Information and Event Management (SIEM) tools collect and analyze log data to monitor critical activities.
-- SIEM tools provide real-time visibility, event monitoring, analysis, and automated alerts, centralizing log data and increasing efficiency by minimizing manual review.
-
-**Customization and Continuous Monitoring**
-- SIEM tools must be configured and customized to meet an organization's specific security needs.
-- Continuous customization is essential to detect and address new threats and vulnerabilities effectively.
-
----
-
-This video explains how Security Information and Event Management (SIEM) dashboards are used by security analysts to monitor and respond to security incidents.
-
-**SIEM Dashboards for Data Visualization**
-- SIEM tools create dashboards that present security information in an easy-to-understand format, similar to how weather apps display data.
-- These dashboards use charts, graphs, and tables to visualize security-related data, helping analysts quickly identify patterns and trends.
-
-**Incident Response with SIEM Dashboards**
-- When a security alert occurs, analysts use SIEM dashboards to gather information and investigate.
-- Dashboards can display timelines, locations, and exact times of suspicious activities, enabling quick assessment of potential threats.
-
-**Customizable Metrics for Stakeholders**
-- SIEM dashboards provide comprehensive summaries of security data and can display various metrics.
-- They are customizable to show specific metrics relevant to different organizational members, such as network traffic volume for everyday operations.
-
----
-
-The future of SIEM tools
-
-Previously, you were introduced to security information and event management (SIEM) tools, along with a few examples of SIEM tools. In this reading, you will learn more about how SIEM tools are used to protect organizational operations. You will also gain insight into how and why SIEM tools are changing to help protect organizations and the people they serve from evolving threat actor tactics and techniques.
-Current SIEM solutions 
-
-A SIEM tool is an application that collects and analyzes log data to monitor critical activities in an organization. SIEM tools offer real-time monitoring and tracking of security event logs. The data is then used to conduct a thorough analysis of any potential security threat, risk, or vulnerability identified. SIEM tools have many dashboard options. Each dashboard option helps cybersecurity team members manage and monitor organizational data. However, currently, SIEM tools require human interaction for analysis of security events.  
-The future of SIEM tools
-
-As cybersecurity continues to evolve, the need for cloud functionality has increased. SIEM tools have and continue to evolve to function in cloud-hosted and cloud-native environments. Cloud-hosted SIEM tools are operated by vendors who are responsible for maintaining and managing the infrastructure required to use the tools. Cloud-hosted tools are simply accessed through the internet and are an ideal solution for organizations that don’t want to invest in creating and maintaining their own infrastructure.
-
-Similar to cloud-hosted SIEM tools, cloud-native SIEM tools are also fully maintained and managed by vendors and accessed through the internet. However, cloud-native tools are designed to take full advantage of cloud computing capabilities, such as availability, flexibility, and scalability. 
-
-Yet, the evolution of SIEM tools is expected to continue in order to accommodate the changing nature of technology, as well as new threat actor tactics and techniques. For example, consider the current development of interconnected devices with access to the internet, known as the Internet of Things (IoT). The more interconnected devices there are, the larger the cybersecurity attack surface and the amount of data that threat actors can exploit. The diversity of attacks and data that require special attention is expected to grow significantly. Additionally, as artificial intelligence (AI) and machine learning (ML) technology continues to progress, SIEM capabilities will be enhanced to better identify threat-related terminology, dashboard visualization, and data storage functionality.  
-
-The implementation of automation will also help security teams respond faster to possible incidents, performing many actions without waiting for a human response. Security orchestration, automation, and response (SOAR) is a collection of applications, tools, and workflows that uses automation to respond to security events. Essentially, this means that handling common security-related incidents with the use of SIEM tools is expected to become a more streamlined process requiring less manual intervention. This frees up security analysts to handle more complex and uncommon incidents that, consequently, can’t be automated with a SOAR. Nevertheless, the expectation is for cybersecurity-related platforms to communicate and interact with one another. Although the technology allowing interconnected systems and devices to communicate with each other exists, it is still a work in progress.
-Key takeaways
-
-SIEM tools play a major role in monitoring an organization’s data. As an entry-level security analyst, you might monitor SIEM dashboards as part of your daily tasks. Regularly researching new developments in SIEM technology will help you grow and adapt to the changes in the cybersecurity field. Cloud computing, SIEM-application integration, and automation are only some of the advancements security professionals can expect in the future evolution of SIEM tools.
-
+In practice, SIEM dashboards vary by tool. For Splunk, the security posture view covers 24-hour events and trends for real-time threat 
+checks; the executive summary tracks long-term health for risk reduction; incident review flags high-risk patterns with timelines; and 
+risk analysis spots behavioral shifts per object like users or IPs. Chronicle's enterprise insights highlight alerts with confidence 
+scores and severity for IOCs; data ingestion monitors log processing success; IOC matches tracks top threats over time; the main 
+dashboard summarizes ingestion, alerts, and events; rule detections stats high-occurrence incidents; and user sign-in overviews reveal 
+access patterns for anomaly detection. These aid in prioritizing responses. Career paths in this field defy stereotypes—no need for 
+elite coding or degrees, as defensive roles value research, adaptability, and relationships. Unique experiences often drive progress,
+and seeking guidance while forging individual routes is vital.
 
 ---
 
-This lecture emphasizes the critical role of accessibility in cybersecurity, highlighting how inclusive design benefits everyone and strengthens security measures.
-
-**The Importance of Accessibility in Cybersecurity**
-- Accessibility ensures that information and services are usable by as many people as possible, including those with disabilities.
-- Designing for accessibility in cybersecurity means considering diverse abilities to create effective and inclusive safety measures.
-
-**Accessibility Enhances Security Effectiveness**
-- Decisions based solely on typical abilities can lead to ineffective security, such as using color-coded warnings that are inaccessible to colorblind individuals.
-- User research and feedback from a range of abilities are crucial for testing and improving the effectiveness of security mitigations.
-
-**Personal Growth and Innovation in the Field**
-- Solving specific accessibility or security problems can drive significant innovation, as seen with closed captioning benefiting a wide audience beyond its initial purpose.
-- Embracing unique backgrounds and perspectives can be a superpower, fostering confidence and leading to breakthroughs in the cybersecurity field.
-
----
-
-This video discusses various industry-leading Security Information and Event Management (SIEM) tools and their different deployment types.
-
-**Types of SIEM Tool Deployments**
-*   **Self-hosted SIEM tools:** These require organizations to install, operate, and maintain the tools using their own infrastructure, offering physical control over confidential data.
-*   **Cloud-hosted SIEM tools:** These are maintained and managed by SIEM providers, accessible via the internet, and ideal for organizations that prefer not to invest in their own infrastructure.
-
-**Hybrid and Cloud-Native Solutions**
-*   **Hybrid SIEM solutions:** Combine self-hosted and cloud-hosted approaches, allowing organizations to benefit from cloud advantages while maintaining control over sensitive data.
-*   **Cloud-native tools:** Fully maintained and managed by vendors, these are specifically designed to leverage cloud computing capabilities like availability, flexibility, and scalability.
-
-**Examples of SIEM Tools**
-*   **Splunk Enterprise:** A self-hosted data analysis platform providing SIEM solutions for retaining, analyzing, and searching log data in real-time.
-*   **Splunk Cloud:** A cloud-hosted tool for collecting, searching, and monitoring log data, suitable for hybrid or cloud-only environments.
-*   **Google's Chronicle:** A cloud-native tool designed for retaining, analyzing, and searching data, offering log monitoring, data analysis, and data collection.
-
----
-
-More about cybersecurity tools
-
-Previously, you learned about several tools that are used by cybersecurity team members to monitor for and identify potential security threats, risks, and vulnerabilities. In this reading, you’ll learn more about common open-source and proprietary cybersecurity tools that you may use as a cybersecurity professional.
-Open-source tools
-
-Open-source tools are often free to use and can be user friendly. The objective of open-source tools is to provide users with software that is built by the public in a collaborative way, which can result in the software being more secure. Additionally, open-source tools allow for more customization by users, resulting in a variety of new services built from the same open-source software package. 
-
-Software engineers create open-source projects to improve software and make it available for anyone to use, as long as the specified license is respected. The source code for open-source projects is readily available to users, as well as the training material that accompanies them. Having these sources readily available allows users to modify and improve project materials. 
-Proprietary tools
-
-Proprietary tools are developed and owned by a person or company, and users typically pay a fee for usage and training. The owners of proprietary tools are the only ones who can access and modify the source code. This means that users generally need to wait for updates to be made to the software, and at times they might need to pay a fee for those updates. Proprietary software generally allows users to modify a limited number of features to meet individual and organizational needs. Examples of proprietary tools include Splunk® and Google SecOps (Chronicle) SIEM tools.
-Common misconceptions
-
-There is a common misconception that open-source tools are less effective and not as safe to use as proprietary tools. However, developers have been creating open-source materials for years that have become industry standards. Although it is true that threat actors have attempted to manipulate open-source tools, because these tools are open source it is actually harder for people with malicious intent to successfully cause harm. The wide exposure and immediate access to the source code by well-intentioned and informed users and professionals makes it less likely for issues to occur, because they can fix issues as soon as they’re identified.  
-Examples of open-source tools
-
-In security, there are many tools in use that are open-source and commonly available. Two examples are Linux and Suricata.
-Linux
-
-Linux is an open-source operating system that is widely used. It allows you to tailor the operating system to your needs using a command-line interface. An operating system is the interface between computer hardware and the user. It’s used to communicate with the hardware of a computer and manage software applications. 
-
-There are multiple versions of Linux that exist to accomplish specific tasks. Linux and its command-line interface will be discussed in detail, later in the certificate program. 
-Suricata
-
-Suricata is an open-source network analysis and threat detection software.  Network analysis and threat detection software is used to inspect network traffic to identify suspicious behavior and generate network data logs. The detection software finds activity across users, computers, or Internet Protocol (IP) addresses to help uncover potential threats, risks, or vulnerabilities. 
-
-Suricata was developed by the Open Information Security Foundation (OISF). OISF is dedicated to maintaining open-source use of the Suricata project to ensure it’s free and publicly available. Suricata is widely used in the public and private sector, and it integrates with many SIEM tools and other security tools. Suricata will also be discussed in greater detail later in the program.
-Key takeaways
-
-Open-source tools are widely used in the cybersecurity profession. Throughout the certificate program, you will have multiple opportunities to learn about and explore both open-source and proprietary tools in more depth.
-
+### Key Takeaways
+- Security tools address challenges like data collection, threat detection, and task automation for comprehensive protection.
+- Logs track events; firewall logs record internet traffic, network logs device connections, and server logs service events.
+- SIEM tools collect and analyze logs for real-time visibility, monitoring, analysis, and alerts, requiring customization for new
+  threats.
+- SIEM dashboards visualize data with charts, graphs, tables for pattern identification; used in incident response for timelines,
+  locations, times.
+- Dashboards customizable for metrics like network traffic volume.
+- Current SIEM needs human analysis; future includes cloud-hosted (vendor-maintained, internet-accessed) and cloud-native
+  (optimized for cloud scalability).
+- Evolutions address IoT attack surfaces, AI/ML for better detection, visualization, storage; SOAR automates responses to common events.
+- Accessibility ensures usability for diverse abilities, improving security effectiveness through inclusive design and user research.
+- Self-hosted SIEM: organization installs, operates, maintains for data control.
+- Cloud-hosted: provider-managed, internet-accessed, no internal infrastructure needed.
+- Hybrid: combines self-hosted and cloud for balanced control and benefits.
+- Cloud-native: vendor-managed, leverages cloud availability, flexibility, scalability.
+- Splunk Enterprise: self-hosted for log retention, analysis, real-time searching.
+- Splunk Cloud: cloud-hosted for log collection, searching, monitoring in hybrid/cloud environments.
+- Google's Chronicle: cloud-native for data retention, analysis, searching, log monitoring.
+- Open-source tools: free, collaborative, customizable, secure through community; source code and training available for modifications.
+- Proprietary tools: owned, fee-based, limited modifications, vendor-controlled updates.
+- Misconception: open-source less effective/safe, but exposure enables quick fixes.
+- Linux: open-source OS, command-line customizable, manages hardware/software; multiple versions for tasks.
+- Suricata: open-source for network analysis, threat detection; inspects traffic, generates logs; OISF-maintained, free, integrates
+  with SIEMs.
+- Splunk security posture dashboard: 24-hour events/trends for SOCs, real-time threat monitoring.
+- Splunk executive summary: long-term health monitoring for risk reduction.
+- Splunk incident review: identifies suspicious patterns, highlights high-risk items with timelines.
+- Splunk risk analysis: identifies risks per object, behavioral changes.
+- Chronicle enterprise insights: recent alerts, suspicious domains with confidence scores, severity.
+- Chronicle data ingestion and health: event logs, sources, processing success rates.
+- Chronicle IOC matches: top threats, trends over time for domains, IPs, devices.
+- Chronicle main: high-level summary of ingestion, alerting, event activity timelines.
+- Chronicle rule detections: stats on high-occurrence, severity, detections; lists alerts by rule.
+- Chronicle user sign-in overview: user access behavior, sign-in events for anomalies.
+- Chronicle analyzes logs by asset, domain, user, IP.
+- Myths: no need for coding expertise, hacking, math prowess, degrees; blue team focuses on defense, diverse backgrounds valuable.
+- Skills: relationship-building, quick learning, research, questioning, adaptability.
+- Navigate career: seek support, embrace unique paths.
+- Logs crucial for monitoring/auditing; types include firewall, network, server.
+- SIEM dashboards for visual security posture insights.
+- Common SIEM: Splunk, Chronicle.
+- Chronicle: cloud-native tool to retain, analyze, search data.
+- Incident response: quick identification, containment, correction of breaches.
+- Log: record of system events.
+- Metrics: attributes like response time, availability, failure rate for performance assessment.
+- Operating system (OS): hardware-user interface.
+- Playbook: manual for operational actions.
+- Security information and event management (SIEM): application for monitoring critical activities.
+- Security orchestration, automation, and response (SOAR): automated tools/workflows for event response.
+- SIEM tools: platform collecting, analyzing, correlating IT data for real-time threat response, investigation, compliance.
+- Splunk Cloud: cloud-hosted for log collection, search, monitoring.
+- Splunk Enterprise: self-hosted for log retention, analysis, real-time security alerts.
 
 ---
 
-This video addresses common misconceptions about cybersecurity careers and highlights the diverse paths and skills that contribute to success in the field.
+### Gallery 
 
-**Debunking Cybersecurity Myths**
-- You don't need to be a coding expert, hacker, or math whiz; many roles, like those on the "blue team" (defense), rely on different strengths.
-- A cybersecurity degree isn't always required; business backgrounds and other fields can also lead to successful careers.
-
-**Essential Skills for Cybersecurity Professionals**
-- Building relationships, learning quickly on the job, conducting research, and asking insightful questions are highly valuable.
-- The ability to adapt and create your own unique career path is crucial, as journeys in cybersecurity vary greatly.
-
-**Navigating Your Cybersecurity Journey**
-- Seek support from others by letting them know you are pursuing a cybersecurity certificate.
-- Embrace the individuality of your path, as there isn't a single, universal route to success in cybersecurity.
-
----
-
-Use SIEM tools to protect organizations
-
-Previously, you were introduced to security information and event management (SIEM) tools and a few SIEM dashboards. You also learned about different threats, risks, and vulnerabilities an organization may experience. In this reading, you will learn more about SIEM dashboard data and how cybersecurity professionals use that data to identify a potential threat, risk, or vulnerability.
-Splunk
-
-Splunk offers different SIEM tool options: Splunk® Enterprise and Splunk® Cloud. Both allow you to review an organization's data on dashboards. This helps security professionals manage an organization's internal infrastructure by collecting, searching, monitoring, and analyzing log data from multiple sources to obtain full visibility into an organization’s everyday operations. 
-
-Review the following Splunk dashboards and their purposes:
-Security posture dashboard
-
-The security posture dashboard is designed for security operations centers (SOCs). It displays the last 24 hours of an organization’s notable security-related events and trends and allows security professionals to determine if security infrastructure and policies are performing as designed. Security analysts can use this dashboard to monitor and investigate potential threats in real time, such as suspicious network activity originating from a specific IP address. 
-Executive summary dashboard
-
-The executive summary dashboard analyzes and monitors the overall health of the organization over time. This helps security teams improve security measures that reduce risk. Security analysts might use this dashboard to provide high-level insights to stakeholders, such as generating a summary of security incidents and trends over a specific period of time.
-Incident review dashboard
-
-The incident review dashboard allows analysts to identify suspicious patterns that can occur in the event of an incident. It assists by highlighting higher risk items that need immediate review by an analyst. This dashboard can be very helpful because it provides a visual timeline of the events leading up to an incident.
-Risk analysis dashboard
-
-The risk analysis dashboard helps analysts identify risk for each risk object (e.g., a specific user, a computer, or an IP address). It shows changes in risk-related activity or behavior, such as a user logging in outside of normal working hours or unusually high network traffic from a specific computer. A security analyst might use this dashboard to analyze the potential impact of vulnerabilities in critical assets, which helps analysts prioritize their risk mitigation efforts.
-Chronicle
-
-Chronicle is a cloud-native SIEM tool from Google that retains, analyzes, and searches log data to identify potential security threats, risks, and vulnerabilities. Chronicle allows you to collect and analyze log data according to: 
-
-    A specific asset
-
-    A domain name
-
-    A user
-
-    An IP address
-
-Chronicle provides multiple dashboards that help analysts monitor an organization’s logs, create filters and alerts, and track suspicious domain names. 
-
-Review the following Chronicle dashboards and their purposes:
-Enterprise insights dashboard
-
-The enterprise insights dashboard highlights recent alerts. It identifies suspicious domain names in logs, known as indicators of compromise (IOCs). Each result is labeled with a confidence score to indicate the likelihood of a threat. It also provides a severity level that indicates the significance of each threat to the organization. A security analyst might use this dashboard to monitor login or data access attempts related to a critical asset—like an application or system—from unusual locations or devices.
-Data ingestion and health dashboard
-
-The data ingestion and health dashboard shows the number of event logs, log sources, and success rates of data being processed into Chronicle. A security analyst might use this dashboard to ensure that log sources are correctly configured and that logs are received without error. This helps ensure that log related issues are addressed so that the security team has access to the log data they need.
-IOC matches dashboard
-
-The IOC matches dashboard indicates the top threats, risks, and vulnerabilities to the organization. Security professionals use this dashboard to observe domain names, IP addresses, and device IOCs over time in order to identify trends. This information is then used to direct the security team’s focus to the highest priority threats. For example, security analysts can use this dashboard to search for additional activity associated with an alert, such as a suspicious user login from an unusual geographic location. 
-Main dashboard
-
-The main dashboard displays a high-level summary of information related to the organization’s data ingestion, alerting, and event activity over time. Security professionals can use this dashboard to access a timeline of security events—such as a spike in failed login attempts— to identify threat trends across log sources, devices, IP addresses, and physical locations.
-Rule detections dashboard
-
-The rule detections dashboard provides statistics related to incidents with the highest occurrences, severities, and detections over time. Security analysts can use this dashboard to access a list of all the alerts triggered by a specific detection rule, such as a rule designed to alert whenever a user opens a known malicious attachment from an email. Analysts then use those statistics to help manage recurring incidents and establish mitigation tactics to reduce an organization's level of risk.
-User sign in overview dashboard
-
-The user sign in overview dashboard provides information about user access behavior across the organization. Security analysts can use this dashboard to access a list of all user sign-in events to identify unusual user activity, such as a user signing in from multiple locations at the same time. This information is then used to help mitigate threats, risks, and vulnerabilities to user accounts and the organization’s applications.
-Key takeaways
-
-SIEM tools provide dashboards that help security professionals organize and focus their security efforts. This is important because it allows analysts to reduce risk by identifying, analyzing, and remediating the highest priority items in a timely manner. Later in the program, you’ll have an opportunity to practice using various SIEM tool features and commands for search queries.
-
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="../images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+  width="450"/>
+      <td><img src="../images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
+      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+    </tr>
+    <tr>
+      <td><img src="../images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+  width="450"/>
+     </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
+    </tr>
+  </table>
+</p>
 
 ---
-
-Coach dialogue: Explore SIEM & logs through scenario analysis
-
-In this activity, you’ll engage in a conversation with Coursera’s AI-powered guide. This activity focuses on a realistic scenario that requires you to link the various fundamental responsibilities and protective measures of an entry-level security analyst to the primary objective of securing digital assets.
-
-Guidelines:
-Chatting with Coach is like chatting with an instructor or teammate. You can ask Coach questions, get hints, or request additional examples. All you have to do is ask, and Coach will provide additional guidance to help you learn! If you’re struggling with any part of the activity, click the "I’m stuck" icon in the top right corner, and Coach will reframe the question or topic.
-
-To check on your progress, click the “How am I doing?" icon in the top right corner, and Coach will let you know how much of the activity you’ve completed. Once you complete the activity at 100%, you’ll be given a summary highlighting what went well, or how you can improve your knowledge of the material.
-
-Please note, Coach bases its responses on course materials, but like any AI tool, it may surface inaccurate information. If Coach provides inaccurate information or formats a message improperly, click the thumbs-down icon next to the message and describe the error, so we can address the issue. 
-
-
----
-
-This video provides a concise review of key concepts related to logs and Security Information and Event Management (SIEM) tools in cybersecurity.
-
-**Importance of Logs and Log Types**
-- Logs are crucial in cybersecurity for monitoring and auditing system activities.
-- Different types of logs include firewall, network, and server logs, each providing unique insights into security events.
-
-**SIEM Dashboards for Security Insights**
-- SIEM dashboards offer visual representations of security data.
-- These dashboards help security teams quickly understand an organization's security posture.
-
-**Common SIEM Tools**
-- Popular SIEM tools in the cybersecurity industry include Splunk and Chronicle.
-- Future lessons will explore more security tools and provide opportunities for hands-on practice.
-
----
-
-Glossary terms from module 3
-Terms and definitions from Course 2, Module 3
-
-Chronicle: A cloud-native tool designed to retain, analyze, and search data
-
-Incident response: An organization’s quick attempt to identify an attack, contain the damage, and correct the effects of a security breach
-
-Log: A record of events that occur within an organization’s systems 
-
-Metrics: Key technical attributes such as response time, availability, and failure rate, which are used to assess the performance of a software application
-
-Operating system (OS): The interface between computer hardware and the user
-
-Playbook: A manual that provides details about any operational action
-
-Security information and event management (SIEM): An application that collects and analyzes log data to monitor critical activities in an organization
-
-Security orchestration, automation, and response (SOAR): A collection of applications, tools, and workflows that use automation to respond to security events
-
-SIEM tools: A software platform that collects, analyzes, and correlates security data from various sources across your IT infrastructure that helps identify and respond to security threats in real-time, investigate security incidents, and comply with security regulations
-
-Splunk Cloud: A cloud-hosted tool used to collect, search, and monitor log data
-
-Splunk Enterprise: A self-hosted tool used to retain, analyze, and search an organization's log data to provide security information and alerts in real-time
-
-
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
