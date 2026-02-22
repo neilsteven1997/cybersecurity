@@ -3,7 +3,8 @@
 Neil Steven | February 22, 2026 | Portfolio: [github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/tree/main/security-audits/botium-toys)
 
 ## Executive Summary
-This scenario is based on a fictional company:
+>[!Note]
+>This scenario is based on a fictional company:
 
 Botium Toys is a small U.S. business that develops and sells toys. The business has a single physical location, which serves as their main office, a storefront, and warehouse for their products. However, Botium Toy’s online presence has grown, attracting customers in the U.S. and abroad. As a result, their information technology (IT) department is under increasing pressure to support their online market worldwide. 
 
