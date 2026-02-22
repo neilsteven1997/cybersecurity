@@ -77,48 +77,48 @@ _
 
 **Recommendations**
 
-1. Generate a disaster recovery plan 
-**Current state:** Employees are working on a system without a backup.
-**Business impact:** Huge risks of data corruption from natural disasters such as flood, earthquakes and forest fire. And risks of data deletion from cyberattackers.
-**Action:** Deliver mandatory annual training and quarterly phishing simulations, with tracking of completion and performance metrics.  
-**Timeline:** Should be completed within 3 days.
-**Owner:** IT Department.  
-**Benefit:** Preservation of company critical data.
+>[!Note]
+>_Prioritize implementation in this order. The IT manager will prepare a remediation plan with resource needs and provide quarterly progress updates to leadership._
 
-2. Implement Access Control 
-Current state: Every employee have the same privilege and access. 
-Business impact: Poses a significant risk of insider data theft, including unauthorized exfiltration of customer PII/SPII or debit/credit card information by employees or other authorized users, potentially leading to regulatory penalties, financial losses, and reputational harm.
-Action: Deliver mandatory meeting with IT Department and employees.
-Timeline: Should be completed within 3 days.
-Owner: IT Manager (with HR support).  
-Benefit: Reduces incidents caused by human error and the likelihood of data theft, enhancing overall resilience against phishing and insider threats.
+1. **Generate a disaster recovery plan **
+- **Current state:** Employees are working on a system without a backup.
+- **Business impact:** Huge risks of data corruption from natural disasters such as flood, earthquakes and forest fire. And risks of data deletion from cyberattackers.
+- **Action:** Deliver mandatory annual training and quarterly phishing simulations, with tracking of completion and performance metrics. 
+- **Timeline:** Should be completed within 3 days.
+- **Owner:** IT Department.  
+- **Benefit:** Preservation of company critical data.
 
-3. Implement Strong Password Policy 
-Current state: Implementation of nominal password policy. 
-Business impact: Accounts with weak passwords are prone to hacking. 
-Action: Use 20 randomized characters with special symbols, using a reliable password generator.
-Timeline: Within 14 days.
-Owner: IT Department (with HR Assistance).  
-Benefit: Safer accounts by making passwords harder to guess or crack.
+2. **Implement Access Control **
+- **Current state:** Every employee have the same privilege and access. 
+- **Business impact:** Poses a significant risk of insider data theft, including unauthorized exfiltration of customer PII/SPII or debit/credit card information by employees or other authorized users, potentially leading to regulatory penalties, financial losses, and reputational harm.
+- **Action:** Deliver mandatory meeting with IT Department and employees.
+- Timeline:**** Should be completed within 3 days.
+- **Owner: **IT Manager (with HR support).  
+- **Benefit: **Reduces incidents caused by human error and the likelihood of data theft, enhancing overall resilience against phishing and insider threats.
 
-4. Replacement of Legacy Systems 
-Current state: Employees are using legacy systems, or old systems without new updates and community support. 
-Business impact: Lacking new important features such as Intrusion Detection System (IDS), Centralized Password Management System, Backup feature, and it is expensive to maintain. 
-Action: Deliver new functional and tested system.  
-Timeline: Within 90 days. 
-Owner: IT Department (with IT Manager support) 
-Benefit: Increase in team productivity, system stability, and generate more sales. Proper controls will be in place and fully compliant with U.S. and international regulations and standards. 
+3. **Implement Strong Password Policy **
+- **Current state:** Implementation of nominal password policy. 
+- **Business impact:** Accounts with weak passwords are prone to hacking. 
+- **Action:** Use 20 randomized characters with special symbols, using a reliable password generator.
+- **Timeline:** Within 14 days.
+- **Owner:** IT Department (with HR Assistance).  
+- **Benefit:** Safer accounts by making passwords harder to guess or crack.
 
-5. Establish Ongoing Security Awareness Training
-Current state: Limited employee training increases phishing susceptibility.  
-Business impact: Social engineering remains a primary attack vector.  
-Action: Deliver mandatory annual training and quarterly phishing simulations, with tracking of completion and performance metrics.  
-Timeline: Initial cycle within 60 days; ongoing program.  
-Owner: IT Department (with HR support).  
-Benefit: Reduces human-error incidents and strengthens overall team resilience.
+4. **Replacement of Legacy Systems **
+- **Current state: **Employees are using legacy systems, or old systems without new updates and community support. 
+- **Business impact:** Lacking new important features such as Intrusion Detection System (IDS), Centralized Password Management System, Backup feature, and it is expensive to maintain. 
+- **Action:** Deliver new functional and tested system.  
+- **Timeline:** Within 90 days. 
+- **Owner:** IT Department (with IT Manager support) 
+- **Benefit:** Increase in team productivity, system stability, and generate more sales. Proper controls will be in place and fully compliant with U.S. and international regulations and standards. 
 
-Next Steps  
-Prioritize implementation in this order. The IT manager will prepare a remediation plan with resource needs and provide quarterly progress updates to leadership.
+5. **Establish Ongoing Security Awareness Training**
+- **Current state:** Limited employee training increases phishing susceptibility.  
+- **Business impact:** Social engineering remains a primary attack vector.  
+- **Action:** Deliver mandatory annual training and quarterly phishing simulations, with tracking of completion and performance metrics. 
+- **Timeline:** Initial cycle within 60 days; ongoing program.  
+- **Owner:** IT Department (with HR support).  
+- **Benefit:** Reduces human-error incidents and strengthens overall team resilience.
 
 ---
 
