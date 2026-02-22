@@ -126,7 +126,7 @@ Completed controls & compliance checklist: 5/5
 Self-assessment: Passed (100% / 5–5 points)
 
 ## Artifacts
-- Coursera activity: [https://coursera.org/learn/manage-security-risks/assignment-submission](https://www.coursera.org/learn/manage-security-risks/assignment-submission/TMBj8/portfolio-activity-conduct-a-security-audit/attempt)
+- Coursera activity: [coursera.org/learn/manage-security-risks/assignment-submission](https://www.coursera.org/learn/manage-security-risks/assignment-submission/TMBj8/portfolio-activity-conduct-a-security-audit/attempt)
 - GitHub writeups portfolio: [github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/tree/main/writeups)
 
 ---
