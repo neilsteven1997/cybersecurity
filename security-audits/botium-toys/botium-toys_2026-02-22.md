@@ -1,6 +1,6 @@
 # Botium Toys Internal IT Audit  
 **Google Cybersecurity Professional Certificate – Course Project**  
-Neil Steven | February 22, 2026 | Portfolio: [github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/tree/main/security-audits/botium-toys)
+Neil Steven | February 22, 2026 | Portfolio: [https://github.com/neilsteven1997/cybersecurity/tree/main/security-audits/botium-toys](https://github.com/neilsteven1997/cybersecurity/tree/main/security-audits/botium-toys)
 
 ## Executive Summary
 >[!Note]
@@ -126,8 +126,8 @@ Completed controls & compliance checklist: 5/5
 Self-assessment: Passed (100% / 5–5 points)
 
 ## Artifacts
-- Coursera activity: [coursera.org/learn/manage-security-risks/assignment-submission](https://www.coursera.org/learn/manage-security-risks/assignment-submission/TMBj8/portfolio-activity-conduct-a-security-audit/attempt)
-- GitHub writeups portfolio: [github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/tree/main/writeups)
+- Coursera activity: [https://www.coursera.org/learn/manage-security-risks/assignment-submission/TMBj8/portfolio-activity-conduct-a-security-audit/attempt](https://www.coursera.org/learn/manage-security-risks/assignment-submission/TMBj8/portfolio-activity-conduct-a-security-audit/attempt)
+- GitHub writeups portfolio: [https://github.com/neilsteven1997/cybersecurity/tree/main/writeups](https://github.com/neilsteven1997/cybersecurity/tree/main/writeups)
 
 ---
 Last updated: February 22, 2026
