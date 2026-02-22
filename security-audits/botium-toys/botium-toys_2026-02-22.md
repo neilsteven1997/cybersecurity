@@ -24,23 +24,22 @@ The IT manager starts by implementing the National Institute of Standards and Te
 
 ## Controls & Compliance Checklist
 
-### Administrative / General Controls
-- [ ] Multi-factor authentication enforced for all privileged accounts? **Yes / No**  
-  Recommendation: [Your short note, e.g., “Implement MFA immediately for admin accounts to reduce credential-stuffing risk.”]
-- [ ] Least privilege access implemented? **Yes / No**  
-  Recommendation: ...
+[ ]Least Privilege
+[ ]Disaster recovery plans
+[ ]Password policies
+[ ]Separation of duties
+[ ]Firewall
+[ ]Intrusion detection system (IDS)
+[ ]Backups
+[ ]Antivirus software
+[ ]Manual monitoring, maintenance, and intervention for legacy systems
+[ ]Encryption
+[ ]Password management system
+[ ]Locks (offices, storefront, warehouse)
+[ ]Closed-circuit television (CCTV) surveillance
+[ ]Fire detection/prevention (fire alarm, sprinkler system, etc.)
 
-(Continue for all controls from your Coursera checklist – use - [x] for checked Yes, - [ ] for No)
 
-### Payment Processing & EU Compliance
-- [ ] PCI DSS requirements met for cardholder data? **Yes / No**  
-  Recommendation: ...
-- [ ] GDPR-aligned data protection for EU customers? **Yes / No**  
-  Recommendation: ...
-
-### Technical Controls
-- [ ] Firewall rules reviewed and documented? **Yes / No**  
-  Recommendation: ...
 
 ## Recommendations & Prioritized Action Plan
 1. High priority: Enable MFA across all accounts (immediate).  
