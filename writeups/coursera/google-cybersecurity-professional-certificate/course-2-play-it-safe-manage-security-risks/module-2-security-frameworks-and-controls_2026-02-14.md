@@ -122,6 +122,45 @@ not only mitigate risks but also support growth without compromising security.
 
 ---
 
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="../images/test-your-knowledge-more-about-frameworks-and-controls_module-2-security-frameworks-and-controls_2026-02-14.png" alt="Test Your Knowledge More About Frameworks And Controls" 
+  width="450"/>
+      <td><img src="../images/test-your-knowledge-the-cia-triad_module-2-security-frameworks-and-controls_2026-02-14.png" alt="Test Your Knowledge - The CIA Triad" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Test Your Knowledge More About Frameworks And Controls</td>
+      <td align="center"><strong>Figure 1b:</strong> Test Your Knowledge - The CIA Triad</td>
+    </tr>
+    <tr>
+      <td><img src="../images/test-your-knowledge-nist-frameworks_module-2-security-frameworks-and-controls_2026-02-14.png" alt="Test Your Knowledge - NIST Frameworks" 
+  width="450"/>
+      <td><img src="../images/test-your-knowledge-owasp-principles-and-security-audits_module-2-security-frameworks-and-controls_2026-02-14.png" alt="Test Your Knowledge - OWASP Principles And Security Audits" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Test Your Knowledge - NIST Frameworks</td>
+      <td align="center"><strong>Figure 2b:</strong> Test Your Knowledge - OWASP Principles And Security Audits</td>
+    </tr>
+  </table>
+</p>
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="../images/module-2-challenge_module-2-security-frameworks-and-controls_2026-02-14.png" alt="Module 2 Challenge" 
+  width="450"/>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Module 2 Challenge</td>
+    </tr>
+  </table>
+</p>
+
+---
+
 
 
 
