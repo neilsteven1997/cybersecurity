@@ -72,4 +72,28 @@ Extracted Tables
 
 ---
 
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/encapsulation_introductory-networking_tryhackme_2026-02-05.png" alt="Encapsulation" 
+  width="450"/>
+      <td><img src="images/osi-vs-tcpip_introductory-networking_tryhackme_2026-02-05.png" alt="OSI VS TCP/IP" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Encapsulation</td>
+      <td align="center"><strong>Figure 1b:</strong> OSI VS TCP/IP</td>
+    </tr>
+    <tr>
+      <td><img src="images/data-syn_introductory-networking_tryhackme_2026-02-05.png" alt="Data SYN" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Data SYN</td>
+    </tr>
+  </table>
+</p>
+
+---
 
