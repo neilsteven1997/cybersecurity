@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-  <img src="images/day-14-aoc-tryhackme-container.png" alt="Improving Metrics" 
+  <img src="images/improving-metrics_soc-metrics-and-objectives_tryhackme_2026-01-19.png" alt="Improving Metrics" 
   width="650"/>
 </p>
 
@@ -74,23 +74,51 @@ tracking them personally useful for spotting workflow bottlenecks early.
 <p align="center">
   <table>
     <tr>
-      <td><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td><img src="images/core-metrics_soc-metrics-and-objectives_tryhackme_2026-01-19.png" alt="Core Metrics" 
   width="450"/>
-      <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td><img src="images/triage-metrics_soc-metrics-and-objectives_tryhackme_2026-01-19.png" alt="Triage Metrics" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 1a:</strong> Core Metrics</td>
+      <td align="center"><strong>Figure 1b:</strong> Triage Metrics</td>
     </tr>
     <tr>
-      <td><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td><img src="images/triage-metrics_reference-table_soc-metrics-and-objectives_tryhackme_2026-01-19.png" alt="Triage Metrics Reference Table" 
   width="450"/>
-    </tr>
+      <td><img src="images/improving-metrics_soc-metrics-and-objectives_tryhackme_2026-01-19.png" alt="Improving Metrics" 
+  width="450"/>
+    </tr> 
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
+      <td align="center"><strong>Figure 2a:</strong> Triage Metrics Reference Table</td>
+      <td align="center"><strong>Figure 2b:</strong> Improving Metrics</td>
     </tr>
   </table>
 </p>
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/improving-metrics_reference-table_soc-metrics-and-objectives_tryhackme_2026-01-19.png" alt="Improving Metrics - Reference Table" 
+  width="450"/>
+      <td><img src="images/unhappy-customer_soc-manager-activity_soc-metrics-and-objectives_tryhackme_2026-01-19.png" alt="Unhappy Customer - SOC Manager Activity" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Improving Metrics - Reference Table</td>
+      <td align="center"><strong>Figure 3b:</strong> Unhappy Customer - SOC Manager Activity</td>
+    </tr>
+    <tr>
+      <td><img src="images/delayed-alert_soc-manager-activity_soc-metrics-and-objectives_tryhackme_2026-01-19.png" alt="Delayed Alert - SOC Manager Activity" 
+  width="450"/>
+      <td><img src="images/tired-analysts_soc-manager-activity_soc-metrics-and-objectives_tryhackme_2026-01-19.png" alt="Tired Analysts - SOC Manager Activity" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Delayed Alert - SOC Manager Activity</td>
+      <td align="center"><strong>Figure 4b:</strong> Tired Analysts - SOC Manager Activity</td>
+    </tr>
+  </table>
+</p>
+
 
 
 ---
