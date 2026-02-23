@@ -96,5 +96,31 @@ request emulator reinforces how misconfigurations invite exploits, underscoring 
 
 ---
 
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/url_web-application-basics_tryhackme_2026-02-19.png" alt="URL (Uniform Resource Locator)" 
+  width="450"/>
+      <td><img src="images/http-request_web-application-basics_tryhackme_2026-02-19.png" alt="HTTP Request" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> URL (Uniform Resource Locator)</td>
+      <td align="center"><strong>Figure 1b:</strong> HTTP Request</td>
+    </tr>
+    <tr>
+      <td><img src="images/http-request-login-successful_web-application-basics_tryhackme_2026-02-19.png" alt="HTTP Request - Login Successful" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> HTTP Request - Login Successful</td>
+    </tr>
+  </table>
+</p>
+
+---
+
+
 
 
