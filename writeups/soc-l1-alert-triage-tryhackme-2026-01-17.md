@@ -1,6 +1,7 @@
 # SOC L1 Alert Triage
 
 ---
+
 Alert triage stands as the core workflow for SOC Level 1 analysts, transforming raw event data into actionable insights that 
 distinguish benign noise from active breaches. Events—user authentications, process creations, or network transfers—generate 
 logs across operating systems, firewalls, and cloud environments, forwarded to centralized platforms for analysis. Security 
@@ -34,7 +35,7 @@ underscoring precision. Mastery here builds intuition for escalation and reporti
 
 ---
 
-Key Takeaways
+### Key Takeaways
 - Generate alerts from logged events via SIEM, EDR, NDR, SOAR, or ITSM platforms for focused analysis
 - Involve L1 in initial review and escalation, L2 in advanced investigation, engineers in rule tuning, managers in quality
   oversight
@@ -43,5 +44,31 @@ Key Takeaways
 - Assign and set in progress during initial actions for clear ownership
 - Identify affected entity, flagged action, surrounding events, and validate with threat intelligence in investigation
 - Assign true/false positive verdict, document steps and reasoning, then close in final actions
+
+---
+
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/alert-dashboard_soc-l1-alert-triage-tryhackme-2026-01-17.png" alt="Alert Dashboard" 
+  width="450"/>
+      <td><img src="images/tryhackme-siem_soc-l1-alert-triage-tryhackme-2026-01-17.png" alt="TryHackMe SIEM" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Alert Dashboard</td>
+      <td align="center"><strong>Figure 1b:</strong> TryHackMe SIEM</td>
+    </tr>
+    <tr>
+      <td><img src="images/alert-triage_soc-l1-alert-triage-tryhackme-2026-01-17.png" alt="Alert Triage" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Alert Triage</td>
+    </tr>
+  </table>
+</p>
+
 
 ---
