@@ -2,6 +2,11 @@
 
 ---
 
+<p align="center">
+  <img src="images/day-14-aoc-tryhackme-container.png" alt="Improving Metrics" 
+  width="650"/>
+</p>
+
 SOC efficiency aligns with protecting organizational assets—confidentiality, integrity, availability—through alert development, 
 intake, and triage. Level 1 analysts contribute by escalating true positives reliably to Level 2. Core indicators include 
 alerts count as total received, measuring analyst load; false positive rate as false positives over total alerts, gauging 
@@ -61,5 +66,31 @@ tracking them personally useful for spotting workflow bottlenecks early.
 - Distribute queue evenly among on-shift analysts
 - Escalate threats promptly from Level 1 to Level 2 for better MTTR
 - Document response actions for various scenarios
+
+---
+
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+  width="450"/>
+      <td><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
+      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+    </tr>
+    <tr>
+      <td><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
+    </tr>
+  </table>
+</p>
+
 
 ---
