@@ -20,7 +20,7 @@
   
 ### Achievements:
 - **February 23, 2026**: Completed Tryhackme - Web Application Basics
-- **February 22, 2026**: Completed Coursera: Google Cybersecurity Professional Certificate - Botium Toys Security Audit
+- **February 22, 2026**: Completed Coursera Google Cybersecurity Professional Certificate - Botium Toys Security Audit
 - **February 09, 2026**: Completed Tryhackme - Introductory Networking
 - **February 04, 2026**: Completed Tryhackme - Nmap
 - **February 02, 2026**: Completed CISCO Networking Academy - Getting Started with Cisco Packet Tracer
