@@ -96,7 +96,76 @@ obscurity isn't true security.
 
 ---
 
+### Gallery 
 
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/creating-simple-js-program_javascript-essentials_tryhackme_2026-02-24.png" alt="Creating A Simple JS Program" 
+  width="450"/>
+      <td><img src="images/created-internal-js_javascript-essentials_tryhackme_2026-02-24.png" alt="Created An Internal JS" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Creating A Simple JS Program</td>
+      <td align="center"><strong>Figure 1b:</strong> Created An Internal JS</td>
+    </tr>
+    <tr>
+      <td><img src="images/created-external-js_javascript-essentials_tryhackme_2026-02-24.png" alt="Created An External JS" 
+  width="450"/>
+      <td><img src="images/external-html-file_javascript-essentials_tryhackme_2026-02-24.png" alt="External HTML File" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Created An External JS</td>
+      <td align="center"><strong>Figure 2b:</strong> External HTML File</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/external-script-js-file_javascript-essentials_tryhackme_2026-02-24.png" alt="External Script - JS File" 
+  width="450"/>
+      <td><img src="images/js-alert-function-displaying-text-hacked-three-times_javascript-essentials_tryhackme_2026-02-24.png" alt="JS Alert Function - Displaying Text, 'Hacked Three Times'" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> External Script - JS File</td>
+      <td align="center"><strong>Figure 3b:</strong> JS Alert Function - Displaying Text, 'Hacked Three Times'</td>
+    </tr>
+    <tr>
+      <td><img src="images/js-prompt-conditional-code_javascript-essentials_tryhackme_2026-02-24.png" alt="JS Prompt - Conditional Code" 
+  width="450"/>
+      <td><img src="images/login-html_javascript-essentials_tryhackme_2026-02-24.png" alt="Login HTML" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> JS Prompt - Conditional Code</td>
+      <td align="center"><strong>Figure 4b:</strong> Login HTML</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/obfuscator-io_javascript-essentials_tryhackme_2026-02-24.png" alt="Obfuscator.io" 
+  width="450"/>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 5a:</strong> Obfuscator.io</td>
+    </tr>
+  </table>
+</p>
+
+
+
+---
 
 
 
