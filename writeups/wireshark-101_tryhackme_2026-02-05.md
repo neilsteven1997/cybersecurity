@@ -143,7 +143,7 @@ to spot irregularities efficiently.
     <tr>
       <td><img src="images/color-coded-packets_wireshark-101_tryhackme_2026-02-05.png" alt="Color Coded Packets" 
   width="450"/>
-      <td><img src="images/hardware-tap-or-vampire-tap_wireshark-101_tryhackme_2026-02-05.png" alt="Hardware Tap Or Vampire Tap" width="200"/></td>
+      <td><img src="images/hardware-tap-or-vampire-tap_wireshark-101_tryhackme_2026-02-05.png" alt="Hardware Tap Or Vampire Tap" width="260"/></td>
     </tr>
     <tr>
       <td align="center"><strong>Figure 3a:</strong> Color Coded Packets</td>
@@ -151,7 +151,7 @@ to spot irregularities efficiently.
     </tr>
     <tr>
       <td><img src="images/throwing-star-lan-tap_wireshark-101_tryhackme_2026-02-05.png" alt="Throwing Star LAN Tap" 
-  width="450"/>
+  width="200"/>
       <td><img src="images/ip-addr-filter_wireshark-101_tryhackme_2026-02-05.png" alt="IP Addr Filter" width="450"/></td>
     </tr>
      <tr>
