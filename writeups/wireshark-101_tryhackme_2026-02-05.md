@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="images/wireshark_wireshark-101_tryhackme_2026-02-05.png" alt="Wireshark" 
-  width="650"/>
+  width="350"/>
 </p>
 
 
