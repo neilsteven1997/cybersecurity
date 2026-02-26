@@ -134,10 +134,6 @@ to spot irregularities efficiently.
 
 
 
-2
-
-
-
 <p align="center">
   <table>
     <tr>
@@ -163,11 +159,6 @@ to spot irregularities efficiently.
 
 
 
-
-3
-
-
-
 <p align="center">
   <table>
     <tr>
@@ -190,11 +181,6 @@ to spot irregularities efficiently.
     </tr>
   </table>
 </p>
-
-
-
-
-4
 
 
 
@@ -225,11 +211,6 @@ to spot irregularities efficiently.
 
 
 
-5
-
-
-
-
 <p align="center">
   <table>
     <tr>
@@ -252,12 +233,6 @@ to spot irregularities efficiently.
     </tr>
   </table>
 </p>
-
-
-
-
-6
-
 
 
 
