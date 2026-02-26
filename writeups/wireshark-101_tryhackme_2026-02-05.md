@@ -112,7 +112,7 @@ to spot irregularities efficiently.
 <p align="center">
   <table>
     <tr>
-      <td><img src="images/wireshark_wireshark-101_tryhackme_2026-02-05.png" alt="Wireshark" 
+      <td><img src="images/wireshark_wireshark-101_tryhackme_2026-02-05.png" align="center" alt="Wireshark" 
   width="200"/>
       <td><img src="images/welcome-to-wireshark_wireshark-101_tryhackme_2026-02-05.png" alt="Welcome To Wireshark" width="450"/></td>
     </tr>
