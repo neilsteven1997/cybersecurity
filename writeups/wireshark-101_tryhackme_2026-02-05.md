@@ -113,7 +113,7 @@ to spot irregularities efficiently.
   <table>
     <tr>
       <td><img src="images/wireshark_wireshark-101_tryhackme_2026-02-05.png" alt="Wireshark" 
-  width="450"/>
+  width="100"/>
       <td><img src="images/welcome-to-wireshark_wireshark-101_tryhackme_2026-02-05.png" alt="Welcome To Wireshark" width="450"/></td>
     </tr>
     <tr>
@@ -143,7 +143,7 @@ to spot irregularities efficiently.
     <tr>
       <td><img src="images/color-coded-packets_wireshark-101_tryhackme_2026-02-05.png" alt="Color Coded Packets" 
   width="450"/>
-      <td><img src="images/hardware-tap-or-vampire-tap_wireshark-101_tryhackme_2026-02-05.png" alt="Hardware Tap Or Vampire Tap" width="450"/></td>
+      <td><img src="images/hardware-tap-or-vampire-tap_wireshark-101_tryhackme_2026-02-05.png" alt="Hardware Tap Or Vampire Tap" width="100"/></td>
     </tr>
     <tr>
       <td align="center"><strong>Figure 3a:</strong> Color Coded Packets</td>
