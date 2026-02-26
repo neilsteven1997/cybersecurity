@@ -2,6 +2,12 @@
 
 ---
 
+<p align="center">
+  <img src="images/wireshark_wireshark-101_tryhackme_2026-02-05.png" alt="Wireshark" 
+  width="650"/>
+</p>
+
+
 In my ongoing exploration of network analysis tools, I've been delving into Wireshark, which serves as a primary means for generating 
 and examining packet capture files, known as PCAPs. This utility stands out for its effectiveness in dissecting network traffic, and 
 I've focused on its foundational setup and application for scrutinizing common protocols. The PCAP samples I've worked with originate 
@@ -101,5 +107,185 @@ to spot irregularities efficiently.
 
 ---
 
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/wireshark_wireshark-101_tryhackme_2026-02-05.png" alt="Wireshark" 
+  width="450"/>
+      <td><img src="images/welcome-to-wireshark_wireshark-101_tryhackme_2026-02-05.png" alt="Welcome To Wireshark" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Wireshark</td>
+      <td align="center"><strong>Figure 1b:</strong> Welcome To Wireshark</td>
+    </tr>
+    <tr>
+      <td><img src="images/live-packet-captures_wireshark-101_tryhackme_2026-02-05.png" alt="Live Packet Captures" 
+  width="450"/>
+      <td><img src="images/captured-packets_wireshark-101_tryhackme_2026-02-05.png" alt="Captured Packets" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Live Packet Captures</td>
+      <td align="center"><strong>Figure 2b:</strong> Captured Packets</td>
+    </tr>
+  </table>
+</p>
+
+
+
+2
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/color-coded-packets_wireshark-101_tryhackme_2026-02-05.png" alt="Color Coded Packets" 
+  width="450"/>
+      <td><img src="images/hardware-tap-or-vampire-tap_wireshark-101_tryhackme_2026-02-05.png" alt="Hardware Tap Or Vampire Tap" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Color Coded Packets</td>
+      <td align="center"><strong>Figure 3b:</strong> Hardware Tap Or Vampire Tap</td>
+    </tr>
+    <tr>
+      <td><img src="images/throwing-star-lan-tap_wireshark-101_tryhackme_2026-02-05.png" alt="Throwing Star LAN Tap" 
+  width="450"/>
+      <td><img src="images/ip-addr-filter_wireshark-101_tryhackme_2026-02-05.png" alt="IP Addr Filter" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Throwing Star LAN Tap</td>
+      <td align="center"><strong>Figure 4b:</strong> IP Addr Filter</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+3
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/ip-src-and-ip-dist-filter_wireshark-101_tryhackme_2026-02-05.png" alt="IP Src And IP Dist Filters" 
+  width="450"/>
+      <td><img src="images/port-number-and-protocol-name-filter_wireshark-101_tryhackme_2026-02-05.png" alt="Port Number And Protocol Name Filters" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 5a:</strong> IP Src And IP Dist Filters</td>
+      <td align="center"><strong>Figure 5b:</strong> Port Number And Protocol Name Filters</td>
+    </tr>
+    <tr>
+      <td><img src="images/7-layers-of-the-osi-model-by-raza-m-2018_wireshark-101_tryhackme_2026-02-05.png" alt="7 Layers Of The OSI Model by Raza M. 2018" 
+  width="450"/>
+      <td><img src="images/packet-details_wireshark-101_tryhackme_2026-02-05.png" alt="Packet Details" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 6a:</strong> 7 Layers Of The OSI Model by Raza M. 2018</td>
+      <td align="center"><strong>Figure 6b:</strong> Packet Details</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+4
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/packet-details-frame-layer-1_wireshark-101_tryhackme_2026-02-05.png" alt="Packet Details Frame Layer 1" 
+  width="450"/>
+      <td><img src="images/packet-details-source-mac-layer-2_wireshark-101_tryhackme_2026-02-05.png" alt="Packet Details Source MAC Layer 2" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 7a:</strong> Packet Details Frame Layer 1</td>
+      <td align="center"><strong>Figure 7b:</strong> Packet Details Source MAC Layer 2</td>
+    </tr>
+    <tr>
+      <td><img src="images/packet-details-source-ip-layer-3_wireshark-101_tryhackme_2026-02-05.png" alt="Packet Details Source IP Layer 3" 
+  width="450"/>
+      <td><img src="images/packet-details-source-protocol-layer-4_wireshark-101_tryhackme_2026-02-05.png" alt="Packet Details Source Protocol Layer 4" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 8a:</strong> Packet Details Source IP Layer 3</td>
+      <td align="center"><strong>Figure 8b:</strong> Packet Details Source Protocol Layer 4</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+5
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/protocol-errors-layer-4_wireshark-101_tryhackme_2026-02-05.png" alt="Protocol Errors Layer 4" 
+  width="450"/>
+      <td><img src="images/packet-details-application-protocol-layer-5_wireshark-101_tryhackme_2026-02-05.png" alt="Packet Details Application Protocol Layer 5" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 9a:</strong> Protocol Errors Layer 4</td>
+      <td align="center"><strong>Figure 9b:</strong> Packet Details Application Protocol Layer 5</td>
+    </tr>
+    <tr>
+      <td><img src="images/application-data-layer-5_wireshark-101_tryhackme_2026-02-05.png" alt="Application Data Layer 5" 
+  width="450"/>
+      <td><img src="images/arp-or-address-resolution-protocol-layer-2_wireshark-101_tryhackme_2026-02-05.png" alt="ARP Or Address Resolution Protocol Layer 2" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 10a:</strong> Application Data Layer 5</td>
+      <td align="center"><strong>Figure 10b:</strong> ARP Or Address Resolution Protocol Layer 2</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+6
+
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="images/zerologon-pcap-overview_wireshark-101_tryhackme_2026-02-05.png" alt="Zerologon PCAP Overview" 
+  width="450"/>
+      <td><img src="images/zerologon-poc-connection-analysis_wireshark-101_tryhackme_2026-02-05.png" alt="Zerologon POC Connection Analysis" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 11a:</strong> Zerologon PCAP Overview</td>
+      <td align="center"><strong>Figure 11b:</strong> Zerologon POC Connection Analysis</td>
+    </tr>
+    <tr>
+      <td><img src="images/secretsdump-smb-analysis_wireshark-101_tryhackme_2026-02-05.png" alt="Secretsdump SMB Analysis" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 12a:</strong> Secretsdump SMB Analysis</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+---
 
 
