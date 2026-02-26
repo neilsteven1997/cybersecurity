@@ -114,7 +114,7 @@ to spot irregularities efficiently.
     <tr>
       <td align="center"><img src="images/wireshark_wireshark-101_tryhackme_2026-02-05.png" alt="Wireshark" 
   width="200"/>
-      <td><img src="images/welcome-to-wireshark_wireshark-101_tryhackme_2026-02-05.png" alt="Welcome To Wireshark" width="450"/></td>
+      <td align="center"><img src="images/welcome-to-wireshark_wireshark-101_tryhackme_2026-02-05.png" alt="Welcome To Wireshark" width="450"/></td>
     </tr>
     <tr>
       <td align="center"><strong>Figure 1a:</strong> Wireshark</td>
@@ -139,14 +139,14 @@ to spot irregularities efficiently.
     <tr>
       <td><img src="images/color-coded-packets_wireshark-101_tryhackme_2026-02-05.png" alt="Color Coded Packets" 
   width="450"/>
-      <td><img src="images/hardware-tap-or-vampire-tap_wireshark-101_tryhackme_2026-02-05.png" alt="Hardware Tap Or Vampire Tap" width="260"/></td>
+      <td align="center"><img src="images/hardware-tap-or-vampire-tap_wireshark-101_tryhackme_2026-02-05.png" alt="Hardware Tap Or Vampire Tap" width="260"/></td>
     </tr>
     <tr>
       <td align="center"><strong>Figure 3a:</strong> Color Coded Packets</td>
       <td align="center"><strong>Figure 3b:</strong> Hardware Tap Or Vampire Tap</td>
     </tr>
     <tr>
-      <td><img src="images/throwing-star-lan-tap_wireshark-101_tryhackme_2026-02-05.png" alt="Throwing Star LAN Tap" 
+      <td align="center"><img src="images/throwing-star-lan-tap_wireshark-101_tryhackme_2026-02-05.png" alt="Throwing Star LAN Tap" 
   width="200"/>
       <td><img src="images/ip-addr-filter_wireshark-101_tryhackme_2026-02-05.png" alt="IP Addr Filter" width="450"/></td>
     </tr>
