@@ -91,6 +91,7 @@ variations yield powerful control over data sets.
 - Listing databases may reveal special ones like THM{<redacted>}.
 - Official MySQL documentation for further reference: https://dev.mysql.com/doc/.
 - SELECT GROUP_CONCAT(name SEPARATOR ' & ') FROM hacking_tools WHERE RIGHT(amount, 1) != '0';
+  will return a concatenated list of names of tools where the amount does not end in 0.
 - Other Clauses:
 - DISTINCT → Removes duplicate rows  
 - GROUP BY → Groups rows for aggregation  
