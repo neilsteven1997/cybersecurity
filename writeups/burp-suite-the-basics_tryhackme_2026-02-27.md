@@ -1,5 +1,7 @@
 # Burp Suite: The Basics
 
+---
+
 In my ongoing exploration of web application testing tools, I've been digging into Burp Suite as a foundational framework for 
 penetration assessments. It's essentially a Java-powered platform that handles everything from intercepting HTTP and HTTPS traffic to 
 manipulating requests and responses between browsers and servers, which proves critical for spotting vulnerabilities in web and mobile 
