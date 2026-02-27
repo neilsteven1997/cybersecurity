@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **February 27, 2026**: Completed Tryhackme - SQL Fundamentals
 - **February 25, 2026**: Completed Tryhackme - JavaScript Essentials
 - **February 23, 2026**: Completed Tryhackme - Web Application Basics
 - **February 22, 2026**: Completed Coursera Google Cybersecurity Professional Certificate - Botium Toys Security Audit
