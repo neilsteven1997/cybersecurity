@@ -42,9 +42,8 @@ bridge technical and business needs. As I reflect, this groundwork equips me to 
 points like unpatched devices invite risks, and monitoring metrics becomes key to resilience.
 
 The glossary consolidates terms like bandwidth as max data capacity, cloud network as remote resource storage, and packet sniffing as 
-traffic inspection, which I'll reference often. For community engagement, the Coursera private Cybersecurity Community at 
-https://www.coursera.org/learn/connect-and-protect-networks-and-network-security/discussions proves useful, alongside the quick start
-guide there. Adhering to the Coursera Code of Conduct at https://www.coursera.org/about/terms/code-of-conduct ensures productive 
+traffic inspection, which I'll reference often. For community engagement, the Coursera private Cybersecurity Community proves useful, alongside the quick start
+guide there. Adhering to the Coursera Code of Conduct ensures productive 
 interactions. Resources like the certificate glossary template via Google Docs or direct download support retention, and feedback 
 mechanisms via thumbs icons help refine content.
 
