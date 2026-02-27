@@ -2,6 +2,11 @@
 
 ---
 
+<p align="center">
+  <img src="images/mysql_sql-fundamentals_tryhackme_2026-02-27.png" alt="MySQL" 
+  width="650"/>
+</p>
+
 In my latest dive into database basics through the TryHackMe platform, I explored foundational concepts starting with the role of data 
 in cybersecurity. Data represents raw facts like numbers or text that gain value when organized, and databases serve as structured 
 repositories for storing, managing, and retrieving this information efficiently. I noted how relational databases organize data into 
@@ -99,6 +104,105 @@ variations yield powerful control over data sets.
 - ORDER BY → Sorts the final result
 
 ---
+
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/mysql_sql-fundamentals_tryhackme_2026-02-27.png" alt="MySQL" 
+  width="450"/>
+      <td align="center"><img src="images/types-of-databases_sql-fundamentals_tryhackme_2026-02-27.png" alt="Types Of Databases" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> MySQL</td>
+      <td align="center"><strong>Figure 1b:</strong> Types Of Databases</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/non-relational-database_sql-fundamentals_tryhackme_2026-02-27.png" alt="Non-Relational Database" 
+  width="450"/>
+      <td align="center"><img src="images/table-row-column_sql-fundamentals_tryhackme_2026-02-27.png" alt="Table, Row, Column" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Non-Relational Database</td>
+      <td align="center"><strong>Figure 2b:</strong> Table, Row, Column</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/relational-database_sql-fundamentals_tryhackme_2026-02-27.png" alt="Relational Database" 
+  width="450"/>
+      <td align="center"><img src="images/mysql-terminal_sql-fundamentals_tryhackme_2026-02-27.png" alt="MySQL Terminal" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Relational Database</td>
+      <td align="center"><strong>Figure 3b:</strong> MySQL Terminal</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/creating-mysql-database_sql-fundamentals_tryhackme_2026-02-27.png" alt="Creating MySQL Database" 
+  width="450"/>
+      <td align="center"><img src="images/created-mysql-table_sql-fundamentals_tryhackme_2026-02-27.png" alt="Created MySQL Table" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Creating MySQL Database</td>
+      <td align="center"><strong>Figure 4b:</strong> Created MySQL Table</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/describe-book-inventory-table_sql-fundamentals_tryhackme_2026-02-27.png" alt="Describe Book Inventory Table" 
+  width="450"/>
+      <td align="center"><img src="images/altered-table-book-inventory_sql-fundamentals_tryhackme_2026-02-27.png" alt="Altered Book Inventory Table" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 5a:</strong> Describe Book Inventory Table</td>
+      <td align="center"><strong>Figure 5b:</strong> Altered Book Inventory Table</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/inserted-and-viewed-the-row_sql-fundamentals_tryhackme_2026-02-27.png" alt="Inserted And Viewed The Row" 
+  width="450"/>
+      <td align="center"><img src="images/selected-two-columns-from-the-row_sql-fundamentals_tryhackme_2026-02-27.png" alt="Selected Two Columns From The Row" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 6a:</strong> Inserted And Viewed The Row</td>
+      <td align="center"><strong>Figure 6b:</strong> Selected Two Columns From The Row</td>
+    </tr>
+  </table>
+</p>
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/updated-data-on-a-row_sql-fundamentals_tryhackme_2026-02-27.png" alt="Updated Data On A Row" 
+  width="450"/>
+      <td align="center"><img src="images/select-all-from-table_sql-fundamentals_tryhackme_2026-02-27.png" alt="Select All From Table" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 7a:</strong> Updated Data On A Row</td>
+      <td align="center"><strong>Figure 7b:</strong> Select All From Table</td>
+    </tr>
+  </table>
+</p>
+
+
+
+---
+
+
 
 
 
