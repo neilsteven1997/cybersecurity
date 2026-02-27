@@ -90,8 +90,16 @@ variations yield powerful control over data sets.
 - Date functions: NOW gets current timestamp, DATE_FORMAT styles dates.
 - Listing databases may reveal special ones like THM{<redacted>}.
 - Official MySQL documentation for further reference: https://dev.mysql.com/doc/.
+- Other Clauses:
+- DISTINCT → Removes duplicate rows  
+- GROUP BY → Groups rows for aggregation  
+- HAVING → Filters groups (after GROUP BY)  
+- ORDER BY → Sorts the final result
 
 ---
+
+
+
 
 
 
