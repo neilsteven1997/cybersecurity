@@ -64,7 +64,7 @@ right-click targets in site map to add to scope, confirming to log only in-scope
 in-scope URLs to ignore the rest.
 
 For HTTPS, browsers flag untrusted PortSwigger CA; fix by downloading the cert from http://burp/cert as cacert.der, then in Firefox 
-prefs search certificates, import, and trust for sites. This lets seamless TLS proxying.
+prefs search certificates, import, and trust for sites. This lets seamless TLS proxying. (Full: https://portswigger.net/burp/documentation/desktop/external-browser-config/certificate/ca-cert-firefox)
 
 In a practical run-through on http://<MACHINE_IP>/ticket/'s support form, I tested for reflected cross-site scripting by injecting a 
 script alert payload into the email field, but client-side filters block special chars. Bypassing via proxy: enter valid data, submit 
@@ -122,6 +122,7 @@ build on this in deeper tools like Repeater.
 - Burp Browser: Launch from Proxy; On Linux root, toggle no-sandbox in settings.
 - Scoping: Add to scope from site map; Confirm log only in-scope; In Proxy settings, intercept only in-scope.
 - HTTPS setup: Download cert from http://burp/cert; In Firefox prefs, view certificates; Import der; Trust for websites.
+- (Full: https://portswigger.net/burp/documentation/desktop/external-browser-config/certificate/ca-cert-firefox)
 - Example attack steps: Enter payload in email but filter blocks; Enter valid data, submit; Intercept in proxy; Replace email with
   payload; URL-encode selection (Ctrl+U); Forward to trigger alert.
 
