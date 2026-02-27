@@ -93,22 +93,22 @@ mechanisms via thumbs icons help refine content.
 <p align="center">
   <table>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td align="center"><img src="../images/test-your-knowledge-introduction-to-networks_module-1-network-architecture_2026-02-25.png" alt="Test Your Knowledge - Introduction To Networks" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td align="center"><img src="../images/test-your-knowledge-network-communication_module-1-network-architecture_2026-02-25.png" alt="Test Your Knowledge - Network Communication" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 1a:</strong> Test Your Knowledge - Introduction To Networks</td>
+      <td align="center"><strong>Figure 1b:</strong> Test Your Knowledge - Network Communication</td>
     </tr>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td align="center"><img src="../images/test-your-knowledge-local-and-wide-network-communication_module-1-network-architecture_2026-02-25.png" alt="Test Your Knowledge - Local And Wide Network Communication" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+      <td align="center"><img src="../images/module-challenge-1-graded-assignment_module-1-network-architecture_2026-02-25.png" alt="Module Challenge 1 - Graded Assignment" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
-      <td align="center"><strong>Figure 2b:</strong> Incrementing the number on link to find secret code</td>
+      <td align="center"><strong>Figure 2a:</strong> Test Your Knowledge - Local And Wide Network Communication</td>
+      <td align="center"><strong>Figure 2b:</strong> Module Challenge 1 - Graded Assignment</td>
     </tr>
   </table>
 </p>
