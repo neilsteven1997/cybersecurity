@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="images/mysql_sql-fundamentals_tryhackme_2026-02-27.png" alt="MySQL" 
-  width="650"/>
+  width="200"/>
 </p>
 
 In my latest dive into database basics through the TryHackMe platform, I explored foundational concepts starting with the role of data 
@@ -111,7 +111,7 @@ variations yield powerful control over data sets.
   <table>
     <tr>
       <td align="center"><img src="images/mysql_sql-fundamentals_tryhackme_2026-02-27.png" alt="MySQL" 
-  width="450"/>
+  width="200"/>
       <td align="center"><img src="images/types-of-databases_sql-fundamentals_tryhackme_2026-02-27.png" alt="Types Of Databases" width="450"/></td>
     </tr>
     <tr>
