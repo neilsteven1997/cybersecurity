@@ -1,0 +1,4 @@
+- updated bank account credentials 
+- updated bank account transaction limits 
+- updated weak passwords to strong
+- added 2FA - App Authenticators 
