@@ -1,0 +1,11 @@
+- updated social media credentials 
+- removed phone number and emails from social media 
+- used dummy profile pictures on every account  
+- updated weak passwords to strong
+- added 2FA - App Authenticators 
+- updated cellphone antivirus definitions
+- ran deep scans 
+- removed risky apps from phone 
+- removed confidential images from phone 
+- blocked spam calls 
+- updated apps 
