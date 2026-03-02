@@ -117,7 +117,7 @@ build on this in deeper tools like Repeater.
   captures WebSockets; view in history sub-tabs.
 - Notable Proxy settings: Response interception via rules; Match and Replace with regex for modifications.
 - FoxyProxy setup: Install extension; Access options; Add proxy with title, 127.0.0.1:8080; Save; Activate; Enable intercept in Burp;
-  Test by accessing site.
+  Test by accessing site. [FoxyProxy Basic](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-basic/)
 - Target sub-tabs: Site map for tree structure; Issue definitions for vuln list with refs; Scope for include/exclude.
 - Burp Browser: Launch from Proxy; On Linux root, toggle no-sandbox in settings.
 - Scoping: Add to scope from site map; Confirm log only in-scope; In Proxy settings, intercept only in-scope.
