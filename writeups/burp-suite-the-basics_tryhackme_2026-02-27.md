@@ -2,6 +2,11 @@
 
 ---
 
+<p align="center">
+  <img src="images/burp-suite_burp-suite-the-basics_tryhackme_2026-02-27.png" alt="Burp Suite" 
+  width="160"/>
+</p>
+
 In my ongoing exploration of web application testing tools, I've been digging into Burp Suite as a foundational framework for 
 penetration assessments. It's essentially a Java-powered platform that handles everything from intercepting HTTP and HTTPS traffic to 
 manipulating requests and responses between browsers and servers, which proves critical for spotting vulnerabilities in web and mobile 
@@ -128,7 +133,84 @@ build on this in deeper tools like Repeater.
 
 ---
 
+### Gallery
 
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/burp-suite_burp-suite-the-basics_tryhackme_2026-02-27.png" alt="Burp Suite" 
+  width="450"/>
+      <td align="center"><img src="images/burp-suite-enterprise-edition_burp-suite-the-basics_tryhackme_2026-02-27.png" alt="Burp Suite Enterprise Edition" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Burp Suite</td>
+      <td align="center"><strong>Figure 1b:</strong> Burp Suite Enterprise Edition</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/burp-suite-community-edition_burp-suite-the-basics_tryhackme_2026-02-27.png" alt="Burp Suite Community Edition" 
+  width="450"/>
+      <td align="center"><img src="images/burp-dashboard_burp-suite-the-basics_tryhackme_2026-02-27.png" alt="Burp Dashboard" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Burp Suite Community Edition</td>
+      <td align="center"><strong>Figure 2b:</strong> Burp Dashboard</td>
+    </tr>
+  </table>
+</p>
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/foxyproxy_burp-suite-the-basics_tryhackme_2026-02-27.png" alt="Foxyproxy" 
+  width="450"/>
+      <td align="center"><img src="images/foxyproxy-options_burp-suite-the-basics_tryhackme_2026-02-27.png" alt="Foxyproxy options" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Foxyproxy</td>
+      <td align="center"><strong>Figure 3b:</strong> Foxyproxy options</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/logger-unusual-traffic_burp-suite-the-basics_tryhackme_2026-02-27.png" alt="Logger Unusual Traffic" 
+  width="450"/>
+      <td align="center"><img src="images/added-unusual-traffic-from-logger-to-target-site-map_burp-suite-the-basics_tryhackme_2026-02-27.png" alt="Added Unusual Traffic From Logger To Target Site Map" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Logger Unusual Traffic</td>
+      <td align="center"><strong>Figure 4b:</strong> Added Unusual Traffic From Logger, To Target Site Map</td>
+    </tr>
+  </table>
+</p>
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/adding-target-scope_burp-suite-the-basics_tryhackme_2026-02-27.png" alt="Adding Target Scope" 
+  width="450"/>
+      <td align="center"><img src="images/an-issue-encountered-when-intercepting-an-http-traffic_burp-suite-the-basics_tryhackme_2026-02-27.png" alt="An Issue Encountered When Intercepting An HTTP Traffic" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 5a:</strong> Adding Target Scope</td>
+      <td align="center"><strong>Figure 5b:</strong> An Issue Encountered When Intercepting An HTTP Traffic</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/enabling-portswigger-ca-1_burp-suite-the-basics_tryhackme_2026-02-27.png" alt="Enabling Portswigger CA - 1" 
+  width="450"/>
+      <td align="center"><img src="images/enabling-portswigger-ca-2_burp-suite-the-basics_tryhackme_2026-02-27.png" alt="Enabling Portswigger CA - 2" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 6a:</strong> Enabling Portswigger CA - 1</td>
+      <td align="center"><strong>Figure 6b:</strong> Enabling Portswigger CA - 2</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+---
 
 
 
