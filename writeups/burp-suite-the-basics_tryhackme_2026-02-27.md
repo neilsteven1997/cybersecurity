@@ -139,7 +139,7 @@ build on this in deeper tools like Repeater.
   <table>
     <tr>
       <td align="center"><img src="images/burp-suite_burp-suite-the-basics_tryhackme_2026-02-27.png" alt="Burp Suite" 
-  width="450"/>
+  width="160"/>
       <td align="center"><img src="images/burp-suite-enterprise-edition_burp-suite-the-basics_tryhackme_2026-02-27.png" alt="Burp Suite Enterprise Edition" width="450"/></td>
     </tr>
     <tr>
