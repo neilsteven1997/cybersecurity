@@ -2,6 +2,12 @@
 
 ---
 
+<p align="center">
+  <img src="images/day-14-aoc-tryhackme-container.png" alt="Hydra" 
+  width="200"/>
+</p>
+
+
 Hydra operates as a brute force online password cracking program that automates rapid testing of login credentials against 
 authentication services. It iterates through password lists to target protocols such as SSH, web application forms, FTP, or SNMP, 
 eliminating the need for manual guessing attempts. According to its official repository, the tool supports brute forcing Asterisk, 
@@ -78,7 +84,49 @@ Extracted Tables
 
 ---
 
+### Gallery 
 
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+  width="450"/>
+      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
+      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+  width="450"/>
+      <td align="center"><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
+      <td align="center"><strong>Figure 2b:</strong> Incrementing the number on link to find secret code</td>
+    </tr>
+  </table>
+</p>
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+  width="450"/>
+      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Final defacement after container escape</td>
+      <td align="center"><strong>Figure 3b:</strong> Restored website after running restoration script</td>
+    </tr>
+  </table>
+</p>
+
+
+---
 
 
 
