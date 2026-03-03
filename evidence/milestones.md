@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **March 03, 2026**: Completed Tryhackme - Hydra
 - **March 02, 2026**: Completed Tryhackme - Burp Suite: The Basics
 - **February 27, 2026**: Completed Tryhackme - SQL Fundamentals
 - **February 25, 2026**: Completed Tryhackme - JavaScript Essentials
