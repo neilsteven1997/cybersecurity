@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-  <img src="images/day-14-aoc-tryhackme-container.png" alt="Hydra" 
+  <img src="images/hydra_tryhackme_2026-03-03.png" alt="Hydra" 
   width="200"/>
 </p>
 
@@ -89,22 +89,22 @@ Extracted Tables
 <p align="center">
   <table>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td align="center"><img src="images/hydra_tryhackme_2026-03-03.png" alt="Hydra" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td align="center"><img src="images/hydra-challenge_hydra_tryhackme_2026-03-03.png" alt="Hydra Challenge" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 1a:</strong> Hydra</td>
+      <td align="center"><strong>Figure 1b:</strong> Hydra Challenge</td>
     </tr>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td align="center"><img src="images/hydra-brute-force-http-post-form_hydra_tryhackme_2026-03-03.png" alt="Hydra Brute Force -http-post-form" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+      <td align="center"><img src="images/hydra-ssh-brute-force-attack_hydra_tryhackme_2026-03-03.png" alt="Hydra SSH Brute Force Attack" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
-      <td align="center"><strong>Figure 2b:</strong> Incrementing the number on link to find secret code</td>
+      <td align="center"><strong>Figure 2a:</strong> Hydra Brute Force -http-post-form</td>
+      <td align="center"><strong>Figure 2b:</strong> Hydra SSH Brute Force Attack</td>
     </tr>
   </table>
 </p>
@@ -114,13 +114,13 @@ Extracted Tables
 <p align="center">
   <table>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td align="center"><img src="images/ls-found-the-flag_hydra_tryhackme_2026-03-03.png" alt="ls - Found The Flag" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td align="center"><img src="images/logged-in-on-ssh_hydra_tryhackme_2026-03-03.png" alt="Logged-in On SSH" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 3a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 3b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 3a:</strong> ls - Found The Flag</td>
+      <td align="center"><strong>Figure 3b:</strong> Logged-in On SSH</td>
     </tr>
   </table>
 </p>
