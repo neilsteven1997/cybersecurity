@@ -18,7 +18,7 @@ frameworks, frequently ship with defaults such as admin paired with password and
 
 Hydra ships preinstalled on the AttackBox. Activation starts with the dedicated Start AttackBox button to enable split-screen mode, 
 after which the attached target machine deploys via its green Start Machine button and requires up to three minutes to boot fully 
-before access at http://<TARGET_IP>. Alternative setups on Ubuntu or Fedora distributions use apt install hydra or dnf install hydra, 
+before access at http://<TARGET_IP>. Alternative setups on Ubuntu or Fedora distributions use 'apt install hydra' or 'dnf install hydra', 
 while the source remains available from the official THC-Hydra repository at https://github.com/vanhauser-thc/thc-hydra. 
 
 Command construction depends entirely on the chosen protocol. FTP targeting pairs a fixed username with a password list file. SSH 
