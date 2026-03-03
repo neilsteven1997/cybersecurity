@@ -68,7 +68,7 @@ Extracted Tables
 - Launch SSH brute forcing with username, password list path, thread count, and protocol specification for parallel attempts.
 - Identify the web form request method and failure indicator string prior to building the http-post-form command using field placeholders.
 - Immediately replace any default credentials on live systems to block list-based attacks.
-- hydra -l <user> -P /usr/share/wordlists/rockyou.txt <Target_IP> http-post-form "/login:username=^USER^&password=^PASS^:Your username or password is incorrect."
+- hydra -l < username > -P /usr/share/wordlists/rockyou.txt <Target_IP> http-post-form "/login:username=^USER^&password=^PASS^:Your username or password is incorrect."
 
 
 ---
