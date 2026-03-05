@@ -228,3 +228,131 @@ Understanding the finer details of background services will come in time after w
 
 ---
 
+1.3 RESOURCE MONITOR
+
+Seeing the Invisible
+
+Task Manager buries the truth. It tells you who is working, but not what they are working on. For that, we use Resource Monitor (resmon.exe).
+
+
+The "File in Use" Problem
+
+Sometimes you try to delete a folder and Windows freaks out: "The action cannot be completed because the file is open in another program". Windows won't tell you which program, but Resource Monitor will.
+
+
+Handles
+
+A "Handle" is a digital grip. When a program opens a file, it grabs a Handle. It tells the Operating System "I am holding this file. Do not let anyone else touch it".
+
+    Why Hackers use Handles: Malware often keeps a Handle on its own executable file to prevent anti-virus software from deleting it.
+
+The CPU Tab
+
+In Resource Monitor, the CPU tab allows you to search "Associated Handles". You can type the name of a file (e.g., passwords.txt), and it will show you exactly which process is secretly reading it.
+
+
+"The Hand in the Cookie Jar"
+
+For example, if we take a well known malware type Spyware, Resource Monitor can help spot unusual file interactions:
+
+    Task Manager shows you a program named svchost.exe. That looks normal.
+    You then search for "Associated Handles" and see that svchost.exe has a handle on chrome_cookies.sqlite or passwords.txt.
+    A legitimate Windows service has no business holding a handle on your browser cookies. You have just identified process injection (injecting code into legitimate processes to hide from detection) without relying on an antivirus scan.
+
+
+MISSION OBJECTIVE [UNLOCK_THE_MALWARE]:
+
+
+Step 1: Create the "Malicious" Lock
+
+Run this command in PowerShell on a Windows desktop. I promise it does nothing nefarious. It creates a file and locks it explicitly so that nothing else can touch it (simulating malware protecting its own executable):
+
+$bytes = [System.IO.File]::Open("C:\Users\Public\malware.txt", "OpenOrCreate", "Read", "None")
+
+Step 2: The Failure
+
+Go to C:\Users\Public\ and try to delete malware.txt.
+
+    Result: Windows throws the "File in Use" error.
+
+
+Step 3: Investigate the "Malware"
+
+Now, let's try and find the "malware" we just created:
+
+    Open Resource Monitor.
+    Go to the CPU tab.
+    Expand Associated Handles.
+    Search for: malware.txt.
+
+Step 4: Kill the "Malware"
+
+Resource Monitor will reveal that powershell.exe is the culprit.
+
+    Right-click powershell.exe -> End Process.
+
+    Now, you can delete the file. Nice.
+
+
+Handles can be a mechanism in which malware uses to survive, and Resource Monitor is the tool used to break that grip.
+
+
+Task Manager versus Resource Monitor
+
+Task Manager is designed for a general list to get a sense of what is running and from what file path, but it keeps their specific activities hidden. With the malware.txt file you are faced with a locked file (malware.txt) that refuses to be deleted. Task Manager is blind here. It lists running processes like powershell.exe, but it cannot confirm which one (if there are multiple) has actually gripped the file. This is why Resource Monitor can be needed. It allows you to bypass the guessing game by searching 'Associated Handles' for the specific file name. It bridges the gap between the locked artifact and the running process, providing the definitive proof you need to kill the correct process without crashing the wrong service. Especially when dealing with masquerading processes.
+
+
+The Memory Tab: Monitoring Data
+
+The Memory tab in Resource Monitor is where you can potentially identify malware being sneaky with things like process injections or not being sneaky at all and causing obvious issues that cause the computer to run slow or crash.
+
+    Hard Faults/sec: This isn't a disk error; it’s when a program tries to access data that isn't in the physical RAM and has to pull it from the "Page File" on your hard drive. High hard faults can indicate a Resource Exhaustion attack such as Denial of Service (DoS) or a program that is poorly written (leaking memory).
+    Commit: Shows the amount of virtual memory reserved by the operating system for a process. A surprisingly high commit size may indicate an injection.
+    The "Modified" Category: In the colored bar at the bottom, look for a "Modified" section (typically small on most computers). This represents data that must be written to disk before it can be used for something else. Large amounts of modified memory can be a sign of heavy encryption activity (like Ransomware) prepping data in the background. Ransomware being a form of malware that effectively locks someone's access to the computer, displaying a ransom message that requires payment to HOPEFULLY obtain a decryption key to unlock access to the computer.
+
+
+
+
+The Disk Tab: What Data is Getting Touched
+
+The Disk tab shows you every single file being read from or written to in real-time.
+
+    Disk Activities: This section lists every file path currently being touched. If you see a process like notepad.exe or calc.exe having high Write (B/sec) activity in your C:\Users\Documents folder, you aren't looking at a calculator you’re looking at Ransomware encrypting your files.
+    Something to look out for here is processes touching System32 or Drivers folders that aren't signed by Microsoft. For example, if a random executable is reading your NTDS.dit (the Active Directory database) or your browser's Login Data (path being C:\Users\<Username>\AppData\Local\Google\Chrome\User Data\Default\Login Data), that is one of those "Hand in the Cookie Jar" moments. You may have reason to panic.
+
+
+The Network Tab: Detecting C2 Beacons
+
+Most Malware has a form of Command and Control (C2) in place where it tries to beacon out from a compromised computer to a computer the hacker uses to control all the computers they've compromised. The Network tab shows you exactly where your data is going.
+
+    Network Connections: This shows the Remote Address (IP) every process is talking to. An Operative looks for any C2 (Command & Control) Beacons. These are tiny, consistent "blips" of data sent every few minutes. It's also possible if the beacon is sophisticated it's inconsistent making it harder to detect.
+    If you check "Listening Ports" and spot an unknown process with a port status of "Listening" it has turned your computer into a server. This is a classic sign of a Backdoor access to the computer or a RAT (Remote Access Trojan) waiting for instructions from the hacker.
+
+
+MISSION OBJECTIVE [TRACE_THE_BEACON]:
+
+
+Step 1: Create the "Malicious" Connection
+
+Simulate a "calling home" beacon by running the below command in PowerShell. It will establish a connection to Google's DNS server and then end after 60 seconds (rerun the command if you run out of time before reaching the last step):
+
+$client = New-Object System.Net.Sockets.TcpClient("8.8.8.8", 53); Write-Host "Connection Established. Monitoring for 60 seconds..."; Start-Sleep -Seconds 60; $client.Close(); Write-Host "Connection Closed."
+
+
+Step 2: Now Investigate the "Beacon"
+
+    Open Resource Monitor and go to the CPU tab.
+    Locate the powershell.exe process in the list of processes. Select the toggle next to powershell.exe to filter by that process in Resource Monitor.
+    Now go to the Network tab.
+    Under TCP Connections you should now see powershell.exe reaching out to remote port 8.8.8.8. Our Google DNS beacon.
+
+
+Obviously in a real attack, that IP wouldn't be Google (8.8.8.8). It would be a server in a different country, probably Russia. You have just identified a beacon which is a commonly seen Exfiltration Point.
+
+
+
+---
+
+
+
+
