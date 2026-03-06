@@ -75,12 +75,18 @@ than reinventing solutions.
 ---
 
 ### Key Takeaways
-- Entry-level analysts should know fundamental protocols and their TCP/IP model layers plus associated ports to identify vulnerabilities and mitigate attacks.
-- NAT, DHCP, ARP, Telnet, SSH, POP3, IMAP, and SMTP appear routinely in operations; understanding their ports and placement supports troubleshooting and firewall configuration.
-- Wireless protocol history from WEP through WPA, WPA2, and WPA3 reveals specific vulnerabilities like KRACK and guides selection of up-to-date encryption for organizational networks.
-- Subnetting via CIDR creates efficient internal segments and security zones without extra public IP allocations, enhancing performance and isolation.
-- Firewalls range from stateless to stateful and next-generation types with deep packet inspection; proxy servers and VPNs with encapsulation add layered protection.
-- VPN protocols such as WireGuard and IPSec define tunnel formation for remote access or site-to-site connections, with organizations increasingly combining VPN and SD-WAN in cloud models.
+- Entry-level analysts should know fundamental protocols and their TCP/IP model layers plus associated ports to identify
+  vulnerabilities and mitigate attacks.
+- NAT, DHCP, ARP, Telnet, SSH, POP3, IMAP, and SMTP appear routinely in operations; understanding their ports and placement supports
+  troubleshooting and firewall configuration.
+- Wireless protocol history from WEP through WPA, WPA2, and WPA3 reveals specific vulnerabilities like KRACK and guides selection of
+  up-to-date encryption for organizational networks.
+- Subnetting via CIDR creates efficient internal segments and security zones without extra public IP allocations, enhancing performance
+   and isolation.
+- Firewalls range from stateless to stateful and next-generation types with deep packet inspection; proxy servers and VPNs with
+  encapsulation add layered protection.
+- VPN protocols such as WireGuard and IPSec define tunnel formation for remote access or site-to-site connections, with organizations
+   increasingly combining VPN and SD-WAN in cloud models.
 - Leverage established secure protocols and focus collaboration on unsolved challenges rather than rebuilding known solutions.
 
 ---
