@@ -1,4 +1,4 @@
-Module 3: Secure Against Network Intrusions
+# Module 3: Secure Against Network Intrusions
 
 ---
 
