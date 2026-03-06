@@ -91,6 +91,32 @@ than reinventing solutions.
 
 ---
 
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="../images/test-your-knowledge-recognize-different-network-protocols_module-2-network-operations_2026-02-27.png" alt="Test Your Knowledge - Recognize Different Network Protocols" 
+  width="450"/>
+      <td align="center"><img src="../images/test-your-knowledge-system-identification_module-2-network-operations_2026-02-27.png" alt="Test Your Knowledge - Systems Identification" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Test Your Knowledge - Recognize Different Network Protocols</td>
+      <td align="center"><strong>Figure 1b:</strong> Test Your Knowledge - Systems Identification</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="../images/module-challenge-2-graded-assignment_module-2-network-operations_2026-02-27.png" alt="Module Challenge 2 - Graded Assignment" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Module Challenge 2 - Graded Assignment</td>
+  </table>
+</p>
+
+
+---
+
+
 
 
 
