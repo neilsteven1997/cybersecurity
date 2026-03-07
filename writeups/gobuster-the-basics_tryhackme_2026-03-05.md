@@ -136,7 +136,8 @@ lacking full DNS infrastructure.
   versus evasion, and combine -U/--username with -P for authenticated scans when credentials exist.
 - Distinguish modes clearly: dns performs DNS lookups on constructed FQDNs while vhost alters the Host header in direct HTTP requests
    to the same IP.
-
+- gobuster dir -u "siteLink" -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -r -x .php,.js
+  
 ---
 
 
