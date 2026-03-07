@@ -6,5 +6,5 @@
 - reviewed app permissions for any suspicious previlege 
 - enabled automated security for app permissions, removes permission from unused apps 
 
-## google 
+## Google 
 - updated password
