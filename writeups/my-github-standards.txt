@@ -35,6 +35,22 @@ cybersecurity-writeups/ (main)
 ├── milestones.md
 └── README.md (optional short description)
 
+## Security Audits Tree 
+
+ph-nist-csf-hypothetical-audits/
+├── README.md                  ← overall intro + links to everything
+├── profiles/                  ← folder for your Google Sheets exports / Excel / CSVs
+│   ├── PH-Government-CSF-Profile.xlsx          (or .csv if exported)
+│   ├── PH-Private-Sector-CSF-Profile.xlsx
+│   └── PH-Personal-Community-CSF-Profile.xlsx
+├── reports/                   ← Markdown summaries/findings (this is your "audit report")
+│   ├── audit-ph-government.md
+│   ├── audit-ph-private-sector.md
+│   └── audit-ph-personal-community.md
+├── evidence/                  (optional) screenshots, notes, links to PH laws/NCSP
+└── quick-reference/           (optional) copied NIST quick-start PDFs or your notes
+
+
 ---
 
 ## How to create a new writeup 
