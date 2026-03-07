@@ -543,6 +543,56 @@ This version is still **short, scannable, business-focused**, and very easy for 
 
 ---
 
+## Audit Report Format 
+
+# Hypothetical NIST CSF 2.0 Audit: Philippine Government
+
+**Audit Date:** March 2025 – March 2026 (hypothetical/personal learning project)  
+**Scope:** National government agencies, DICT, NCSP alignment, public sector practices  
+**Framework:** NIST Cybersecurity Framework 2.0  
+**Profile Files:**  
+- [Current/Target Profile Spreadsheet](./profiles/PH-Government-CSF-Profile.xlsx)  
+- [Google Sheets live view](your-google-link-here-if-shared)
+
+## Executive Summary
+- Overall current maturity: Partial (Tier 2-ish)  
+- Key strengths: NCSP 2023-2028 foundation, national policies exist  
+- Key gaps: Inconsistent implementation, limited community/people practices reach  
+- Top 3 recommendations: Mandate training, improve risk metrics, etc.
+
+## Methodology
+- Used NIST CSF 2.0 Organizational Profile template  
+- Focused on Govern, Protect (people practices), Detect/Respond  
+- Hypothetical based on public info (DICT reports, news, NCSP doc)
+
+## Current Profile Highlights
+(Embed or link key tables here – or paste small Markdown tables for top gaps)
+
+| Subcategory | Current Practices (PH Gov) | Status (1-5) | Priority | Target Goal |
+|-------------|-----------------------------|--------------|----------|-------------|
+| GV.OC-01   | NCSP exists nationally     | 3            | High     | Full integration... |
+| PR.AT-01   | Ad-hoc training in agencies| 2            | High     | Mandatory annual... |
+
+(Or just say: See full profile in linked spreadsheet – top gaps in rows GV.*, PR.AT.*)
+
+## Key Findings & Gaps
+- Bullet list of 5–10 major issues (people practices focus: low awareness in rural/barangay level, etc.)
+- Risk level per gap (High/Med/Low)
+
+## Recommendations / Target Profile
+- Prioritized actions (link back to high-priority rows)
+- Timeline ideas (e.g. align with NCSP 2028 goals)
+
+## References
+- NIST CSF 2.0: https://www.nist.gov/cyberframework
+- PH NCSP 2023-2028: [link if you have]
+- Other sources...
+
+**Note:** This is a personal educational exercise – not an official audit.
+
+
+---
+
 
 
 
