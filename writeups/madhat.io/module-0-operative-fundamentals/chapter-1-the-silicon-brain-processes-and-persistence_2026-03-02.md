@@ -353,6 +353,58 @@ Obviously in a real attack, that IP wouldn't be Google (8.8.8.8). It would be a 
 
 ---
 
+1.4 THE STACK AND THE HEAP
+
+The Geography of RAM
+
+When a program asks for RAM (The Countertop), it doesn't just get a blank void. The memory is divided into two distinct zones with very different rules. Understanding this geography is the prerequisite for understanding memory corruption vulnerabilities (like Buffer Overflows) and deep in the weeds Exploit Development. It's also important to understand RAM well enough to understand malware like Fileless malware that operate directly in a computer's volatile memory to be super sneaky.
+
+
+The Stack (Strict Order)
+
+Picture a stack of dinner plates, all breakable ceramic ones. You're only allowed to add a plate to the top (Push) and you can only remove a plate from the top (Pop). This is LIFO (Last In, First Out). The Stack is obsessively organized. It exists primarily to manage function calls (in code) and keep the CPU on track.
+
+
+    The "Stack Frame": Every time a function is called (e.g., Login Function), a new "plate" is pushed onto the stack. This plate contains the function’s LOCAL variables (variables that exist only in the function being ran compared to GLOBAL variables which are generally accessible by all functions). But what is more important to contain is the Return Address.
+
+
+    The Return Address: Think of this as a bookmark. It tells the CPU, "When you are done with this function, go back to exactly line 42 in the previous function".
+
+    Automatic Management: When the function finishes, the plate is "popped" off, and the memory is immediately reclaimed. The CPU reads the Return Address and jumps back to where it left off.
+
+
+The Heap (Controlled Chaos)
+
+The Heap is a like dirty pile of laundry. A big pool of memory used for dynamic data like the image you just uploaded or the text you are typing. Raw unadulterated data. The Heap is the massive pool of unstructured memory used for dynamic data that changes size or lasts a long time.
+
+    Pointers: Since the Heap is unorganized, the computer needs a map to find things. It uses Pointers. These are tiny distinct variables that live on the Stack, but point to a specific address in the Heap. When I had to learn Pointers in my C coding class, I hated every second of it. So understanding the main point of them is fine for now.
+
+
+    Manual Management: Unlike the Stack, the CPU doesn't automatically clean this up. Low-level programmers must explicitly ask for a chunk of memory (malloc) and explicitly release it (free). We're not going to get into the weeds of low-level versus high-level coding languages, just know that abusing the heap or stack targets languages that do need to free things in memory.
+
+    Fragmentation: Over time as chunks are grabbed and released the Heap gets Swiss-cheesed with gaps, making it harder to find large contiguous blocks. Kind of like trying to find a matching pair of socks in that pile of laundry. Pro tip: buy the same pair of socks. Always.
+
+
+The Libraries (Shared Knowledge)
+
+When you write a program, you don't write every single instruction from scratch. Because that would be tedious and downright awful. If you want your program to "Connect to Wi-Fi" or "Open a Window" you don't necessarily have to write the code for that. Instead, you can borrow it by calling upon the shared code in the Operating System.
+
+    Dynamic Link Libraries (DLLs): On Windows, these are files like kernel32.dll or user32.dll. They contain standard code for common tasks. The downside to being able to reference shared libraries like this is that it if you tamper with the code in those shared libraries, unexpected things can happen when a program calls upon it.
+
+To save precious RAM, Windows loads these libraries once and lets every running program look at them. Instead of every chef in the kitchen bringing their own cook book, there is one copy chained to the desk that everyone shares.
+
+
+Programs (on the Stack) will often "jump" into a Library to do a complex task, and then "return" to the Stack when finished.
+
+
+Why Should Cybersecurity Operatives Care
+
+To a normal user, these are the unknown finer details of how software runs on a computer. To a hacker or cybersecurity professional, these are the little details where you look to break or secure things.
+
+
+---
+
+
 
 
 
