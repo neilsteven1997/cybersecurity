@@ -404,6 +404,146 @@ To a normal user, these are the unknown finer details of how software runs on a 
 
 ---
 
+1.5 BUFFER OVERFLOWS FOR DUMMIES
+
+Smashing the Stack (Buffer Overflows)
+
+The Stack's greatest strength of packing data next to control instructions is unfortunately its Achilles heel (weakness).
+
+    Imagine you have a "plate" (Stack Frame) reserved for a password. The low-level programmer allocated space for 8 characters for that plate.
+    An attacker comes along and inputs 100 characters.
+    The input fills the password space and spills over the edge, overwriting the data below it (on the stack). Oh s#$%.
+    If the attacker is precise, they can overwrite the Return Address. Instead of the CPU returning to the main program, the attacker points the Return Address to their own malicious code. Yikes. The program is now hijacked and all hell breaks loose.
+
+
+Heap Exploitation (Use-After-Free)
+
+Because the Heap requires manual cleanup, programmers can often make mistakes. Shocking I know.
+
+    A program "frees" (deletes) a chunk of memory but keeps the Pointer (the map) that points to it. This is a "dangling pointer".
+
+    An attacker tricks the program into putting malicious data into that exact "freed" spot.
+
+    The program later tries to use the old "dangling pointer" thinking it's accessing safe data. But instead, it executes the attacker's payload. And boom goes the dynamite.
+
+
+Memory Forensics
+
+Understanding where data lives allows you to investigate it and hackers to steal it. If you're interested in Digital Forensics then you will have to intimately understand where data lives.
+
+    Secrets in RAM: Encryption keys and unencrypted passwords often live in the Heap while an application is running. If you can dump the RAM (Heap analysis), you can often find credentials that are encrypted on the hard drive, but you just pulled them UNencrypted from RAM because...Mimikatz, a tool that can pull credentials from the Local Security Authority Subsystem Service (LSASS) process in RAM. One of my superiors at work heavily emphasized understanding LSASS. So...as they say, if you don't learn LSASS, then you'll look like an...
+
+Modern Defenses
+
+Now I, just like most everyone in a cybersecurity program learns the OG methods of abusing RAM. But modern Operating Systems (Windows 11, Linux, macOS) have introduced massive walls to stop the attacks described above. "Vanilla" Buffer Overflows rarely work on modern systems without advanced bypass techniques.
+
+
+ASLR (Address Space Layout Randomization)
+
+No, this has nothing to do with ASMR. Unless you like the sounds your computer makes. Every time you reboot or restart the program, Windows randomly shuffles the locations of the Stack, Heap, and Libraries. This stops attackers from using known hard-code memory addresses.
+
+    Example: The password is always at address 0x123
+
+
+Imagine trying to rob a specific house, but every time you drive down the street, the houses have physically swapped places. Security through obscurity? Not great, but it certainly helps slow an attacker down.
+
+
+DEP (Data Execution Prevention) / NX (No-Execute)
+
+Windows marks the Stack as "Data Only". The CPU is forbidden from executing anything written there. This prevents attackers from injecting their own malicious code (Shellcode) directly onto the Stack. Ok, not bad, getting better with the defense in depth here.
+
+
+The chef (CPU) is trained to distinguish between a Menu item (instructions) and the Food (data). Even if you write "Rob the Bank" on a dinner plate, the chef refuses to leave the kitchen and go rob a bank. Because that would be silly.
+
+
+Stack Canaries (/GS)
+
+The compiler places a secret, random value (a "Canary") on the stack just before the Return Address. Before the function returns, the CPU checks if the Canary is still alive. If it has been fried into a lava chicken (overwritten), the program crashes immediately to prevent any malicious or unexpected behavior.
+
+
+Shadow Stacks (Intel CET) - The Cutting Edge
+
+The CPU maintains a second, hardware-protected "Shadow Stack" that only it can see. When a function is called, the Return Address is copied to both the normal stack and the Shadow Stack. If they don't match upon returning, the CPU kills the program. You can imagine this effectively kills many traditional attacks.
+
+
+Heap Randomization & Safe Linking
+
+Modern Heap managers (like Windows Segment Heap) heavily randomize where data lands and encrypt the pointers that link memory chunks together. If an attacker tries to overwrite a pointer, the decryption fails, and the program crashes safely. I realize we haven't covered encryption yet, but think of it like jumbling the code in a convoluted way that only the "randomizer" manager knows how to un-jumble.
+
+
+How It Is Still Abused
+
+You may be thinking, if the defenses are this good, why do we still learn this? Because attackers have moved from "kicking down the door" to "stealing the keys". And just like in math class where they teach you how to do things the "old" way before showing the "new" way, it's good to know it all.
+
+
+ROP (Return-Oriented Programming)
+
+Since DEP stops us from writing new code on the Stack, attackers use code that is already there. Where is it? In the Libraries.
+
+    You can't write a note because you have no pen. But you have a stack of magazines (The Libraries). You cut out letters and words from the magazines and glue them together to form your message.
+    An attacker can try to overwrite the Return Address to jump to tiny snippets of code inside kernel32.dll or ntdll.dll (called Gadgets), chaining them together to bypass defenses.
+
+
+DLL Hijacking & Injection
+
+Libraries are the most common vector for persistence (maintaining access to a computer and commonly referred to as "living off the land") and privilege escalation (getting admin/root privileges). A program may need a very specific library (e.g., UpdateHelper.dll) to run. Here's how it can play out:
+
+    An attacker places a malicious file named UpdateHelper.dll in a folder where the program looks first.
+    When the program starts it picks up the fake dll instead of the real one thereby executing the attacker's code with the program's privileges.
+    The attacker forces a running program to load a library it never asked for, effectively forcing the program to quietly compromise itself with malicious code. Neat.
+
+
+Logic Corruption & Data-Only Attacks
+
+Sometimes you don't need to execute code, you just need to change a decision. If a variable on the Stack says IsUserAdmin = 0 (False) and you can overflow a buffer just enough to change that 0 to a 1 (True) then you haven't executed malicious code. You've simply tricked the program's logic. ASLR and DEP generally do not stop this.
+
+
+You'll come to find out that not every defense on it's own is 100% foolproof. Hence, why the term "defense in depth" is thrown around in cybersec.
+
+
+Type Confusion (The "Ghost" in the Machine)
+
+Type Confusion is some dark arts, big brain s#$%. It’s exactly why Chrome, Safari, and Firefox are constantly pushing emergency zero-day patches. And yet, browser updates can go unignored forever. Even with Chrome doing most of the work, it's too much to ask people to click the "Finish update" button...
+
+
+The CPU is completely blind and incredibly...stupid. The trade off is it's fast. It doesn’t know what a "User Account" is. It doesn't know what a "PNG Image" is. All it sees is a chunk of raw 1s and 0s in the Heap, and a Blueprint, which is a structure or class definition in C++ which is a low-level programming language that web browsers are commonly built with that tells CPUs how to read those bytes.
+
+
+Say we have two blueprints in our code:
+
+    The User Blueprint: Expects 8 bytes for a Name, and 4 bytes for an IsAdmin permission (0 for No, 1 for Yes).
+    The Image Blueprint: Expects 8 bytes for a Filename, and 4 bytes for PixelColor.
+
+If the program creates a User, it uses the User Blueprint. Simple right?
+
+
+Queue Advanced Hacker
+
+Browsers are built on C++. C++ allows programmers to do something called "Type Casting". It’s a way for the programmer to tell the compiler "Trust me, bro. I know this memory chunk looks like an Image, but I need you to treat it like a User".
+
+
+Modern web browsers also run JavaScript and JavaScript is a chaotic, dynamically-typed mess where a variable can be a word one second and a number the next. The browser has to guess and optimize these types constantly to run fast.
+
+
+If a hacker finds a bug in the code that makes the engine guess wrong? Game over.
+
+
+    An attacker uploads a carefully crafted Image. They set the Filename to something normal, but set the PixelColor data to the exact hex value of 1. Then, they trigger the logic bug. You trick the browser into pointing at your Image's memory chunk, but tell it to read it using the User Blueprint.
+
+The blind CPU walks over to your Image data, it reads the first 8 bytes and thinks, "Ah yes, this is the User's Name. Most good I have a blueprint for this". Then, it reads the next 4 bytes (your PixelColor value of 1) and thinks, "Very nice, this is the IsAdmin permission. Look at that, it's set to 1! This dude is a VIP".
+
+
+The hacker just gained Admin privileges with no buffer overflow, no malicious shellcode attempted on the Stack, and without frying the Canary.
+
+
+All of the techniques mentioned could be entire lessons on their own, but it's good to have a quick understanding of where we stand today with defenses and attack methods.
+
+
+---
+
+
+
+
 
 
 
