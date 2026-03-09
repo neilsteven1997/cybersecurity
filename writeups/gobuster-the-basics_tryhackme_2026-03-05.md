@@ -140,7 +140,80 @@ lacking full DNS infrastructure.
   
 ---
 
+### Gallery 
 
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/gobuster-configurations_gobuster-the-basics_tryhackme_2026-03-05.png" alt="Gobuster Configurations" 
+  width="450"/>
+      <td align="center"><img src="images/gobuster-help_gobuster-the-basics_tryhackme_2026-03-05.png" alt="Gobuster Help" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Gobuster Configurations</td>
+      <td align="center"><strong>Figure 1b:</strong> Gobuster Help</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/tree-directory-up-to-3-levels_gobuster-the-basics_tryhackme_2026-03-05.png" alt="Tree Directory Up To 3 Levels" 
+  width="450"/>
+      <td align="center"><img src="images/gobuster-dir-help_gobuster-the-basics_tryhackme_2026-03-05.png" alt="Gobuster Dir Help" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Tree Directory Up To 3 Levels</td>
+      <td align="center"><strong>Figure 2b:</strong> Gobuster Dir Help</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/gobuster-dir-run_gobuster-the-basics_tryhackme_2026-03-05.png" alt="Gobuster Dir Run" 
+  width="450"/>
+      <td align="center"><img src="images/gobuster-dir-output-1_gobuster-the-basics_tryhackme_2026-03-05.png" alt="Gobuster Dir Output 1" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Gobuster Dir Run</td>
+      <td align="center"><strong>Figure 3b:</strong> Gobuster Dir Output 1</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/gobuster-dir-output-2_gobuster-the-basics_tryhackme_2026-03-05.png" alt="Gobuster Dir Output 2" 
+  width="450"/>
+      <td align="center"><img src="images/gobuster-vhost-help_gobuster-the-basics_tryhackme_2026-03-05.png" alt="Gobuster Vhost Help" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Gobuster Dir Output 2</td>
+      <td align="center"><strong>Figure 4b:</strong> Gobuster Vhost Help</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/gobuster-vhost-output_gobuster-the-basics_tryhackme_2026-03-05.png" alt="Gobuster Vhost Output" 
+  width="450"/>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 5a:</strong> Gobuster Vhost Output</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+
+---
 
 
 
