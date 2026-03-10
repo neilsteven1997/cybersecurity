@@ -21,8 +21,7 @@ Variables store and update data under user-defined names, such as assigning a st
 then modifying the value later by reassigning the same name to an expression involving its current content. Data types classify stored 
 information precisely: strings handle character sequences, integers cover whole numbers, floats manage decimals or fractions, booleans
 restrict values to true or false, and lists collect mixed items in a single variable. Logical operators enable conditional tests inside 
-structures like if statements and consist of equivalence with ==, less than with <, less than or equal to with <=, greater than with 
->, and greater than or equal to with >=. Boolean operators link multiple conditions: AND demands both true, OR accepts any one true,
+structures like if statements and consist of equivalence with ==, less than with <, less than or equal to with <=, greater than with >, and greater than or equal to with >=. Boolean operators link multiple conditions: AND demands both true, OR accepts any one true,
 >and NOT reverses the operand’s truth value. 
 
 Code examples illustrate these through simple if checks using OR on numeric conditions, or multi-branch if-elif-else blocks that 
