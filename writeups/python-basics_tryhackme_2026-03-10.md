@@ -122,7 +122,7 @@ Extracted Tables
   colon ends header, indented body contains logic and optional return
 - File operations steps: use open with filename and mode (r for read, a for append to existing, w for new/write), apply read/write
   methods, always call close to finalize
-- Useful pentesting libraries: Request for simple HTTP handling, Scapy to send sniff dissect and forge packets, Pwntools for CTF and
+- Useful pentesting libraries: `Request` for simple HTTP handling, `Scapy` to send sniff dissect and forge packets, `Pwntools` for CTF and
    exploit development (install non-built-in ones via pip)
 
 ---
