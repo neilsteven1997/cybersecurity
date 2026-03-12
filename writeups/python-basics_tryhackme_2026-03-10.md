@@ -144,97 +144,93 @@ Extracted Tables
     <tr>
       <td align="center"><img src="images/python-logo_python-basics_tryhackme_2026-03-10.png" alt="Python" 
   width="300"/>
-      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td align="center"><img src="images/script-py_python-basics_tryhackme_2026-03-10.png" alt="Script.py" width="450"/></td>
     </tr>
     <tr>
       <td align="center"><strong>Figure 1a:</strong> Python</td>
-      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 1b:</strong> Script.py</td>
     </tr>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td align="center"><img src="images/hello-world_python-basics_tryhackme_2026-03-10.png" alt="Hello World" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+      <td align="center"><img src="images/addition-0_python-basics_tryhackme_2026-03-10.png" alt="Addition - 0" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
-      <td align="center"><strong>Figure 2b:</strong> Incrementing the number on link to find secret code</td>
+      <td align="center"><strong>Figure 2a:</strong> Hello World</td>
+      <td align="center"><strong>Figure 2b:</strong> Addition - 0</td>
     </tr>
   </table>
 </p>
 
-1
-
-<p align="center">
-  <table>
-    <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
-  width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Figure 3a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 3b:</strong> Restored website after running restoration script</td>
-    </tr>
-    <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
-  width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
-    </tr>
-     <tr>
-      <td align="center"><strong>Figure 4a:</strong> Using deployer bash to find the flag</td>
-      <td align="center"><strong>Figure 4b:</strong> Incrementing the number on link to find secret code</td>
-    </tr>
-  </table>
-</p>
-
-2
 
 
 <p align="center">
   <table>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td align="center"><img src="images/subtraction_python-basics_tryhackme_2026-03-10.png" alt="Subtraction" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td align="center"><img src="images/multiplication_python-basics_tryhackme_2026-03-10.png" alt="Multiplication" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 5a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 5b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 3a:</strong> Subtraction</td>
+      <td align="center"><strong>Figure 3b:</strong> Multiplication</td>
     </tr>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td align="center"><img src="images/exponential_python-basics_tryhackme_2026-03-10.png" alt="Exponential" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+      <td align="center"><img src="images/addition-1_python-basics_tryhackme_2026-03-10.png" alt="Addition - 1" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 6a:</strong> Using deployer bash to find the flag</td>
-      <td align="center"><strong>Figure 6b:</strong> Incrementing the number on link to find secret code</td>
+      <td align="center"><strong>Figure 4a:</strong> Exponential</td>
+      <td align="center"><strong>Figure 4b:</strong> Addition - 1</td>
     </tr>
   </table>
 </p>
 
-3
 
 
 <p align="center">
   <table>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td align="center"><img src="images/addition-2_python-basics_tryhackme_2026-03-10.png" alt="Addition - 2" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td align="center"><img src="images/if-statements_python-basics_tryhackme_2026-03-10.png" alt="If Statements" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 7a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 7b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 5a:</strong> Addition - 2</td>
+      <td align="center"><strong>Figure 5b:</strong> If Statements</td>
     </tr>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td align="center"><img src="images/shipping-py-0_python-basics_tryhackme_2026-03-10.png" alt="Shipping.py - 0" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+      <td align="center"><img src="images/shipping-py-1_python-basics_tryhackme_2026-03-10.png" alt="Shipping.py - 1" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 8a:</strong> Using deployer bash to find the flag</td>
-      <td align="center"><strong>Figure 8b:</strong> Incrementing the number on link to find secret code</td>
+      <td align="center"><strong>Figure 6a:</strong> Shipping.py - 0</td>
+      <td align="center"><strong>Figure 6b:</strong> Shipping.py - 1</td>
+    </tr>
+  </table>
+</p>
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/for-loop_python-basics_tryhackme_2026-03-10.png" alt="For Loop" 
+  width="450"/>
+      <td align="center"><img src="images/bitcoin-py_python-basics_tryhackme_2026-03-10.png" alt="Bitcoin.py" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 7a:</strong> For Loop</td>
+      <td align="center"><strong>Figure 7b:</strong> Bitcoin.py</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/read-py_python-basics_tryhackme_2026-03-10.png" alt="Read.py" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 8a:</strong> Read.py</td>
     </tr>
   </table>
 </p>
