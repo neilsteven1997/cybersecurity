@@ -2,6 +2,11 @@
 
 ---
 
+<p align="center">
+  <img src="images/python-logo_python-basics_tryhackme_2026-03-10.png" alt="Python" 
+  width="300"/>
+</p>
+
 In this introductory room on Python scripting, the focus rests on building foundational skills that support tool creation and 
 automation in security work, even though programming remains optional for success in the field. Related content like the Scripting for
 Pentesters module shows how such abilities help generate quick scripts for hacking, defense, and analysis tasks. The covered topics 
@@ -134,6 +139,105 @@ Extracted Tables
 
 ### Gallery 
 
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/python-logo_python-basics_tryhackme_2026-03-10.png" alt="Python" 
+  width="300"/>
+      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Python</td>
+      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+  width="450"/>
+      <td align="center"><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
+      <td align="center"><strong>Figure 2b:</strong> Incrementing the number on link to find secret code</td>
+    </tr>
+  </table>
+</p>
+
+1
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+  width="450"/>
+      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Final defacement after container escape</td>
+      <td align="center"><strong>Figure 3b:</strong> Restored website after running restoration script</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+  width="450"/>
+      <td align="center"><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Using deployer bash to find the flag</td>
+      <td align="center"><strong>Figure 4b:</strong> Incrementing the number on link to find secret code</td>
+    </tr>
+  </table>
+</p>
+
+2
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+  width="450"/>
+      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 5a:</strong> Final defacement after container escape</td>
+      <td align="center"><strong>Figure 5b:</strong> Restored website after running restoration script</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+  width="450"/>
+      <td align="center"><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 6a:</strong> Using deployer bash to find the flag</td>
+      <td align="center"><strong>Figure 6b:</strong> Incrementing the number on link to find secret code</td>
+    </tr>
+  </table>
+</p>
+
+3
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+  width="450"/>
+      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 7a:</strong> Final defacement after container escape</td>
+      <td align="center"><strong>Figure 7b:</strong> Restored website after running restoration script</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+  width="450"/>
+      <td align="center"><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 8a:</strong> Using deployer bash to find the flag</td>
+      <td align="center"><strong>Figure 8b:</strong> Incrementing the number on link to find secret code</td>
+    </tr>
+  </table>
+</p>
 
 ---
 
