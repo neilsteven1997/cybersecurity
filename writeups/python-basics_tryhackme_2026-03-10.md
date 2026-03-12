@@ -127,7 +127,14 @@ Extracted Tables
 
 ---
 
+### Projects 
+[github.com/neilsteven1997/cybersecurity/](https://github.com/neilsteven1997/cybersecurity/tree/main/writeups/projects/python-basics_tryhackme)
+
+---
+
+### Gallery 
 
 
+---
 
 
