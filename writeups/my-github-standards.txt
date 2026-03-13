@@ -51,6 +51,36 @@ ph-nist-csf-hypothetical-audits/
 └── quick-reference/           (optional) copied NIST quick-start PDFs or your notes
 
 
+## Master Readme.md (Root Folder)
+
+# WriteUps & Portfolio  
+My learning journey documentation: Cisco Packet Tracer labs, Google Cybersecurity Certificate projects, notes, and more.
+
+## Quick Navigation
+
+### Cisco Networking (Packet Tracer)
+- **16 Enterprise-grade labs** — VLANs, OSPF, NAT, ACLs, VPN, IoT, hybrids, wireless, VoIP  
+- Location: [Cisco/Projects](./Cisco/Projects)  
+- Master hybrid demo: [enterprise-hybrid-hq.pkt](./Cisco/Projects/15-enterprise-hybrid-hq/enterprise-hybrid-hq.pkt)  
+- Skills: subnetting, dynamic routing, security hardening, office-style physical layouts
+
+### Google Cybersecurity Professional Certificate (Coursera)
+- Portfolio activities, incident reports, audits, playbooks, etc.  
+- Location: [Coursera/Google-Cybersec/Projects](./Coursera/Google-Cybersec/Projects)  
+- Certificate progress & reflections
+
+### Other Resources
+- General notes & misc write-ups: [General-Notes/](./General-Notes/)
+
+## Why This Repo?
+Documenting hands-on work to build real skills for junior network / cybersecurity roles.  
+Each project folder includes: .pkt files (Cisco), screenshots, running-configs, verification commands, and lessons learned.
+
+Last updated: March 2026  
+Tools: Cisco Packet Tracer 8.2 • Coursera labs • Markdown write-ups
+
+End --> ## Master Readme.md (Root Folder)
+
 ---
 
 ## How to create a new writeup 
