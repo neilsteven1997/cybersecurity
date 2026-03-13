@@ -593,6 +593,34 @@ This version is still **short, scannable, business-focused**, and very easy for 
 
 ---
 
+## Cisco Projects 
+
+File Naming – Keep It Simple & ConsistentNo need to cram "cisco" or dates into every filename — that makes it look cluttered and dated quickly. Dates especially become outdated the moment you add the next project.Recommended naming style (what most strong portfolios do):Main .pkt files (one per project):
+Use descriptive, kebab-case or camelCase names that tell what the lab is.
+Examples:  soho-office-network.pkt  
+vlan-multi-department.pkt  
+ospf-multi-area-enterprise.pkt  
+site-to-site-ipsec-vpn.pkt  
+full-campus-with-servers.pkt  
+iot-smart-building.pkt
+
+Config exports (txt files):
+Name them after the device + what it is.
+Examples inside a project folder:  R1-HQ-running-config.txt  
+SW2-Access-Floor1-running-config.txt  
+ASA-Firewall-running-config.txt
+
+Screenshots:  topology-overview.png  
+vlan-assignment.png  
+ospf-neighbors-verification.png  
+acl-hit-counts.png
+
+Optional master file (when you combine projects):
+enterprise-hq-combined.pkt or full-portfolio-demo.pkt
+
+
+
+
 
 
 
