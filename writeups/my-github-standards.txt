@@ -37,19 +37,38 @@ cybersecurity-writeups/ (main)
 
 ## Security Audits Tree 
 
-ph-nist-csf-hypothetical-audits/
-├── README.md                  ← overall intro + links to everything
-├── profiles/                  ← folder for your Google Sheets exports / Excel / CSVs
-│   ├── PH-Government-CSF-Profile.xlsx          (or .csv if exported)
-│   ├── PH-Private-Sector-CSF-Profile.xlsx
-│   └── PH-Personal-Community-CSF-Profile.xlsx
-├── reports/                   ← Markdown summaries/findings (this is your "audit report")
-│   ├── audit-ph-government.md
-│   ├── audit-ph-private-sector.md
-│   └── audit-ph-personal-community.md
-├── evidence/                  (optional) screenshots, notes, links to PH laws/NCSP
+ph-nist-csf
+├── README.md                  ← main project overview (what you call "main.md")
+├── main-research.md           ← your full research summary / background / methodology
+│
+├── profiles/                  ← ← ← put everything here (use the folder you already have)
+│   ├── philippine-government/
+│   │   ├── README.md                  ← short intro for this profile only
+│   │   ├── audit-ph-government.md     ← the filled NIST template (.md)
+│   │   ├── recommendations.md         ← gaps + action plan
+│   │   └── evidence/                  ← screenshots, links, notes (create this folder)
+│   │
+│   ├── private-companies/
+│   │   ├── README.md
+│   │   ├── audit-private-companies.md
+│   │   ├── recommendations.md
+│   │   └── evidence/
+│   │
+│   └── filipino-people/
+│       ├── README.md
+│       ├── audit-filipino-people.md
+│       ├── recommendations.md
+│       └── evidence/
+│
+├── reports/                   ← (optional – keep your existing folder)
+│   └── consolidated-summary.md  ← one-page comparison of all 3 profiles (nice bonus)
+│
+└── evidence/                  ← (root level for anything shared across all profiles)
+│
 └── quick-reference/           (optional) copied NIST quick-start PDFs or your notes
 
+
+---
 
 ## Master Readme.md (Root Folder)
 
