@@ -541,6 +541,220 @@ All of the techniques mentioned could be entire lessons on their own, but it's g
 
 ---
 
+1.6 PROCESS INJECTION
+
+
+Alright Operatives, we’ve talked about the CPU (Chef), the RAM (Counterspace), and the rogue contractors (Processes) running in the background as well as how spilling too much data (Buffer Overflows) can break things.
+
+
+Now we’re going to talk about one the most common "sneaky" moves in the hacker's playbook. The one that keeps Incident Responders up at night and makes Security Analysts squint at their monitors harder than anything else. Maybe not as much as when they get another clicked phishing URL alert from Carl...but close.
+
+
+Process Injection
+
+We've gone beyond "viruses" as separate programs that run completely on their own. In the wild west days, viruses were like a shady guy standing in the lobby wearing a mask...Nothing wrong with wearing a mask, but it's sus. Security guards (Antivirus) would see him, check his ID (filehash), see he was on the blacklist (known bad filehashes), and kick him out. Easy, but times have changed.
+
+
+Process Injection is different because it’s not just a guy in a mask. It’s the guy who sneaks into the kitchen, knocks out your head Chef, puts on his hat (a man of many hats) and starts cooking with cyanide (very bad poison). Meanwhile, all the security guards outside are oblivious (probably Microsoft Defender guards). All they might think is “Oh, that’s just Chef Chrome. Durp. He works here”.
+
+
+The OS Rules (Isolation)
+
+Let's break down how this actually works inside the factory. Remember the Von Neumann Architecture? Every process gets its own Virtual Address Space.
+
+    Chrome has its own private kitchen.
+    Notepad has its own private kitchen.
+    Lsass.exe (the guy holding your passwords) has a very private kitchen. Don't sleep on Lsass, you're going to eventually need to know what this does.
+
+
+The fundamental rule of the OS is "Stay in your own lane". Chrome isn't supposed to just walk into Notepad's kitchen and start chopping onions and usually cannot do so because the OS is supposed to keep the doors locked. But...sometimes valid programs need to talk to each other. Debuggers need to fix broken code. Antivirus needs to scan memory. So, Windows created keys to open those doors. We call these APIs (Application Programming Interfaces). Hackers love APIs. They use these legitimate API calls to break into things.
+
+
+When the bad hacker people write malware usually in languages like C++ or C# if they're aiming to use process injection, they are writing a script that acts exactly like a recipe. They have to explicitly give instructions in their code to tell the CPU what to do.
+
+    The Code Structure: The malware's source code will literally look like a checklist:
+
+    OpenProcess() -> Get the handle.
+    VirtualAllocEx() -> Reserve the memory.
+    WriteProcessMemory() -> Copy the shellcode.
+    CreateRemoteThread() -> Execute.
+
+
+Now we haven't covered any CPU instructions (low level programming). But, OpenProcess, VirtualAllocEx, etc. are not CPU instructions. They are API Calls (Application Programming Interfaces). To help understand what these are, think of it like this:
+
+    API Call (VirtualAllocEx): This is you filling out a Request Form and handing it to the Restaurant Manager (Windows OS). You're asking permission to do something using a ready to go form.
+    CPU Instruction (MOV, PUSH, JMP): This is the Restaurant Manager actually performing what was requested. These are the raw, physical commands that move electricity through the silicon chips (CPUs).
+
+
+Worth noting as far as how these are process injection malware are coded:
+
+    Dumb Malware: Yes, there's a lot of old lingering malware on the internet. Older lazy malware is hardcoded to always try to inject into explorer.exe or svchost.exe. If those aren't found and are usually blocked, the malware will crash or fail.
+    Smart Malware: The logic is hardcoded, but the target (APIs) is dynamic. It will scan your running processes (Tasklist), filter out bad targets (like antivirus), and pick the "safest" looking one (maybe your Calculator or Notepad) to inject into.
+
+
+I don't want to get too deep into the weeds of Windows APIs but if you're curious check out Microsoft's official documentation index of all the them. There's a ton.
+
+
+The Hierarchy of Command
+
+To get from your "Request" to the actual "Action" the computer goes through layers. From user layer to kernel layer. I haven't mentioned kernel before so a quick overview is in order. If the CPU can be thought of as the Chef and programs are just Line Cooks hired to do specific prep work. Well the Kernel can be thought of as the Restaurant Manager who SHOULD be the only person with the keys to the walk-in freezer (Hardware) and the safe. Line Cooks (User Mode) have limited access. They cannot just expand their station (RAM), talk to the suppliers (Drivers), or fire other cooks. They have to ask permission via a specific request (API). The Manager is the absolute authority. If a Line Cook messes up, the Manager fires them. But if the Manager messes up? The whole restaurant shuts down (Blue Screen of Death).
+
+The High-Level of a Hacker
+
+The hacker writes C++ code that looks like English: VirtualAllocEx(hProcess, NULL, sizeof(shellcode), ...);
+
+    Example: "Manager, please reserve this much space for me".
+
+The API Layer (User Mode - kernel32.dll)
+
+This is the front desk (request form desk) of the Operating System. It checks your paperwork (permissions). If the Antivirus is watching, it stands right here at the front desk.
+
+    Example: The Receptionist checks your badge "Okay, let me call the Kernel for you".
+
+The Syscall (The Bridge)
+
+This is where the software crosses the boundary from User Mode (Apps) to Kernel Mode (God Mode). The CPU executes a specific instruction called SYSCALL (on x64) or SYSENTER (on x86). This switches the CPU into a higher privilege state.
+
+    Example: The Receptionist hits a button to open the doors to the inner sanctum.
+
+The Kernel (The Real Boss - ntoskrnl.exe)
+
+Now inside the Kernel, Windows executes the real function (often named NtAllocateVirtualMemory). It talks directly to the hardware memory controller to physically assign RAM pages.
+
+    Example: The Manager walks into a kitchen and points at specific counterspace.
+
+The CPU Instructions (The Metal)
+
+Finally, the CPU executes the raw Assembly code to make it happen. It looks like this code snippet:
+
+MOV RAX, 0x18 ; Move the "System Call Number" for Memory Allocation into Register A
+
+MOV R10, RCX ; Move the arguments into the right registers
+
+SYSCALL ; Switch to Kernel Mode
+
+    Example: The Manager successfully allocates and reserves counter space. Low-level CPU instructions can be quite scary looking. Low level programming is...deep deep in the weeds.
+
+Why Does This Matter?
+
+Remember how I said the Antivirus watches the "Front Desk" (The API Layer)? Most EDRs (Endpoint Detection and Response) put "Hooks" (cameras) on VirtualAllocEx. They watch for anyone asking for RWX (Read/Write/Execute) permissions. Over time EDRs have become savvy to all the commonly abused APIs and will catch nefarious requests.
+
+
+Advanced Malware (Direct Syscalls): Sophisticated hackers realize they don't have to talk to the Receptionist (VirtualAllocEx). They can just write the Assembly code (MOV EAX, 18, SYSCALL) directly in their malware. Deep weed-wacker hackers? Low level low-lifes?
+
+
+They bypass the API. They bypass the Receptionist. They bypass the Antivirus hook. They walk right up to the kernel's door, punch in the code and talk directly to the Kernel.
+
+
+The Four Stages of the Attack
+
+Process injection typically follows a four-step pattern:
+
+
+Step 1: Target Identification (Finding a Host)
+
+The malware is running on your system, but it's vulnerable and easily identifiable. If you open Task Manager, you’ll see malware.exe. It needs to hide and modern antivirus will still spot it even if it renames itself. It scans the process list for a victim and it wants a process that:
+
+    Is stable (won't crash easily).
+    Is trusted (won't look weird making network connections).
+    Has System privileges (God Mode).
+
+Common victims? explorer.exe (your desktop), svchost.exe (Service Host), or your web browser.
+
+Step 2: Allocation (Counter Space)
+
+Once it picks a victim (let’s say chrome.exe, PID 1234), it needs to get inside. It asks Windows for a Handle (a grip) on that process. Then it uses a command called VirtualAllocEx.
+
+
+In our analogy: The malware yells at the Manager: "Hey! I need you to clear off a section of the Countertop inside Chrome’s kitchen. Reserve it for me."
+
+What you need to note is it will ask for RWX permissions: Read, Write, Execute.
+
+    Read/Write: "I need to put ingredients here."
+    Execute: "I need to cook here."
+
+Operative Note: This is a HUGE red flag. Remember the Heap? It’s for storage (Read/Write). It is not for cooking (Execute). If you see a countertop that is also a stove...something ain't right.
+
+
+In a previous lesson we brought up built in Windows security that aims to prevent execution of code in RAM (volatile memory). Process injection that uses VirtualAllocEx is a way to bypass security like DEP which would typically prevent execution of code in memory. Effectively getting Windows to voluntarily turn off its own DEP protection for that specific slice of memory. Nice. With more sophisticated attacks popping up left and right, built in security can't keep up. That's where EDR comes in detecting and preventing the anomalous activity. Or trying to anyways...
+
+
+Step 3: Payload Delivery (Uh-oh)
+
+Now that the space is reserved, the malware uses WriteProcessMemory. This is exactly like the Buffer Overflow concept, but controlled. The malware takes its malicious code (Shellcode) and drops it directly onto that reserved counter in Chrome’s kitchen. At this point, the bad code is inside the trusted process, but it’s just sitting there. It’s a recipe card on the counter. Nobody is cooking it yet.
+
+
+
+Step 4: Execution (The New Chef)
+
+The malware needs a Chef to cook the recipe. It uses CreateRemoteThread. It tells the OS: "Hey, spawn a new Assistant Chef (Thread) inside Chrome’s kitchen. And tell him to start working...right HERE" (Points to the malicious code).
+
+
+Suddenly, you have a thread running inside chrome.exe that isn't browsing the web it's stealing your passwords or mining crypto.
+
+
+Advanced Tactics
+
+
+"Fileless" Malware (Reflective DLL Injection)
+
+The old-school injection required dropping a malicious file on the disk (the Pantry) so the OS could load it. But as we learned, the Pantry is slow and heavily monitored by security guards (Antivirus). If a file touches the hard drive, it usually gets caught.
+
+
+Modern hackers use Reflective DLL Injection to completely bypass the hard drive.
+
+Normally, when a program needs a Library (DLL), the OS reads the file from the disk, does a background check, officially "hires" the code, and puts its name on the active "Module List" in Task Manager.
+
+
+Reflective Injection is a piece of malware that acts like its own HR department.
+
+    The Break-In: Instead of coming through the front door as a file on disk, the malware is injected directly into RAM (the Kitchen) as raw code.
+    The Bootstrapping: Once inside, it contains a special function that unpacks, sets up, and connects itself to the surrounding program. It doesn't ask the OS to load it but instead loads itself.
+    The "Ghost": Because the OS never officially processed the "hiring" paperwork, the malware doesn't register with the OS. It doesn't show up in the "Module List" in Task Manager.
+
+
+It is a ghost employee. They are working in the building, cooking and eating the food. Doing whatever they please whether that's stealing data or resources all while the OS has no record of them ever being "hired". They only exist in the volatile memory of the RAM where a volatile memory dump is needed to see any record of what was done.
+
+
+This is a major limitation of traditional antivirus. But, with most common EDR security tools these days capable of checking volatile memory we have less to worry about. However, if an alert goes off about a malicious looking process injection attempt, they will show what they're configured to log in device timelines (telemetry), but it generally does not include what is running in volatile memory. That's too deep in the weeds for EDR to log. Further forensic analysis and log dumps would need to be done to confirm exactly what occurred. Making determining process injection a bit difficult in the available EDR data alone.
+
+Process Hollowing
+
+While Reflective Injection hides code inside a working program, Process Hollowing takes a different approach. It involves mercilessly killing a trusted program and wearing it like a mask. Pure evil.
+
+
+Here is a quick breakdown:
+
+    Start Suspended (CreateProcess): The hacker starts a highly trusted and legitimate process (like svchost.exe), but uses a special flag to launch it "Suspended".
+    Example: The legitimate Chef clocks in, walks into the kitchen, and immediately freezes like a statue before doing any work. The security cameras see a trusted employee at their station. Frozen like a weirdo.
+    Unmap Memory (NtUnmapViewOfSection): The hacker carves out the legitimate safe code from the process's memory.
+    Example: The hacker surgically removes the frozen Chef's brain (the safe recipes) and throws it in the trash. Yikes.
+    Write Payload (WriteProcessMemory): They copy their own malware code into the empty, hollowed-out skull of the process.
+    Example: The hacker inserts a new, purely malicious brain into the Chef.
+    Resume Thread (ResumeThread): They tweak the CPU so it points to the new code, and tell the OS to "Resume Process".
+    Example: The Chef unfreezes and to the outside world, he looks exactly like Chef Svchost. He wears the right hat. His badge works. He has the correct PID. But his brain is now cooking pure malware.
+
+
+
+Why You Need to Know This
+
+You might be thinking, "This sounds complicated and impossible to stop". It's hard, but not impossible. Remember Resource Monitor? Remember Handles? Standard Task Manager lies to you because it trusts the badge. As an Operative, you trust nothing and question everything. You have to look for the source of truth and in this lesson's case that's in volatile memory (RAM).
+
+    You look for Unbacked Memory (Code running on a counter that didn't come from a known recipe book/file).
+    You look for RWX Permissions (A countertop that is suspiciously acting like a stove).
+
+When a computer is "acting weird", the old antivirus says everything is clean...there may be something nefarious afoot. An API call. A call that is coming from inside the house, phoning home to the C2 server...
+
+
+There's tons of types of complicated process and memory injection techniques you can read about on a website you should become very familiar with:
+
+https://attack.mitre.org/techniques/T1055
+
+
+
+---
+
+
 
 
 
