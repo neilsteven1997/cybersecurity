@@ -124,7 +124,8 @@ not only mitigate risks but also support growth without compromising security.
 
 ### Projects
 - Coursera activity: [https://www.coursera.org](https://www.coursera.org/learn/manage-security-risks/assignment-submission/TMBj8/portfolio-activity-conduct-a-security-audit/attempt)
-- GitHub writeups portfolio: [https://github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/tree/main/writeups)
+- GitHub writeup: [https://github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/edit/main/security-audits/botium-toys/botium-toys_2026-02-22.md)
+- Security Audit: [https://github.com/neilsteven1997/cybersecurity/security-audits/botium-toys](https://github.com/neilsteven1997/cybersecurity/tree/main/security-audits/botium-toys)
 
 ---
 
