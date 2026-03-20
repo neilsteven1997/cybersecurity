@@ -122,6 +122,12 @@ not only mitigate risks but also support growth without compromising security.
 
 ---
 
+### Projects
+- Coursera activity: [https://www.coursera.org](https://www.coursera.org/learn/manage-security-risks/assignment-submission/TMBj8/portfolio-activity-conduct-a-security-audit/attempt)
+- GitHub writeups portfolio: [https://github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/tree/main/writeups)
+
+---
+
 ### Gallery 
 
 <p align="center">
