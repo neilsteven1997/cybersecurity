@@ -143,7 +143,7 @@ Self-assessment: Passed (100% / 5–5 points)
 
 ## Artifacts
 - Coursera activity: [https://www.coursera.org](https://www.coursera.org/learn/manage-security-risks/assignment-submission/TMBj8/portfolio-activity-conduct-a-security-audit/attempt)
-- GitHub writeups portfolio: [https://github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/tree/main/writeups)
+- GitHub writeup: [https://github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/blob/main/writeups/coursera/google-cybersecurity-professional-certificate/course-2-play-it-safe-manage-security-risks/module-2-security-frameworks-and-controls_2026-02-14.md)
 
 ---
 Last updated: February 22, 2026
