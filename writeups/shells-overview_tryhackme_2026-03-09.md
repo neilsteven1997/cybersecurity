@@ -87,7 +87,9 @@ identification.
 - Exploit the command injection vulnerability on the application at <MACHINE_IP>:8081
 - Exploit the unrestricted file upload vulnerability on the application at <MACHINE_IP>:8082
 - Retrieve the flag in THM{} format using either the attack box split-screen or VPN connection
-
+- use known ports used by other applications like 53, 80, 8080, 443, 139, or 445 to blend the reverse shell with legitimate traffic
+  and avoid detection.
+  
 ---
 
 
