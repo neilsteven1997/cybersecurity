@@ -92,6 +92,66 @@ identification.
   
 ---
 
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/bind-shell_shells-overview_tryhackme_2026-03-09.png" alt="Bind Shell" 
+  width="450"/>
+      <td align="center"><img src="images/pownyshell_shells-overview_tryhackme_2026-03-09.png" alt="Pownyshell" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Bind Shell</td>
+      <td align="center"><strong>Figure 1b:</strong> Pownyshell</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/3b374k-shell_shells-overview_tryhackme_2026-03-09.png" alt="3b374k Shell" 
+  width="450"/>
+      <td align="center"><img src="images/4c99-shell_shells-overview_tryhackme_2026-03-09.png" alt="4c99 Shell" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> U3b374k Shell</td>
+      <td align="center"><strong>Figure 2b:</strong> 4c99 Shell</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/target-website_shells-overview_tryhackme_2026-03-09" alt="Target Website" 
+  width="450"/>
+      <td align="center"><img src="images/unrestricted-upload-vulnerability_shells-overview_tryhackme_2026-03-09.png" alt="Unrestricted Upload Vulnerability" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Target Website</td>
+      <td align="center"><strong>Figure 3b:</strong> Unrestricted Upload Vulnerability</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/found-a-flag_shells-overview_tryhackme_2026-03-09.png" alt="Found A Flag" 
+  width="450"/>
+      <td align="center"><img src="images/successfully-deployed-reverse-shell_shells-overview_tryhackme_2026-03-09.png" alt="Successfully Deployed Reverse Shell" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> Found A Flag</td>
+      <td align="center"><strong>Figure 4b:</strong> Successfully Deployed Reverse Shell</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+
+---
+
+
+
 
 
 
