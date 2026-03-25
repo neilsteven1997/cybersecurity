@@ -106,13 +106,13 @@ identification.
       <td align="center"><strong>Figure 1b:</strong> Pownyshell</td>
     </tr>
     <tr>
-      <td align="center"><img src="images/3b374k-shell_shells-overview_tryhackme_2026-03-09.png" alt="3b374k Shell" 
+      <td align="center"><img src="images/b374k-shell_shells-overview_tryhackme_2026-03-09.png" alt="b374k Shell" 
   width="450"/>
-      <td align="center"><img src="images/4c99-shell_shells-overview_tryhackme_2026-03-09.png" alt="4c99 Shell" width="450"/></td>
+      <td align="center"><img src="images/c99-shell_shells-overview_tryhackme_2026-03-09.png" alt="c99 Shell" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> U3b374k Shell</td>
-      <td align="center"><strong>Figure 2b:</strong> 4c99 Shell</td>
+      <td align="center"><strong>Figure 2a:</strong> b374k Shell</td>
+      <td align="center"><strong>Figure 2b:</strong> c99 Shell</td>
     </tr>
   </table>
 </p>
