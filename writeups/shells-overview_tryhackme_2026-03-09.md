@@ -124,7 +124,7 @@ identification.
 <p align="center">
   <table>
     <tr>
-      <td align="center"><img src="images/target-website_shells-overview_tryhackme_2026-03-09" alt="Target Website" 
+      <td align="center"><img src="images/target-website_shells-overview_tryhackme_2026-03-09.png" alt="Target Website" 
   width="450"/>
       <td align="center"><img src="images/unrestricted-upload-vulnerability_shells-overview_tryhackme_2026-03-09.png" alt="Unrestricted Upload Vulnerability" width="450"/></td>
     </tr>
