@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **March 31, 2026**: Completed Tryhackme - SQLMap: The Basics
 - **March 24, 2026**: Completed Tryhackme - Shells Overview
 - **March 19, 2026**: Completed Tryhackme - Python for Pentesters
 - **March 12, 2026**: Completed Tryhackme - Python Basics
