@@ -64,7 +64,7 @@ a realistic setting.
 The room wraps up by outlining SOC responsibilities and illustrating how people, processes, and technology combine in routine
 use cases. Hands-on practice resolving an actual alert as a Level 1 analyst reinforces the concepts covered.
 
---
+---
 
 **Extracted Tables**
 
