@@ -105,3 +105,48 @@ use cases. Hands-on practice resolving an actual alert as a Level 1 analyst rein
 
 ---
 
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/5ws_soc-fundamentals_tryhackme_2026-03-31.png" alt="5 W's" 
+  width="450"/>
+      <td align="center"><img src="images/siem-dashboard_soc-fundamentals_tryhackme_2026-03-31.png" alt="Siem Dashboard" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> 5 W's</td>
+      <td align="center"><strong>Figure 1b:</strong> Siem Dashboard</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/alert-port-scan-activity-0_soc-fundamentals_tryhackme_2026-03-31.png" alt="Alert Port Scan Activity - 0" 
+  width="450"/>
+      <td align="center"><img src="images/alert-port-scan-activity-1_soc-fundamentals_tryhackme_2026-03-31.png" alt="Alert Port Scan Activity - 1" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Alert Port Scan Activity - 0</td>
+      <td align="center"><strong>Figure 2b:</strong> Alert Port Scan Activity - 1</td>
+    </tr>
+  </table>
+</p>
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/decision_soc-fundamentals_tryhackme_2026-03-31.png" alt="Decision" 
+  width="450"/>
+      <td align="center"><img src="images/succsess_soc-fundamentals_tryhackme_2026-03-31.png" alt="Success" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Decision</td>
+      <td align="center"><strong>Figure 3b:</strong> Success</td>
+    </tr>
+  </table>
+</p>
+
+
+
+---
+
