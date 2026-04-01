@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **April 01, 2026**: Completed HackTheBox - Intro To Academy
 - **March 31, 2026**: Completed Tryhackme - SOC Fundamentals
 - **March 31, 2026**: Completed Tryhackme - SQLMap: The Basics
 - **March 24, 2026**: Completed Tryhackme - Shells Overview
