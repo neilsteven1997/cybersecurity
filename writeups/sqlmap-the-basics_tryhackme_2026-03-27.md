@@ -83,7 +83,85 @@ the first vulnerable parameter, successfully reproduced the injection chain.
 
 ---
 
+### Gallery 
 
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/sqlmap-wizard-0_sqlmap-the-basics_tryhackme_2026-03-27.png" alt="SQLMap Wizard - 0" 
+  width="450"/>
+      <td align="center"><img src="images/sqlmap-wizard-1_sqlmap-the-basics_tryhackme_2026-03-27.png" alt="SQLMap Wizard - 1" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> SQLMap Wizard - 0</td>
+      <td align="center"><strong>Figure 1b:</strong> SQLMap Wizard - 1</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/sqlmap-testing-0_sqlmap-the-basics_tryhackme_2026-03-27.png" alt="SQLMap Testing - 0" 
+  width="450"/>
+      <td align="center"><img src="images/sqlmap-testing-1_sqlmap-the-basics_tryhackme_2026-03-27.png" alt="SQLMap Testing - 1" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> SQLMap Testing - 0</td>
+      <td align="center"><strong>Figure 2b:</strong> SQLMap Testing - 1</td>
+    </tr>
+  </table>
+</p>
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/target-site_sqlmap-the-basics_tryhackme_2026-03-27.png" alt="Target Site" 
+  width="450"/>
+      <td align="center"><img src="images/inspect-element-network-get-header_sqlmap-the-basics_tryhackme_2026-03-27.png" alt="Inspect Element - Network - Get Header" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Target Site</td>
+      <td align="center"><strong>Figure 3b:</strong> Inspect Element - Network - Get Header</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/sqlmap-run-0_sqlmap-the-basics_tryhackme_2026-03-27.png" alt="SQLMap Run - 0" 
+  width="450"/>
+      <td align="center"><img src="images/organization-chart_sqlmap-the-basics_tryhackme_2026-03-27.png" alt="Organization Chart" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 4a:</strong> SQLMap Run - 0</td>
+      <td align="center"><strong>Figure 4b:</strong> Organization Chart</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/sqlmap-run-1_sqlmap-the-basics_tryhackme_2026-03-27.png" alt="SQLMap Run - 1" 
+  width="450"/>
+      <td align="center"><img src="images/sqlmap-success-run-0_sqlmap-the-basics_tryhackme_2026-03-27.png" alt="SQLMap Success Run - 0" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 5a:</strong> SQLMap Run - 1</td>
+      <td align="center"><strong>Figure 5b:</strong> SQLMap Success Run - 0</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/sqlmap-success-run-1_sqlmap-the-basics_tryhackme_2026-03-27.png" alt="SQLMap Success Run - 1" 
+  width="450"/>
+      <td align="center"><img src="images/sqlmap-success-run-2_sqlmap-the-basics_tryhackme_2026-03-27.png" alt="SQLMap Success Run - 2" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 6a:</strong> SQLMap Success Run - 1</td>
+      <td align="center"><strong>Figure 6b:</strong> SQLMap Success Run - 2</td>
+    </tr>
+  </table>
+</p>
+
+
+
+---
 
 
 
