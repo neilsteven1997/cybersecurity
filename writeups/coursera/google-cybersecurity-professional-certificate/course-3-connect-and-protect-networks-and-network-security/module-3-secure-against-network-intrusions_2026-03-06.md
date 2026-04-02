@@ -99,22 +99,22 @@ alongside DoS and DDoS methods like ICMP flooding, SYN attacks, and ping of deat
 <p align="center">
   <table>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td align="center"><img src="../images/activity-analyze-network-layer-communication_module-3-secure-against-network-intrusions_2026-03-06.png" alt="Activity: Analyze Network Layer Communication" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td align="center"><img src="../images/test-your-knowledge-secure-networks-against-denial-of-service-dos-attacks_module-3-secure-against-network-intrusions_2026-03-06.png" alt="Test Your Knowledge: Secure Networks Against Denial Of Service (DOS) Attacks" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 1a:</strong> Activity: Analyze Network Layer Communication</td>
+      <td align="center"><strong>Figure 1b:</strong> Test Your Knowledge: Secure Networks Against Denial Of Service (DOS) Attacks</td>
     </tr>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td align="center"><img src="../images/activity-analyze-network-attacks_module-3-secure-against-network-intrusions_2026-03-06.png" alt="Activity: Analyze Network Attacks" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+      <td align="center"><img src="../images/test-your-knowledge-network-interception-attack-tactics_module-3-secure-against-network-intrusions_2026-03-06.png" alt="Test Your Knowledge: Network Interception Attack Tactics" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
-      <td align="center"><strong>Figure 2b:</strong> Incrementing the number on link to find secret code</td>
+      <td align="center"><strong>Figure 2a:</strong> Activity: Analyze Network Attacks</td>
+      <td align="center"><strong>Figure 2b:</strong> Test Your Knowledge: Network Interception Attack Tactics</td>
     </tr>
   </table>
 </p>
@@ -124,11 +124,11 @@ alongside DoS and DDoS methods like ICMP flooding, SYN attacks, and ping of deat
 <p align="center">
   <table>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td align="center"><img src="../images/module-3-challenge-graded-assignment_module-3-secure-against-network-intrusions_2026-03-06.png" alt="Module 3 Challenge : Graded Assignment" 
   width="450"/>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 3a:</strong> Final defacement after container escape</td>
+      <td align="center"><strong>Figure 3a:</strong> Module 3 Challenge : Graded Assignment</td>
     </tr>
   </table>
 </p>
