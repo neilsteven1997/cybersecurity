@@ -24,11 +24,50 @@ You take the server offline temporarily so that the machine can recover and retu
 
 ## Cybersecurity Incident Report: Network Traffic Analysis
 
-### Part 1: Provide a summary of the problem found in the DNS and ICMP traffic log.
-The network protocol analyzer logs indicate that ICMP packets containing the error message: “udp port 53 unreachable.”  when attempting to access the company website www.yummyrecipesforme.com. UDP Port 53 handles most DNS requests on the server. This may indicate a problem with the DNS server or the firewall configuration. It is possible that this is an indication of a malicious attack on the web server. 
+### Section 1: The type of attack that may have caused this network interruption
 
-## Part 2: Explain your analysis of the data and provide at least one cause of the incident.
-The Time incident occurred was 1:24 p.m., 32.192571 seconds. Several customers of clients reported that they were not able to access the client company website www.yummyrecipesforme.com, and saw the error “destination port unreachable” after waiting for the page to load. We attempted to visit the website, and we also received the error “destination port unreachable.” To troubleshoot the issue, we used a network analyzer tool, tcpdump, and attempted to load the webpage again. We analyzed the packets, the error message is indicating that the UDP packet was undeliverable to port 53 of the DNS server for 203.0.113.2 domain is blocked or down. It could be a sign of a DOS attack on the company server, the DNS server is down, or the firewall blocked the connection. We recommend further investigation on the server. 
+The potential explanation for the website's connection timeout error message is:
+The logs show that client, 203.0.113.0:54770 tries to connect to HTTPS server 192.0.2.1:443. This event is likely to be a SYN Flood Attack. If the number of SYN requests is greater than the server’s available resource to handle the requests, then it becomes overwhelmed and unable to respond to the requests.  
+
+### Section 2: How the attack is causing the website to malfunction
+
+When website visitors try to establish a connection with the web server, a three-way handshake occurs using the TCP protocol. The three steps of the handshake:
+
+1. SYN - the client sends request to the server. SYN means “Synchronize”.
+2. SYN, ACK - the server received the request from the client and sends back SYN ACK. SYN ACK means “Synchronize Acknowledge.”
+3. ACK - the client sends ACK to complete the three-way handshake. ACK means “Acknowledge.”
+
+Attacker opens many SYN requests to the server without completing the handshake, exhausting the server. 
+
+The logs indicate:
+- Client 203.0.113.0 completed a handshake in the early phase
+52	3.390692	203.0.113.0	192.0.2.1	TCP	54770->443 [SYN] Seq=0 Win=5792 Len=0...
+53	3.441926	192.0.2.1	203.0.113.0	TCP	443->54770 [SYN, ACK] Seq=0 Win-5792 Len=120…
+54	3.49316	203.0.113.0	192.0.2.1	TCP	54770->443 [ACK Seq=1 Win=5792 Len=0…
+
+- Client 203.0.113.0 sends another request 
+57	3.664863	203.0.113.0	192.0.2.1	TCP	54770->443 [SYN] Seq=0 Win=5792 Len=0…
+
+- Other connections are failing because of the attack
+73	6.230548	192.0.2.1	198.51.100.16	TCP	443->32641 [RST, ACK] Seq=0 Win-5792 Len=120...
+77	7.330577	192.0.2.1	198.51.100.5	TCP	HTTP/1.1 504 Gateway Time-out (text/html)
+80	7.380773	192.0.2.1	198.51.100.7	TCP	443->42584 [RST, ACK] Seq=1 Win-5792 Len=120…
+85	7.680504	192.0.2.1	198.51.100.22	TCP	443->6345 [RST, ACK] Seq=1 Win=5792 Len=0…
+92	13.967558	192.0.2.1	198.51.100.16	TCP	443->32641 [RST, ACK] Seq=1 Win-5792 Len=120...
+
+- Multiple attacks followed
+red	98	15.310554	203.0.113.0	192.0.2.1	TCP	54770->443 [SYN] Seq=0 Win=5792 Len=0...
+red	99	15.734381	203.0.113.0	192.0.2.1	TCP	54770->443 [SYN] Seq=0 Win=5792 Len=0...
+red	100	16.158208	192.0.2.1	203.0.113.0	TCP	443->54770 [RST, ACK] Seq=1 Win=5792 Len=0...
+red	101	16.582035	203.0.113.0	192.0.2.1	TCP	54770->443 [SYN] Seq=0 Win=5792 Len=0...
+red	102	17.005862	203.0.113.0	192.0.2.1	TCP	54770->443 [SYN] Seq=0 Win=5792 Len=0…
+
+Suggested ways to secure the network, so this attack can be prevented in the future:
+1. Block the Attacker’s IP   
+2. Enable the SYN cookies - the kernel replies to SYNs with a cryptographic cookie instead of allocating a full connection slot until the ACK arrives.
+3. Add rate-limiting rules - to limit new connections
+4. Move the site behind Cloudflare - automatically absorb and filter SYN floods before they reach the server.
+5. Tune backlog + monitoring for ongoing protection.
 
 ---
 
@@ -37,7 +76,7 @@ Completed the Activity 1/1
 Self-assessment: Passed (100% / 1 point)
 
 ## Artifacts
-- Coursera activity: [https://www.coursera.org](https://www.coursera.org/learn/networks-and-network-security/assignment-submission/oKdjU/activity-analyze-network-layer-communication/attempt)
+- Coursera activity: [https://www.coursera.org](https://www.coursera.org/learn/networks-and-network-security/assignment-submission/QHIX5/activity-analyze-network-attacks/attempt)
 - GitHub writeup: [https://github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/blob/main/writeups/coursera/google-cybersecurity-professional-certificate/course-3-connect-and-protect-networks-and-network-security/module-3-secure-against-network-intrusions_2026-03-06.md)
 
 ---
