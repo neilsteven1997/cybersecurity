@@ -16,7 +16,7 @@ You use a packet sniffer to capture data packets in transit to and from the web 
 
 You take the server offline temporarily so that the machine can recover and return to a normal operating status. You also configure the company’s firewall to block the IP address that was sending the abnormal number of SYN requests. You know that your IP blocking solution won’t last long, as an attacker can spoof other IP addresses to get around this block. You need to alert your manager about this problem quickly and discuss the next steps to stop this attacker and prevent this problem from happening again. You will need to be prepared to tell your boss about the type of attack you discovered and how it was affecting the web server and employees.
 
-**Goal:**_Analyze HTTP Logs captured by a network protocol analyzer to investigate potential malicious activity. Provide the name of the network intrusion attack, and a description of how the attack negatively impacts network performance._
+**Goal:** _Analyze HTTP Logs captured by a network protocol analyzer to investigate potential malicious activity. Provide the name of the network intrusion attack, and a description of how the attack negatively impacts network performance._
 
 
 
