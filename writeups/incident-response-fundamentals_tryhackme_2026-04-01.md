@@ -89,6 +89,53 @@ Extracted Tables
 
 ---
 
+### Gallery
 
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/sans-incident-response-cycle_incident-response-fundamentals_tryhackme_2026-04-01.png" alt="SANS Incident Responce Cycle" 
+  width="450"/>
+      <td align="center"><img src="images/nist-incident-response-framework_incident-response-fundamentals_tryhackme_2026-04-01.png" alt="NIST Incident Response Framework" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> SANS Incident Responce Cycle</td>
+      <td align="center"><strong>Figure 1b:</strong> NIST Incident Response Framework</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/comparison-of-sans-and-nist_incident-response-fundamentals_tryhackme_2026-04-01.png" alt="Comparison of SANS And NIST" 
+  width="450"/>
+      <td align="center"><img src="images/labwork-incident-response_incident-response-fundamentals_tryhackme_2026-04-01.png" alt="Labwork Incident Response" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Comparison of SANS And NIST</td>
+      <td align="center"><strong>Figure 2b:</strong> Labwork Incident Response</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/malware-detected-on-the-host_incident-response-fundamentals_tryhackme_2026-04-01.png" alt="Malware Detected On The Host" 
+  width="450"/>
+      <td align="center"><img src="images/user-timeline_incident-response-fundamentals_tryhackme_2026-04-01.png" alt="User Timeline" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Malware Detected On The Host</td>
+      <td align="center"><strong>Figure 3b:</strong> User Timeline</td>
+    </tr>
+  </table>
+</p>
+
+
+
+
+
+---
 
 
