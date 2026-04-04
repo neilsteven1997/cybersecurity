@@ -82,4 +82,29 @@ substituting degree symbols and removing spaces, allowed precise location lookup
 
 ---
 
+### Gallery 
 
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/nist-framework-digital-forensics-four-phases_digital-forensics-fundamentals_tryhackme_2026-04-03.png" alt="NIST Framework Digital Forensics Four Phases" 
+  width="450"/>
+      <td align="center"><img src="images/digital-forensics_digital-forensics-fundamentals_tryhackme_2026-04-03.png" alt="Digital Forensics" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> NIST Framework Digital Forensics Four Phases</td>
+      <td align="center"><strong>Figure 1b:</strong> Digital Forensics</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/pdfinfo_digital-forensics-fundamentals_tryhackme_2026-04-03.png" alt="PDFinfo" 
+  width="450"/>
+      <td align="center"><img src="images/exiftool_digital-forensics-fundamentals_tryhackme_2026-04-03.png" alt="Exiftool" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> PDFinfo</td>
+      <td align="center"><strong>Figure 2b:</strong> Exiftool</td>
+    </tr>
+  </table>
+</p>
+
+---
