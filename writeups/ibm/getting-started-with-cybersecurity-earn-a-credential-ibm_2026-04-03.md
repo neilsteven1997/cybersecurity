@@ -157,6 +157,156 @@ When used correctly, technology solves problems without creating new ones for us
 ---
 
 
+Applying the key elements
+
+The three key elements of cybersecurity apply outside the workplace, too. How do they relate to setting up and using a home network?
+This image includes portraits of two people. One person has shoulder-length hair. The other person has a beard and wears a shirt and tie.
+
+The people living in your household can impact cybersecurity.
+
+People
+
+Consider the person setting up the network. How much do they know about security measures like strong network passwords?
+
+Also consider other people in the home:
+
+    Do they practice safe browsing habits?
+    Do they know how to detect phishing attempts?
+    Do they update their device’s software and firmware?
+    Do they safely discard items that contain passwords and other sensitive network information?
+
+This image shows a line representing a pathway. The line splits into three branches, each going in a different direction.
+
+The general rules followed and enforced at home can impact cybersecurity.
+
+Processes
+
+Consider the complexity of your network password and how easily you can find and enter it when connecting a new device.
+
+Another relevant process is router setup. How clear are the instructions for secure setup? For example, do they suggest changing your router’s admin password and provide tips for strengthening it?
+
+
+
+This image shows a cell phone. Next to the phone is a zoomed-in view of the screen. An application is visible, and a text bubble with a plus sign is connected to the app.
+
+Your choices regarding technology can also impact cybersecurity.
+
+Technology
+
+    Will the network require a password to log in?
+    Will you use a virtual private network (VPN) to encrypt internet traffic?
+    How many devices will connect to the network? The greater the number, the greater the targets for an attacker.
+    What security measures are in place on each device, such as firewalls and antimalware software?
+
+
+
+
+Activity: Sort the tasks 
+Employability skills
+
+Critical thinking
+
+Now you’ll determine how the three key elements apply to another common task: using a personal laptop.
+
+Sort each task into the correct category: people, processes, or technology. If you answer incorrectly, try again until you get it correct.
+
+
+
+Here’s why
+
+Let’s review why each task belongs to the technology, people, or processes category. 
+
+Select each task to learn about the key element of cybersecurity to which it corresponds.
+
+
+
+---
+
+Technology includes infrastructure and the tools for protecting it, such as antimalware software. This software detects, quarantines, and even destroys malware that finds its way onto your device. Fortunately, today’s computers come with built-in antimalware software, such as Microsoft Defender Antivirus for Windows or XProtect for macOS.
+
+The people element of cybersecurity includes your own cybersecurity knowledge and habits, including your choices about network security.
+
+
+You should be picky about the wifi networks to which you connect your devices. Connect to a wifi network only if it has strong security settings. That way, attackers will have a harder time accessing your internet activity and data.
+
+
+One crucial security standard is a password. The guest networks at airports, hotels, and restaurants often have no password requirements. Connecting to these networks is convenient, but it makes your data an easy target for attackers!
+
+Processes include the relevant processes that you’re expected to follow wherever you use your device.
+
+
+Say you’re connecting your device to your workplace’s wifi network. How frequently does the IT department communicate guidelines for protecting sensitive data on your device or the network? And how clear and easy to follow are these guidelines? The more complicated the instructions, the less likely workers will follow them.
+
+---
+
+Processes include the relevant processes that you’re expected to follow wherever you use your device.
+
+
+Say you’re connecting your device to your workplace’s wifi network. How frequently does the IT department communicate guidelines for protecting sensitive data on your device or the network? And how clear and easy to follow are these guidelines? The more complicated the instructions, the less likely workers will follow them.
+
+
+---
+
+Career highlight: Cybersecurity career path
+
+The growing need for cybersecurity makes it a promising career path.
+
+4.7 million people work in cybersecurity. Still, 3.4 million jobs in the field remain unfilled.
+
+– 2022 (ISC)² Cybersecurity Workforce Study(opens in a new tab), (ISC)², 2022
+
+Demand for security professionals will grow by 35 percent by 2031. That’s much faster than the average growth rate for all other occupations.
+
+– Information Security Analysts(opens in a new tab), US Bureau of Labor Statistics, September 2022
+Career management skills
+
+As a cybersecurity professional, you’ll be responsible for detecting, addressing, or preventing cybercrime. The work requires various skills and personal characteristics, some of which you may already have. Cybersecurity professionals do not always have traditional four-year college degrees. They come from diverse backgrounds. You might be starting your career, transitioning jobs, or beginning a second career.
+
+Note that these jobs expand beyond the tech sector. Financial institutions, health organizations, manufacturing companies, public works, and most other industries have cybersecurity teams. Jobs range from entry-level technicians to senior-level security officers.
+
+In terms of career progression, various scenarios can play out. Consider the following progression.
+
+Select each card to reveal one possible career progression in cybersecurity.
+
+    Front of card
+
+    Information cybersecurity technician
+
+
+    Entry-level (0–2 years of experience)
+    Click to flip
+    Back of card
+
+    Information security technicians install and manage security-related tools and services and report detected security-related events. They help users identify potential security threats and troubleshoot software and hardware issues.
+    Click to flip
+    Front of card
+
+    Cybersecurity specialist
+
+
+    Mid-level (3–5 years of experience)
+    Click to flip
+    Back of card
+
+    Cybersecurity specialists maintain the integrity and availability of data and systems. They help review risk and vulnerability assessments and recommend security improvements.
+    Click to flip
+    Front of card
+
+    Cybersecurity director
+
+
+    Management-level (more than 5 years of experience)
+    Click to flip
+    Back of card
+
+    Cybersecurity directors lead teams of security professionals. They oversee strategy, architecture, administration, and incident response.
+    Click to flip
+
+As you learn about the field, think about which aspect excites you the most. You can specialize in administration, engineering, forensics, penetration testing, security analysis, or incident management, to name a few. You have so many paths to choose from.
+
+
+
+---
 
 
 
