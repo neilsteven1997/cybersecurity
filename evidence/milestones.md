@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **April 08, 2026**: Completed Tryhackme - Logs Fundamentals
 - **April 04, 2026**: Completed Tryhackme - Digital Forensics Fundamentals
 - **April 03, 2026**: Completed Tryhackme - Incident Response Fundamentals
 - **April 01, 2026**: Completed HackTheBox - Intro To Academy
