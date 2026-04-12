@@ -31,8 +31,8 @@ Completed the Activity 1/1
 Self-assessment: Passed (100% / 1 point)
 
 ## Artifacts
-- Coursera activity: [https://www.coursera.org](https://www.coursera.org/learn/networks-and-network-security/assignment-submission/oKdjU/activity-analyze-network-layer-communication/attempt)
-- GitHub writeup: [https://github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/blob/main/writeups/coursera/google-cybersecurity-professional-certificate/course-3-connect-and-protect-networks-and-network-security/module-3-secure-against-network-intrusions_2026-03-06.md)
+- Coursera activity: [https://www.coursera.org](https://www.coursera.org/learn/networks-and-network-security/assignment-submission/6XQKU/activity-apply-os-hardening-techniques/attempt)
+- GitHub writeup: [https://github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/blob/main/writeups/coursera/google-cybersecurity-professional-certificate/course-3-connect-and-protect-networks-and-network-security/module-4-security-hardening_2026-04-02.md)
 
 ---
 Last updated: April 12, 2026
