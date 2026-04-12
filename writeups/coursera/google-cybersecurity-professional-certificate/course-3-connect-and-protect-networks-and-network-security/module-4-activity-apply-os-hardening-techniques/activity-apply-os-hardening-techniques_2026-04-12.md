@@ -1,6 +1,6 @@
 # Activity: Analyze network layer communication
 **Google Cybersecurity Professional Certificate – Course Activity**  
-Neil Steven | April 12, 2026 | Portfolio: [https://github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/tree/main/writeups/coursera/google-cybersecurity-professional-certificate/course-3-connect-and-protect-networks-and-network-security/module-3-activity-analyze-network-layer-communication)
+Neil Steven | April 12, 2026 | Portfolio: [https://github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/tree/main/writeups/coursera/google-cybersecurity-professional-certificate/course-3-connect-and-protect-networks-and-network-security/module-4-activity-apply-os-hardening-techniques)
 
 ## Executive Summary
 >[!Note]
