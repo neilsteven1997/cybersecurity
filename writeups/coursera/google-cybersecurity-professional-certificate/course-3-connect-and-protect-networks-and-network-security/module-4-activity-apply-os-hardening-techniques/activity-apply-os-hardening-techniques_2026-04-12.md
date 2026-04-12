@@ -44,13 +44,13 @@ Your job is to document the incident in detail, including identifying the networ
 
 ---
 
-## Cybersecurity Incident Report: Network Traffic Analysis
+## Cybersecurity Incident Report: -------- 
 
 ### Part 1: Provide a summary of the problem found in the DNS and ICMP traffic log.
-The network protocol analyzer logs indicate that ICMP packets containing the error message: “udp port 53 unreachable.”  when attempting to access the company website www.yummyrecipesforme.com. UDP Port 53 handles most DNS requests on the server. This may indicate a problem with the DNS server or the firewall configuration. It is possible that this is an indication of a malicious attack on the web server. 
+-------- 
 
 ## Part 2: Explain your analysis of the data and provide at least one cause of the incident.
-The Time incident occurred was 1:24 p.m., 32.192571 seconds. Several customers of clients reported that they were not able to access the client company website www.yummyrecipesforme.com, and saw the error “destination port unreachable” after waiting for the page to load. We attempted to visit the website, and we also received the error “destination port unreachable.” To troubleshoot the issue, we used a network analyzer tool, tcpdump, and attempted to load the webpage again. We analyzed the packets, the error message is indicating that the UDP packet was undeliverable to port 53 of the DNS server for 203.0.113.2 domain is blocked or down. It could be a sign of a DOS attack on the company server, the DNS server is down, or the firewall blocked the connection. We recommend further investigation on the server. 
+-------- 
 
 ---
 
