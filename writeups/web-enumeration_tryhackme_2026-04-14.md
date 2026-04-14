@@ -73,7 +73,7 @@ the <MACHINE_IP> to answer the associated questions.
 | WPScan password brute-force attack | wpscan --url http://<TARGET_URL>/ --passwords rockyou.txt --usernames <USERNAME> |
 | WPScan aggressive plugin detection | --plugins-detection aggressive |
 | Basic Nikto scan | nikto -h <TARGET_IP> |
-| Pipe Nmap output to Nikto for subnet | nmap -p80 172.16.0.0/24 -oG - \| nikto -h - |
+| Pipe Nmap output to Nikto for subnet | nmap -p80 <IP_Address>/24 -oG - \| nikto -h - |
 | Nikto scan specific ports | nikto -h <TARGET_IP> -p 80,8000,8080 |
 | Nikto with selected plugin | nikto -h <TARGET_IP> -Plugin apacheuser |
 | Nikto output to HTML report | nikto -h http://<TARGET_IP> -o report.html |
