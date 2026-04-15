@@ -97,6 +97,34 @@ wrap-up highlighting the value of continuous learning for securing evolving netw
 
 ---
 
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="../images/test-your-knowledge-os-hardening_module-4-security-hardening_2026-04-02.png" alt="Test Your Knowledge: OS Hardening" 
+  width="450"/>
+      <td align="center"><img src="../images/test-your-knowledge-network-hardening_module-4-security-hardening_2026-04-02.png" alt="Test Your Knowledge: Network Hardening" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Test Your Knowledge: OS Hardening</td>
+      <td align="center"><strong>Figure 1b:</strong> Test Your Knowledge: Network Hardening</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="../images/test-your-knowledge-cloud-hardening_module-4-security-hardening_2026-04-02.png" alt="Test Your Knowledge: Cloud Hardening" 
+  width="450"/>
+      <td align="center"><img src="../images/module-4-challenge_graded-assignment_module-4-security-hardening_2026-04-02.png" alt="Module 4 Challenge: Graded Assignment" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Test Your Knowledge: Cloud Hardening</td>
+      <td align="center"><strong>Figure 2b:</strong> Module 4 Challenge: Graded Assignment</td>
+    </tr>
+  </table>
+</p>
+
+---
+
+
 
 
 
