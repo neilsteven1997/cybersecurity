@@ -134,10 +134,8 @@ clipboard support certificate ignore the machine IP and the redacted credentials
   initial netcat shell then execute the socat reverse or bind command to replace the basic shell.
 - Multi/handler procedure: launch msfconsole then type use multi/handler set PAYLOAD to match the generated payload set LHOST and set
   LPORT then run exploit -j and foreground the session with sessions <number> as needed.
-- Specialized socat TTY payload arguments include pty to allocate a pseudoterminal stderr to surface errors sigint to pass Ctrl+C setsid
-  for a new session and sane to normalize the terminal.
-- Msfvenom payload naming uses OS/arch/payload format where stageless variants employ underscores and staged variants use forward slashes
-  with Windows 32-bit omitting the architecture field.
+- Specialized socat TTY payload arguments include pty to allocate a pseudoterminal stderr to surface errors sigint to pass Ctrl+C sets id for a new session and sane to normalize the terminal.
+- Msfvenom payload naming uses OS/arch/payload format where stageless variants employ underscores and staged variants use forward slashes with Windows 32-bit omitting the architecture field.
 - Staged payloads split into a small stager that downloads the full shellcode requiring multi/handler while stageless payloads contain
   everything in one self-contained block.
 - After obtaining a shell pursue native access methods such as SSH keys at /home/<user>/.ssh stored credentials in the registry or XML
