@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **April 16, 2026**: Completed Tryhackme - AI/ML Security Threats
 - **April 13, 2026**: Completed Tryhackme - File Inclusion
 - **April 10, 2026**: Completed Tryhackme - Command Injection
 - **April 08, 2026**: Completed Tryhackme - Logs Fundamentals
