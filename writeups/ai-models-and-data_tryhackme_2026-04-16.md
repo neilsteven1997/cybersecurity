@@ -153,6 +153,32 @@ model's origin, contents, and whether anyone truly knows its details prior to ad
 
 ---
 
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/model-card-audit-0_ai-models-and-data_tryhackme_2026-04-16.png" alt="Model Card Audit - 0" 
+  width="450"/>
+      <td align="center"><img src="images/model-card-audit-1_ai-models-and-data_tryhackme_2026-04-16.png" alt="Model Card Audit - 1" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Model Card Audit - 0</td>
+      <td align="center"><strong>Figure 1b:</strong> Model Card Audit - 1</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/model-card-audit-2_ai-models-and-data_tryhackme_2026-04-16.png" alt="Model Card Audit - 2" 
+  width="450"/>
+      <td align="center"><img src="images/audit-completed_ai-models-and-data_tryhackme_2026-04-16.png" alt="Audit Completed" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Model Card Audit - 2</td>
+      <td align="center"><strong>Figure 2b:</strong> Audit Completed</td>
+    </tr>
+  </table>
+</p>
+
+---
 
 
 
