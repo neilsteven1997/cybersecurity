@@ -10,7 +10,9 @@ exclusively on the resulting sequence to predict the next identifier, with diffe
 WordPiece in BERT producing distinct sequences for the same input string. Nondeterminism arises because identical prompts can generate 
 varying outputs due to randomness introduced during next-token prediction, in contrast to traditional software that always behaves 
 deterministically on repeated inputs, and this variability carries direct security consequences since a defensive prompt may succeed 
-against malicious input once but fail on a subsequent attempt. Parameters provide control over this behavior: temperature, typically 
+against malicious input once but fail on a subsequent attempt. 
+
+Parameters provide control over this behavior: temperature, typically 
 scaled from 0.0 to 2.0 depending on the provider, acts as the primary randomness dial where low values near 0.0 select the most probable
 token for precision-oriented work and higher values introduce variety or even incoherence. Max tokens imposes a hard ceiling on 
 response length, with one token approximating 0.75 English words, serving both to prevent overly long output and to manage costs on 
@@ -22,6 +24,7 @@ the exact task using a clear verb such as write, analyze, summarize, or compare;
 or role definitions; output format specifies structure such as bullet points, JSON, or word count; and constraints impose rules like 
 tone, length limits, or prohibited topics. Specificity matters more than length, with vague requests leaving too much to inference and 
 overly rambling ones burying the core intent, while the balanced middle ground defines inputs, checks, and expected outcomes cleanly. 
+
 In deployed applications system prompts set immutable developer-defined rules, role, tone, and safety boundaries that persist across 
 sessions, whereas user prompts deliver dynamic task-specific queries and data that the model processes within those fixed constraints. 
 Because the underlying architecture collapses everything into a single token stream, the intended hierarchy between system and user 
