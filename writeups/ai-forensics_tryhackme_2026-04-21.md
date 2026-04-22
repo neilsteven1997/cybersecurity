@@ -100,7 +100,7 @@ on analyst oversight to connect dots, correct errors, and uphold investigative i
 
 | Artefact | Behaviour | Impact/Analysis | Explanation |
 |----------|-----------|-----------------|-------------|
-| /home/j.morgan/Documents/Invoices/invoice_Q1_2075.ods | Embedded macro executes shell commands | Harvests .bash_history, SSH keys, user sessions, and dumps /etc/passwd. Attempts exfiltration to 192.168.0.100 | Likely the result of a phishing lure masquerading as a legitimate invoice but runs an embedded payload when opened. |
+| /home/j.morgan/Documents/Invoices/invoice_Q1_2075.ods | Embedded macro executes shell commands | Harvests .bash_history, SSH keys, user sessions, and dumps /etc/passwd. Attempts exfiltration to <IP_Address> | Likely the result of a phishing lure masquerading as a legitimate invoice but runs an embedded payload when opened. |
 
 | Artefact | Behaviour | Impact/Analysis | Explanation |
 |----------|-----------|-----------------|-------------|
