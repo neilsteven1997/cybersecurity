@@ -104,8 +104,8 @@ on analyst oversight to connect dots, correct errors, and uphold investigative i
 
 | Artefact | Behaviour | Impact/Analysis | Explanation |
 |----------|-----------|-----------------|-------------|
-| /tmp/.syncd | Connects to http://10.0.0.66/payload.sh and executes it | Initiates second-stage download | First-stage dropper used to quietly retrieve additional malicious tooling. |
-| /tmp/.x | Reverse shell stub | Establishes remote shell to 10.0.0.66:4444 | Gave the attacker live access under j.morgan’s user context. Likely deployed immediately after the phishing document was opened. |
+| /tmp/.syncd | Connects to http://<IP_Address>/payload.sh and executes it | Initiates second-stage download | First-stage dropper used to quietly retrieve additional malicious tooling. |
+| /tmp/.x | Reverse shell stub | Establishes remote shell to <IP_Address>:4444 | Gave the attacker live access under j.morgan’s user context. Likely deployed immediately after the phishing document was opened. |
 
 | Artefact | Behaviour | Impact/Analysis | Explanation |
 |----------|-----------|-----------------|-------------|
@@ -113,7 +113,7 @@ on analyst oversight to connect dots, correct errors, and uphold investigative i
 
 | Artefact | Behaviour | Impact/Analysis | Explanation |
 |----------|-----------|-----------------|-------------|
-| /usr/local/bin/sysmon | Outbound connection to 10.0.0.66:5555 | Reverse shell disguised as system monitoring tool | Persistence through deception — masks itself as a legitimate binary to evade detection. |
+| /usr/local/bin/sysmon | Outbound connection to <IP_Address>:5555 | Reverse shell disguised as system monitoring tool | Persistence through deception — masks itself as a legitimate binary to evade detection. |
 | /opt/robbco/sys/boot_monitor.log | Fake boot telemetry logs | Justifies sysmon's presence | Fabricated log file used to support the ruse of a legitimate monitoring utility. |
 
 | Artefact | Behaviour | Impact/Analysis | Explanation |
