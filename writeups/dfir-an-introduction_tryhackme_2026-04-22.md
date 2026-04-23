@@ -49,3 +49,22 @@ methodologies sharp and my perspective grounded in current threat realities.
   Eradication, Recovery, and Lessons Learned.
 
 ---
+
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/creating-an-incident-timeline_dfir-an-introduction_tryhackme_2026-04-22.png" alt="Creating An Incident Timeline" 
+  width="450"/>
+      <td align="center"><img src="images/sans-picerl_dfir-an-introduction_tryhackme_2026-04-22.png" alt="SANS-PICERL" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Creating An Incident Timeline</td>
+      <td align="center"><strong>Figure 1b:</strong> SANS-PICERL</td>
+    </tr>
+  </table>
+</p>
+
+
+---
