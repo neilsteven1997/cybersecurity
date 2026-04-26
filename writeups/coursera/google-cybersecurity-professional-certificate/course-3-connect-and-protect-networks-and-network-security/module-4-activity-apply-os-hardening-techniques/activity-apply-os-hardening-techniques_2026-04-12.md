@@ -44,13 +44,42 @@ Your job is to document the incident in detail, including identifying the networ
 
 ---
 
-## Cybersecurity Incident Report: yiuyuiyuiyuiyuiyuiyyiuyuiyuiyuiyuiyuiyyiuyuiyuiyuiyuiyuiy
+## Cybersecurity Incident Report: Apply OS hardening techniques
 
-### Part 1: Provide a summary of the problem found in the DNS and ICMP traffic log.
-yiuyuiyuiyuiyuiyuiyyiuyuiyuiyuiyuiyuiyyiuyuiyuiyuiyuiyuiyyiuyuiyuiyuiyuiyuiy
+### Part 1: Identified network protocols involved in the incident
+* DNS – to resolve yummyrecipesforme.com to its IP address
+      - to resolve greatrecipesforme.com to its IP address after redirection
+* HTTP - to request and load the compromised webpage from yummyrecipesforme.com
+	    - o request and load the fake/malware site greatrecipesforme.com after redirection
+* TCP – underlying transport layer for both DNS (in some cases) and all HTTP requests (reliable delivery)
 
-## Part 2: Explain your analysis of the data and provide at least one cause of the incident.
-yiuyuiyuiyuiyuiyuiyyiuyuiyuiyuiyuiyuiyyiuyuiyuiyuiyuiyuiyyiuyuiyuiyuiyuiyuiy
+
+### Part 2: Documented Incident
+
+Brute-force attack on the web host admin panel using default password + no rate limiting / brute-force protection. Hacker gained access, injected malicious JavaScript into the site’s source code. JS prompt tricks visitors to download and run an executable file. File execution redirected browser from legitimate domain (yummyrecipesforme.com) → fake malware domain (greatrecipesforme.com). Slowed user PCs, potential further malware infection, loss of trust, helpdesk overload.
+
+Evidence: tcpdump logs showed DNS → HTTP sequence + redirection; injected JS; confirmed redirect script.
+
+14:18:36.786589 IP your.machine.36086 > yummyrecipesforme.com.http: Flags
+[P.], seq 1:74, ack 1, win 512, options [nop,nop,TS val 3302576859 ecr
+3302576859], length 73: HTTP: GET / HTTP/1.1
+14:18:36.786595 IP yummyrecipesforme.com.http > your.machine.36086: Flags
+[.], ack 74, win 512, options [nop,nop,TS val 3302576859 ecr 3302576859],
+length 0
+...<a lot of traffic on the port 80>...
+
+14:20:32.192571 IP your.machine.52444 > dns.google.domain: 21899+ A?
+greatrecipesforme.com. (24)
+14:20:32.204388 IP dns.google.domain > your.machine.52444: 21899 1/0/0 A
+192.0.2.17 (40)
+
+### Part 3: Recommended remediation for brute force attacks
+* Implement account lockout 
+* Implement strong password policy 
+* Disallowing previous passwords from being reused
+* Implement multifactor authentication (MFA)  
+* Enable a web application firewall (WAF) to rate limiting on login attempts. 
+* Enforce the immediate changing of all default passwords and password complexity. 
 
 ---
 
@@ -63,7 +92,7 @@ Self-assessment: Passed (100% / 1 point)
 - GitHub writeup: [https://github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/blob/main/writeups/coursera/google-cybersecurity-professional-certificate/course-3-connect-and-protect-networks-and-network-security/module-4-security-hardening_2026-04-02.md)
 
 ---
-Last updated: April 25, 2026
+Last updated: April 26, 2026
 
 
 
