@@ -49,7 +49,7 @@ Self-assessment: Passed (100% / 1 point)
 - GitHub writeup: [https://github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/blob/main/writeups/coursera/google-cybersecurity-professional-certificate/course-3-connect-and-protect-networks-and-network-security/module-4-security-hardening_2026-04-02.md)
 
 ---
-Last updated: April 26, 2026
+Last updated: April 27, 2026
 
 
 
