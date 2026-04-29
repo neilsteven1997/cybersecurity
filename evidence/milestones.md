@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **April 29, 2026**: Completed Tryhackme - AI Forensics
 - **April 24, 2026**: Completed Tryhackme - Linux Forensics
 - **April 23, 2026**: Completed Tryhackme - DFIR: An Introduction
 - **April 21, 2026**: Completed Tryhackme - Prompt Engineering
