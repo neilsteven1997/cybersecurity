@@ -34,9 +34,18 @@ In this activity, you will write a security risk assessment to analyze the incid
 
 ## Cybersecurity Incident Report: Analysis Of Network Hardening
 
-### Part 1: sdsdsd
+### Part 1: Three selected hardening tools and methods to implement 
+Recommended hardening tools and methods according to four vulnerabilities discovered are as follows:
+Password policies
+Firewall maintenance
+Multifactor authentication (MFA)
 
-### Part 2: sdsdsd
+### Part 2: Recommendations
+- **The organization’s employees' share passwords and the admin password for the database is set to the default.** Our team needs to implement password policies to prevent attackers from easily guessing user passwords.
+
+- **The firewalls do not have rules in place to filter traffic coming in and out of the network.** Firewall maintenance entails checking and updating security configurations regularly to stay ahead of potential threats. This measure can be used to protect against various DDoS attacks.
+
+- **Multifactor authentication (MFA) is not used. ** A security measure which requires a user to verify their identity in two or more ways to access a system or network. Can help protect against brute force attacks and similar security events. 
 
 ---
 
@@ -49,7 +58,7 @@ Self-assessment: Passed (100% / 1 point)
 - GitHub writeup: [https://github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/blob/main/writeups/coursera/google-cybersecurity-professional-certificate/course-3-connect-and-protect-networks-and-network-security/module-4-security-hardening_2026-04-02.md)
 
 ---
-Last updated: April 27, 2026
+Last updated: May 03, 2026
 
 
 
