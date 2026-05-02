@@ -45,7 +45,7 @@ Multifactor authentication (MFA)
 
 - **The firewalls do not have rules in place to filter traffic coming in and out of the network.** Firewall maintenance entails checking and updating security configurations regularly to stay ahead of potential threats. This measure can be used to protect against various DDoS attacks.
 
-- **Multifactor authentication (MFA) is not used. ** A security measure which requires a user to verify their identity in two or more ways to access a system or network. Can help protect against brute force attacks and similar security events. 
+- **Multifactor authentication (MFA) is not used.** A security measure which requires a user to verify their identity in two or more ways to access a system or network. Can help protect against brute force attacks and similar security events. 
 
 ---
 
