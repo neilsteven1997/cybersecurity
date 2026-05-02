@@ -28,7 +28,7 @@ In this activity, you will write a security risk assessment to analyze the incid
 
 ---
 
-**Goal:** _Writing an incident report for this security event. Using the tcpdump log file, determine which network protocol is identified in the packet captures during the investigation._
+**Goal:** _Writing a security risk assessment to analyze the incident and explain what methods can be used to further secure the network._
 
 ---
 
