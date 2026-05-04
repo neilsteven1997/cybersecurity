@@ -40,7 +40,7 @@ As a cybersecurity analyst, you are tasked with using this security event to cre
 
 ---
 
-**Goal:** _Writing a security risk assessment to analyze the incident and explain what methods can be used to further secure the network._
+**Goal:**_Create an incident report using the knowledge gained about networks throughout this course to analyze a network incident. Analyze the situation using the National Institute of Standards and Technology's Cybersecurity Framework (NIST CSF)._
 
 ---
 
@@ -61,7 +61,7 @@ Self-assessment: Passed (100% / 1 point)
 - GitHub writeup: [https://github.com/neilsteven1997/cybersecurity](https://github.com/neilsteven1997/cybersecurity/blob/main/writeups/coursera/google-cybersecurity-professional-certificate/course-3-connect-and-protect-networks-and-network-security/graded-assignment-use-the-nist-cybersecurity-framework-to-respond-to-a-security-incident/use-the-nist-cybersecurity-framework-to-respond-to-a-security-incident_2026-05-03.md)
 
 ---
-Last updated: May 03, 2026
+Last updated: May 04, 2026
 
 
 
