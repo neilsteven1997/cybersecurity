@@ -149,6 +149,32 @@ Forward Rule Example
 
 ---
 
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/windows_firewall-fundamentals_tryhackme_2026-04-08.png" alt="Windows Firewall" 
+  width="450"/>
+      <td align="center"><img src="images/windows-result_firewall-fundamentals_tryhackme_2026-04-08.png" alt="Windows Firewall Result" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Windows Firewall</td>
+      <td align="center"><strong>Figure 1b:</strong> Windows Firewall Result</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/linux_firewall-fundamentals_tryhackme_2026-04-08.png" alt="Linux Firewall" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Linux Firewall</td>
+    </tr>
+  </table>
+</p>
+
+
+
+---
 
 
 
