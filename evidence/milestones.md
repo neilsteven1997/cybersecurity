@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **May 06, 2026**: Completed Tryhackme - Firewall Fundamentals
 - **May 05, 2026**: Completed Tryhackme - What the Shell?
 - **April 29, 2026**: Completed Tryhackme - AI Forensics
 - **April 24, 2026**: Completed Tryhackme - Linux Forensics
