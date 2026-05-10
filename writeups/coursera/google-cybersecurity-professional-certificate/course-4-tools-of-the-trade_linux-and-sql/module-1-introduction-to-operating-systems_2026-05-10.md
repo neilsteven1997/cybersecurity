@@ -1,4 +1,4 @@
-Module 1 Introduction to operating systems
+# Module 1: Introduction To Operating Systems
 
 ---
 
