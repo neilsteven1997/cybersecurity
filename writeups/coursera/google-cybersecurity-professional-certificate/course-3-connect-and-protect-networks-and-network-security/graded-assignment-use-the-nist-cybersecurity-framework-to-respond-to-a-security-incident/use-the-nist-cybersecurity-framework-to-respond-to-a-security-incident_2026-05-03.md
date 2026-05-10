@@ -46,32 +46,28 @@ As a cybersecurity analyst, you are tasked with using this security event to cre
 
 ## Incident report analysis: Use the NIST cybersecurity framework to respond to a security incident
 
-### Part 1: sdsdsdsddsdsdsdsdsdsdsdsdsddsdsdsdsdsdsdsdsdsddsdsdsdsdsdsdsdsdsddsdsdsdsdsd
-
-### Part 2: sdsdsdsddsdsdsdsdsdsdsdsdsddsdsdsdsdsdsdsdsdsddsdsdsdsdsdsdsdsdsddsdsdsdsdsd
-
-
-Summary
+### 1. Summary
 The organization recently experienced a DoS attack, which compromised the internal network for two hours until it was resolved.  During the attack, the organization’s network services suddenly stopped responding due to an incoming flood of ICMP packets. Normal internal network traffic could not access any network resources. The incident management team responded by blocking incoming ICMP packets, stopping all non-critical network services offline, and restoring critical network services.   
 
-Identify
+### 2. Identify
 The cybersecurity team investigated the security event. They found that a malicious actor had sent a flood of ICMP pings into the company’s network through an unconfigured firewall. This vulnerability allowed the malicious attacker to overwhelm the company’s network through a denial of service (DoS) attack. 
 
-Protect
+### 3. Protect
 To address this security event, the network security team implemented:       
-A new firewall rule to limit the rate of incoming ICMP packets      
-Source IP address verification on the firewall to check for spoofed IP addresses on incoming ICMP packets      
-Network monitoring software to detect abnormal traffic patterns      
-An IDS/IPS system to filter out some ICMP traffic based on suspicious characteristics  
-Detect
+- A new firewall rule to limit the rate of incoming ICMP packets      
+- Source IP address verification on the firewall to check for spoofed IP addresses on incoming ICMP packets      
+- Network monitoring software to detect abnormal traffic patterns      
+- An IDS/IPS system to filter out some ICMP traffic based on suspicious characteristics  
+
+### 4. Detect
 1. Update the Incident Response Playbook to include a dedicated ICMP/DoS response section. Define clear step-by-step actions for detection, containment, eradication, and recovery. Use the SIEM as the single pane of glass for real-time monitoring, alerting, log correlation, and incident investigation.
 2. Implement regular security awareness training focused on phishing and social engineering. Emphasize that these are common entry points used before launching DoS attacks. Include practical simulations, recognition techniques, and reporting procedures to reduce human-related risks.
 3. Conduct quarterly penetration tests specifically targeting all public-facing web assets (websites, portals, marketing platforms). Tests should simulate realistic attacks including DoS, DDoS, and common web vulnerabilities to validate defenses and identify weaknesses proactively.
 
-Respond
+### 5. Respond
 The incident management team responded by blocking incoming ICMP packets, stopping all non-critical network services offline, and restoring critical network services. 
 
-Recover
+### 6. Recover
 - Critical network services were prioritized and restored first after blocking the malicious ICMP traffic.
 - Non-critical services were safely taken offline during the attack and brought back online only after the threat was neutralized and network stability was confirmed.
 - Firewall rules were updated in real-time to stop the attack and allow normal business operations to resume.
