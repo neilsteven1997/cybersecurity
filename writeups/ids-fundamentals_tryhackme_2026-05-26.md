@@ -2,6 +2,11 @@
 
 ---
 
+<p align="center">
+  <img src="images/snort_ids-fundamentals_tryhackme_2026-05-26.png" alt="Snort IDS" 
+  width="650"/>
+</p>
+
 Firewalls typically sit at network perimeters and inspect traffic during connection establishment, blocking anything that violates 
 configured rules. However, once traffic passes through successfully, additional monitoring is required to identify malicious activity 
 that occurs afterward. An Intrusion Detection System (IDS) fulfills this role by examining network traffic inside the perimeter for 
