@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="images/snort_ids-fundamentals_tryhackme_2026-05-26.png" alt="Snort IDS" 
-  width="250"/>
+  width="150"/>
 </p>
 
 Firewalls typically sit at network perimeters and inspect traffic during connection establishment, blocking anything that violates 
