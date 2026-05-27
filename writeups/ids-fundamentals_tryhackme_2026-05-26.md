@@ -68,6 +68,32 @@ captured PCAP files similarly, supporting forensic investigations of historical 
 
 ---
 
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/snort-rule-format_ids-fundamentals_tryhackme_2026-05-26.png" alt="Snort Rule Format" 
+  width="450"/>
+      <td align="center"><img src="images/adding-snort-rules_ids-fundamentals_tryhackme_2026-05-26.png" alt="Adding Snort Rules" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Snort Rule Format</td>
+      <td align="center"><strong>Figure 1b:</strong> Adding Snort Rules</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/loopback-ping-detected_ids-fundamentals_tryhackme_2026-05-26.png" alt="Loopback Ping Detected" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Loopback Ping Detected</td>
+    </tr>
+  </table>
+</p>
+
+
+---
+
 
 
 
