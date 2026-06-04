@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **June 04, 2026**: Completed Tryhackme - CyberChef: The Basics
 - **May 29, 2026**: Completed Tryhackme - Vulnerability Scanner Overview
 - **May 27, 2026**: Completed Tryhackme - IDS Fundamentals
 - **May 23, 2026**: Completed Tryhackme - Web Enumeration
