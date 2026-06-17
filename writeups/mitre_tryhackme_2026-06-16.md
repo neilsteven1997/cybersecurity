@@ -55,6 +55,8 @@ additions cover specialized domains: AADAPT addresses adversarial actions in dig
 blockchain, smart contracts, and wallet threats, while ATLAS tackles adversarial threats to artificial intelligence and machine learning
 systems through documented techniques, vulnerabilities, and mitigations.
 
+---
+
 **Extracted Tables**
 
 | Who | Their Goal | How They Use ATT&CK |
