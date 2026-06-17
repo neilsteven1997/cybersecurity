@@ -94,4 +94,52 @@ systems through documented techniques, vulnerabilities, and mitigations.
 
 ---
 
+### Gallery 
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/att-and-ck_mitre_tryhackme_2026-06-16.png" alt="ATT&CK" 
+  width="450"/>
+      <td align="center"><img src="images/matrix_attk-and-ck-and-mitre_tryhackme_2026-06-16.png" alt="Matrix" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> ATT&CK</td>
+      <td align="center"><strong>Figure 1b:</strong> Matrix</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/active-scanning_mitre_tryhackme_2026-06-16.png" alt="Active Scanning" 
+  width="450"/>
+      <td align="center"><img src="images/att-and-ck-in-operation_mitre_tryhackme_2026-06-16.png" alt="ATT&CK In Operation" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Active Scanning</td>
+      <td align="center"><strong>Figure 2b:</strong> ATT&CK In Operation</td>
+    </tr>
+  </table>
+</p>
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="images/att-and-ck-for-threat-intelligence_mitre_tryhackme_2026-06-16.png" alt="ATT&CK For Threat Intelligence" 
+  width="450"/>
+      <td align="center"><img src="images/d3fend_mitre_tryhackme_2026-06-16.png" alt="D3fend" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> ATT&CK For Threat Intelligence</td>
+      <td align="center"><strong>Figure 1b:</strong> D3fend</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="images/credentials-rotation_mitre_tryhackme_2026-06-16.png" alt="Credentials Rotation" 
+  width="450"/>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
+    </tr>
+  </table>
+</p>
+
+
+---
 
