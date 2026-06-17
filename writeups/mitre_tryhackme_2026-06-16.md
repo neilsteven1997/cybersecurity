@@ -2,6 +2,12 @@
 
 ---
 
+<p align="center">
+  <img src="images/att-and-ck_mitre_tryhackme_2026-06-16.png" alt="ATT&CK" 
+  width="650"/>
+</p>
+
+
 In my notes on MITRE resources, the organization stands as a not-for-profit entity dedicated to research and development spanning 
 cybersecurity, healthcare, and space systems with the core aim of solving problems for a safer world. The material centers on its 
 cybersecurity contributions, notably ATT&CK, the Cyber Analytics Repository, D3FEND, and supporting tools that equip both red and blue
