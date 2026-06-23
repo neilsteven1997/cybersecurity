@@ -57,6 +57,42 @@ firewall configuration, and anomaly detection.
 
 ### Gallery 
 
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="../images/test-your-knowledge-the-wonderful-world-of-operating-systems_module-1-introduction-to-operating-systems_2026-05-10.png" alt="Test your knowledge: The Wonderful World of OS" 
+  width="450"/>
+      <td align="center"><img src="../images/test-your-knowledge-the-operating-system-at-work_module-1-introduction-to-operating-systems_2026-05-10.png" alt="Test your knowledge: The OS at work" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Test your knowledge: The Wonderful World of OS</td>
+      <td align="center"><strong>Figure 1b:</strong> Test your knowledge: The OS at work</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="../images/activity-select-the-user-interface_module-1-introduction-to-operating-systems_2026-05-10.png" alt="Activity: Select The UI" 
+  width="450"/>
+      <td align="center"><img src="../images/test-your-knowledge-the-user-interface_module-1-introduction-to-operating-systems_2026-05-10.png" alt="Test your knowledge: The UI" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Activity: Select The UI</td>
+      <td align="center"><strong>Figure 2b:</strong> Test your knowledge: The UI</td>
+    </tr>
+  </table>
+</p>
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="../images/module-1-challenge-graded-assignment_module-1-introduction-to-operating-systems_2026-05-10.png" alt="Module 1 Challenge: Graded Assignment" 
+  width="450"/>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 3a:</strong> Module 1 Challenge: Graded Assignment</td>
+    </tr>
+  </table>
+</p>
+
+
 
 ---
 
