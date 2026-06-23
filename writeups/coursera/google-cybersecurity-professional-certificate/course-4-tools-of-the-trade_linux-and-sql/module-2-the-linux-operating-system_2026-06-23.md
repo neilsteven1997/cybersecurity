@@ -77,6 +77,29 @@ issues; reliable internet prevents disconnections that freeze environments or bl
 
 ### Gallery
 
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="../images/test-your-knowledge-all-about-linux_module-2-the-linux-operating-system_2026-06-23.png" alt="Test Your Knowledge: All About Linux" 
+  width="450"/>
+      <td align="center"><img src="../images/test-your-knowledge-linux-distributions_module-2-the-linux-operating-system_2026-06-23.png" alt="Test Your Knowledge: Linux Distributions" width="450"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Figure 1a:</strong> Test Your Knowledge: All About Linux</td>
+      <td align="center"><strong>Figure 1b:</strong> Test Your Knowledge: Linux Distributions</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="../images/test-your-knowledge-the-shell_module-2-the-linux-operating-system_2026-06-23.png" alt="Test Your Knowledge: The Shell" 
+  width="450"/>
+      <td align="center"><img src="../images/module-2-challenge-graded-assigment_module-2-the-linux-operating-system_2026-06-23.png" alt="Module 2 Challenge: Graded Assignment" width="450"/></td>
+    </tr>
+     <tr>
+      <td align="center"><strong>Figure 2a:</strong> Test Your Knowledge: The Shell</td>
+      <td align="center"><strong>Figure 2b:</strong> Module 2 Challenge: Graded Assignment</td>
+    </tr>
+  </table>
+</p>
+
 
 ---
 
