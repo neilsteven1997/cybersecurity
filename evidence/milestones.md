@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **June 27, 2026**: Completed Tryhackme - REMnux: Getting Started
 - **June 15, 2026**: Completed Tryhackme - CAPA: The Basics
 - **June 04, 2026**: Completed Tryhackme - CyberChef: The Basics
 - **May 29, 2026**: Completed Tryhackme - Vulnerability Scanner Overview
