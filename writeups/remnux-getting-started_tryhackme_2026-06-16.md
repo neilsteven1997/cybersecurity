@@ -82,22 +82,22 @@ artifacts more efficiently.
 <p align="center">
   <table>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td align="center"><img src="images/oledump-file-analysis_remnux-getting-started_tryhackme_2026-06-16.png" alt="OleDump File Analysis" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td align="center"><img src="images/agenttestla-xslm-data-stream_remnux-getting-started_tryhackme_2026-06-16.png" alt="Agentteska Xslm Data Stream" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 1a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 1a:</strong> OleDump File Analysis</td>
+      <td align="center"><strong>Figure 1b:</strong> Agentteska Xslm Data Stream</td>
     </tr>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td align="center"><img src="images/agenttestla-xslm-data-stream-decompressed_remnux-getting-started_tryhackme_2026-06-16.png" alt="Agenttesla Xslm Data Stream Decrompressed" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
+      <td align="center"><img src="images/decoded-string_remnux-getting-started_tryhackme_2026-06-16.png" alt="Decoded String" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
-      <td align="center"><strong>Figure 2b:</strong> Incrementing the number on link to find secret code</td>
+      <td align="center"><strong>Figure 2a:</strong> Agenttesla Xslm Data Stream Decrompressed</td>
+      <td align="center"><strong>Figure 2b:</strong> Decoded String</td>
     </tr>
   </table>
 </p>
@@ -108,20 +108,20 @@ artifacts more efficiently.
 <p align="center">
   <table>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-defaced-website.png" alt="DoorDash website defaced with Hopperoo message after container escape" 
+      <td align="center"><img src="images/inetsim-site_remnux-getting-started_tryhackme_2026-06-16.png" alt="Inetsim Site" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td align="center"><img src="images/simulated-downloads_remnux-getting-started_tryhackme_2026-06-16.png" alt="Simulated Downloads" width="450"/></td>
     </tr>
     <tr>
-      <td align="center"><strong>Figure 3a:</strong> Final defacement after container escape</td>
-      <td align="center"><strong>Figure 3b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 3a:</strong> Inetsim Site</td>
+      <td align="center"><strong>Figure 3b:</strong> Simulated Downloads</td>
     </tr>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td align="center"><img src="images/ascii-strings_remnux-getting-started_tryhackme_2026-06-16.png" alt="Ascii Strings" 
   width="450"/>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 4a:</strong> Using deployer bash to find the flag</td>
+      <td align="center"><strong>Figure 4a:</strong> Ascii Strings</td>
     </tr>
   </table>
 </p>
