@@ -764,6 +764,64 @@ Add big download button:
 - [ ] Hybrid master project (15) finished  
 - [ ] Push to GitHub → share link with me for final review
 
+---
+
+qa-testing-lab/
+├── automation/
+├── manual-testing/
+├── game-testing/
+├── tools/
+├── docs/
+├── reports/
+└── README.md
+
+
+
+qa-testing-lab/
+├── automation/              # Selenium, Playwright, Cypress, Appium, etc.
+│   ├── web/
+│   ├── api/
+│   ├── mobile/
+│   └── shared/
+│
+├── manual-testing/          # Test cases, checklists, bug templates
+│   ├── templates/
+│   └── examples/
+│
+├── game-testing/            # Game-specific stuff
+│   ├── test-plans/
+│   ├── automation/
+│   ├── tools/
+│   └── sample-games/        # Or link to external if needed
+│
+├── tools/                   # Custom scripts, utilities, bots
+│   ├── scripts/
+│   └── utils/
+│
+├── docs/                    # Everything documentation-related
+│   ├── README.md
+│   ├── methodology.md
+│   ├── best-practices.md
+│   └── templates/
+│
+├── reports/                 # Test reports, bug summaries (or use GitHub Wiki/Projects)
+│   └── archives/
+│
+├── .github/                 # Workflows, issue templates, PR templates
+│   └── workflows/
+│
+├── configs/                 # Environment configs, test data seeds
+├── test-data/               # Mock data, assets
+├── LICENSE
+├── .gitignore
+└── README.md                # Main landing page
+
+
+
+----
+
+
+
 
 
 
