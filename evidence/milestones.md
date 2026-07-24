@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **July 24, 2026**: Completed Tryhackme - Security Principles
 - **July 16, 2026**: Completed Tryhackme - FlareVM: Arsenal of Tools
 - **July 01, 2026**: Completed Tryhackme - MITRE
 - **June 27, 2026**: Completed Tryhackme - REMnux: Getting Started
