@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **September 07, 2026**: Completed Tryhackme - Logging for Accountability
 - **August 27, 2026**: Completed Tryhackme - OWASP Top 10 2025: Application Design Flaws
 - **July 29, 2026**: Completed Tryhackme - OWASP Top 10 2025: IAAA Failures
 - **July 26, 2026**: Completed Tryhackme - Training Impact on Teams
