@@ -33,16 +33,16 @@ application. Related TryHackMe resources include Insecure Deserialisation and Su
 
 ---
 
-### Key Takeaways
+## Key Takeaways
 
-- Cryptographic Failures
+### Cryptographic Failures
 * Identify inadequate encryption, weak algorithms, exposed keys, and insecure transmission.
 * Use bcrypt, scrypt, or Argon2 for password hashing.
 * Rely on trusted cryptographic libraries instead of custom algorithms.
 * Store secrets using secure key management systems.
 * Understand how weak shared keys can expose protected information.
 
-- Injection
+### Injection
 * Treat all user input as untrusted.
 * Use prepared statements and parameterized SQL queries.
 * Avoid passing untrusted input directly to system shells.
