@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **October 01, 2026**: Completed Tryhackme - Broken Access Control
 - **September 28, 2026**: Completed Tryhackme - Identity and Access Management
 - **September 09, 2026**: Completed Tryhackme - IDOR
 - **September 07, 2026**: Completed Tryhackme - Logging for Accountability
