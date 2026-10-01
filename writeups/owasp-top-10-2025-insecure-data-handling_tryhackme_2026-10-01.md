@@ -48,7 +48,8 @@ application. Related TryHackMe resources include Insecure Deserialisation and Su
 * Avoid passing untrusted input directly to system shells.
 * Apply strict validation, sanitization, and appropriate escaping.
 * Recognize SQL injection, command injection, and Server-Side Template Injection.
-- Software or Data Integrity Failures
+
+### Software or Data Integrity Failures
 * Establish trust boundaries for code, updates, and application data.
 * Verify software and update integrity using cryptographic checks.
 * Restrict modifications to critical artifacts to trusted sources.
