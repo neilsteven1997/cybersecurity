@@ -201,12 +201,7 @@ provides the information needed to make subsequent testing more targeted.
 - Conduct enumeration and brute-force testing only with explicit authorization from the system owner.
 - Consider rate limiting and account-lockout mechanisms during authorized assessments.
 
-Reference verification: RFC 7617 confirms the Base64 credential format and the need for TLS protection. OWASP also documents the risk of account enumeration through inconsistent authentication responses.&#x20;
-
-[image](https://www.google.com/s2/favicons?domain=https://www.rfc-editor.org\&sz=32)
-
-RFC Editor
-+1
+Reference verification: RFC 7617 confirms the Base64 credential format and the need for TLS protection. OWASP also documents the risk of account enumeration through inconsistent authentication responses.&#x20; [image](https://www.google.com/s2/favicons?domain=https://www.rfc-editor.org\&sz=32) RFC Editor +1
 
 ---
 
