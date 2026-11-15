@@ -60,6 +60,8 @@ The final example involved a session cookie containing Base64-encoded JSON data.
 an administrative property. Modifying the property and encoding the data again demonstrated how an application that trusts unsigned, 
 client-controlled session information could expose administrative access.
 
+---
+
 ### Code and Commands
 
 | Description                                          | Code/Command                                                                                                                                                                                                                                                                  |
@@ -77,6 +79,8 @@ client-controlled session information could expose administrative access.
 | Example Base64 session cookie                        | `Set-Cookie: session=<REDACTED>; Max-Age=3600; Path=/`                                                                                                                                                                                                                        |
 | Decoded session data structure                       | `{"id":1,"admin":false}`                                                                                                                                                                                                                                                      |
 
+---
+
 ### Extracted Tables
 
 Hashing examples
@@ -87,6 +91,8 @@ Hashing examples
 | 1               | SHA-256     | `6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b`                                                                 |
 | 1               | SHA-512     | `4dff4ea340f0a823f15d3f4f01ab62eae0e5da579ccb851f8db9dfe84c58b2b37b89903a740e1ee172da793a6e79d560e5f7f9bd058a12a280433ed6fa46510a` |
 | 1               | SHA-1       | `356a192b7913b04c54574d18c28d46e6395428ab`                                                                                         |
+
+---
 
 ### Key Takeaways
 
