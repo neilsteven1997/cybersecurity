@@ -2,8 +2,6 @@
 
 ---
 
-# Wireshark: Packet Operations
-
 Wireshark packet analysis involves examining network traffic captures, reviewing protocol statistics, and applying filters to isolate 
 events of interest. This is the second room in the Wireshark room series, following Wireshark: The Basics. The exercises use a virtual
 machine (VM) containing Wireshark and several packet captures. The primary exercise file is `Exercise.pcapng`, located on the desktop.
