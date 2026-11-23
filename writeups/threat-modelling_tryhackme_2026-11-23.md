@@ -2,8 +2,6 @@
 
 ---
 
-# **Threat Modelling**
-
 Threat modelling is a systematic process for identifying, analysing, prioritising, and mitigating potential 
 security threats within an organisation. It involves examining interconnected systems, applications, 
 infrastructure, and existing vulnerabilities to understand possible attack scenarios and establish appropriate
