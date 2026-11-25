@@ -2,6 +2,13 @@
 
 ---
 
+
+<p align="center">
+  <img src="images/rag-security-fundamentals_tryhackme_2026-11-25.png" alt="RAG Security Fundamentals" 
+  width="650"/>
+</p>
+
+
 Retrieval-Augmented Generation (RAG) enables Large Language Models (LLMs) to retrieve external documents and use them as additional context 
 when generating responses. Unlike systems relying exclusively on training data, RAG retrieves relevant information during inference. Although 
 this can improve accuracy and information freshness, it introduces additional trust boundaries and security risks.
