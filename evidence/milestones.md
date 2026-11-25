@@ -9,7 +9,7 @@
 - 2026: Coursera Cyber Security 
 - 2026: Earn CompTIA Security+ 
 - 2026: Reach 1,000 documented learning hours
-- 2026: Land first cybersecurity role
+- 2027: Land first cybersecurity role
 
 ---
 ## Latest updates first — documenting consistent progress**
@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **November 25, 2026**: Completed Tryhackme - Principles of Security
 - **November 25, 2026**: Completed Tryhackme - Threat Modelling 
 - **November 20, 2026**: Completed Tryhackme - Wireshark: Packet Operations
 - **November 16, 2026**: Completed Tryhackme - Authentication Bypass
