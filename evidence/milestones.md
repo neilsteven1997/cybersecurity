@@ -19,6 +19,7 @@
 - **December 21, 2025**: Completed - Introduction to Cybersecurity in Cisco Networking Academy
   
 ### Achievements:
+- **November 25, 2026**: Completed Tryhackme - Threat Modelling 
 - **November 20, 2026**: Completed Tryhackme - Wireshark: Packet Operations
 - **November 16, 2026**: Completed Tryhackme - Authentication Bypass
 - **November 15, 2026**: Completed Tryhackme - Enumeration & Brute Force
