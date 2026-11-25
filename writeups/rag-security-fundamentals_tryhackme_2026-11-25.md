@@ -2,13 +2,6 @@
 
 ---
 
-
-<p align="center">
-  <img src="images/rag-security-fundamentals_tryhackme_2026-11-25.png" alt="RAG Security Fundamentals" 
-  width="650"/>
-</p>
-
-
 Retrieval-Augmented Generation (RAG) enables Large Language Models (LLMs) to retrieve external documents and use them as additional context 
 when generating responses. Unlike systems relying exclusively on training data, RAG retrieves relevant information during inference. Although 
 this can improve accuracy and information freshness, it introduces additional trust boundaries and security risks.
@@ -131,20 +124,18 @@ directly compromising the model itself.
     <tr>
       <td align="center"><img src="images/rag-security-fundamentals_tryhackme_2026-11-25.png" alt="RAG Security Fundamentals" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-restored-website.png" alt="Restored website" width="450"/></td>
+      <td align="center"><img src="images/failures-of-rag-security-fundamentals_tryhackme_2026-11-25_2.png" alt="Failures of RAG System" width="450"/></td>
     </tr>
     <tr>
       <td align="center"><strong>Figure 1a:</strong> RAG Security Fundamentals</td>
-      <td align="center"><strong>Figure 1b:</strong> Restored website after running restoration script</td>
+      <td align="center"><strong>Figure 1b:</strong> Failures of RAG System</td>
     </tr>
     <tr>
-      <td align="center"><img src="images/day-14-aoc-2025-deployer-bash-flag.png" alt="Using deployer bash to find the flag" 
+      <td align="center"><img src="images/realistic-layered-defense-architecture_rag-security-fundamentals_tryhackme_2026-11-25_3.png" alt="Realistic Layered Defense Architecture for RAG System" 
   width="450"/>
-      <td align="center"><img src="images/day-14-aoc-2025-secret-code.png" alt="Finding secret code by incrementing the number on website link" width="450"/></td>
     </tr>
      <tr>
-      <td align="center"><strong>Figure 2a:</strong> Using deployer bash to find the flag</td>
-      <td align="center"><strong>Figure 2b:</strong> Incrementing the number on link to find secret code</td>
+      <td align="center"><strong>Figure 2a:</strong> Realistic Layered Defense Architecture for RAG System</td>
     </tr>
   </table>
 </p>
