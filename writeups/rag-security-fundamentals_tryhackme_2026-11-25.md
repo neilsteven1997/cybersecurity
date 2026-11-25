@@ -119,6 +119,8 @@ directly compromising the model itself.
   - NIST AI Risk Management Framework – Map, Measure, and Manage.
   - EU AI Act Article 9 – Risk management.
   - EU AI Act Article 10 – Data governance, quality, and lifecycle management.
+- **[Microsoft error sees confidential emails exposed to AI tool Copilot]([https://gchq.github.io/CyberChef/](https://www.bbc.com/news/articles/c8jxevd8mdyo))**
+- - **[Plugin Vulnerabilities: Visit a Website and Have Your Source Code Stolen]([https://gchq.github.io/CyberChef/](https://embracethered.com/blog/posts/2023/chatgpt-plugin-vulns-chat-with-code/))** 
  
 ---
 
